@@ -1,34 +1,46 @@
 <template>
   <div
-    flex="~ row lg:col"
+    flex="~ row"
     justify-evenly items-center
-    py5 lg:px5
-    border="t lg:r base"
-    bg-black
+    py3 px3
+    border="t base"
+    bg-gray-700
   >
     <NuxtLink v-slot="{ isActive }" to="/" :title="$t('Home')">
       <div
-        text-2xl
-        :class="isActive ? 'i-ph-house-fill text-primary' : 'i-ph-house'"
-      />
+        text-sm font-bold
+        :class="isActive ? 'text-green-400' : 'text-white'"
+        hover:text-green-400
+      >
+        (T)天眼
+      </div>
     </NuxtLink>
     <NuxtLink v-slot="{ isActive }" to="/movie" :title="$t('Movies')">
       <div
-        text-2xl
-        :class="isActive ? 'i-ph-film-strip-fill text-primary' : 'i-ph-film-strip'"
-      />
+        text-sm font-bold
+        :class="isActive ? 'text-green-400' : 'text-white'"
+        hover:text-green-400
+      >
+        (B)商務
+      </div>
     </NuxtLink>
     <NuxtLink v-slot="{ isActive }" to="/tv" :title="$t('TV Shows')">
       <div
-        text-2xl
-        :class="isActive ? 'i-ph-television-simple-fill text-primary' : 'i-ph-television-simple'"
-      />
+        text-sm font-bold
+        :class="isActive ? 'text-green-400' : 'text-white'"
+        hover:text-green-400
+      >
+        (H)獵才
+      </div>
     </NuxtLink>
     <NuxtLink v-slot="{ isActive }" to="/search" :title="$t('Search')">
       <div
-        text-2xl
-        :class="isActive ? 'i-ph-magnifying-glass-fill text-primary' : 'i-ph-magnifying-glass'"
-      />
+        text-sm font-bold
+        :class="isActive ? 'text-green-400' : 'text-white'"
+        hover:text-green-400
+      >
+        (C)聯繫
+      </div>
     </NuxtLink>
   </div>
 </template>
