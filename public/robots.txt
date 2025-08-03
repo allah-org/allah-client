@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://btt.zeusoftech.com/api/sitemap.xml

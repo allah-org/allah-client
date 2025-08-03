@@ -10,12 +10,18 @@ useHead({
   title: 'BTT 菠菜天眼通',
   meta: [
     { name: 'description', content: 'BTT 菠菜資訊網站' },
+    { name: 'robots', content: 'index, follow' },
   ],
   link: [
     {
       rel: 'icon',
       type: 'image/webp',
       href: '/movies.webp',
+    },
+    {
+      rel: 'sitemap',
+      type: 'application/xml',
+      href: '/api/sitemap.xml',
     },
   ],
 })
