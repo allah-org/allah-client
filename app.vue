@@ -59,7 +59,7 @@ useHead({
 <template>
   <NuxtLoadingIndicator />
   <!-- 單一滾動容器佈局 -->
-  <div class="h-full w-full font-sans flex flex-col">
+  <div class="fixed inset-0 font-sans flex flex-col">
     <!-- 頂部藍底標題 - 固定高度 -->
     <div class="bg-blue-950 text-white p-3 border-b border-blue-950 flex-shrink-0">
       <div class="flex justify-between items-center">
