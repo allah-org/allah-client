@@ -1,6 +1,14 @@
 <script setup>
 // 使用 constants 中的配置
 import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
+
+useHead({
+  title: '聯繫我們 - BTT 菠菜天眼通',
+  meta: [
+    { name: 'description', content: 'BTT 菠菜天眼通客服支援，專業服務諮詢。' },
+    { property: 'og:title', content: '聯繫我們 - BTT 菠菜天眼通' },
+  ]
+})
 </script>
 
 <template>
@@ -29,6 +37,7 @@ import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
               <img 
                 src="https://ik.imagekit.io/ox48qyxas/business/btt_logo.png?updatedAt=1754217902580"
                 alt="BTT Logo"
+                loading="lazy"
                 class="w-32 h-32 object-contain rounded"
               />
             </div>

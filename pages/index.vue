@@ -1,6 +1,14 @@
 <script setup>
 // 使用 constants 中的配置
 import { SPREADSHEET_URL } from '~/constants/config'
+
+useHead({
+  title: '天眼通 - BTT 菠菜天眼通',
+  meta: [
+    { name: 'description', content: 'BTT 菠菜天眼通首頁，提供完整的使用說明與功能導覽。' },
+    { property: 'og:title', content: '天眼通 - BTT 菠菜天眼通' },
+  ]
+})
 </script>
 
 <template>

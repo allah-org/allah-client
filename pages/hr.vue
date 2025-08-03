@@ -1,6 +1,14 @@
 <script setup>
-// 直接使用靜態資料
-const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1kWLg0gFgcmfZx86DjxSiKw0BYq9zKW0LdQ5OPDi2cWM/'
+// 使用 constants 中的配置
+import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
+
+useHead({
+  title: '獵才通 - BTT 菠菜天眼通',
+  meta: [
+    { name: 'description', content: 'BTT 獵才通提供專業的人才招募服務，高效的人才配對平台。' },
+    { property: 'og:title', content: '獵才通 - BTT 菠菜天眼通' },
+  ]
+})
 </script>
 
 <template>
@@ -30,7 +38,8 @@ const spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1kWLg0gFgcmfZx86D
             <div class="flex-shrink-0">
               <img 
                 src="https://ik.imagekit.io/ox48qyxas/business/btt_logo.png?updatedAt=1754217902580"
-                alt="天眼通範例 Logo"
+                alt="獵才範例 Logo"
+                loading="lazy"
                 class="w-32 h-32 object-contain rounded"
               />
             </div>
