@@ -1,4 +1,4 @@
-<template>
+<template xmlns:hover="http://www.w3.org/1999/xhtml">
   <div
     flex="~ row"
     justify-evenly items-center
@@ -15,7 +15,7 @@
         (T)天眼
       </div>
     </NuxtLink>
-    <NuxtLink v-slot="{ isActive }" to="/movie" :title="$t('Movies')">
+    <NuxtLink v-slot="{ isActive }" to="/business" :title="$t('Movies')">
       <div
         text-sm font-bold
         :class="isActive ? 'text-green-400' : 'text-white'"
@@ -24,7 +24,7 @@
         (B)商務
       </div>
     </NuxtLink>
-    <NuxtLink v-slot="{ isActive }" to="/tv" :title="$t('TV Shows')">
+    <NuxtLink v-slot="{ isActive }" to="/hr" :title="$t('TV Shows')">
       <div
         text-sm font-bold
         :class="isActive ? 'text-green-400' : 'text-white'"
@@ -33,7 +33,7 @@
         (H)獵才
       </div>
     </NuxtLink>
-    <NuxtLink v-slot="{ isActive }" to="/search" :title="$t('Search')">
+    <NuxtLink v-slot="{ isActive }" to="/contact" :title="$t('Search')">
       <div
         text-sm font-bold
         :class="isActive ? 'text-green-400' : 'text-white'"

@@ -1,5 +1,6 @@
 <script setup>
 import '@unocss/reset/tailwind.css'
+import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
 
 useHead({
   htmlAttrs: {
@@ -27,19 +28,23 @@ useHead({
     <!-- 頂部藍底標題 -->
     <div bg-blue-950 text-white p-3 border-b border-blue-950>
       <div flex="~ justify-between items-center">
-        <h1 text-2xl text-yellow-200>菠菜天眼通</h1>
-        <div text-lg text-gray-400>聯繫我們</div>
+        <h1 text-2xl text-yellow-200 cursor-pointer hover:text-yellow-100>
+          <a :href="SPREADSHEET_URL" target="_blank">菠菜天眼通</a>
+        </h1>
+        <div text-lg text-gray-400 cursor-pointer hover:text-gray-300>
+          <a :href="`mailto:${CONTACT_EMAIL}`">聯繫我們</a>
+        </div>
       </div>
     </div>
-    
+
     <!-- 中間黑底內容 -->
     <div id="app-scroller" of-x-hidden of-y-auto relative bg-black text-white p-4>
       <NuxtPage />
     </div>
-    
+
     <!-- 底部灰底導航 -->
     <NavBar bg-gray-700 text-white border-t border-gray-600 />
-    
+
     <IframeModal />
     <PhotoModal />
   </div>
