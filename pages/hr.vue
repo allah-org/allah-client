@@ -47,13 +47,16 @@ useHead({
             <!-- 文字描述 -->
             <div class="flex-1">
               <div class="text-gray-300 text-sm whitespace-pre-line">
-                範例招聘文案<br>
-                工作類型: 遠程 | 全職<br>
-                職位需求: <br>
-                1. 後端工程師 2名<br>
-                2. 前端工程師 3名<br>
-                3. UI/UX設計師 1名<br>
-                需要刊登服務 請Email聯繫
+                                 範例招聘文案<br>
+                 工作類型: 遠程 | 全職<br>
+                 職位需求: <br>
+                 1. 後端工程師 2名<br>
+                 2. 前端工程師 3名<br>
+                 3. UI/UX設計師 1名<br>
+                 專業獵才刊登服務<br>
+                 請Email聯繫洽詢<br>
+                 <span class="text-red-400">(免費刊登期限：<br>
+                 2025年12月31日前)</span>
               </div>
             </div>
           </div>

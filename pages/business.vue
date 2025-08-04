@@ -155,7 +155,10 @@ useHead({
             <div class="flex-1">
               <div class="text-gray-300 text-sm whitespace-pre-line">
                 商務範例文案<br>
-                需要刊登服務 請Email聯繫
+                專業商務刊登服務<br>
+                請Email聯繫洽詢<br>
+                <span class="text-red-400">(免費刊登期限：<br>
+                  2025年12月31日前)</span>
               </div>
             </div>
           </div>

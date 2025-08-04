@@ -82,7 +82,9 @@ useHead({
             <div class="flex-1">
               <div class="text-gray-300 text-sm whitespace-pre-line">
                 商務刊登<br>
-                獵才刊登
+                獵才刊登<br>
+                <span class="text-red-400">(免費刊登期限：<br>
+                 2025年12月31日前)</span>
               </div>
             </div>
           </div>
