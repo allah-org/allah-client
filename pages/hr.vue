@@ -3,10 +3,10 @@
 import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
 
 useHead({
-  title: '獵才通 - BTT 菠菜天眼通',
+  title: 'BTT 菠菜天眼通 - 獵才通',
   meta: [
     { name: 'description', content: 'BTT 獵才通提供專業的人才招募服務，高效的人才配對平台。' },
-    { property: 'og:title', content: '獵才通 - BTT 菠菜天眼通' },
+    { property: 'og:title', content: 'BTT 菠菜天眼通 - 獵才通' },
   ]
 })
 </script>

@@ -3,10 +3,10 @@
 import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
 
 useHead({
-  title: '商務通 - BTT 菠菜天眼通',
+  title: 'BTT 菠菜天眼通 - 商務通',
   meta: [
     { name: 'description', content: 'BTT 商務通提供專業的商務刊登服務，包含遊戲開發、技術合作等商務機會。' },
-    { property: 'og:title', content: '商務通 - BTT 菠菜天眼通' },
+    { property: 'og:title', content: 'BTT 菠菜天眼通 - 商務通' },
   ]
 })
 </script>
