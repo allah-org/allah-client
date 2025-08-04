@@ -7,10 +7,10 @@ useHead({
     lang: 'zh-TW',
   },
   charset: 'utf-8',
-  title: '天眼通 - BTT 菠菜天眼通',
+  title: 'BTT 菠菜天眼通 - 天眼通',
   meta: [
     { name: 'description', content: 'BTT 菠菜天眼通提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。' },
-    { name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,BTT' },
+    { name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,BTT,菠菜天眼通' },
     { name: 'author', content: 'BTT Team' },
     { name: 'robots', content: 'index, follow' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
