@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
+# Sitemap locations
+Sitemap: https://btt.zeusoftech.com/sitemap.xml
 Sitemap: https://btt.zeusoftech.com/api/sitemap.xml
