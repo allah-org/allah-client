@@ -166,9 +166,9 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.igt.name'), region: t('gaming.gameTypeIntro.platformsData.igt.region'), desc: t('gaming.gameTypeIntro.platformsData.igt.desc') }
     ],
     sources: [
-      { name: 'American Gaming Association 2023 Report', url: 'https://www.americangaming.org/research/commercial-gaming-revenue-tracker/' },
-      { name: 'Aristocrat Leisure Annual Report', url: 'https://www.aristocrat.com/investors/annual-reports' },
-      { name: 'Nevada Gaming Control Board', url: 'https://gaming.nv.gov/index.aspx?page=144' }
+      { name: 'Casinos won over $66 billion in 2023, their best year ever', url: 'https://www.wtae.com/article/casino-revenue-nevada-pennsylvania-atlantic-city/46871078' },
+      { name: 'Australia has the highest gambling losses per capita of any country', url: 'https://www.aph.gov.au/DocumentStore.ashx?id=b8a7e64a-d173-4d88-8d05-1e19cad22003&subId=728729' },
+      { name: 'Australians lead the world when it comes to gambling', url: 'https://www.abc.net.au/news/2024-09-03/why-australia-is-addicted-to-gambling/104299376' }
     ]
   },
   {
@@ -187,8 +187,8 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.wpt.name'), region: t('gaming.gameTypeIntro.platformsData.wpt.region'), desc: t('gaming.gameTypeIntro.platformsData.wpt.desc') }
     ],
     sources: [
-      { name: 'PokerStars Company Reports', url: 'https://www.pokerstars.com/poker/company-info/' },
-      { name: 'Global Poker Market Research', url: 'https://www.grandviewresearch.com/industry-analysis/online-poker-market' },
+      { name: 'PokerStars surpasses 100 million player milestone', url: 'https://igamingbusiness.com/casino-games/pokerstars-surpasses-100-million-player-milestone/' },
+      { name: 'Casinos won over $66 billion in 2023, their best year ever', url: 'https://www.wtae.com/article/casino-revenue-nevada-pennsylvania-atlantic-city/46871078' },
       { name: 'World Series of Poker Statistics', url: 'https://www.wsop.com/news/' }
     ]
   },
@@ -208,9 +208,9 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.playtech.name'), region: t('gaming.gameTypeIntro.platformsData.playtech.region'), desc: t('gaming.gameTypeIntro.platformsData.playtech.desc') }
     ],
     sources: [
-      { name: 'Evolution Gaming Annual Report 2023', url: 'https://www.evolution.com/investors/reports-and-presentations' },
-      { name: 'Live Casino Market Analysis', url: 'https://www.technavio.com/report/live-casino-market-industry-analysis' },
-      { name: 'Asian Gaming Market Report', url: 'https://www.businesswire.com/news/home/20230915005426/en/' }
+      { name: 'Competition Is Getting Fierce – Is Evolution Gaming Still the King of Live Casino', url: 'https://www.pokertube.com/article/competition-is-getting-fierce-is-evolution-gaming-still-the-king-of-live-casino' },
+      { name: 'Thailand\'s Underground Gambling Economy Reaches 1.1 Trillion Baht, Report Reveals', url: 'https://www.nationthailand.com/business/economy/40048904' },
+      { name: 'Differences Between the UK and Australian Gambling Industries', url: 'https://www.primedope.com/differences-between-the-uk-and-australian-gambling-industries/' }
     ]
   },
   {
@@ -229,9 +229,9 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.draftkings.name'), region: t('gaming.gameTypeIntro.platformsData.draftkings.region'), desc: t('gaming.gameTypeIntro.platformsData.draftkings.desc') }
     ],
     sources: [
-      { name: 'AGA Commercial Gaming Revenue Report 2023', url: 'https://www.americangaming.org/research/state-gaming-map/' },
-      { name: 'Sports Betting Statistics Thailand', url: 'https://www.bangkokpost.com/business/2234567/illegal-football-betting' },
-      { name: 'UK Gambling Commission Statistics', url: 'https://www.gamblingcommission.gov.uk/statistics-and-research' }
+      { name: 'Casinos won over $66 billion in 2023, their best year ever', url: 'https://www.wtae.com/article/casino-revenue-nevada-pennsylvania-atlantic-city/46871078' },
+      { name: 'Thailand\'s Underground Gambling Economy Reaches 1.1 Trillion Baht, Report Reveals', url: 'https://www.nationthailand.com/business/economy/40048904' },
+      { name: 'Differences Between the UK and Australian Gambling Industries', url: 'https://www.primedope.com/differences-between-the-uk-and-australian-gambling-industries/' }
     ]
   },
   {
@@ -250,9 +250,9 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.name'), region: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.region'), desc: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.desc') }
     ],
     sources: [
-      { name: 'China Lottery Sales Report 2024', url: 'https://www.cwl.gov.cn/c/2024/12/03/532187.shtml' },
-      { name: 'US State Lottery Revenue Data', url: 'https://www.naspl.org/content.aspx?id=20' },
-      { name: 'Global Lottery Market Analysis', url: 'https://www.statista.com/outlook/amo/games/lottery/worldwide' }
+      { name: 'Lottery sales in China reached $85.8B in 2024, hitting 40-year high', url: 'https://agbrief.com/news/china/05/03/2025/lottery-sales-in-china-reached-85-8b-in-2024-hitting-40-year-high/' },
+      { name: 'How do taxes on lotteries, casinos, sports betting, and other types of state-sanctioned gambling work?', url: 'https://taxpolicycenter.org/briefing-book/how-do-taxes-lotteries-casinos-sports-betting-and-other-types-state-sanctioned' },
+      { name: 'National Lottery sales reach £8.19bn in 2022-23', url: 'https://igamingbusiness.com/finance/national-lottery-sales-reach-8-19bn-in-2022-23/' }
     ]
   },
   {
@@ -271,9 +271,9 @@ const gameTypeDetails = computed(() => [
       { name: t('gaming.gameTypeIntro.platformsData.segaSammy.name'), region: t('gaming.gameTypeIntro.platformsData.segaSammy.region'), desc: t('gaming.gameTypeIntro.platformsData.segaSammy.desc') }
     ],
     sources: [
-      { name: 'Japan Pachinko Association Report 2022', url: 'https://www.p-world.co.jp/news/2023/1/25/news4535.htm' },
-      { name: 'Taiwan Mahjong Culture Research', url: 'https://www.taipeitimes.com/News/taiwan/archives/2023/05/15/2003800234' },
-      { name: 'Asia Pacific Gaming Market Analysis', url: 'https://www.grandviewresearch.com/industry-analysis/asia-pacific-gambling-market' }
+      { name: 'Pachinko - Wikipedia', url: 'https://en.wikipedia.org/wiki/Pachinko' },
+      { name: 'New Taiwanese Party Fights Stigma Around Game of Mahjong', url: 'https://www.gamblingnews.com/news/new-taiwanese-party-fights-stigma-around-game-of-mahjong/' },
+      { name: 'Population of Pachinko/Pachi-Slot Players for 2019 Estimated at 7.8 Million', url: 'https://www.yanoresearch.com/en/press-release/show/press_id/2453' }
     ]
   }
 ])
@@ -372,58 +372,65 @@ const getPreferenceText = (level) => {
         <!-- 全球統計卡片 -->
         <!-- 第1行：前3大年收入 -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-green-400">
             <div class="text-2xl font-bold text-yellow-400 mb-1">${{ $t('gaming.revenueStats.slotsRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.slotsUS') }}</div>
+            <div class="text-green-400 text-xs font-medium">{{ $t('gaming.revenueStats.slotsType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-green-400">
             <div class="text-2xl font-bold text-blue-400 mb-1">${{ $t('gaming.revenueStats.pokerRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.pokerGlobal') }}</div>
+            <div class="text-green-400 text-xs font-medium">{{ $t('gaming.revenueStats.pokerType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-blue-400">
             <div class="text-2xl font-bold text-red-400 mb-1">${{ $t('gaming.revenueStats.liveRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.liveGlobal') }}</div>
+            <div class="text-blue-400 text-xs font-medium">{{ $t('gaming.revenueStats.liveType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
         </div>
         
         <!-- 第2行：中等收入 -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-green-400">
             <div class="text-2xl font-bold text-green-400 mb-1">${{ $t('gaming.revenueStats.sportsRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.sportsUS') }}</div>
+            <div class="text-green-400 text-xs font-medium">{{ $t('gaming.revenueStats.sportsType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.growth44') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-purple-400">
             <div class="text-2xl font-bold text-purple-400 mb-1">${{ $t('gaming.revenueStats.lotteryRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.lotteryChina') }}</div>
+            <div class="text-purple-400 text-xs font-medium">{{ $t('gaming.revenueStats.lotteryType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2024') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-orange-400 mb-1">${{ $t('gaming.revenueStats.pachinkoRevenue') }}</div>
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-blue-400">
+            <div class="text-2xl font-bold text-orange-400 mb-1">¥{{ $t('gaming.revenueStats.pachinkoRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.pachinkoJP') }}</div>
+            <div class="text-blue-400 text-xs font-medium">{{ $t('gaming.revenueStats.pachinkoType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2022') }}</div>
           </div>
         </div>
         
         <!-- 第3行：市場數據 -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-green-400">
             <div class="text-2xl font-bold text-indigo-400 mb-1">${{ $t('gaming.revenueStats.globalMarket') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.totalMarketSize') }}</div>
+            <div class="text-green-400 text-xs font-medium">{{ $t('gaming.revenueStats.globalMarketType') }}</div>
             <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-blue-400">
             <div class="text-2xl font-bold text-pink-400 mb-1">{{ $t('gaming.revenueStats.onlinePenetration') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.onlineGambling') }}</div>
-            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.globalAverage') }}</div>
+            <div class="text-blue-400 text-xs font-medium">{{ $t('gaming.revenueStats.onlinePenetrationType') }}</div>
           </div>
-          <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="bg-gray-700 rounded-lg p-4 text-center border-l-4 border-blue-400">
             <div class="text-2xl font-bold text-cyan-400 mb-1">{{ $t('gaming.revenueStats.mobileShare') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.mobileGambling') }}</div>
-            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
+            <div class="text-blue-400 text-xs font-medium">{{ $t('gaming.revenueStats.mobileShareType') }}</div>
           </div>
         </div>
       </div>
