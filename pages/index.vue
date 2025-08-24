@@ -28,6 +28,36 @@ const getCurrentRegionName = () => {
   return region ? region.name : '全球'
 }
 
+// 滾動到指定地區
+const scrollToRegion = (regionCode) => {
+  selectedRegion.value = regionCode
+  
+  // 地區代碼對應到章節ID的映射
+  const regionToSectionMap = {
+    'global': 'overview',
+    'europe': 'europe-section',
+    'usa': 'usa-section', 
+    'japan': 'japan-section',
+    'korea': 'southeast-asia-section', // 韓國歸類到東南亞
+    'china': 'china-section',
+    'taiwan': 'taiwan-section'
+  }
+  
+  const sectionId = regionToSectionMap[regionCode]
+  if (sectionId) {
+    // 使用 nextTick 確保 DOM 更新後再滾動
+    nextTick(() => {
+      const element = document.getElementById(sectionId)
+      if (element) {
+        element.scrollIntoView({ 
+          behavior: 'smooth',
+          block: 'start'
+        })
+      }
+    })
+  }
+}
+
 // 展開的地區ID
 const expandedRegions = ref([])
 
@@ -124,33 +154,79 @@ const marketData = [
 // 詳細地區分析數據
 const detailedRegions = [
   {
-    id: 'usa-europe',
-    title: '美國與歐洲',
-    subtitle: '成熟發達市場，體育博彩與線上博奕快速發展',
+    id: 'usa',
+    title: '美國',
+    subtitle: '體育博彩合法化推動的成熟市場',
     icon: '🇺🇸',
     headerBg: 'bg-blue-600',
     stats: [
-      { label: '美國商業博奕收入', value: '$666.5億', valueClass: 'text-blue-400' },
-      { label: '歐洲總博彩收入', value: '€1,234億', valueClass: 'text-purple-400' },
-      { label: '線上佔比平均', value: '32%', valueClass: 'text-green-400' }
+      { label: '商業博奕收入', value: '$666.5億', valueClass: 'text-blue-400' },
+      { label: '含部族賭場總收入', value: '$1,100億', valueClass: 'text-green-400' },
+      { label: '線上滲透率', value: '25%', valueClass: 'text-purple-400' }
     ],
     content: `
-      <h4 class="text-lg font-semibold text-white mb-3">美國市場</h4>
+      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
       <p class="mb-4">2023年美國商業博奕總營收達666.5億美元，較2022年成長10.2%，連續第三年刷新紀錄。若加計部族賭場，全美總博彩收入接近1,100億美元。</p>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要業者與平台</h4>
       <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>體育博彩爆發:</strong> 隨各州合法化，2023年體育博彩營收達110億美元，年增46%</li>
-        <li><strong>主要業者:</strong> FanDuel和DraftKings在線上體育投注市佔逾七成</li>
-        <li><strong>線上滲透:</strong> 線上博奕約佔商業博彩25%，包括體育投注和iGaming</li>
+        <li><strong>實體賭場:</strong> 美高梅國際(MGM)、凱撒娛樂(Caesars)、永利渡假村(Wynn)等大型集團主導</li>
+        <li><strong>線上體育博彩:</strong> FanDuel市佔約40%，DraftKings約30%，合計逾七成市場</li>
+        <li><strong>線上賭場:</strong> BetMGM、DraftKings、FanDuel等在少數合法州經營iGaming</li>
       </ul>
       
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">歐洲市場</h4>
-      <p class="mb-4">歐洲2024年博彩總收入達1,234億歐元，線上佔比39%為全球最高。英國、義大利、法國、德國為主要市場。</p>
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">近三年營收趨勢</h4>
       <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>線上領先:</strong> 瑞典線上佔比達68.3%，北歐國家普遍超過60%</li>
-        <li><strong>主要企業:</strong> Flutter Entertainment、Entain、Bet365等跨國集團主導</li>
-        <li><strong>法規環境:</strong> 27國採多執照制，監管逐步完善</li>
+        <li><strong>體育博彩爆發:</strong> 2023年達110億美元，較前一年增46%</li>
+        <li><strong>角子機穩定:</strong> 2023年營收355億美元，占商業博彩過半</li>
+        <li><strong>線上賭場成長:</strong> iGaming營收61.7億美元，年增23%</li>
       </ul>
-    `
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
+      <p class="mb-4">2018年最高法院推翻PASPA後，30多州已合法化體育投注，約7州開放線上賭場。各州推出自我排除機制等負責任博彩措施。</p>
+    `,
+    sources: [
+      'American Gaming Association - Commercial Gaming Revenue Tracker 2023',
+      'americangaming.org - Annual Commercial Gaming Revenue Reports'
+    ]
+  },
+  {
+    id: 'europe',
+    title: '歐洲',
+    subtitle: '全球線上滲透率最高的成熟市場',
+    icon: '🇪🇺',
+    headerBg: 'bg-purple-600',
+    stats: [
+      { label: '2024年總收入', value: '€1,234億', valueClass: 'text-purple-400' },
+      { label: '線上佔比', value: '39%', valueClass: 'text-green-400' },
+      { label: '年增長率', value: '+5%', valueClass: 'text-blue-400' }
+    ],
+    content: `
+      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
+      <p class="mb-4">歐洲2024年博彩總收入達1,234億歐元，線上佔比39%為全球最高。英國(308億歐元)、義大利(255億)、法國(178億)、德國(177億)為主要市場。</p>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要玩家與平台</h4>
+      <ul class="list-disc list-inside mb-4 space-y-1">
+        <li><strong>跨國集團:</strong> Flutter Entertainment、Entain、Bet365等主導多國市場</li>
+        <li><strong>國營企業:</strong> 法國FDJ、北歐Veikkaus、Svenska Spel等壟斷本國彩票</li>
+        <li><strong>區域業者:</strong> 義大利Lottomatica、德國地方彩票公司等</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">線上市場領先</h4>
+      <ul class="list-disc list-inside mb-4 space-y-1">
+        <li><strong>北歐最高:</strong> 瑞典線上佔比68.3%，芬蘭、丹麥達68%</li>
+        <li><strong>英國發達:</strong> 線上GGR達111億歐元，占全英36%</li>
+        <li><strong>南歐較低:</strong> 西班牙僅14.2%，義大利21.7%，仍以實體為主</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
+      <p class="mb-4">27國採多執照制允許線上博奕，英國監管最完善。各國強調防制洗錢和負責任博彩，制定嚴格年齡限制和廣告規範。</p>
+    `,
+    sources: [
+      'European Gaming & Betting Association (EGBA) - Market Report 2024',
+      'H2 Gambling Capital - European Market Analysis',
+      'Individual national gaming authorities reports'
+    ]
   },
   {
     id: 'japan',
@@ -175,7 +251,12 @@ const detailedRegions = [
       
       <h4 class="text-lg font-semibold text-white mb-3 mt-6">玩家特性</h4>
       <p class="mb-4">約770萬柏青哥玩家以中年男性為主力，競馬和彩票也有固定族群。由於無合法賭場，高端玩家多前往澳門、韓國等地。</p>
-    `
+    `,
+    sources: [
+      'Asia Gaming Brief - Pachinko market analysis 2023',
+      'Yano Research Institute - Japan Gaming Market Reports',
+      'Japan Racing Association (JRA) - Annual Reports'
+    ]
   },
   {
     id: 'southeast-asia',
@@ -200,7 +281,12 @@ const detailedRegions = [
         <li><strong>主要業者:</strong> 濱海灣金沙、雲頂集團、NagaCorp等</li>
         <li><strong>法規變化:</strong> 菲律賓2024年關停POGO業務，專注本地市場</li>
       </ul>
-    `
+    `,
+    sources: [
+      'PAGCOR - Philippines Gaming Revenue Reports 2024',
+      'Singapore Pools - Annual Gaming Statistics',
+      'Casinova - Singapore gambling revenue analysis'
+    ]
   },
   {
     id: 'australia',
@@ -226,7 +312,12 @@ const detailedRegions = [
       
       <h4 class="text-lg font-semibold text-white mb-3 mt-6">玩家行為</h4>
       <p class="mb-4">72.8%的成年人參與博彩，彩票最普及，博彩機深植社區文化，體育投注在年輕男性中受歡迎。</p>
-    `
+    `,
+    sources: [
+      'The Guardian - Australia gambling losses report 2023',
+      'Queensland Government Statistician - Gambling Statistics',
+      'Australian Communications and Media Authority - Gaming Reports'
+    ]
   },
   {
     id: 'china',
@@ -251,7 +342,12 @@ const detailedRegions = [
       
       <h4 class="text-lg font-semibold text-white mb-3 mt-6">地下市場</h4>
       <p class="mb-4">龐大的地下賭博需求流向境外，澳門、菲律賓等地過去高度依賴中國客源。政府持續打擊跨境賭博。</p>
-    `
+    `,
+    sources: [
+      'Xinhua - China lottery sales statistics 2023',
+      'China Ministry of Finance - Lottery Administration Reports',
+      'ASGAM - Mainland China lottery market analysis'
+    ]
   },
   {
     id: 'taiwan',
@@ -276,7 +372,12 @@ const detailedRegions = [
       
       <h4 class="text-lg font-semibold text-white mb-3 mt-6">法規環境</h4>
       <p class="mb-4">賭場仍未開放，雖有離島博弈條例但多次公投未過。線上賭博屬違法，但仍有地下市場存在。</p>
-    `
+    `,
+    sources: [
+      'Public Gaming Research Institute - Taiwan Sports Lottery Report 2024',
+      'Taiwan Lottery Company - Annual Sales Statistics',
+      'Taiwan Sports Lottery Corporation - Gaming Revenue Reports'
+    ]
   }
 ]
 </script>
@@ -298,7 +399,7 @@ const detailedRegions = [
           <button 
             v-for="region in regions" 
             :key="region.code"
-            @click="selectedRegion = region.code"
+            @click="scrollToRegion(region.code)"
             class="flex-shrink-0 px-4 py-3 text-sm font-medium transition-colors"
             :class="selectedRegion === region.code 
               ? 'text-blue-400 border-b-2 border-blue-400' 
@@ -313,7 +414,7 @@ const detailedRegions = [
     <!-- 主要內容 -->
     <div class="max-w-7xl mx-auto p-6">
       <!-- 全球市場概況 -->
-      <div class="bg-gray-800 rounded-lg p-8 mb-8">
+      <div id="overview" class="bg-gray-800 rounded-lg p-8 mb-8">
         <div class="text-center mb-8">
           <div class="w-16 h-16 mx-auto mb-4 bg-blue-600 rounded-full flex items-center justify-center">
             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -344,6 +445,16 @@ const detailedRegions = [
             <div class="text-white font-medium mb-1">2024年預期收入</div>
             <div class="text-gray-400 text-sm">↗ +7% 成長率</div>
           </div>
+        </div>
+
+        <!-- 全球數據來源 -->
+        <div class="mt-6 pt-4 border-t border-gray-600">
+          <h5 class="text-sm font-semibold text-gray-400 mb-2">全球市場數據來源：</h5>
+          <ul class="text-xs text-gray-500 space-y-1">
+            <li>• H2 Gambling Capital - Global Gambling Industry Report 2023</li>
+            <li>• American Gaming Association (AGA) - Commercial Gaming Revenue Reports</li>
+            <li>• European Gaming & Betting Association (EGBA) - Market Analysis 2024</li>
+          </ul>
         </div>
       </div>
 
@@ -420,7 +531,7 @@ const detailedRegions = [
 
       <!-- 地區詳細分析 -->
       <div class="space-y-8">
-        <div v-for="region in detailedRegions" :key="region.id" class="bg-gray-800 rounded-lg overflow-hidden">
+        <div v-for="region in detailedRegions" :key="region.id" :id="region.id + '-section'" class="bg-gray-800 rounded-lg overflow-hidden">
           <div class="p-6 border-b border-gray-700">
             <div class="flex items-center justify-between">
               <div class="flex items-center space-x-4">
@@ -459,6 +570,14 @@ const detailedRegions = [
             <!-- 詳細內容 -->
             <div class="prose prose-invert max-w-none">
               <div v-html="region.content" class="text-gray-300 text-sm leading-relaxed"></div>
+            </div>
+
+            <!-- 數據來源 -->
+            <div v-if="region.sources" class="mt-6 pt-4 border-t border-gray-600">
+              <h5 class="text-sm font-semibold text-gray-400 mb-2">數據來源：</h5>
+              <ul class="text-xs text-gray-500 space-y-1">
+                <li v-for="source in region.sources" :key="source">• {{ source }}</li>
+              </ul>
             </div>
           </div>
         </div>
