@@ -188,29 +188,71 @@
       "originalDev": {
         "title": "Original Slot Game Development",
         "desc": "Focus on innovative slot game development",
-        "contact": "Contact Info"
+        "contact": "Contact Info",
+        "feature1": "Focus on innovative slot game development",
+        "feature2": "Multi-theme visual design capabilities",
+        "feature3": "Mathematical models & RTP optimization",
+        "feature4": "Cross-platform technical support"
       },
       "reverseDev": {
-        "title": "Reverse Development Services", 
+        "title": "Slot Reverse Development Services", 
         "desc": "Rapid replication of popular game mechanics",
-        "contact": "Service Platform"
+        "contact": "Service Platform",
+        "feature1": "Rapid replication of popular game mechanics",
+        "feature2": "Professional reverse engineering technology",
+        "feature3": "Efficient development delivery cycle",
+        "feature4": "Customized modification services"
       },
       "slotResources": {
         "title": "Slot Game Resource Packages",
         "desc": "Complete slot machine assets and templates",
-        "contact": "Resource Channel"
+        "contact": "Resource Channel",
+        "feature1": "Complete slot machine asset packages",
+        "feature2": "Multi-theme UI/UX design templates",
+        "feature3": "Sound effects and animation resources",
+        "feature4": "Technical documentation and code examples"
       }
     },
     "gameTypeIntro": {
-      "title": "Detailed Game Type Introduction"
+      "title": "Detailed Game Type Introduction",
+      "platforms": "Major Platforms/Vendors",
+      "sources": "References",
+      "slotsSubtitle": "Global casino revenue leader, Australia has highest per capita losses",
+      "pokerSubtitle": "Skill and luck combined, PokerStars exceeds 100M users",
+      "liveSubtitle": "Evolution Gaming holds 45% market share, popular in Asia",
+      "sportsSubtitle": "US $119.8B wagered in 2023, 44.5% annual growth",
+      "lotterySubtitle": "4.2B global participants, China ¥623.5B sales in 2024",
+      "localSubtitle": "Japan pachinko ¥14.6T, Taiwan mahjong 4M+ players"
     },
     "revenueStats": {
       "slotsUS": "US Slots Annual Revenue",
       "sportsUS": "US Sports Betting Revenue", 
       "liveMarket": "Live Casino Market Share",
-      "pachinkoJP": "Japan Pachinko Wagering",
+      "pachinkoJP": "Japan Pachinko Annual Revenue",
+      "lotteryChina": "China Lottery Annual Revenue",
       "lotteryPlayers": "Global Lottery Players",
-      "pokerPlayers": "Online Poker Players"
+      "pokerPlayers": "Online Poker Players",
+      "slotsRevenue": "35.5B",
+      "sportsRevenue": "10.9B",
+      "lotteryRevenue": "85.8B",
+      "pachinkoRevenue": "114B",
+      "liveMarketShare": "45%",
+      "pokerUsers": "100M+",
+      "year2023": "2023 Data",
+      "year2024": "2024 Data", 
+      "year2022": "2022 Data",
+      "growth44": "44.5% YoY Growth",
+      "pokerRevenue": "7.2B",
+      "liveRevenue": "8.5B",
+      "pokerGlobal": "Global Poker Annual Revenue",
+      "liveGlobal": "Global Live Casino Revenue",
+      "globalMarket": "58.1B",
+      "totalMarketSize": "Global Gambling Market Size",
+      "onlinePenetration": "23%",
+      "onlineGambling": "Online Gambling Penetration",
+      "mobileShare": "68%",
+      "mobileGambling": "Mobile Gambling Share",
+      "globalAverage": "Global Average"
     }
   }
 }

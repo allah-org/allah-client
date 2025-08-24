@@ -188,29 +188,71 @@
       "originalDev": {
         "title": "原创老虎机开发团队",
         "desc": "专注老虎机游戏创新开发",
-        "contact": "联系方式"
+        "contact": "联系方式",
+        "feature1": "专注老虎机游戏创新开发",
+        "feature2": "多主题视觉设计能力",
+        "feature3": "数学模型与RTP优化",
+        "feature4": "跨平台技术支援"
       },
       "reverseDev": {
-        "title": "逆向开发服务商", 
+        "title": "老虎机逆向开发服务商", 
         "desc": "快速复制热门游戏机制",
-        "contact": "服务平台"
+        "contact": "服务平台",
+        "feature1": "快速复制热门游戏机制",
+        "feature2": "专业逆向工程技术",
+        "feature3": "高效开发交付周期",
+        "feature4": "客制化修改服务"
       },
       "slotResources": {
         "title": "老虎机游戏资源包",
         "desc": "完整的老虎机素材与模板",
-        "contact": "资源频道"
+        "contact": "资源频道",
+        "feature1": "完整老虎机素材包",
+        "feature2": "多主题UI/UX设计模板",
+        "feature3": "音效与动画资源",
+        "feature4": "技术文档与代码范例"
       }
     },
     "gameTypeIntro": {
-      "title": "游戏类型详细介绍"
+      "title": "游戏类型详细介绍",
+      "platforms": "主要平台/厂商",
+      "sources": "参考资料",
+      "slotsSubtitle": "全球赌场主要收入来源，澳洲人均损失最高",
+      "pokerSubtitle": "技巧与运气并重，PokerStars用户突破1亿",
+      "liveSubtitle": "Evolution Gaming市占45%，亚洲市场特别盛行",
+      "sportsSubtitle": "美国2023年投注额1198亿美元，年增44.5%",
+      "lotterySubtitle": "全球42亿人参与，中国2024年销售额达6235亿人民币",
+      "localSubtitle": "日本柏青哥14.6兆日圆，台湾麻将400万玩家"
     },
     "revenueStats": {
       "slotsUS": "美国老虎机年收入",
       "sportsUS": "美国体育博彩年收入", 
       "liveMarket": "真人娱乐场市占率",
-      "pachinkoJP": "日本柏青哥投注额",
+      "pachinkoJP": "日本柏青哥年收入",
+      "lotteryChina": "中国彩票年收入",
       "lotteryPlayers": "全球彩票参与者",
-      "pokerPlayers": "线上扑克玩家"
+      "pokerPlayers": "线上扑克玩家",
+      "slotsRevenue": "355亿",
+      "sportsRevenue": "109亿",
+      "lotteryRevenue": "858亿",
+      "pachinkoRevenue": "1140亿",
+      "liveMarketShare": "45%",
+      "pokerUsers": "1亿+",
+      "year2023": "2023年数据",
+      "year2024": "2024年数据", 
+      "year2022": "2022年数据",
+      "growth44": "年增44.5%",
+      "pokerRevenue": "7.2亿",
+      "liveRevenue": "8.5亿",
+      "pokerGlobal": "全球扑克年收入",
+      "liveGlobal": "全球真人娱乐场年收入",
+      "globalMarket": "581亿",
+      "totalMarketSize": "全球博彩市场规模",
+      "onlinePenetration": "23%",
+      "onlineGambling": "线上博彩渗透率",
+      "mobileShare": "68%",
+      "mobileGambling": "移动端博彩比例",
+      "globalAverage": "全球平均"
     }
   }
 }

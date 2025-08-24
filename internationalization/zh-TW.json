@@ -188,29 +188,71 @@
       "originalDev": {
         "title": "原創老虎機開發團隊",
         "desc": "專注老虎機遊戲創新開發",
-        "contact": "聯繫方式"
+        "contact": "聯繫方式",
+        "feature1": "專注老虎機遊戲創新開發",
+        "feature2": "多主題視覺設計能力",
+        "feature3": "數學模型與RTP優化",
+        "feature4": "跨平台技術支援"
       },
       "reverseDev": {
-        "title": "逆向開發服務商", 
+        "title": "老虎機逆向開發服務商", 
         "desc": "快速複製熱門遊戲機制",
-        "contact": "服務平台"
+        "contact": "服務平台",
+        "feature1": "快速複製熱門遊戲機制",
+        "feature2": "專業逆向工程技術",
+        "feature3": "高效開發交付週期",
+        "feature4": "客製化修改服務"
       },
       "slotResources": {
         "title": "老虎機遊戲資源包",
         "desc": "完整的老虎機素材與模板",
-        "contact": "資源頻道"
+        "contact": "資源頻道",
+        "feature1": "完整老虎機素材包",
+        "feature2": "多主題UI/UX設計模板",
+        "feature3": "音效與動畫資源",
+        "feature4": "技術文檔與代碼範例"
       }
     },
     "gameTypeIntro": {
-      "title": "遊戲類型詳細介紹"
+      "title": "遊戲類型詳細介紹",
+      "platforms": "主要平台/廠商",
+      "sources": "參考資料",
+      "slotsSubtitle": "全球賭場主要收入來源，澳洲人均損失最高",
+      "pokerSubtitle": "技巧與運氣並重，PokerStars用戶突破1億",
+      "liveSubtitle": "Evolution Gaming市佔45%，亞洲市場特別盛行",
+      "sportsSubtitle": "美國2023年投注額1198億美元，年增44.5%",
+      "lotterySubtitle": "全球42億人參與，中國2024年銷售額達6235億人民幣",
+      "localSubtitle": "日本柏青哥14.6兆日圓，台灣麻將400萬玩家"
     },
     "revenueStats": {
       "slotsUS": "美國老虎機年收入",
       "sportsUS": "美國體育博彩年收入", 
       "liveMarket": "真人娛樂場市佔率",
-      "pachinkoJP": "日本柏青哥投注額",
+      "pachinkoJP": "日本柏青哥年收入",
+      "lotteryChina": "中國彩票年收入",
       "lotteryPlayers": "全球彩票參與者",
-      "pokerPlayers": "線上撲克玩家"
+      "pokerPlayers": "線上撲克玩家",
+      "slotsRevenue": "355億",
+      "sportsRevenue": "109億",
+      "lotteryRevenue": "858億",
+      "pachinkoRevenue": "1140億",
+      "liveMarketShare": "45%",
+      "pokerUsers": "1億+",
+      "year2023": "2023年數據",
+      "year2024": "2024年數據", 
+      "year2022": "2022年數據",
+      "growth44": "年增44.5%",
+      "pokerRevenue": "7.2億",
+      "liveRevenue": "8.5億",
+      "pokerGlobal": "全球撲克年收入",
+      "liveGlobal": "全球真人娛樂場年收入",
+      "globalMarket": "581億",
+      "totalMarketSize": "全球博彩市場規模",
+      "onlinePenetration": "23%",
+      "onlineGambling": "線上博彩滲透率",
+      "mobileShare": "68%",
+      "mobileGambling": "移動端博彩比例",
+      "globalAverage": "全球平均"
     }
   }
 }

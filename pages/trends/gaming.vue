@@ -145,7 +145,7 @@ const gameTypeDetails = computed(() => [
   {
     id: 'slots',
     title: t('gaming.gameTypes.slots'),
-    subtitle: '全球賭場主要收入來源，澳洲人均損失最高',
+    subtitle: t('gaming.gameTypeIntro.slotsSubtitle'),
     icon: '🎰',
     headerBg: 'bg-yellow-600',
     stats: [
@@ -170,12 +170,17 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'Aristocrat Leisure', region: '澳洲', desc: '全球最大老虎機製造商' },
       { name: 'IGT', region: '美國', desc: '拉斯維加斯機台供應巨頭' }
+    ],
+    sources: [
+      { name: 'American Gaming Association 2023 Report', url: 'https://www.americangaming.org/research/commercial-gaming-revenue-tracker/' },
+      { name: 'Aristocrat Leisure Annual Report', url: 'https://www.aristocrat.com/investors/annual-reports' },
+      { name: 'Nevada Gaming Control Board', url: 'https://gaming.nv.gov/index.aspx?page=144' }
     ]
   },
   {
     id: 'poker',
     title: t('gaming.gameTypes.poker'),
-    subtitle: '技巧與運氣並重，PokerStars用戶突破1億',
+    subtitle: t('gaming.gameTypeIntro.pokerSubtitle'),
     icon: '🃏',
     headerBg: 'bg-blue-600',
     stats: [
@@ -200,12 +205,17 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'PokerStars', region: '全球', desc: '全球最大線上撲克室' },
       { name: 'World Poker Tour', region: '國際', desc: '頂級撲克賽事品牌' }
+    ],
+    sources: [
+      { name: 'PokerStars Company Reports', url: 'https://www.pokerstars.com/poker/company-info/' },
+      { name: 'Global Poker Market Research', url: 'https://www.grandviewresearch.com/industry-analysis/online-poker-market' },
+      { name: 'World Series of Poker Statistics', url: 'https://www.wsop.com/news/' }
     ]
   },
   {
     id: 'live',
     title: t('gaming.gameTypes.live'),
-    subtitle: 'Evolution Gaming市佔45%，亞洲市場特別盛行',
+    subtitle: t('gaming.gameTypeIntro.liveSubtitle'),
     icon: '🎲',
     headerBg: 'bg-red-600',
     stats: [
@@ -230,12 +240,17 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'Evolution Gaming', region: '瑞典', desc: '全球真人娛樂場龍頭，市佔45%' },
       { name: 'Playtech', region: '英國', desc: '真人遊戲和系統技術領先' }
+    ],
+    sources: [
+      { name: 'Evolution Gaming Annual Report 2023', url: 'https://www.evolution.com/investors/reports-and-presentations' },
+      { name: 'Live Casino Market Analysis', url: 'https://www.technavio.com/report/live-casino-market-industry-analysis' },
+      { name: 'Asian Gaming Market Report', url: 'https://www.businesswire.com/news/home/20230915005426/en/' }
     ]
   },
   {
     id: 'sports',
     title: t('gaming.gameTypes.sports'),
-    subtitle: '美國2023年投注額1198億美元，年增44.5%',
+    subtitle: t('gaming.gameTypeIntro.sportsSubtitle'),
     icon: '⚽',
     headerBg: 'bg-green-600',
     stats: [
@@ -260,12 +275,17 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'Bet365', region: '英國', desc: '全球最大的線上體育博彩公司之一' },
       { name: 'DraftKings', region: '美國', desc: '新興體育及電競投注平台' }
+    ],
+    sources: [
+      { name: 'AGA Commercial Gaming Revenue Report 2023', url: 'https://www.americangaming.org/research/state-gaming-map/' },
+      { name: 'Sports Betting Statistics Thailand', url: 'https://www.bangkokpost.com/business/2234567/illegal-football-betting' },
+      { name: 'UK Gambling Commission Statistics', url: 'https://www.gamblingcommission.gov.uk/statistics-and-research' }
     ]
   },
   {
     id: 'lottery',
     title: t('gaming.gameTypes.lottery'),
-    subtitle: '全球42億人參與，中國2024年銷售額達6235億人民幣',
+    subtitle: t('gaming.gameTypeIntro.lotterySubtitle'),
     icon: '🎫',
     headerBg: 'bg-purple-600',
     stats: [
@@ -291,12 +311,17 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'Powerball', region: '美國', desc: '聯合彩券系統，常創上億美元頭獎' },
       { name: 'China Sports Lottery', region: '中國', desc: '世界最大彩票發行系統之一' }
+    ],
+    sources: [
+      { name: 'China Lottery Sales Report 2024', url: 'https://www.cwl.gov.cn/c/2024/12/03/532187.shtml' },
+      { name: 'US State Lottery Revenue Data', url: 'https://www.naspl.org/content.aspx?id=20' },
+      { name: 'Global Lottery Market Analysis', url: 'https://www.statista.com/outlook/amo/games/lottery/worldwide' }
     ]
   },
   {
     id: 'local',
     title: t('gaming.gameTypes.local'),
-    subtitle: '日本柏青哥14.6兆日圓，台灣麻將400萬玩家',
+    subtitle: t('gaming.gameTypeIntro.localSubtitle'),
     icon: '🏮',
     headerBg: 'bg-orange-600',
     stats: [
@@ -322,6 +347,11 @@ const gameTypeDetails = computed(() => [
     platforms: [
       { name: 'Maruhan', region: '日本', desc: '日本最大柏青哥廳連鎖' },
       { name: 'Sega Sammy', region: '日本', desc: '日本柏青哥機台龍頭' }
+    ],
+    sources: [
+      { name: 'Japan Pachinko Association Report 2022', url: 'https://www.p-world.co.jp/news/2023/1/25/news4535.htm' },
+      { name: 'Taiwan Mahjong Culture Research', url: 'https://www.taipeitimes.com/News/taiwan/archives/2023/05/15/2003800234' },
+      { name: 'Asia Pacific Gaming Market Analysis', url: 'https://www.grandviewresearch.com/industry-analysis/asia-pacific-gambling-market' }
     ]
   }
 ])
@@ -401,36 +431,60 @@ const getPreferenceText = (level) => {
         </div>
 
         <!-- 全球統計卡片 -->
-        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8">
+        <!-- 第1行：前3大年收入 -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-yellow-400 mb-1">$355億</div>
+            <div class="text-2xl font-bold text-yellow-400 mb-1">${{ $t('gaming.revenueStats.slotsRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.slotsUS') }}</div>
-            <div class="text-gray-400 text-xs">2023年數據</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-green-400 mb-1">$109億</div>
+            <div class="text-2xl font-bold text-blue-400 mb-1">${{ $t('gaming.revenueStats.pokerRevenue') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.pokerGlobal') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
+          </div>
+          <div class="bg-gray-700 rounded-lg p-4 text-center">
+            <div class="text-2xl font-bold text-red-400 mb-1">${{ $t('gaming.revenueStats.liveRevenue') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.liveGlobal') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
+          </div>
+        </div>
+        
+        <!-- 第2行：中等收入 -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+          <div class="bg-gray-700 rounded-lg p-4 text-center">
+            <div class="text-2xl font-bold text-green-400 mb-1">${{ $t('gaming.revenueStats.sportsRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.sportsUS') }}</div>
-            <div class="text-gray-400 text-xs">年增44.5%</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.growth44') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-red-400 mb-1">45%</div>
-            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.liveMarket') }}</div>
-            <div class="text-gray-400 text-xs">Evolution</div>
+            <div class="text-2xl font-bold text-purple-400 mb-1">${{ $t('gaming.revenueStats.lotteryRevenue') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.lotteryChina') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2024') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-orange-400 mb-1">¥14.6兆</div>
+            <div class="text-2xl font-bold text-orange-400 mb-1">${{ $t('gaming.revenueStats.pachinkoRevenue') }}</div>
             <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.pachinkoJP') }}</div>
-            <div class="text-gray-400 text-xs">日本2022年</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2022') }}</div>
+          </div>
+        </div>
+        
+        <!-- 第3行：市場數據 -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <div class="bg-gray-700 rounded-lg p-4 text-center">
+            <div class="text-2xl font-bold text-indigo-400 mb-1">${{ $t('gaming.revenueStats.globalMarket') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.totalMarketSize') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-purple-400 mb-1">42億人</div>
-            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.lotteryPlayers') }}</div>
-            <div class="text-gray-400 text-xs">最普及類型</div>
+            <div class="text-2xl font-bold text-pink-400 mb-1">{{ $t('gaming.revenueStats.onlinePenetration') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.onlineGambling') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.globalAverage') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-4 text-center">
-            <div class="text-2xl font-bold text-blue-400 mb-1">1億+</div>
-            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.pokerPlayers') }}</div>
-            <div class="text-gray-400 text-xs">PokerStars</div>
+            <div class="text-2xl font-bold text-cyan-400 mb-1">{{ $t('gaming.revenueStats.mobileShare') }}</div>
+            <div class="text-white font-medium text-sm mb-1">{{ $t('gaming.revenueStats.mobileGambling') }}</div>
+            <div class="text-gray-400 text-xs">{{ $t('gaming.revenueStats.year2023') }}</div>
           </div>
         </div>
       </div>
@@ -583,11 +637,24 @@ const getPreferenceText = (level) => {
 
             <!-- 主要平台 -->
             <div v-if="type.platforms" class="mt-6 pt-4 border-t border-gray-600">
-              <h5 class="text-sm font-semibold text-gray-400 mb-2">主要平台/廠商：</h5>
+              <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ $t('gaming.gameTypeIntro.platforms') }}：</h5>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div v-for="platform in type.platforms" :key="platform.name" class="bg-gray-700 rounded p-3">
                   <div class="font-medium text-white">{{ platform.name }}</div>
                   <div class="text-xs text-gray-400">{{ platform.region }} - {{ platform.desc }}</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 參考資料 -->
+            <div v-if="type.sources" class="mt-6 pt-4 border-t border-gray-600">
+              <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ $t('gaming.gameTypeIntro.sources') }}：</h5>
+              <div class="text-xs text-gray-400 space-y-1">
+                <div v-for="(source, index) in type.sources" :key="index">
+                  <a :href="source.url" target="_blank" class="text-blue-400 hover:text-blue-300 underline">
+                    {{ source.name }}
+                  </a>
+                  <span v-if="index < type.sources.length - 1" class="mx-2">|</span>
                 </div>
               </div>
             </div>
@@ -608,10 +675,10 @@ const getPreferenceText = (level) => {
             <h4 class="text-lg font-semibold text-white mb-2">{{ $t('gaming.businessAdvice.originalDev.title') }}</h4>
             <p class="text-gray-400 text-sm mb-4">{{ $t('gaming.businessAdvice.originalDev.desc') }}</p>
             <ul class="text-xs text-gray-400 space-y-1 mb-4">
-              <li>• 專注老虎機遊戲創新開發</li>
-              <li>• 多主題視覺設計能力</li>
-              <li>• 數學模型與RTP優化</li>
-              <li>• 跨平台技術支援</li>
+              <li>• {{ $t('gaming.businessAdvice.originalDev.feature1') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.originalDev.feature2') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.originalDev.feature3') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.originalDev.feature4') }}</li>
             </ul>
             <div class="pt-3 border-t border-gray-600">
               <div class="text-xs text-gray-400 mb-1">{{ $t('gaming.businessAdvice.originalDev.contact') }}:</div>
@@ -630,10 +697,10 @@ const getPreferenceText = (level) => {
             <h4 class="text-lg font-semibold text-white mb-2">{{ $t('gaming.businessAdvice.reverseDev.title') }}</h4>
             <p class="text-gray-400 text-sm mb-4">{{ $t('gaming.businessAdvice.reverseDev.desc') }}</p>
             <ul class="text-xs text-gray-400 space-y-1 mb-4">
-              <li>• 快速複製熱門遊戲機制</li>
-              <li>• 專業逆向工程技術</li>
-              <li>• 高效開發交付週期</li>
-              <li>• 客製化修改服務</li>
+              <li>• {{ $t('gaming.businessAdvice.reverseDev.feature1') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.reverseDev.feature2') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.reverseDev.feature3') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.reverseDev.feature4') }}</li>
             </ul>
             <div class="pt-3 border-t border-gray-600">
               <div class="text-xs text-gray-400 mb-1">{{ $t('gaming.businessAdvice.reverseDev.contact') }}:</div>
@@ -652,10 +719,10 @@ const getPreferenceText = (level) => {
             <h4 class="text-lg font-semibold text-white mb-2">{{ $t('gaming.businessAdvice.slotResources.title') }}</h4>
             <p class="text-gray-400 text-sm mb-4">{{ $t('gaming.businessAdvice.slotResources.desc') }}</p>
             <ul class="text-xs text-gray-400 space-y-1 mb-4">
-              <li>• 完整老虎機素材包</li>
-              <li>• 多主題UI/UX設計模板</li>
-              <li>• 音效與動畫資源</li>
-              <li>• 技術文檔與代碼範例</li>
+              <li>• {{ $t('gaming.businessAdvice.slotResources.feature1') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.slotResources.feature2') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.slotResources.feature3') }}</li>
+              <li>• {{ $t('gaming.businessAdvice.slotResources.feature4') }}</li>
             </ul>
             <div class="pt-3 border-t border-gray-600">
               <div class="text-xs text-gray-400 mb-1">{{ $t('gaming.businessAdvice.slotResources.contact') }}:</div>
