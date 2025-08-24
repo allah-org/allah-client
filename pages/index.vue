@@ -10,14 +10,15 @@ useHead({
   ]
 })
 
-// 地區選單數據
+// 地區選單數據 - 按市場規模排序
 const regions = [
   { code: 'global', name: '全球' },
   { code: 'europe', name: '歐洲' },
   { code: 'usa', name: '美國' },
   { code: 'japan', name: '日本' },
-  { code: 'korea', name: '韓國' },
-  { code: 'china', name: '中國' },
+  { code: 'china', name: '中國大陸' },
+  { code: 'australia', name: '澳洲' },
+  { code: 'korea', name: '東南亞' },
   { code: 'taiwan', name: '台灣' }
 ]
 
@@ -38,8 +39,9 @@ const scrollToRegion = (regionCode) => {
     'europe': 'europe-section',
     'usa': 'usa-section', 
     'japan': 'japan-section',
-    'korea': 'southeast-asia-section', // 韓國歸類到東南亞
     'china': 'china-section',
+    'australia': 'australia-section',
+    'korea': 'southeast-asia-section',
     'taiwan': 'taiwan-section'
   }
   
@@ -151,45 +153,8 @@ const marketData = [
   }
 ]
 
-// 詳細地區分析數據
+// 詳細地區分析數據 - 按市場規模排序
 const detailedRegions = [
-  {
-    id: 'usa',
-    title: '美國',
-    subtitle: '體育博彩合法化推動的成熟市場',
-    icon: '🇺🇸',
-    headerBg: 'bg-blue-600',
-    stats: [
-      { label: '商業博奕收入', value: '$666.5億', valueClass: 'text-blue-400' },
-      { label: '含部族賭場總收入', value: '$1,100億', valueClass: 'text-green-400' },
-      { label: '線上滲透率', value: '25%', valueClass: 'text-purple-400' }
-    ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
-      <p class="mb-4">2023年美國商業博奕總營收達666.5億美元，較2022年成長10.2%，連續第三年刷新紀錄。若加計部族賭場，全美總博彩收入接近1,100億美元。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要業者與平台</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>實體賭場:</strong> 美高梅國際(MGM)、凱撒娛樂(Caesars)、永利渡假村(Wynn)等大型集團主導</li>
-        <li><strong>線上體育博彩:</strong> FanDuel市佔約40%，DraftKings約30%，合計逾七成市場</li>
-        <li><strong>線上賭場:</strong> BetMGM、DraftKings、FanDuel等在少數合法州經營iGaming</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">近三年營收趨勢</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>體育博彩爆發:</strong> 2023年達110億美元，較前一年增46%</li>
-        <li><strong>角子機穩定:</strong> 2023年營收355億美元，占商業博彩過半</li>
-        <li><strong>線上賭場成長:</strong> iGaming營收61.7億美元，年增23%</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
-      <p class="mb-4">2018年最高法院推翻PASPA後，30多州已合法化體育投注，約7州開放線上賭場。各州推出自我排除機制等負責任博彩措施。</p>
-    `,
-    sources: [
-      'American Gaming Association - Commercial Gaming Revenue Tracker 2023',
-      'americangaming.org - Annual Commercial Gaming Revenue Reports'
-    ]
-  },
   {
     id: 'europe',
     title: '歐洲',
@@ -223,9 +188,45 @@ const detailedRegions = [
       <p class="mb-4">27國採多執照制允許線上博奕，英國監管最完善。各國強調防制洗錢和負責任博彩，制定嚴格年齡限制和廣告規範。</p>
     `,
     sources: [
-      'European Gaming & Betting Association (EGBA) - Market Report 2024',
-      'H2 Gambling Capital - European Market Analysis',
-      'Individual national gaming authorities reports'
+      { name: 'European Gaming & Betting Association (EGBA) - Market Report 2024', url: 'https://www.egba.eu' },
+      { name: 'H2 Gambling Capital - European Market Analysis', url: 'https://h2gc.com' },
+    ]
+  },
+  {
+    id: 'usa',
+    title: '美國',
+    subtitle: '體育博彩合法化推動的成熟市場',
+    icon: '🇺🇸',
+    headerBg: 'bg-blue-600',
+    stats: [
+      { label: '商業博奕收入', value: '$666.5億', valueClass: 'text-blue-400' },
+      { label: '含部族賭場總收入', value: '$1,100億', valueClass: 'text-green-400' },
+      { label: '線上滲透率', value: '25%', valueClass: 'text-purple-400' }
+    ],
+    content: `
+      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
+      <p class="mb-4">2023年美國商業博奕總營收達666.5億美元，較2022年成長10.2%，連續第三年刷新紀錄。若加計部族賭場，全美總博彩收入接近1,100億美元。</p>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要業者與平台</h4>
+      <ul class="list-disc list-inside mb-4 space-y-1">
+        <li><strong>實體賭場:</strong> 美高梅國際(MGM)、凱撒娛樂(Caesars)、永利渡假村(Wynn)等大型集團主導</li>
+        <li><strong>線上體育博彩:</strong> FanDuel市佔約40%，DraftKings約30%，合計逾七成市場</li>
+        <li><strong>線上賭場:</strong> BetMGM、DraftKings、FanDuel等在少數合法州經營iGaming</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">近三年營收趨勢</h4>
+      <ul class="list-disc list-inside mb-4 space-y-1">
+        <li><strong>體育博彩爆發:</strong> 2023年達110億美元，較前一年增46%</li>
+        <li><strong>角子機穩定:</strong> 2023年營收355億美元，占商業博彩過半</li>
+        <li><strong>線上賭場成長:</strong> iGaming營收61.7億美元，年增23%</li>
+      </ul>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
+      <p class="mb-4">2018年最高法院推翻PASPA後，30多州已合法化體育投注，約7州開放線上賭場。各州推出自我排除機制等負責任博彩措施。</p>
+    `,
+    sources: [
+      { name: 'American Gaming Association - Commercial Gaming Revenue Tracker 2023', url: 'https://www.americangaming.org' },
+      { name: 'americangaming.org - Annual Commercial Gaming Revenue Reports', url: 'https://www.americangaming.org/research' }
     ]
   },
   {
@@ -253,39 +254,39 @@ const detailedRegions = [
       <p class="mb-4">約770萬柏青哥玩家以中年男性為主力，競馬和彩票也有固定族群。由於無合法賭場，高端玩家多前往澳門、韓國等地。</p>
     `,
     sources: [
-      'Asia Gaming Brief - Pachinko market analysis 2023',
-      'Yano Research Institute - Japan Gaming Market Reports',
-      'Japan Racing Association (JRA) - Annual Reports'
+      { name: 'Asia Gaming Brief - Pachinko market analysis 2023', url: 'https://agbrief.com' },
+      { name: 'Yano Research Institute - Japan Gaming Market Reports', url: 'https://www.yanoresearch.com' },
+      { name: 'Japan Racing Association (JRA) - Annual Reports', url: 'https://www.jra.go.jp' }
     ]
   },
   {
-    id: 'southeast-asia',
-    title: '東南亞',
-    subtitle: '快速成長的新興市場，菲律賓與新加坡領軍',
-    icon: '🌏',
-    headerBg: 'bg-yellow-600',
+    id: 'china',
+    title: '中國大陸',
+    subtitle: '嚴格管制下的彩票市場，龐大地下賭博流向境外',
+    icon: '🇨🇳',
+    headerBg: 'bg-red-700',
     stats: [
-      { label: '菲律賓GGR', value: '₱3,723億', valueClass: 'text-yellow-400' },
-      { label: '新加坡賭場收入', value: 'S$52.5億', valueClass: 'text-green-400' },
-      { label: '年增長率', value: '+30%', valueClass: 'text-green-400' }
+      { label: '彩票銷售額', value: '¥5,797億', valueClass: 'text-red-400' },
+      { label: '年增長率', value: '+36.5%', valueClass: 'text-green-400' },
+      { label: '線上滲透率', value: '0%', valueClass: 'text-gray-400' }
     ],
     content: `
-      <h4 class="text-lg font-semibold text-white mb-3">菲律賓市場</h4>
-      <p class="mb-4">2024年菲律賓博奕收入創歷史新高，達3,723億披索（約68億美元），年增30.5%。電子遊戲場快速擴張，幾乎追平傳統賭場。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">新加坡市場</h4>
-      <p class="mb-4">兩大綜合度假村2023年營收52.5億新幣，人均年賭博支出逾2,100歐元，全球領先。</p>
+      <h4 class="text-lg font-semibold text-white mb-3">官方市場</h4>
+      <p class="mb-4">2023年中國彩票銷售額達5,797億人民幣，創歷史新高，體彩和福彩平分秋色。</p>
       
       <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>政策分化:</strong> 新菲積極發展，泰國嚴禁但有鬆動跡象</li>
-        <li><strong>主要業者:</strong> 濱海灣金沙、雲頂集團、NagaCorp等</li>
-        <li><strong>法規變化:</strong> 菲律賓2024年關停POGO業務，專注本地市場</li>
+        <li><strong>政策嚴格:</strong> 除國家彩票外，其他賭博形式一律禁止</li>
+        <li><strong>雙頭運營:</strong> 體育彩票和福利彩票由官方機構壟斷</li>
+        <li><strong>線上限制:</strong> 2015年起基本停止網售彩票</li>
       </ul>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-6">地下市場</h4>
+      <p class="mb-4">龐大的地下賭博需求流向境外，澳門、菲律賓等地過去高度依賴中國客源。政府持續打擊跨境賭博。</p>
     `,
     sources: [
-      'PAGCOR - Philippines Gaming Revenue Reports 2024',
-      'Singapore Pools - Annual Gaming Statistics',
-      'Casinova - Singapore gambling revenue analysis'
+      { name: 'Xinhua - China lottery sales statistics 2023', url: 'http://www.xinhuanet.com' },
+      { name: 'China Ministry of Finance - Lottery Administration Reports', url: 'http://www.mof.gov.cn' },
+      { name: 'ASGAM - Mainland China lottery market analysis', url: 'https://asgam.com' }
     ]
   },
   {
@@ -314,39 +315,39 @@ const detailedRegions = [
       <p class="mb-4">72.8%的成年人參與博彩，彩票最普及，博彩機深植社區文化，體育投注在年輕男性中受歡迎。</p>
     `,
     sources: [
-      'The Guardian - Australia gambling losses report 2023',
-      'Queensland Government Statistician - Gambling Statistics',
-      'Australian Communications and Media Authority - Gaming Reports'
+      { name: 'The Guardian - Australia gambling losses report 2023', url: 'https://www.theguardian.com/australia-news' },
+      { name: 'Queensland Government Statistician - Gambling Statistics', url: 'https://www.qgso.qld.gov.au' },
+      { name: 'Australian Communications and Media Authority - Gaming Reports', url: 'https://www.acma.gov.au' }
     ]
   },
   {
-    id: 'china',
-    title: '中國大陸',
-    subtitle: '嚴格管制下的彩票市場，龐大地下賭博流向境外',
-    icon: '🇨🇳',
-    headerBg: 'bg-red-700',
+    id: 'southeast-asia',
+    title: '東南亞',
+    subtitle: '快速成長的新興市場，菲律賓與新加坡領軍',
+    icon: 'EA',
+    headerBg: 'bg-yellow-600',
     stats: [
-      { label: '彩票銷售額', value: '¥5,797億', valueClass: 'text-red-400' },
-      { label: '年增長率', value: '+36.5%', valueClass: 'text-green-400' },
-      { label: '線上滲透率', value: '0%', valueClass: 'text-gray-400' }
+      { label: '菲律賓GGR', value: '₱3,723億', valueClass: 'text-yellow-400' },
+      { label: '新加坡賭場收入', value: 'S$52.5億', valueClass: 'text-green-400' },
+      { label: '年增長率', value: '+30%', valueClass: 'text-green-400' }
     ],
     content: `
-      <h4 class="text-lg font-semibold text-white mb-3">官方市場</h4>
-      <p class="mb-4">2023年中國彩票銷售額達5,797億人民幣，創歷史新高，體彩和福彩平分秋色。</p>
+      <h4 class="text-lg font-semibold text-white mb-3">菲律賓市場</h4>
+      <p class="mb-4">2024年菲律賓博奕收入創歷史新高，達3,723億披索（約68億美元），年增30.5%。電子遊戲場快速擴張，幾乎追平傳統賭場。</p>
+      
+      <h4 class="text-lg font-semibold text-white mb-3 mt-6">新加坡市場</h4>
+      <p class="mb-4">兩大綜合度假村2023年營收52.5億新幣，人均年賭博支出逾2,100歐元，全球領先。</p>
       
       <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>政策嚴格:</strong> 除國家彩票外，其他賭博形式一律禁止</li>
-        <li><strong>雙頭運營:</strong> 體育彩票和福利彩票由官方機構壟斷</li>
-        <li><strong>線上限制:</strong> 2015年起基本停止網售彩票</li>
+        <li><strong>政策分化:</strong> 新菲積極發展，泰國嚴禁但有鬆動跡象</li>
+        <li><strong>主要業者:</strong> 濱海灣金沙、雲頂集團、NagaCorp等</li>
+        <li><strong>法規變化:</strong> 菲律賓2024年關停POGO業務，專注本地市場</li>
       </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">地下市場</h4>
-      <p class="mb-4">龐大的地下賭博需求流向境外，澳門、菲律賓等地過去高度依賴中國客源。政府持續打擊跨境賭博。</p>
     `,
     sources: [
-      'Xinhua - China lottery sales statistics 2023',
-      'China Ministry of Finance - Lottery Administration Reports',
-      'ASGAM - Mainland China lottery market analysis'
+      { name: 'PAGCOR - Philippines Gaming Revenue Reports 2024', url: 'https://www.pagcor.ph' },
+      { name: 'Singapore Pools - Annual Gaming Statistics', url: 'https://www.singaporepools.com.sg' },
+      { name: 'Casinova - Singapore gambling revenue analysis', url: 'https://casinova.org' }
     ]
   },
   {
@@ -374,9 +375,9 @@ const detailedRegions = [
       <p class="mb-4">賭場仍未開放，雖有離島博弈條例但多次公投未過。線上賭博屬違法，但仍有地下市場存在。</p>
     `,
     sources: [
-      'Public Gaming Research Institute - Taiwan Sports Lottery Report 2024',
-      'Taiwan Lottery Company - Annual Sales Statistics',
-      'Taiwan Sports Lottery Corporation - Gaming Revenue Reports'
+      { name: 'Public Gaming Research Institute - Taiwan Sports Lottery Report 2024', url: 'https://publicgaming.com' },
+      { name: 'Taiwan Lottery Company - Annual Sales Statistics', url: 'https://www.taiwanlottery.com.tw' },
+      { name: 'Taiwan Sports Lottery Corporation - Gaming Revenue Reports', url: 'https://www.sportslottery.com.tw' }
     ]
   }
 ]
@@ -392,8 +393,8 @@ const detailedRegions = [
       </div>
     </div>
 
-    <!-- 地區選單 -->
-    <div class="bg-gray-800 border-b border-gray-700">
+    <!-- 地區選單 - 固定在頂部 -->
+    <div class="sticky top-0 z-40 bg-gray-800 border-b border-gray-700">
       <div class="max-w-4xl mx-auto px-6">
         <div class="flex space-x-1 overflow-x-auto">
           <button 
@@ -451,9 +452,9 @@ const detailedRegions = [
         <div class="mt-6 pt-4 border-t border-gray-600">
           <h5 class="text-sm font-semibold text-gray-400 mb-2">全球市場數據來源：</h5>
           <ul class="text-xs text-gray-500 space-y-1">
-            <li>• H2 Gambling Capital - Global Gambling Industry Report 2023</li>
-            <li>• American Gaming Association (AGA) - Commercial Gaming Revenue Reports</li>
-            <li>• European Gaming & Betting Association (EGBA) - Market Analysis 2024</li>
+            <li>• <a href="https://h2gc.com" target="_blank" class="text-blue-400 hover:text-blue-300 underline">H2 Gambling Capital - Global Gambling Industry Report 2023</a></li>
+            <li>• <a href="https://www.americangaming.org" target="_blank" class="text-blue-400 hover:text-blue-300 underline">American Gaming Association (AGA) - Commercial Gaming Revenue Reports</a></li>
+            <li>• <a href="https://www.egba.eu" target="_blank" class="text-blue-400 hover:text-blue-300 underline">European Gaming & Betting Association (EGBA) - Market Analysis 2024</a></li>
           </ul>
         </div>
       </div>
@@ -470,7 +471,15 @@ const detailedRegions = [
                 <th class="text-left p-4 text-gray-300 font-medium">地區</th>
                 <th class="text-left p-4 text-gray-300 font-medium">市場規模</th>
                 <th class="text-left p-4 text-gray-300 font-medium">年增長率</th>
-                <th class="text-left p-4 text-gray-300 font-medium">線上滲透率</th>
+                <th class="text-left p-4 text-gray-300 font-medium">
+                  線上滲透率
+                  <span 
+                    class="ml-1 text-xs text-blue-400 cursor-help" 
+                    title="線上博奕收入占整體博奕市場收入的百分比，反映該地區數位化博奕的普及程度"
+                  >
+                    ⓘ
+                  </span>
+                </th>
                 <th class="text-left p-4 text-gray-300 font-medium">主要特色</th>
               </tr>
             </thead>
@@ -517,7 +526,16 @@ const detailedRegions = [
                 <span :class="region.growthClass">{{ region.growth }}</span>
               </div>
               <div class="flex justify-between">
-                <span class="text-gray-400">線上滲透率:</span>
+                <span class="text-gray-400">
+                  線上滲透率
+                  <span 
+                    class="ml-1 text-xs text-blue-400 cursor-help" 
+                    title="線上博奕收入占整體博奕市場收入的百分比，反映該地區數位化博奕的普及程度"
+                  >
+                    ⓘ
+                  </span>
+                  :
+                </span>
                 <span class="text-gray-300">{{ region.penetration }}</span>
               </div>
               <div>
@@ -576,7 +594,18 @@ const detailedRegions = [
             <div v-if="region.sources" class="mt-6 pt-4 border-t border-gray-600">
               <h5 class="text-sm font-semibold text-gray-400 mb-2">數據來源：</h5>
               <ul class="text-xs text-gray-500 space-y-1">
-                <li v-for="source in region.sources" :key="source">• {{ source }}</li>
+                <li v-for="source in region.sources" :key="source.name">
+                  • 
+                  <a 
+                    v-if="source.url" 
+                    :href="source.url" 
+                    target="_blank" 
+                    class="text-blue-400 hover:text-blue-300 underline"
+                  >
+                    {{ source.name }}
+                  </a>
+                  <span v-else class="text-gray-500">{{ source.name }}</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -597,7 +626,7 @@ const detailedRegions = [
             </svg>
             <div>
               <div class="text-white font-medium">菠菜天眼通試算表</div>
-              <div class="text-gray-400 text-sm">查看完整數據與評論</div>
+              <div class="text-gray-400 text-sm">查看業界評論</div>
             </div>
           </a>
           
@@ -609,8 +638,8 @@ const detailedRegions = [
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
             <div>
-              <div class="text-white font-medium">聯繫BTT站長</div>
-              <div class="text-gray-400 text-sm">市場分析與商務合作</div>
+              <div class="text-white font-medium">聯繫站長</div>
+              <div class="text-gray-400 text-sm">商務合作</div>
             </div>
           </a>
         </div>
