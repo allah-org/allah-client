@@ -48,11 +48,11 @@ const closeMenu = () => {
 
   <!-- 側邊選單 -->
   <div 
-    class="fixed top-0 left-0 h-full w-80 bg-gray-800 transform transition-transform duration-300 ease-in-out z-50"
+    class="fixed top-0 left-0 h-full w-80 bg-gray-800 transform transition-transform duration-300 ease-in-out z-50 flex flex-col"
     :class="isOpen ? 'translate-x-0' : '-translate-x-full'"
   >
     <!-- 選單標題 -->
-    <div class="flex items-center justify-between p-6 border-b border-gray-700">
+    <div class="flex items-center justify-between p-6 border-b border-gray-700 flex-shrink-0">
       <h2 class="text-xl font-bold text-white">{{ $t('menu.title') }}</h2>
       <button 
         @click="closeMenu"
@@ -64,8 +64,26 @@ const closeMenu = () => {
       </button>
     </div>
 
-    <!-- 選單項目 -->
-    <nav class="p-4">
+    <!-- 多語言選擇區域 -->
+    <div class="p-4 border-b border-gray-700 flex-shrink-0">
+      <select 
+        :value="locale"
+        @change="switchLanguage($event.target.value)"
+        class="w-full px-4 py-3 bg-gray-700/50 border-0 rounded-xl text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:bg-gray-700 transition-all duration-200 shadow-lg backdrop-blur-sm hover:bg-gray-700/70"
+      >
+        <option 
+          v-for="lang in languages" 
+          :key="lang.code"
+          :value="lang.code"
+          class="bg-gray-800 text-white py-2"
+        >
+          {{ lang.flag }} {{ lang.name }}
+        </option>
+      </select>
+    </div>
+
+    <!-- 選單項目 - 可滾動區域 -->
+    <nav class="flex-1 overflow-y-auto p-4">
       <ul class="space-y-2">
         <li v-for="item in menuItems" :key="item.path">
           <NuxtLink 
@@ -81,24 +99,5 @@ const closeMenu = () => {
         </li>
       </ul>
     </nav>
-
-    <!-- 語言選擇 -->
-    <div class="border-t border-gray-700 p-4">
-      <h3 class="text-gray-400 text-xs font-semibold mb-3 uppercase tracking-wider">{{ $t('menu.language') }}</h3>
-      <div class="space-y-2">
-        <button 
-          v-for="lang in languages" 
-          :key="lang.code"
-          @click="switchLanguage(lang.code)"
-          class="flex items-center space-x-3 w-full p-2 rounded-lg transition-colors"
-          :class="locale === lang.code 
-            ? 'bg-blue-600 text-white' 
-            : 'text-gray-300 hover:bg-gray-700 hover:text-white'"
-        >
-          <span class="text-lg">{{ lang.flag }}</span>
-          <span class="text-sm">{{ lang.name }}</span>
-        </button>
-      </div>
-    </div>
   </div>
 </template>
