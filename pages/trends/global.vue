@@ -1,12 +1,9 @@
 <script setup>
-// 使用 constants 中的配置
-import { SPREADSHEET_URL } from '~/constants/config'
-
 useHead({
-  title: 'BTT 菠菜天眼通 - 天眼通',
+  title: '全球趨勢 - BTT 菠菜天眼通',
   meta: [
-    { name: 'description', content: 'BTT 菠菜天眼通首頁，提供完整的使用說明與功能導覽。' },
-    { property: 'og:title', content: 'BTT 菠菜天眼通 - 天眼通' },
+    { name: 'description', content: '全球市場趨勢分析與數據視覺化' },
+    { property: 'og:title', content: '全球趨勢 - BTT 菠菜天眼通' },
   ]
 })
 
@@ -74,7 +71,7 @@ const getCurrentRegionName = () => {
       </div>
 
       <!-- 趨勢數據卡片 -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div class="bg-gray-800 rounded-lg p-6">
           <div class="flex items-center justify-between mb-4">
             <h4 class="text-lg font-semibold text-white">熱門關鍵字</h4>
@@ -136,39 +133,6 @@ const getCurrentRegionName = () => {
               <span class="text-blue-400">8.7K</span>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- 快速連結 -->
-      <div class="bg-gray-800 rounded-lg p-6">
-        <h3 class="text-xl font-semibold text-white mb-4">快速連結</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <a
-            :href="SPREADSHEET_URL"
-            target="_blank"
-            class="flex items-center space-x-3 p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors"
-          >
-            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
-            </svg>
-            <div>
-              <div class="text-white font-medium">菠菜天眼通試算表</div>
-              <div class="text-gray-400 text-sm">查看完整數據</div>
-            </div>
-          </a>
-          
-          <a
-            href="mailto:allah2truth@gmail.com"
-            class="flex items-center space-x-3 p-4 bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors"
-          >
-            <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-            </svg>
-            <div>
-              <div class="text-white font-medium">聯繫BTT站長</div>
-              <div class="text-gray-400 text-sm">商務合作與建議</div>
-            </div>
-          </a>
         </div>
       </div>
     </div>

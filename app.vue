@@ -58,27 +58,18 @@ useHead({
 
 <template>
   <NuxtLoadingIndicator />
-  <!-- 單一滾動容器佈局 -->
-  <div class="fixed inset-0 font-sans flex flex-col">
-    <!-- 頂部藍底標題 - 固定高度 -->
-    <div class="bg-blue-950 text-white p-3 border-b border-blue-950 flex-shrink-0">
-      <div class="flex justify-between items-center">
-        <h1 class="text-2xl text-yellow-200 cursor-pointer hover:text-yellow-100">
-          <a :href="SPREADSHEET_URL" target="_blank">菠菜天眼通</a>
-        </h1>
-        <div class="text-lg text-gray-400 cursor-pointer hover:text-gray-300">
-          <a :href="`mailto:${CONTACT_EMAIL}`">聯繫我們</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 中間黑底內容 - 自動填充剩餘空間，只有這裡滾動 -->
-    <div class="flex-1 overflow-auto bg-black text-white p-4">
+  <!-- 現代化版型 -->
+  <div class="min-h-screen bg-gray-900 text-white font-sans">
+    <!-- 主要內容區域 -->
+    <div class="pb-20">
       <NuxtPage />
     </div>
 
-    <!-- 底部灰底導航 - 固定高度 -->
-    <NavBar class="bg-gray-700 text-white border-t border-gray-600 flex-shrink-0" />
+    <!-- 底部導航 - 固定在底部 -->
+    <NavBar />
+
+    <!-- 側邊選單 -->
+    <SideMenu />
 
     <IframeModal />
     <PhotoModal />
@@ -91,29 +82,29 @@ html, body, #__nuxt {
   height: -webkit-fill-available; /* 手機瀏覽器優化 */
   margin: 0;
   padding: 0;
-  background: #000;
-  color: #00ff00;
+  background: #111827; /* 現代化深色背景 */
+  color: #ffffff;
   color-scheme: dark;
-  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
-  font-size: 14px;
-  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* PTT 風格的滾動條 */
+/* 現代化滾動條 */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #333;
+  background: #374151;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #666;
-  border-radius: 4px;
+  background: #6b7280;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #888;
+  background: #9ca3af;
 }
 </style>
