@@ -104,6 +104,194 @@
     "contact": "聯繫站長", 
     "contactDesc": "商務合作"
   },
+  "globalStats": {
+    "totalRevenue": "5,360億",
+    "totalRevenueDesc": "2023年全球總收入",
+    "onlineShare": "24.6%",
+    "onlineShareDesc": "線上博奕佔比",
+    "onlineShareValue": "$1,320億美元",
+    "expectedRevenue": "5,730億",
+    "expectedRevenueDesc": "2024年預期收入",
+    "growthRate": "成長率",
+    "growthValue": "+7%",
+    "growthYoY": "+13.1% YoY"
+  },
+  "regionStats": {
+    "europe": {
+      "totalRevenue": "1,234億",
+      "onlineShare": "39%",
+      "growthRate": "+5%",
+      "stats": {
+        "totalRevenue": "2024年總收入",
+        "onlineShare": "線上佔比",
+        "growthRate": "年增長率"
+      },
+      "content": {
+        "marketSize": "市場規模與成長",
+        "marketSizeDesc": "歐洲2024年博彩總收入達1,234億歐元，線上佔比39%為全球最高。英國(308億歐元)、義大利(255億)、法國(178億)、德國(177億)為主要市場。",
+        "mainPlayers": "主要玩家與平台",
+        "crossBorder": "跨國集團:",
+        "crossBorderDesc": "Flutter Entertainment、Entain、Bet365等主導多國市場",
+        "stateOwned": "國營企業:",
+        "stateOwnedDesc": "法國FDJ、北歐Veikkaus、Svenska Spel等壟斷本國彩票",
+        "regional": "區域業者:",
+        "regionalDesc": "義大利Lottomatica、德國地方彩票公司等",
+        "onlineMarket": "線上市場領先",
+        "nordic": "北歐最高:",
+        "nordicDesc": "瑞典線上佔比68.3%，芬蘭、丹麥達68%",
+        "uk": "英國發達:",
+        "ukDesc": "線上GGR達111億歐元，占全英36%",
+        "southEurope": "南歐較低:",
+        "southEuropeDesc": "西班牙僅14.2%，義大利21.7%，仍以實體為主",
+        "regulations": "法規環境",
+        "regulationsDesc": "27國採多執照制允許線上博奕，英國監管最完善。各國強調防制洗錢和負責任博彩，制定嚴格年齡限制和廣告規範。"
+      }
+    },
+    "usa": {
+      "commercialRevenue": "666.5億",
+      "totalRevenue": "1,100億",
+      "onlinePenetration": "25%",
+      "stats": {
+        "commercialRevenue": "商業博奕收入",
+        "totalRevenue": "含部族賭場總收入",
+        "onlinePenetration": "線上滲透率"
+      },
+      "content": {
+        "marketSize": "市場規模與成長",
+        "marketSizeDesc": "2023年美國商業博奕總營收達666.5億美元，較2022年成長10.2%，連續第三年刷新紀錄。若加計部族賭場，全美總博彩收入接近1,100億美元。",
+        "mainPlayers": "主要業者與平台",
+        "physicalCasinos": "實體賭場:",
+        "physicalCasinosDesc": "美高梅國際(MGM)、凱撒娛樂(Caesars)、永利渡假村(Wynn)等大型集團主導",
+        "onlineSports": "線上體育博彩:",
+        "onlineSportsDesc": "FanDuel市佔約40%，DraftKings約30%，合計逾七成市場",
+        "onlineCasino": "線上賭場:",
+        "onlineCasinoDesc": "BetMGM、DraftKings、FanDuel等在少數合法州經營iGaming",
+        "recentTrends": "近三年營收趨勢",
+        "sportsBoom": "體育博彩爆發:",
+        "sportsBoomDesc": "2023年達110億美元，較前一年增46%",
+        "slotsStable": "角子機穩定:",
+        "slotsStableDesc": "2023年營收355億美元，占商業博彩過半",
+        "onlineGrowth": "線上賭場成長:",
+        "onlineGrowthDesc": "iGaming營收61.7億美元，年增23%",
+        "regulations": "法規環境",
+        "regulationsDesc": "2018年最高法院推翻PASPA後，30多州已合法化體育投注，約7州開放線上賭場。各州推出自我排除機制等負責任博彩措施。"
+      }
+    },
+    "japan": {
+      "pachinkoWagering": "15.7兆",
+      "marketTrend": "緩步下滑",
+      "onlinePenetration": "0%",
+      "stats": {
+        "pachinkoWagering": "柏青哥投注額",
+        "marketTrend": "市場趨勢",
+        "onlinePenetration": "線上滲透率"
+      },
+      "content": {
+        "marketFeatures": "市場特色",
+        "marketFeaturesDesc": "日本博奕以柏青哥為核心，2023年投注額達15.7兆日圓（約1,100億美元），但僅為20年前高峰期的一半。",
+        "pachinkoDecline": "柏青哥衰退:",
+        "pachinkoDeclineDesc": "遊戲廳數量降至6,839家，較巔峰期減少近半",
+        "publicGaming": "公營賭事:",
+        "publicGamingDesc": "競馬投注額3.5兆日圓，彩票約1兆日圓",
+        "strictRegulations": "法規嚴格:",
+        "strictRegulationsDesc": "線上賭博全面禁止，僅有限例外項目",
+        "futureDevelopment": "未來發展:",
+        "futureDevelopmentDesc": "大阪IR賭場預計2029年開幕",
+        "playerCharacteristics": "玩家特性",
+        "playerCharacteristicsDesc": "約770萬柏青哥玩家以中年男性為主力，競馬和彩票也有固定族群。由於無合法賭場，高端玩家多前往澳門、韓國等地。"
+      }
+    },
+    "china": {
+      "lotterySales": "5,797億",
+      "growthRate": "+36.5%",
+      "onlinePenetration": "0%",
+      "stats": {
+        "lotterySales": "彩票銷售額",
+        "growthRate": "年增長率",
+        "onlinePenetration": "線上滲透率"
+      },
+      "content": {
+        "officialMarket": "官方市場",
+        "officialMarketDesc": "2023年中國彩票銷售額達5,797億人民幣，創歷史新高，體彩和福彩平分秋色。",
+        "strictPolicy": "政策嚴格:",
+        "strictPolicyDesc": "除國家彩票外，其他賭博形式一律禁止",
+        "dualOperation": "雙頭運營:",
+        "dualOperationDesc": "體育彩票和福利彩票由官方機構壟斷",
+        "onlineRestrictions": "線上限制:",
+        "onlineRestrictionsDesc": "2015年起基本停止網售彩票",
+        "undergroundMarket": "地下市場",
+        "undergroundMarketDesc": "龐大的地下賭博需求流向境外，澳門、菲律賓等地過去高度依賴中國客源。政府持續打擊跨境賭博。"
+      }
+    },
+    "australia": {
+      "totalLoss": "320億",
+      "perCapitaLoss": "1,555",
+      "pokiesShare": "49%",
+      "stats": {
+        "totalLoss": "年度總損失",
+        "perCapitaLoss": "人均損失",
+        "pokiesShare": "博彩機佔比"
+      },
+      "content": {
+        "marketFeatures": "市場特色",
+        "marketFeaturesDesc": "澳洲2022-23財年賭博總損失320億澳元，人均1,555澳元為全球最高。博彩機(Pokies)是最大收入來源。",
+        "pokiesDominance": "博彩機主導:",
+        "pokiesDominanceDesc": "約20萬台撲克機貢獻158億澳元，占總損失49%",
+        "sportsBetting": "體育投注:",
+        "sportsBettingDesc": "線上體育賭博合法且發達，但禁止線上賭場",
+        "mainOperators": "主要業者:",
+        "mainOperatorsDesc": "皇冠度假、星際娛樂、Sportsbet等",
+        "stricterRegulations": "監管趨嚴:",
+        "stricterRegulationsDesc": "加強反洗錢，考慮更嚴格的廣告限制",
+        "playerBehavior": "玩家行為",
+        "playerBehaviorDesc": "72.8%的成年人參與博彩，彩票最普及，博彩機深植社區文化，體育投注在年輕男性中受歡迎。"
+      }
+    },
+    "southeast": {
+      "philippinesGGR": "3,723億",
+      "singaporeRevenue": "52.5億",
+      "growthRate": "+30%",
+      "stats": {
+        "philippinesGGR": "菲律賓GGR",
+        "singaporeRevenue": "新加坡賭場收入",
+        "growthRate": "年增長率"
+      },
+      "content": {
+        "philippinesMarket": "菲律賓市場",
+        "philippinesMarketDesc": "2024年菲律賓博奕收入創歷史新高，達3,723億披索（約68億美元），年增30.5%。電子遊戲場快速擴張，幾乎追平傳統賭場。",
+        "singaporeMarket": "新加坡市場",
+        "singaporeMarketDesc": "兩大綜合度假村2023年營收52.5億新幣，人均年賭博支出逾2,100歐元，全球領先。",
+        "policyDivergence": "政策分化:",
+        "policyDivergenceDesc": "新菲積極發展，泰國嚴禁但有鬆動跡象",
+        "mainOperators": "主要業者:",
+        "mainOperatorsDesc": "濱海灣金沙、雲頂集團、NagaCorp等",
+        "regulatoryChanges": "法規變化:",
+        "regulatoryChangesDesc": "菲律賓2024年關停POGO業務，專注本地市場"
+      }
+    },
+    "taiwan": {
+      "sportsLottery": "643億",
+      "publicLottery": "1,450億",
+      "growthRate": "+15%",
+      "stats": {
+        "sportsLottery": "運彩銷售額",
+        "publicLottery": "公益彩券",
+        "growthRate": "年增長率"
+      },
+      "content": {
+        "legalMarket": "合法市場",
+        "legalMarketDesc": "台灣博奕以公益彩券和運動彩券為主，2024年運彩銷售643億台幣創新高。",
+        "governmentMonopoly": "政府專營:",
+        "governmentMonopolyDesc": "台灣彩券公司(富邦金控)獨家發行公益彩券",
+        "sportsGrowth": "運彩成長:",
+        "sportsGrowthDesc": "台灣運彩公司(台新金控)經營，開辦以來最高紀錄",
+        "channelPopularity": "通路普及:",
+        "channelPopularityDesc": "便利商店為主要銷售點",
+        "regulatoryEnvironment": "法規環境",
+        "regulatoryEnvironmentDesc": "賭場仍未開放，雖有離島博弈條例但多次公投未過。線上賭博屬違法，但仍有地下市場存在。"
+      }
+    }
+  },
   "menu": {
     "title": "菠菜天眼通",
     "globalTrends": "全球趨勢",
@@ -119,32 +307,53 @@
     "contact": "聯繫"
   },
   "marketData": {
+    "europe": {
+      "name": "歐洲",
+      "marketSize": "1,334",
+      "marketSizeUnit": "億歐元",
+      "growth": "+5%",
+      "features": "線上住址最高，各國法規不一但趨向開放"
+    },
     "usa": {
       "name": "美國",
+      "marketSize": "1,100",
+      "marketSizeUnit": "億美元",
+      "growth": "+10.2%",
       "features": "體育博彩合法化，線上賭博合法化，成熟市場"
-    },
-    "europe": {
-      "name": "歐洲", 
-      "features": "線上住址最高，各國法規不一但趨向開放"
     },
     "japan": {
       "name": "日本",
+      "marketSize": "1,020",
+      "marketSizeUnit": "億美元",
+      "growth": "-5%",
       "features": "柏青哥主導，線上賭博禁止，大型賭場商未營運"
-    },
-    "southeast": {
-      "name": "東南亞",
-      "features": "菲律賓、新加坡領軍，投資後勢動向反彈"
-    },
-    "australia": {
-      "name": "澳洲",
-      "features": "全球人均最高消費，博彩機主導收入來源"
     },
     "china": {
       "name": "中國大陸",
+      "marketSize": "816",
+      "marketSizeUnit": "億美元",
+      "growth": "+36.5%",
       "features": "彩票方彩壟斷法，龐大地下市場與境外消費"
+    },
+    "australia": {
+      "name": "澳洲",
+      "marketSize": "210",
+      "marketSizeUnit": "億美元",
+      "growth": "+25%",
+      "features": "全球人均最高消費，博彩機主導收入來源"
+    },
+    "southeast": {
+      "name": "東南亞",
+      "marketSize": "90",
+      "marketSizeUnit": "億美元",
+      "growth": "+30%",
+      "features": "菲律賓、新加坡領軍，投資後勢動向反彈"
     },
     "taiwan": {
       "name": "台灣",
+      "marketSize": "19.4",
+      "marketSizeUnit": "億美元",
+      "growth": "+15%",
       "features": "公益彩券與運彩為主，無合法賭場"
     }
   },

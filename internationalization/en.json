@@ -63,7 +63,7 @@
       "title": "China",
       "subtitle": "Strictly regulated lottery market with significant underground activity flowing offshore",
       "stats": {
-        "lotteryRevenue": "Lottery Sales",
+        "lotterySales": "Lottery Sales",
         "growthRate": "Growth Rate", 
         "onlinePenetration": "Online Penetration"
       }
@@ -99,10 +99,193 @@
   "dataSources": "Data Sources:",
   "quickLinks": {
     "title": "More Information",
-    "spreadsheet": "Gaming Industry Watchdog Spreadsheet",
-    "spreadsheetDesc": "View Industry Reviews",
+    "spreadsheet": "BTT Gambling Eye Spreadsheet",
+    "spreadsheetDesc": "View industry reviews",
     "contact": "Contact Admin", 
-    "contactDesc": "Business Cooperation"
+    "contactDesc": "Business cooperation"
+  },
+  "globalStats": {
+    "totalRevenue": "536B",
+    "totalRevenueDesc": "2023 Global Total Revenue",
+    "onlineShare": "24.6%",
+    "onlineShareDesc": "Online Gaming Share",
+    "onlineShareValue": "$132B",
+    "expectedRevenue": "573B",
+    "expectedRevenueDesc": "2024 Expected Revenue",
+    "growthRate": "Growth Rate",
+    "growthValue": "+7%",
+    "growthYoY": "+13.1% YoY"
+  },
+  "regionStats": {
+    "europe": {
+      "totalRevenue": "123.4B",
+      "onlineShare": "39%",
+      "growthRate": "+5%",
+      "stats": {
+        "totalRevenue": "2024 Total Revenue",
+        "onlineShare": "Online Share",
+        "growthRate": "Growth Rate"
+      },
+      "content": {
+        "marketSize": "Market Size & Growth",
+        "marketSizeDesc": "Europe's total gaming revenue reached €123.4 billion in 2024, with online accounting for 39%, the highest globally. UK (€30.8B), Italy (€25.5B), France (€17.8B), and Germany (€17.7B) are the main markets.",
+        "mainPlayers": "Key Players & Platforms",
+        "crossBorder": "Cross-border Groups:",
+        "crossBorderDesc": "Flutter Entertainment, Entain, Bet365 dominate multiple markets",
+        "stateOwned": "State-owned Enterprises:",
+        "stateOwnedDesc": "France's FDJ, Nordic Veikkaus, Svenska Spel monopolize national lotteries",
+        "regional": "Regional Operators:",
+        "regionalDesc": "Italy's Lottomatica, German local lottery companies",
+        "onlineMarket": "Online Market Leadership",
+        "nordic": "Nordic Highest:",
+        "nordicDesc": "Sweden's online share 68.3%, Finland and Denmark reach 68%",
+        "uk": "UK Advanced:",
+        "ukDesc": "Online GGR reached €11.1B, accounting for 36% of UK total",
+        "southEurope": "Southern Europe Lower:",
+        "southEuropeDesc": "Spain only 14.2%, Italy 21.7%, still physical-based",
+        "regulations": "Regulatory Environment",
+        "regulationsDesc": "27 countries adopt multi-license system allowing online gaming, UK has the most comprehensive regulation. Countries emphasize anti-money laundering and responsible gaming, with strict age restrictions and advertising regulations."
+      }
+    },
+    "usa": {
+      "commercialRevenue": "66.65B",
+      "totalRevenue": "110B",
+      "onlinePenetration": "25%",
+      "stats": {
+        "commercialRevenue": "Commercial Gaming Revenue",
+        "totalRevenue": "Total Revenue (incl. Tribal)",
+        "onlinePenetration": "Online Penetration"
+      },
+      "content": {
+        "marketSize": "Market Size & Growth",
+        "marketSizeDesc": "US commercial gaming total revenue reached $66.65 billion in 2023, up 10.2% from 2022, setting a record for the third consecutive year. Including tribal casinos, total US gaming revenue approaches $110 billion.",
+        "mainPlayers": "Key Operators & Platforms",
+        "physicalCasinos": "Physical Casinos:",
+        "physicalCasinosDesc": "MGM Resorts, Caesars Entertainment, Wynn Resorts and other large groups dominate",
+        "onlineSports": "Online Sports Betting:",
+        "onlineSportsDesc": "FanDuel has about 40% market share, DraftKings about 30%, together accounting for over 70%",
+        "onlineCasino": "Online Casinos:",
+        "onlineCasinoDesc": "BetMGM, DraftKings, FanDuel operate iGaming in few legal states",
+        "recentTrends": "Recent Three-Year Revenue Trends",
+        "sportsBoom": "Sports Betting Boom:",
+        "sportsBoomDesc": "Reached $11B in 2023, up 46% from previous year",
+        "slotsStable": "Slots Stable:",
+        "slotsStableDesc": "Revenue $35.5B in 2023, accounting for over half of commercial gaming",
+        "onlineGrowth": "Online Casino Growth:",
+        "onlineGrowthDesc": "iGaming revenue $6.17B, up 23% year-over-year",
+        "regulations": "Regulatory Environment",
+        "regulationsDesc": "After Supreme Court overturned PASPA in 2018, over 30 states have legalized sports betting, about 7 states allow online casinos. States implement self-exclusion mechanisms and other responsible gaming measures."
+      }
+    },
+    "japan": {
+      "pachinkoWagering": "15.7T",
+      "marketTrend": "Gradual Decline",
+      "onlinePenetration": "0%",
+      "stats": {
+        "pachinkoWagering": "Pachinko Wagering",
+        "marketTrend": "Market Trend",
+        "onlinePenetration": "Online Penetration"
+      },
+      "content": {
+        "marketFeatures": "Market Characteristics",
+        "marketFeaturesDesc": "Japan's gaming centers on pachinko, with 2023 wagering reaching ¥15.7 trillion (about $110B), but only half of the peak 20 years ago.",
+        "pachinkoDecline": "Pachinko Decline:",
+        "pachinkoDeclineDesc": "Game halls reduced to 6,839, nearly half of peak period",
+        "publicGaming": "Public Gaming:",
+        "publicGamingDesc": "Horse racing wagering ¥3.5T, lottery about ¥1T",
+        "strictRegulations": "Strict Regulations:",
+        "strictRegulationsDesc": "Online gambling completely prohibited, with limited exceptions",
+        "futureDevelopment": "Future Development:",
+        "futureDevelopmentDesc": "Osaka IR casino expected to open in 2029",
+        "playerCharacteristics": "Player Characteristics",
+        "playerCharacteristicsDesc": "About 7.7 million pachinko players, mainly middle-aged men. Horse racing and lottery also have fixed groups. Due to no legal casinos, high-end players go to Macau, Korea and elsewhere."
+      }
+    },
+    "china": {
+      "lotterySales": "579.7B",
+      "growthRate": "+36.5%",
+      "onlinePenetration": "0%",
+      "content": {
+        "officialMarket": "Official Market",
+        "officialMarketDesc": "China's lottery sales reached ¥579.7 billion in 2023, setting a historical high, with sports lottery and welfare lottery equally divided.",
+        "strictPolicy": "Strict Policy:",
+        "strictPolicyDesc": "Except for national lottery, all other gambling forms are prohibited",
+        "dualOperation": "Dual Operation:",
+        "dualOperationDesc": "Sports lottery and welfare lottery monopolized by official institutions",
+        "onlineRestrictions": "Online Restrictions:",
+        "onlineRestrictionsDesc": "Online sales basically stopped since 2015",
+        "undergroundMarket": "Underground Market",
+        "undergroundMarketDesc": "Huge underground gambling demand flows overseas, with Macau, Philippines and others previously highly dependent on Chinese customers. Government continues to crack down on cross-border gambling."
+      }
+    },
+    "australia": {
+      "totalLoss": "32B",
+      "perCapitaLoss": "1,555",
+      "pokiesShare": "49%",
+      "stats": {
+        "totalLoss": "Annual Total Loss",
+        "perCapitaLoss": "Per Capita Loss",
+        "pokiesShare": "Gaming Machine Share"
+      },
+      "content": {
+        "marketFeatures": "Market Characteristics",
+        "marketFeaturesDesc": "Australia's total gambling losses reached A$32 billion in 2022-23 fiscal year, with per capita A$1,555 being the highest globally. Gaming machines (Pokies) are the largest revenue source.",
+        "pokiesDominance": "Pokies Dominance:",
+        "pokiesDominanceDesc": "About 200,000 poker machines contribute A$15.8B, accounting for 49% of total losses",
+        "sportsBetting": "Sports Betting:",
+        "sportsBettingDesc": "Online sports gambling legal and developed, but online casinos prohibited",
+        "mainOperators": "Main Operators:",
+        "mainOperatorsDesc": "Crown Resorts, Star Entertainment, Sportsbet and others",
+        "stricterRegulations": "Stricter Regulations:",
+        "stricterRegulationsDesc": "Strengthening anti-money laundering, considering stricter advertising restrictions",
+        "playerBehavior": "Player Behavior",
+        "playerBehaviorDesc": "72.8% of adults participate in gambling, lottery most popular, pokies deeply rooted in community culture, sports betting popular among young men."
+      }
+    },
+    "southeast": {
+      "philippinesGGR": "372.3B",
+      "singaporeRevenue": "5.25B",
+      "growthRate": "+30%",
+      "stats": {
+        "philippinesGGR": "Philippines GGR",
+        "singaporeRevenue": "Singapore Casino Revenue",
+        "growthRate": "Growth Rate"
+      },
+      "content": {
+        "philippinesMarket": "Philippines Market",
+        "philippinesMarketDesc": "Philippines gaming revenue hit record high in 2024, reaching ₱372.3 billion (about $6.8B), up 30.5% year-over-year. Electronic gaming halls rapidly expanding, almost catching up with traditional casinos.",
+        "singaporeMarket": "Singapore Market",
+        "singaporeMarketDesc": "Two integrated resorts generated S$5.25 billion revenue in 2023, with per capita annual gambling expenditure exceeding €2,100, leading globally.",
+        "policyDivergence": "Policy Divergence:",
+        "policyDivergenceDesc": "Singapore and Philippines actively developing, Thailand strictly prohibits but shows signs of loosening",
+        "mainOperators": "Main Operators:",
+        "mainOperatorsDesc": "Marina Bay Sands, Genting Group, NagaCorp and others",
+        "regulatoryChanges": "Regulatory Changes:",
+        "regulatoryChangesDesc": "Philippines shut down POGO business in 2024, focusing on local market"
+      }
+    },
+    "taiwan": {
+      "sportsLottery": "64.3B",
+      "publicLottery": "145B",
+      "growthRate": "+15%",
+      "stats": {
+        "sportsLottery": "Sports Lottery Sales",
+        "publicLottery": "Public Lottery",
+        "growthRate": "Growth Rate"
+      },
+      "content": {
+        "legalMarket": "Legal Market",
+        "legalMarketDesc": "Taiwan's gaming centers on public welfare lottery and sports lottery, with 2024 sports lottery sales reaching NT$64.3 billion, setting a new record.",
+        "governmentMonopoly": "Government Monopoly:",
+        "governmentMonopolyDesc": "Taiwan Lottery Company (Fubon Financial) exclusively issues public welfare lottery",
+        "sportsGrowth": "Sports Lottery Growth:",
+        "sportsGrowthDesc": "Taiwan Sports Lottery Corporation (Taishin Financial) operates, highest record since establishment",
+        "channelPopularity": "Channel Popularity:",
+        "channelPopularityDesc": "Convenience stores are main sales points",
+        "regulatoryEnvironment": "Regulatory Environment",
+        "regulatoryEnvironmentDesc": "Casinos still not open, though offshore gaming ordinance exists but multiple referendums failed. Online gambling illegal, but underground market still exists."
+      }
+    }
   },
   "menu": {
     "title": "Gambling Industry Watchdog",
@@ -119,32 +302,53 @@
     "contact": "Contact"
   },
   "marketData": {
+    "europe": {
+      "name": "Europe",
+      "marketSize": "1,334",
+      "marketSizeUnit": "Billion EUR",
+      "growth": "+5%",
+      "features": "Online-focused operators, diverse country regulations, unified market approach"
+    },
     "usa": {
       "name": "United States",
+      "marketSize": "1,100",
+      "marketSizeUnit": "Billion USD",
+      "growth": "+10.2%",
       "features": "Sports betting legalization, regulated online gambling, mature market"
-    },
-    "europe": {
-      "name": "Europe", 
-      "features": "Online-focused operators, diverse country regulations, unified market approach"
     },
     "japan": {
       "name": "Japan",
+      "marketSize": "1,020",
+      "marketSizeUnit": "Billion USD",
+      "growth": "-5%",
       "features": "Pachinko dominance, online gambling prohibited, significant cash consumption"
-    },
-    "southeast": {
-      "name": "Southeast Asia",
-      "features": "Philippines and Singapore leadership, rapid investment movement"
-    },
-    "australia": {
-      "name": "Australia",
-      "features": "Highest per-capita gambling consumption globally, gaming machine domination"
     },
     "china": {
       "name": "China",
+      "marketSize": "816",
+      "marketSizeUnit": "Billion USD",
+      "growth": "+36.5%",
       "features": "Lottery monopoly, strict regulations, massive underground offshore flow"
+    },
+    "australia": {
+      "name": "Australia",
+      "marketSize": "210",
+      "marketSizeUnit": "Billion USD",
+      "growth": "+25%",
+      "features": "Highest per-capita gambling consumption globally, gaming machine domination"
+    },
+    "southeast": {
+      "name": "Southeast Asia",
+      "marketSize": "90",
+      "marketSizeUnit": "Billion USD",
+      "growth": "+30%",
+      "features": "Philippines and Singapore leadership, rapid investment movement"
     },
     "taiwan": {
       "name": "Taiwan",
+      "marketSize": "19.4",
+      "marketSizeUnit": "Billion USD",
+      "growth": "+15%",
       "features": "Public lottery and sports lottery focus, no legal casinos"
     }
   },

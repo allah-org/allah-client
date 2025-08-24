@@ -45,7 +45,7 @@
       "title": "美国", 
       "subtitle": "体育博彩合法化推动的成熟市场",
       "stats": {
-        "commercialRevenue": "商业博弈收入",
+        "commercialRevenue": "商业博奕收入",
         "totalRevenue": "含部族赌场总收入",
         "onlinePenetration": "线上渗透率"
       }
@@ -104,6 +104,194 @@
     "contact": "联系站长", 
     "contactDesc": "商务合作"
   },
+  "globalStats": {
+    "totalRevenue": "5,360亿",
+    "totalRevenueDesc": "2023年全球总收入",
+    "onlineShare": "24.6%",
+    "onlineShareDesc": "线上博奕占比",
+    "onlineShareValue": "$1,320亿美元",
+    "expectedRevenue": "5,730亿",
+    "expectedRevenueDesc": "2024年预期收入",
+    "growthRate": "成长率",
+    "growthValue": "+7%",
+    "growthYoY": "+13.1% YoY"
+  },
+  "regionStats": {
+    "europe": {
+      "totalRevenue": "1,234億",
+      "onlineShare": "39%",
+      "growthRate": "+5%",
+      "stats": {
+        "totalRevenue": "2024年总收入",
+        "onlineShare": "线上占比",
+        "growthRate": "年增长率"
+      },
+      "content": {
+        "marketSize": "市场规模与成长",
+        "marketSizeDesc": "欧洲2024年博彩总收入达1,234亿欧元，线上占比39%为全球最高。英国(308亿欧元)、意大利(255亿)、法国(178亿)、德国(177亿)为主要市场。",
+        "mainPlayers": "主要玩家与平台",
+        "crossBorder": "跨国集团:",
+        "crossBorderDesc": "Flutter Entertainment、Entain、Bet365等主导多国市场",
+        "stateOwned": "国营企业:",
+        "stateOwnedDesc": "法国FDJ、北欧Veikkaus、Svenska Spel等垄断本国彩票",
+        "regional": "区域业者:",
+        "regionalDesc": "意大利Lottomatica、德国地方彩票公司等",
+        "onlineMarket": "线上市场领先",
+        "nordic": "北欧最高:",
+        "nordicDesc": "瑞典线上占比68.3%，芬兰、丹麦达68%",
+        "uk": "英国发达:",
+        "ukDesc": "线上GGR达111亿欧元，占全英36%",
+        "southEurope": "南欧较低:",
+        "southEuropeDesc": "西班牙仅14.2%，意大利21.7%，仍以实体为主",
+        "regulations": "法规环境",
+        "regulationsDesc": "27国采多执照制允许线上博奕，英国监管最完善。各国强调防制洗钱和负责任博彩，制定严格年龄限制和广告规范。"
+      }
+    },
+    "usa": {
+      "commercialRevenue": "666.5亿",
+      "totalRevenue": "1,100亿",
+      "onlinePenetration": "25%",
+      "stats": {
+        "commercialRevenue": "商业博奕收入",
+        "totalRevenue": "含部族赌场总收入",
+        "onlinePenetration": "线上渗透率"
+      },
+      "content": {
+        "marketSize": "市场规模与成长",
+        "marketSizeDesc": "2023年美国商业博奕总营收达666.5亿美元，较2022年成长10.2%，连续第三年刷新纪录。若加计部族赌场，全美总博彩收入接近1,100亿美元。",
+        "mainPlayers": "主要业者与平台",
+        "physicalCasinos": "实体赌场:",
+        "physicalCasinosDesc": "美高梅国际(MGM)、凯撒娱乐(Caesars)、永利渡假村(Wynn)等大型集团主导",
+        "onlineSports": "线上体育博彩:",
+        "onlineSportsDesc": "FanDuel市占约40%，DraftKings约30%，合计逾七成市场",
+        "onlineCasino": "线上赌场:",
+        "onlineCasinoDesc": "BetMGM、DraftKings、FanDuel等在少数合法州经营iGaming",
+        "recentTrends": "近三年营收趋势",
+        "sportsBoom": "体育博彩爆发:",
+        "sportsBoomDesc": "2023年达110亿美元，较前一年增46%",
+        "slotsStable": "角子机稳定:",
+        "slotsStableDesc": "2023年营收355亿美元，占商业博彩过半",
+        "onlineGrowth": "线上赌场成长:",
+        "onlineGrowthDesc": "iGaming营收61.7亿美元，年增23%",
+        "regulations": "法规环境",
+        "regulationsDesc": "2018年最高法院推翻PASPA后，30多州已合法化体育投注，约7州开放线上赌场。各州推出自我排除机制等负责任博彩措施。"
+      }
+    },
+    "japan": {
+      "pachinkoWagering": "15.7兆",
+      "marketTrend": "缓步下滑",
+      "onlinePenetration": "0%",
+      "stats": {
+        "pachinkoWagering": "柏青哥投注额",
+        "marketTrend": "市场趋势",
+        "onlinePenetration": "线上渗透率"
+      },
+      "content": {
+        "marketFeatures": "市场特色",
+        "marketFeaturesDesc": "日本博奕以柏青哥为核心，2023年投注额达15.7兆日圆（约1,100亿美元），但仅为20年前高峰期的一半。",
+        "pachinkoDecline": "柏青哥衰退:",
+        "pachinkoDeclineDesc": "游戏厅数量降至6,839家，较巅峰期减少近半",
+        "publicGaming": "公营赌事:",
+        "publicGamingDesc": "竞马投注额3.5兆日圆，彩票约1兆日圆",
+        "strictRegulations": "法规严格:",
+        "strictRegulationsDesc": "线上赌博全面禁止，仅有限例外项目",
+        "futureDevelopment": "未来发展:",
+        "futureDevelopmentDesc": "大阪IR赌场预计2029年开幕",
+        "playerCharacteristics": "玩家特性",
+        "playerCharacteristicsDesc": "约770万柏青哥玩家以中年男性为主力，竞马和彩票也有固定族群。由于无合法赌场，高端玩家多前往澳门、韩国等地。"
+      }
+    },
+    "china": {
+      "lotterySales": "5,797亿",
+      "growthRate": "+36.5%",
+      "onlinePenetration": "0%",
+      "stats": {
+        "lotterySales": "彩票销售额",
+        "growthRate": "年增长率",
+        "onlinePenetration": "线上渗透率"
+      },
+      "content": {
+        "officialMarket": "官方市场",
+        "officialMarketDesc": "2023年中国彩票销售额达5,797亿人民币，创历史新高，体彩和福彩平分秋色。",
+        "strictPolicy": "政策严格:",
+        "strictPolicyDesc": "除国家彩票外，其他赌博形式一律禁止",
+        "dualOperation": "双头运营:",
+        "dualOperationDesc": "体育彩票和福利彩票由官方机构垄断",
+        "onlineRestrictions": "线上限制:",
+        "onlineRestrictionsDesc": "2015年起基本停止网售彩票",
+        "undergroundMarket": "地下市场",
+        "undergroundMarketDesc": "庞大的地下赌博需求流向境外，澳门、菲律宾等地过去高度依赖中国客源。政府持续打击跨境赌博。"
+      }
+    },
+    "australia": {
+      "totalLoss": "320亿",
+      "perCapitaLoss": "1,555",
+      "pokiesShare": "49%",
+      "stats": {
+        "totalLoss": "年度总损失",
+        "perCapitaLoss": "人均损失",
+        "pokiesShare": "博彩机占比"
+      },
+      "content": {
+        "marketFeatures": "市场特色",
+        "marketFeaturesDesc": "澳洲2022-23财年赌博总损失320亿澳元，人均1,555澳元为全球最高。博彩机(Pokies)是最大收入来源。",
+        "pokiesDominance": "博彩机主导:",
+        "pokiesDominanceDesc": "约20万台扑克机贡献158亿澳元，占总损失49%",
+        "sportsBetting": "体育投注:",
+        "sportsBettingDesc": "线上体育赌博合法且发达，但禁止线上赌场",
+        "mainOperators": "主要业者:",
+        "mainOperatorsDesc": "皇冠度假、星际娱乐、Sportsbet等",
+        "stricterRegulations": "监管趋严:",
+        "stricterRegulationsDesc": "加强反洗钱，考虑更严格的广告限制",
+        "playerBehavior": "玩家行为",
+        "playerBehaviorDesc": "72.8%的成年人参与博彩，彩票最普及，博彩机深植社区文化，体育投注在年轻男性中受欢迎。"
+      }
+    },
+    "southeast": {
+      "philippinesGGR": "3,723亿",
+      "singaporeRevenue": "52.5亿",
+      "growthRate": "+30%",
+      "stats": {
+        "philippinesGGR": "菲律宾GGR",
+        "singaporeRevenue": "新加坡赌场收入",
+        "growthRate": "年增长率"
+      },
+      "content": {
+        "philippinesMarket": "菲律宾市场",
+        "philippinesMarketDesc": "2024年菲律宾博奕收入创历史新高，达3,723亿披索（约68亿美元），年增30.5%。电子游戏场快速扩张，几乎追平传统赌场。",
+        "singaporeMarket": "新加坡市场",
+        "singaporeMarketDesc": "两大综合度假村2023年营收52.5亿新币，人均年赌博支出逾2,100欧元，全球领先。",
+        "policyDivergence": "政策分化:",
+        "policyDivergenceDesc": "新菲积极发展，泰国严禁但有松动迹象",
+        "mainOperators": "主要业者:",
+        "mainOperatorsDesc": "滨海湾金沙、云顶集团、NagaCorp等",
+        "regulatoryChanges": "法规变化:",
+        "regulatoryChangesDesc": "菲律宾2024年关停POGO业务，专注本地市场"
+      }
+    },
+    "taiwan": {
+      "sportsLottery": "643亿",
+      "publicLottery": "1,450亿",
+      "growthRate": "+15%",
+      "stats": {
+        "sportsLottery": "运彩销售额",
+        "publicLottery": "公益彩券",
+        "growthRate": "年增长率"
+      },
+      "content": {
+        "legalMarket": "合法市场",
+        "legalMarketDesc": "台湾博奕以公益彩券和运动彩券为主，2024年运彩销售643亿台币创新高。",
+        "governmentMonopoly": "政府专营:",
+        "governmentMonopolyDesc": "台湾彩券公司(富邦金控)独家发行公益彩券",
+        "sportsGrowth": "运彩成长:",
+        "sportsGrowthDesc": "台湾运彩公司(台新金控)经营，开办以来最高纪录",
+        "channelPopularity": "通路普及:",
+        "channelPopularityDesc": "便利商店为主要销售点",
+        "regulatoryEnvironment": "法规环境",
+        "regulatoryEnvironmentDesc": "赌场仍未开放，虽有离岛博弈条例但多次公投未过。线上赌博属违法，但仍有地下市场存在。"
+      }
+    }
+  },
   "menu": {
     "title": "菠菜天眼通",
     "globalTrends": "全球趋势",
@@ -119,32 +307,53 @@
     "contact": "联系"
   },
   "marketData": {
+    "europe": {
+      "name": "欧洲",
+      "marketSize": "1,334",
+      "marketSizeUnit": "亿欧元",
+      "growth": "+5%",
+      "features": "线上住址最高，各国法规不一但趋向开放"
+    },
     "usa": {
       "name": "美国",
+      "marketSize": "1,100",
+      "marketSizeUnit": "亿美元",
+      "growth": "+10.2%",
       "features": "体育博彩合法化，线上赌博合法化，成熟市场"
-    },
-    "europe": {
-      "name": "欧洲", 
-      "features": "线上住址最高，各国法规不一但趋向开放"
     },
     "japan": {
       "name": "日本",
+      "marketSize": "1,020",
+      "marketSizeUnit": "亿美元",
+      "growth": "-5%",
       "features": "柏青哥主导，线上赌博禁止，大型赌场商未营运"
-    },
-    "southeast": {
-      "name": "东南亚",
-      "features": "菲律宾、新加坡领军，投资后势动向反弹"
-    },
-    "australia": {
-      "name": "澳洲",
-      "features": "全球人均最高消费，博彩机主导收入来源"
     },
     "china": {
       "name": "中国大陆",
+      "marketSize": "816",
+      "marketSizeUnit": "亿美元",
+      "growth": "+36.5%",
       "features": "彩票方彩垄断法，庞大地下市场与境外消费"
+    },
+    "australia": {
+      "name": "澳洲",
+      "marketSize": "210",
+      "marketSizeUnit": "亿美元",
+      "growth": "+25%",
+      "features": "全球人均最高消费，博彩机主导收入来源"
+    },
+    "southeast": {
+      "name": "东南亚",
+      "marketSize": "90",
+      "marketSizeUnit": "亿美元",
+      "growth": "+30%",
+      "features": "菲律宾、新加坡领军，投资后势动向反弹"
     },
     "taiwan": {
       "name": "台湾",
+      "marketSize": "19.4",
+      "marketSizeUnit": "亿美元",
+      "growth": "+15%",
       "features": "公益彩券与运彩为主，无合法赌场"
     }
   },

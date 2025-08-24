@@ -77,20 +77,9 @@ const toggleRegion = (regionId) => {
 // 市場數據對比表格
 const marketData = computed(() => [
   {
-    name: t('marketData.usa.name'),
-    marketSize: '$1,100億美元',
-    growth: '+10.2%',
-    growthClass: 'text-green-400',
-    penetration: '25%',
-    penetrationPercent: 25,
-    penetrationColor: 'bg-blue-400',
-    flagColor: 'bg-blue-500',
-    features: t('marketData.usa.features')
-  },
-  {
     name: t('marketData.europe.name'),
-    marketSize: '$1,334億美元',
-    growth: '+5%',
+    marketSize: t('marketData.europe.marketSize') + ' ' + t('marketData.europe.marketSizeUnit'),
+    growth: t('marketData.europe.growth'),
     growthClass: 'text-green-400',
     penetration: '39%',
     penetrationPercent: 39,
@@ -99,9 +88,20 @@ const marketData = computed(() => [
     features: t('marketData.europe.features')
   },
   {
+    name: t('marketData.usa.name'),
+    marketSize: t('marketData.usa.marketSize') + ' ' + t('marketData.usa.marketSizeUnit'),
+    growth: t('marketData.usa.growth'),
+    growthClass: 'text-green-400',
+    penetration: '25%',
+    penetrationPercent: 25,
+    penetrationColor: 'bg-blue-400',
+    flagColor: 'bg-blue-500',
+    features: t('marketData.usa.features')
+  },
+  {
     name: t('marketData.japan.name'),
-    marketSize: '$1,020億美元',
-    growth: '-5%',
+    marketSize: t('marketData.japan.marketSize') + ' ' + t('marketData.japan.marketSizeUnit'),
+    growth: t('marketData.japan.growth'),
     growthClass: 'text-red-400',
     penetration: '~0%',
     penetrationPercent: 0,
@@ -110,31 +110,9 @@ const marketData = computed(() => [
     features: t('marketData.japan.features')
   },
   {
-    name: t('marketData.southeast.name'),
-    marketSize: '$90億美元',
-    growth: '+30%',
-    growthClass: 'text-green-400',
-    penetration: '15%',
-    penetrationPercent: 15,
-    penetrationColor: 'bg-yellow-400',
-    flagColor: 'bg-yellow-500',
-    features: t('marketData.southeast.features')
-  },
-  {
-    name: t('marketData.australia.name'),
-    marketSize: '$210億美元',
-    growth: '+25%',
-    growthClass: 'text-green-400',
-    penetration: '30%',
-    penetrationPercent: 30,
-    penetrationColor: 'bg-orange-400',
-    flagColor: 'bg-orange-500',
-    features: t('marketData.australia.features')
-  },
-  {
     name: t('marketData.china.name'),
-    marketSize: '$816億美元',
-    growth: '+36.5%',
+    marketSize: t('marketData.china.marketSize') + ' ' + t('marketData.china.marketSizeUnit'),
+    growth: t('marketData.china.growth'),
     growthClass: 'text-green-400',
     penetration: '0%',
     penetrationPercent: 0,
@@ -143,9 +121,31 @@ const marketData = computed(() => [
     features: t('marketData.china.features')
   },
   {
+    name: t('marketData.australia.name'),
+    marketSize: t('marketData.australia.marketSize') + ' ' + t('marketData.australia.marketSizeUnit'),
+    growth: t('marketData.australia.growth'),
+    growthClass: 'text-green-400',
+    penetration: '30%',
+    penetrationPercent: 30,
+    penetrationColor: 'bg-orange-400',
+    flagColor: 'bg-orange-500',
+    features: t('marketData.australia.features')
+  },
+  {
+    name: t('marketData.southeast.name'),
+    marketSize: t('marketData.southeast.marketSize') + ' ' + t('marketData.southeast.marketSizeUnit'),
+    growth: t('marketData.southeast.growth'),
+    growthClass: 'text-green-400',
+    penetration: '15%',
+    penetrationPercent: 15,
+    penetrationColor: 'bg-yellow-400',
+    flagColor: 'bg-yellow-500',
+    features: t('marketData.southeast.features')
+  },
+  {
     name: t('marketData.taiwan.name'),
-    marketSize: '$19.4億美元',
-    growth: '+15%',
+    marketSize: t('marketData.taiwan.marketSize') + ' ' + t('marketData.taiwan.marketSizeUnit'),
+    growth: t('marketData.taiwan.growth'),
     growthClass: 'text-green-400',
     penetration: '0%',
     penetrationPercent: 0,
@@ -164,31 +164,11 @@ const detailedRegions = computed(() => [
     icon: '🇪🇺',
     headerBg: 'bg-purple-600',
     stats: [
-      { label: '2024年總收入', value: '€1,234億', valueClass: 'text-purple-400' },
-      { label: '線上佔比', value: '39%', valueClass: 'text-green-400' },
-      { label: '年增長率', value: '+5%', valueClass: 'text-blue-400' }
+      { label: t('regionStats.europe.stats.totalRevenue'), value: '€' + t('regionStats.europe.totalRevenue'), valueClass: 'text-purple-400' },
+      { label: t('regionStats.europe.stats.onlineShare'), value: t('regionStats.europe.onlineShare'), valueClass: 'text-green-400' },
+      { label: t('regionStats.europe.stats.growthRate'), value: t('regionStats.europe.growthRate'), valueClass: 'text-blue-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
-      <p class="mb-4">歐洲2024年博彩總收入達1,234億歐元，線上佔比39%為全球最高。英國(308億歐元)、義大利(255億)、法國(178億)、德國(177億)為主要市場。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要玩家與平台</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>跨國集團:</strong> Flutter Entertainment、Entain、Bet365等主導多國市場</li>
-        <li><strong>國營企業:</strong> 法國FDJ、北歐Veikkaus、Svenska Spel等壟斷本國彩票</li>
-        <li><strong>區域業者:</strong> 義大利Lottomatica、德國地方彩票公司等</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">線上市場領先</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>北歐最高:</strong> 瑞典線上佔比68.3%，芬蘭、丹麥達68%</li>
-        <li><strong>英國發達:</strong> 線上GGR達111億歐元，占全英36%</li>
-        <li><strong>南歐較低:</strong> 西班牙僅14.2%，義大利21.7%，仍以實體為主</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
-      <p class="mb-4">27國採多執照制允許線上博奕，英國監管最完善。各國強調防制洗錢和負責任博彩，制定嚴格年齡限制和廣告規範。</p>
-    `,
+    
     sources: [
       { name: 'European Gaming & Betting Association (EGBA) - Market Report 2024', url: 'https://www.egba.eu' },
       { name: 'H2 Gambling Capital - European Market Analysis', url: 'https://h2gc.com' },
@@ -201,31 +181,11 @@ const detailedRegions = computed(() => [
     icon: '🇺🇸',
     headerBg: 'bg-blue-600',
     stats: [
-      { label: '商業博奕收入', value: '$666.5億', valueClass: 'text-blue-400' },
-      { label: '含部族賭場總收入', value: '$1,100億', valueClass: 'text-green-400' },
-      { label: '線上滲透率', value: '25%', valueClass: 'text-purple-400' }
+      { label: t('regionStats.usa.stats.commercialRevenue'), value: '$' + t('regionStats.usa.commercialRevenue'), valueClass: 'text-blue-400' },
+      { label: t('regionStats.usa.stats.totalRevenue'), value: '$' + t('regionStats.usa.totalRevenue'), valueClass: 'text-green-400' },
+      { label: t('regionStats.usa.stats.onlinePenetration'), value: t('regionStats.usa.onlinePenetration'), valueClass: 'text-purple-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場規模與成長</h4>
-      <p class="mb-4">2023年美國商業博奕總營收達666.5億美元，較2022年成長10.2%，連續第三年刷新紀錄。若加計部族賭場，全美總博彩收入接近1,100億美元。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要業者與平台</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>實體賭場:</strong> 美高梅國際(MGM)、凱撒娛樂(Caesars)、永利渡假村(Wynn)等大型集團主導</li>
-        <li><strong>線上體育博彩:</strong> FanDuel市佔約40%，DraftKings約30%，合計逾七成市場</li>
-        <li><strong>線上賭場:</strong> BetMGM、DraftKings、FanDuel等在少數合法州經營iGaming</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">近三年營收趨勢</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>體育博彩爆發:</strong> 2023年達110億美元，較前一年增46%</li>
-        <li><strong>角子機穩定:</strong> 2023年營收355億美元，占商業博彩過半</li>
-        <li><strong>線上賭場成長:</strong> iGaming營收61.7億美元，年增23%</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">法規環境</h4>
-      <p class="mb-4">2018年最高法院推翻PASPA後，30多州已合法化體育投注，約7州開放線上賭場。各州推出自我排除機制等負責任博彩措施。</p>
-    `,
+    
     sources: [
       { name: 'American Gaming Association - Commercial Gaming Revenue Tracker 2023', url: 'https://www.americangaming.org' },
       { name: 'americangaming.org - Annual Commercial Gaming Revenue Reports', url: 'https://www.americangaming.org/research' }
@@ -238,23 +198,11 @@ const detailedRegions = computed(() => [
     icon: '🇯🇵',
     headerBg: 'bg-red-600',
     stats: [
-      { label: '柏青哥投注額', value: '¥15.7兆', valueClass: 'text-red-400' },
-      { label: '市場趨勢', value: '緩步下滑', valueClass: 'text-orange-400' },
-      { label: '線上滲透率', value: '0%', valueClass: 'text-gray-400' }
+      { label: t('regionStats.japan.stats.pachinkoWagering'), value: '¥' + t('regionStats.japan.pachinkoWagering'), valueClass: 'text-red-400' },
+      { label: t('regionStats.japan.stats.marketTrend'), value: t('regionStats.japan.marketTrend'), valueClass: 'text-orange-400' },
+      { label: t('regionStats.japan.stats.onlinePenetration'), value: t('regionStats.japan.onlinePenetration'), valueClass: 'text-gray-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場特色</h4>
-      <p class="mb-4">日本博奕以柏青哥為核心，2023年投注額達15.7兆日圓（約1,100億美元），但僅為20年前高峰期的一半。</p>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>柏青哥衰退:</strong> 遊戲廳數量降至6,839家，較巔峰期減少近半</li>
-        <li><strong>公營賭事:</strong> 競馬投注額3.5兆日圓，彩票約1兆日圓</li>
-        <li><strong>法規嚴格:</strong> 線上賭博全面禁止，僅有限例外項目</li>
-        <li><strong>未來發展:</strong> 大阪IR賭場預計2029年開幕</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">玩家特性</h4>
-      <p class="mb-4">約770萬柏青哥玩家以中年男性為主力，競馬和彩票也有固定族群。由於無合法賭場，高端玩家多前往澳門、韓國等地。</p>
-    `,
+    
     sources: [
       { name: 'Asia Gaming Brief - Pachinko market analysis 2023', url: 'https://agbrief.com' },
       { name: 'Yano Research Institute - Japan Gaming Market Reports', url: 'https://www.yanoresearch.com' },
@@ -268,23 +216,11 @@ const detailedRegions = computed(() => [
     icon: '🇨🇳',
     headerBg: 'bg-red-700',
     stats: [
-      { label: '彩票銷售額', value: '¥5,797億', valueClass: 'text-red-400' },
-      { label: '年增長率', value: '+36.5%', valueClass: 'text-green-400' },
-      { label: '線上滲透率', value: '0%', valueClass: 'text-gray-400' }
+      { label: t('regionStats.china.stats.lotterySales'), value: '¥' + t('regionStats.china.lotterySales'), valueClass: 'text-red-400' },
+      { label: t('regionStats.china.stats.growthRate'), value: t('regionStats.china.growthRate'), valueClass: 'text-green-400' },
+      { label: t('regionStats.china.stats.onlinePenetration'), value: t('regionStats.china.onlinePenetration'), valueClass: 'text-gray-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">官方市場</h4>
-      <p class="mb-4">2023年中國彩票銷售額達5,797億人民幣，創歷史新高，體彩和福彩平分秋色。</p>
-      
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>政策嚴格:</strong> 除國家彩票外，其他賭博形式一律禁止</li>
-        <li><strong>雙頭運營:</strong> 體育彩票和福利彩票由官方機構壟斷</li>
-        <li><strong>線上限制:</strong> 2015年起基本停止網售彩票</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">地下市場</h4>
-      <p class="mb-4">龐大的地下賭博需求流向境外，澳門、菲律賓等地過去高度依賴中國客源。政府持續打擊跨境賭博。</p>
-    `,
+    
     sources: [
       { name: 'Xinhua - China lottery sales statistics 2023', url: 'http://www.xinhuanet.com' },
       { name: 'China Ministry of Finance - Lottery Administration Reports', url: 'http://www.mof.gov.cn' },
@@ -298,24 +234,11 @@ const detailedRegions = computed(() => [
     icon: '🇦🇺',
     headerBg: 'bg-orange-600',
     stats: [
-      { label: '年度總損失', value: 'A$320億', valueClass: 'text-orange-400' },
-      { label: '人均損失', value: 'A$1,555', valueClass: 'text-red-400' },
-      { label: '博彩機佔比', value: '49%', valueClass: 'text-yellow-400' }
+      { label: t('regionStats.australia.stats.totalLoss'), value: 'A$' + t('regionStats.australia.totalLoss'), valueClass: 'text-orange-400' },
+      { label: t('regionStats.australia.stats.perCapitaLoss'), value: 'A$' + t('regionStats.australia.perCapitaLoss'), valueClass: 'text-red-400' },
+      { label: t('regionStats.australia.stats.pokiesShare'), value: t('regionStats.australia.pokiesShare'), valueClass: 'text-yellow-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場特色</h4>
-      <p class="mb-4">澳洲2022-23財年賭博總損失320億澳元，人均1,555澳元為全球最高。博彩機(Pokies)是最大收入來源。</p>
-      
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>博彩機主導:</strong> 約20萬台撲克機貢獻158億澳元，占總損失49%</li>
-        <li><strong>體育投注:</strong> 線上體育賭博合法且發達，但禁止線上賭場</li>
-        <li><strong>主要業者:</strong> 皇冠度假、星際娛樂、Sportsbet等</li>
-        <li><strong>監管趨嚴:</strong> 加強反洗錢，考慮更嚴格的廣告限制</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">玩家行為</h4>
-      <p class="mb-4">72.8%的成年人參與博彩，彩票最普及，博彩機深植社區文化，體育投注在年輕男性中受歡迎。</p>
-    `,
+    
     sources: [
       { name: 'The Guardian - Australia gambling losses report 2023', url: 'https://www.theguardian.com/australia-news' },
       { name: 'Queensland Government Statistician - Gambling Statistics', url: 'https://www.qgso.qld.gov.au' },
@@ -329,23 +252,11 @@ const detailedRegions = computed(() => [
     icon: 'EA',
     headerBg: 'bg-yellow-600',
     stats: [
-      { label: '菲律賓GGR', value: '₱3,723億', valueClass: 'text-yellow-400' },
-      { label: '新加坡賭場收入', value: 'S$52.5億', valueClass: 'text-green-400' },
-      { label: '年增長率', value: '+30%', valueClass: 'text-green-400' }
+      { label: t('regionStats.southeast.stats.philippinesGGR'), value: '₱' + t('regionStats.southeast.philippinesGGR'), valueClass: 'text-yellow-400' },
+      { label: t('regionStats.southeast.stats.singaporeRevenue'), value: 'S$' + t('regionStats.southeast.singaporeRevenue'), valueClass: 'text-green-400' },
+      { label: t('regionStats.southeast.stats.growthRate'), value: t('regionStats.southeast.growthRate'), valueClass: 'text-green-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">菲律賓市場</h4>
-      <p class="mb-4">2024年菲律賓博奕收入創歷史新高，達3,723億披索（約68億美元），年增30.5%。電子遊戲場快速擴張，幾乎追平傳統賭場。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">新加坡市場</h4>
-      <p class="mb-4">兩大綜合度假村2023年營收52.5億新幣，人均年賭博支出逾2,100歐元，全球領先。</p>
-      
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>政策分化:</strong> 新菲積極發展，泰國嚴禁但有鬆動跡象</li>
-        <li><strong>主要業者:</strong> 濱海灣金沙、雲頂集團、NagaCorp等</li>
-        <li><strong>法規變化:</strong> 菲律賓2024年關停POGO業務，專注本地市場</li>
-      </ul>
-    `,
+    
     sources: [
       { name: 'PAGCOR - Philippines Gaming Revenue Reports 2024', url: 'https://www.pagcor.ph' },
       { name: 'Singapore Pools - Annual Gaming Statistics', url: 'https://www.singaporepools.com.sg' },
@@ -359,23 +270,10 @@ const detailedRegions = computed(() => [
     icon: '🇹🇼',
     headerBg: 'bg-blue-700',
     stats: [
-      { label: '運彩銷售額', value: 'NT$643億', valueClass: 'text-blue-400' },
-      { label: '公益彩券', value: 'NT$1,450億', valueClass: 'text-green-400' },
-      { label: '年增長率', value: '+15%', valueClass: 'text-green-400' }
+      { label: t('regionStats.taiwan.stats.sportsLottery'), value: 'NT$' + t('regionStats.taiwan.sportsLottery'), valueClass: 'text-blue-400' },
+      { label: t('regionStats.taiwan.stats.publicLottery'), value: 'NT$' + t('regionStats.taiwan.publicLottery'), valueClass: 'text-green-400' },
+      { label: t('regionStats.taiwan.stats.growthRate'), value: t('regionStats.taiwan.growthRate'), valueClass: 'text-green-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">合法市場</h4>
-      <p class="mb-4">台灣博奕以公益彩券和運動彩券為主，2024年運彩銷售643億台幣創新高。</p>
-      
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>政府專營:</strong> 台灣彩券公司(富邦金控)獨家發行公益彩券</li>
-        <li><strong>運彩成長:</strong> 台灣運彩公司(台新金控)經營，開辦以來最高紀錄</li>
-        <li><strong>通路普及:</strong> 便利商店為主要銷售點</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-6">法規環境</h4>
-      <p class="mb-4">賭場仍未開放，雖有離島博弈條例但多次公投未過。線上賭博屬違法，但仍有地下市場存在。</p>
-    `,
     sources: [
       { name: 'Public Gaming Research Institute - Taiwan Sports Lottery Report 2024', url: 'https://publicgaming.com' },
       { name: 'Taiwan Lottery Company - Annual Sales Statistics', url: 'https://www.taiwanlottery.com.tw' },
@@ -433,19 +331,19 @@ const detailedRegions = computed(() => [
         <!-- 全球統計卡片 -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div class="bg-gray-700 rounded-lg p-6 text-center">
-            <div class="text-3xl font-bold text-green-400 mb-2">$5,360億</div>
-            <div class="text-white font-medium mb-1">{{ $t('global.totalRevenue') }}</div>
-            <div class="text-gray-400 text-sm">↗ +13.1% YoY</div>
+            <div class="text-3xl font-bold text-green-400 mb-2">${{ $t('globalStats.totalRevenue') }}</div>
+            <div class="text-white font-medium mb-1">{{ $t('globalStats.totalRevenueDesc') }}</div>
+            <div class="text-gray-400 text-sm">↗ {{ $t('globalStats.growthYoY') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-6 text-center">
-            <div class="text-3xl font-bold text-blue-400 mb-2">24.6%</div>
-            <div class="text-white font-medium mb-1">{{ $t('global.onlineShare') }}</div>
-            <div class="text-gray-400 text-sm">$1,320億美元</div>
+            <div class="text-3xl font-bold text-blue-400 mb-2">{{ $t('globalStats.onlineShare') }}</div>
+            <div class="text-white font-medium mb-1">{{ $t('globalStats.onlineShareDesc') }}</div>
+            <div class="text-gray-400 text-sm">{{ $t('globalStats.onlineShareValue') }}</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-6 text-center">
-            <div class="text-3xl font-bold text-purple-400 mb-2">$5,730億</div>
-            <div class="text-white font-medium mb-1">{{ $t('global.expectedRevenue') }}</div>
-            <div class="text-gray-400 text-sm">↗ +7% {{ $t('global.growthRate') }}</div>
+            <div class="text-3xl font-bold text-purple-400 mb-2">${{ $t('globalStats.expectedRevenue') }}</div>
+            <div class="text-white font-medium mb-1">{{ $t('globalStats.expectedRevenueDesc') }}</div>
+            <div class="text-gray-400 text-sm">↗ {{ $t('globalStats.growthValue') }} {{ $t('globalStats.growthRate') }}</div>
           </div>
         </div>
 
@@ -588,7 +486,129 @@ const detailedRegions = computed(() => [
 
             <!-- 詳細內容 -->
             <div class="prose prose-invert max-w-none">
-              <div v-html="region.content" class="text-gray-300 text-sm leading-relaxed"></div>
+              <div class="text-gray-300 text-sm leading-relaxed">
+                <!-- 歐洲 -->
+                <div v-if="region.id === 'europe'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.europe.content.marketSize') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.europe.content.marketSizeDesc') }}</p>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.europe.content.mainPlayers') }}</h4>
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.europe.content.crossBorder') }}</strong> {{ $t('regionStats.europe.content.crossBorderDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.europe.content.stateOwned') }}</strong> {{ $t('regionStats.europe.content.stateOwnedDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.europe.content.regional') }}</strong> {{ $t('regionStats.europe.content.regionalDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.europe.content.onlineMarket') }}</h4>
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.europe.content.nordic') }}</strong> {{ $t('regionStats.europe.content.nordicDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.europe.content.uk') }}</strong> {{ $t('regionStats.europe.content.ukDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.europe.content.southEurope') }}</strong> {{ $t('regionStats.europe.content.southEuropeDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.europe.content.regulations') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.europe.content.regulationsDesc') }}</p>
+                </div>
+
+                <!-- 美國 -->
+                <div v-if="region.id === 'usa'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.usa.content.marketSize') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.usa.content.marketSizeDesc') }}</p>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.usa.content.mainPlayers') }}</h4>
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.usa.content.physicalCasinos') }}</strong> {{ $t('regionStats.usa.content.physicalCasinosDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.usa.content.onlineSports') }}</strong> {{ $t('regionStats.usa.content.onlineSportsDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.usa.content.onlineCasino') }}</strong> {{ $t('regionStats.usa.content.onlineCasinoDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.usa.content.recentTrends') }}</h4>
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.usa.content.sportsBoom') }}</strong> {{ $t('regionStats.usa.content.sportsBoomDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.usa.content.slotsStable') }}</strong> {{ $t('regionStats.usa.content.slotsStableDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.usa.content.onlineGrowth') }}</strong> {{ $t('regionStats.usa.content.onlineGrowthDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('regionStats.usa.content.regulations') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.usa.content.regulationsDesc') }}</p>
+                </div>
+
+                <!-- 日本 -->
+                <div v-if="region.id === 'japan'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.japan.content.marketFeatures') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.japan.content.marketFeaturesDesc') }}</p>
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.japan.content.pachinkoDecline') }}</strong> {{ $t('regionStats.japan.content.pachinkoDeclineDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.japan.content.publicGaming') }}</strong> {{ $t('regionStats.japan.content.publicGamingDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.japan.content.strictRegulations') }}</strong> {{ $t('regionStats.japan.content.strictRegulationsDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.japan.content.futureDevelopment') }}</strong> {{ $t('regionStats.japan.content.futureDevelopmentDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-6">{{ $t('regionStats.japan.content.playerCharacteristics') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.japan.content.playerCharacteristicsDesc') }}</p>
+                </div>
+
+                <!-- 中國 -->
+                <div v-if="region.id === 'china'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.china.content.officialMarket') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.china.content.officialMarketDesc') }}</p>
+                  
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.china.content.strictPolicy') }}</strong> {{ $t('regionStats.china.content.strictPolicyDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.china.content.dualOperation') }}</strong> {{ $t('regionStats.china.content.dualOperationDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.china.content.onlineRestrictions') }}</strong> {{ $t('regionStats.china.content.onlineRestrictionsDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-6">{{ $t('regionStats.china.content.undergroundMarket') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.china.content.undergroundMarketDesc') }}</p>
+                </div>
+
+                <!-- 澳洲 -->
+                <div v-if="region.id === 'australia'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.australia.content.marketFeatures') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.australia.content.marketFeaturesDesc') }}</p>
+                  
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.australia.content.pokiesDominance') }}</strong> {{ $t('regionStats.australia.content.pokiesDominanceDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.australia.content.sportsBetting') }}</strong> {{ $t('regionStats.australia.content.sportsBettingDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.australia.content.mainOperators') }}</strong> {{ $t('regionStats.australia.content.mainOperatorsDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.australia.content.stricterRegulations') }}</strong> {{ $t('regionStats.australia.content.stricterRegulationsDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-6">{{ $t('regionStats.australia.content.playerBehavior') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.australia.content.playerBehaviorDesc') }}</p>
+                </div>
+
+                <!-- 東南亞 -->
+                <div v-if="region.id === 'southeast-asia'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.southeast.content.philippinesMarket') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.southeast.content.philippinesMarketDesc') }}</p>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-6">{{ $t('regionStats.southeast.content.singaporeMarket') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.southeast.content.singaporeMarketDesc') }}</p>
+                  
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.southeast.content.policyDivergence') }}</strong> {{ $t('regionStats.southeast.content.policyDivergenceDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.southeast.content.mainOperators') }}</strong> {{ $t('regionStats.southeast.content.mainOperatorsDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.southeast.content.regulatoryChanges') }}</strong> {{ $t('regionStats.southeast.content.regulatoryChangesDesc') }}</li>
+                  </ul>
+                </div>
+
+                <!-- 台灣 -->
+                <div v-if="region.id === 'taiwan'">
+                  <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regionStats.taiwan.content.legalMarket') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.taiwan.content.legalMarketDesc') }}</p>
+                  
+                  <ul class="list-disc list-inside mb-4 space-y-1">
+                    <li><strong>{{ $t('regionStats.taiwan.content.governmentMonopoly') }}</strong> {{ $t('regionStats.taiwan.content.governmentMonopolyDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.taiwan.content.sportsGrowth') }}</strong> {{ $t('regionStats.taiwan.content.sportsGrowthDesc') }}</li>
+                    <li><strong>{{ $t('regionStats.taiwan.content.channelPopularity') }}</strong> {{ $t('regionStats.taiwan.content.channelPopularityDesc') }}</li>
+                  </ul>
+                  
+                  <h4 class="text-lg font-semibold text-white mb-3 mt-6">{{ $t('regionStats.taiwan.content.regulatoryEnvironment') }}</h4>
+                  <p class="mb-4">{{ $t('regionStats.taiwan.content.regulatoryEnvironmentDesc') }}</p>
+                </div>
+              </div>
             </div>
 
             <!-- 數據來源 -->
