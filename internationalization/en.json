@@ -105,7 +105,7 @@
     "contactDesc": "Business Cooperation"
   },
   "menu": {
-    "title": "Gaming Industry Watchdog",
+    "title": "Gambling Industry Watchdog",
     "globalTrends": "Global Trends",
     "gamingTrends": "Gaming Trends", 
     "techTrends": "Tech Trends",
@@ -115,7 +115,37 @@
   },
   "navbar": {
     "menu": "Menu",
-    "home": "Watchdog",
+    "home": "Gambling Eye",
     "contact": "Contact"
+  },
+  "marketData": {
+    "usa": {
+      "name": "United States",
+      "features": "Sports betting legalization, regulated online gambling, mature market"
+    },
+    "europe": {
+      "name": "Europe", 
+      "features": "Online-focused operators, diverse country regulations, unified market approach"
+    },
+    "japan": {
+      "name": "Japan",
+      "features": "Pachinko dominance, online gambling prohibited, significant cash consumption"
+    },
+    "southeast": {
+      "name": "Southeast Asia",
+      "features": "Philippines and Singapore leadership, rapid investment movement"
+    },
+    "australia": {
+      "name": "Australia",
+      "features": "Highest per-capita gambling consumption globally, gaming machine domination"
+    },
+    "china": {
+      "name": "China",
+      "features": "Lottery monopoly, strict regulations, massive underground offshore flow"
+    },
+    "taiwan": {
+      "name": "Taiwan",
+      "features": "Public lottery and sports lottery focus, no legal casinos"
+    }
   }
 }

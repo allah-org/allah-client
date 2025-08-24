@@ -75,9 +75,9 @@ const toggleRegion = (regionId) => {
 }
 
 // 市場數據對比表格
-const marketData = [
+const marketData = computed(() => [
   {
-    name: '美國',
+    name: t('marketData.usa.name'),
     marketSize: '$1,100億美元',
     growth: '+10.2%',
     growthClass: 'text-green-400',
@@ -85,10 +85,10 @@ const marketData = [
     penetrationPercent: 25,
     penetrationColor: 'bg-blue-400',
     flagColor: 'bg-blue-500',
-    features: '體育博彩合法化推動，傳統賭場+線上快速成長'
+    features: t('marketData.usa.features')
   },
   {
-    name: '歐洲',
+    name: t('marketData.europe.name'),
     marketSize: '$1,334億美元',
     growth: '+5%',
     growthClass: 'text-green-400',
@@ -96,10 +96,10 @@ const marketData = [
     penetrationPercent: 39,
     penetrationColor: 'bg-purple-400',
     flagColor: 'bg-purple-500',
-    features: '線上佔比最高，各國法規不一但趨向開放'
+    features: t('marketData.europe.features')
   },
   {
-    name: '日本',
+    name: t('marketData.japan.name'),
     marketSize: '$1,020億美元',
     growth: '-5%',
     growthClass: 'text-red-400',
@@ -107,10 +107,10 @@ const marketData = [
     penetrationPercent: 0,
     penetrationColor: 'bg-gray-400',
     flagColor: 'bg-red-500',
-    features: '柏青哥主導，線上賭博禁止，大型賭場尚未營運'
+    features: t('marketData.japan.features')
   },
   {
-    name: '東南亞',
+    name: t('marketData.southeast.name'),
     marketSize: '$90億美元',
     growth: '+30%',
     growthClass: 'text-green-400',
@@ -118,10 +118,10 @@ const marketData = [
     penetrationPercent: 15,
     penetrationColor: 'bg-yellow-400',
     flagColor: 'bg-yellow-500',
-    features: '菲律賓、新加坡領軍，疫情後強勁反彈'
+    features: t('marketData.southeast.features')
   },
   {
-    name: '澳洲',
+    name: t('marketData.australia.name'),
     marketSize: '$210億美元',
     growth: '+25%',
     growthClass: 'text-green-400',
@@ -129,10 +129,10 @@ const marketData = [
     penetrationPercent: 30,
     penetrationColor: 'bg-orange-400',
     flagColor: 'bg-orange-500',
-    features: '全球人均最高消費，博彩機是主要收入來源'
+    features: t('marketData.australia.features')
   },
   {
-    name: '中國大陸',
+    name: t('marketData.china.name'),
     marketSize: '$816億美元',
     growth: '+36.5%',
     growthClass: 'text-green-400',
@@ -140,10 +140,10 @@ const marketData = [
     penetrationPercent: 0,
     penetrationColor: 'bg-gray-400',
     flagColor: 'bg-red-600',
-    features: '僅官方彩票合法，龐大地下市場與境外消費'
+    features: t('marketData.china.features')
   },
   {
-    name: '台灣',
+    name: t('marketData.taiwan.name'),
     marketSize: '$19.4億美元',
     growth: '+15%',
     growthClass: 'text-green-400',
@@ -151,9 +151,9 @@ const marketData = [
     penetrationPercent: 0,
     penetrationColor: 'bg-gray-400',
     flagColor: 'bg-blue-600',
-    features: '公益彩券與運彩為主，無合法賭場'
+    features: t('marketData.taiwan.features')
   }
-]
+])
 
 // 詳細地區分析數據 - 按市場規模排序
 const detailedRegions = computed(() => [

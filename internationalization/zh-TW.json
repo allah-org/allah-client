@@ -117,5 +117,35 @@
     "menu": "選單",
     "home": "天眼通",
     "contact": "聯繫"
+  },
+  "marketData": {
+    "usa": {
+      "name": "美國",
+      "features": "體育博彩合法化，線上賭博合法化，成熟市場"
+    },
+    "europe": {
+      "name": "歐洲", 
+      "features": "線上住址最高，各國法規不一但趨向開放"
+    },
+    "japan": {
+      "name": "日本",
+      "features": "柏青哥主導，線上賭博禁止，大型賭場商未營運"
+    },
+    "southeast": {
+      "name": "東南亞",
+      "features": "菲律賓、新加坡領軍，投資後勢動向反彈"
+    },
+    "australia": {
+      "name": "澳洲",
+      "features": "全球人均最高消費，博彩機主導收入來源"
+    },
+    "china": {
+      "name": "中國大陸",
+      "features": "彩票方彩壟斷法，龐大地下市場與境外消費"
+    },
+    "taiwan": {
+      "name": "台灣",
+      "features": "公益彩券與運彩為主，無合法賭場"
+    }
   }
 }
