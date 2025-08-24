@@ -33,7 +33,7 @@ const toggleSideMenu = () => {
         <span class="text-xs text-blue-400">{{ t('navbar.home') }}</span>
       </NuxtLink>
 
-      <!-- 右邊：聯繫 -->
+      <!-- 右邊：聯繫我們 -->
       <NuxtLink 
         to="/contact" 
         class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-700 transition-colors"

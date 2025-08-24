@@ -298,15 +298,18 @@
     "title": "菠菜天眼通",
     "globalTrends": "全球趋势",
     "gamingTrends": "游戏趋势", 
-    "techTrends": "技术趋势",
-    "aiTrends": "AI趋势",
+    "techSpecs": "技术规格",
+    "regulations": "法规规范",
+    "paymentChannels": "金流管道",
+    "futureTrends": "未来趋势",
+    "copyright": "版权声明",
     "privacy": "隐私权声明",
     "language": "语言选择"
   },
   "navbar": {
     "menu": "选单",
     "home": "天眼通",
-    "contact": "联系"
+    "contact": "联系我们"
   },
   "marketData": {
     "europe": {
@@ -691,6 +694,310 @@
       "mobileShare": "65%",
       "mobileGambling": "移动端博彩比例",
       "mobileShareType": "2023年"
+    }
+  },
+  "regulations": {
+    "pageTitle": "法规规范 - 菠菜天眼通",
+    "pageDescription": "了解全球博弈产业的法规环境和监管趋势",
+    "title": "全球博弈法规规范",
+    "subtitle": "深入了解各地区博弈产业的法规环境、监管机构和合规要求",
+    "overview": {
+      "title": "法规环境概览",
+      "description": "全球博弈产业面临着复杂多样的法规环境，从完全合法化到严格禁止，各地区的政策差异显著影响着产业发展。",
+      "legal": {
+        "title": "合法化地区",
+        "description": "欧洲、美国部分州、澳洲等地区已建立完善的博弈法规体系"
+      },
+      "restricted": {
+        "title": "限制性地区",
+        "description": "亚洲大部分地区对博弈产业实施严格管制或部分禁止"
+      }
+    },
+    "legalStatus": "法律地位",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "监管机构",
+    "regions": {
+      "europe": {
+        "title": "欧洲",
+        "subtitle": "法规最完善的成熟市场",
+        "legalStatus": {
+          "online": "线上博弈：完全合法",
+          "landbased": "实体赌场：完全合法",
+          "sports": "体育博彩：完全合法"
+        },
+        "keyFeatures": {
+          "licensing": "统一发牌制度",
+          "responsible": "负责任博弈要求",
+          "taxation": "透明税收政策"
+        },
+        "regulatoryBody": "各国设有专门的博弈监管机构，如英国博弈委员会、马耳他博弈管理局等"
+      },
+      "usa": {
+        "title": "美国",
+        "subtitle": "州级立法为主",
+        "legalStatus": {
+          "online": "线上博弈：部分州合法",
+          "landbased": "实体赌场：大部分州合法",
+          "sports": "体育博彩：大部分州合法"
+        },
+        "keyFeatures": {
+          "stateBased": "州级监管",
+          "federal": "联邦法规",
+          "tribal": "部族自治"
+        },
+        "regulatoryBody": "各州设有博弈委员会，联邦层面由司法部监管"
+      },
+      "asia": {
+        "title": "亚洲",
+        "subtitle": "法规严格限制",
+        "legalStatus": {
+          "online": "线上博弈：大部分禁止",
+          "landbased": "实体赌场：有限开放",
+          "sports": "体育博彩：部分允许"
+        },
+        "keyFeatures": {
+          "strict": "严格管制",
+          "limited": "有限开放",
+          "underground": "地下市场"
+        },
+        "regulatoryBody": "各国设有彩票或博弈监管机构，但权限有限"
+      }
+    },
+    "trends": {
+      "title": "法规趋势",
+      "digitalization": {
+        "title": "数字化监管",
+        "description": "利用科技手段提升监管效率和透明度"
+      },
+      "harmonization": {
+        "title": "国际协调",
+        "description": "推动跨境博弈法规的统一和协调"
+      },
+      "compliance": {
+        "title": "合规要求",
+        "description": "加强反洗钱和负责任博弈的合规要求"
+      }
+    }
+  },
+  "payment": {
+    "pageTitle": "金流管道 - 菠菜天眼通",
+    "pageDescription": "了解博弈产业的金流趋势和支付方式",
+    "title": "博弈产业金流管道",
+    "subtitle": "深入分析全球博弈产业的支付方式、金流趋势和未来发展",
+    "overview": {
+      "title": "金流概览",
+      "description": "博弈产业是全球最大的金流产业之一，年交易量超过2.8万亿美元，涵盖传统银行、数字支付、加密货币等多种支付方式。",
+      "legal": {
+        "title": "合法金流",
+        "description": "通过正规银行、支付处理商和监管机构的合规金流管道"
+      },
+      "underground": {
+        "title": "地下金流",
+        "description": "在法规限制地区，通过地下钱庄、加密货币等非正规管道"
+      }
+    },
+    "paymentMethods": "支付方式",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "监管机构",
+    "regions": {
+      "northAmerica": {
+        "title": "北美",
+        "subtitle": "信用卡主导的成熟市场",
+        "paymentMethods": [
+          { "type": "creditCard", "color": "bg-blue-500" },
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "digitalWallet", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["strong banking system", "high credit card adoption", "regulated payment processors"],
+        "regulatoryBody": "美国财政部、加拿大金融机构监管办公室等"
+      },
+      "europe": {
+        "title": "欧洲",
+        "subtitle": "银行转账和数字支付并重",
+        "paymentMethods": [
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "creditCard", "color": "bg-blue-500" },
+          { "type": "digitalPayment", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["SEPA system", "strong regulation", "digital innovation"],
+        "regulatoryBody": "欧洲央行、各国金融监管机构等"
+      },
+      "asia": {
+        "title": "亚洲",
+        "subtitle": "移动支付快速发展",
+        "paymentMethods": [
+          { "type": "mobilePayment", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
+        "regulatoryBody": "各国央行和金融监管机构"
+      }
+    },
+    "trends": {
+      "title": "金流趋势",
+      "blockchain": {
+        "title": "区块链技术",
+        "description": "去中心化支付和智能合约将重塑金流生态"
+      },
+      "ai": {
+        "title": "AI风控",
+        "description": "人工智能将大幅提升反洗钱和风险控制能力"
+      },
+      "biometrics": {
+        "title": "生物识别",
+        "description": "指纹、脸部识别等技术将成为主流验证方式"
+      }
+    }
+  },
+  "future": {
+    "pageTitle": "未来趋势 - 菠菜天眼通",
+    "pageDescription": "探索博弈产业的未来发展趋势和技术预测",
+    "title": "博弈产业未来趋势",
+    "subtitle": "前瞻性分析博弈产业的技术发展、市场演变和未来机遇",
+    "overview": {
+      "title": "趋势概览",
+      "description": "博弈产业正处于技术革新的关键时期，VR/AR、AI、区块链等新技术将重塑整个产业生态。",
+      "technology": {
+        "title": "技术驱动",
+        "description": "新技术将大幅提升用户体验和营运效率"
+      },
+      "regulation": {
+        "title": "法规演进",
+        "description": "法规将逐步适应新技术和商业模式"
+      }
+    },
+    "keyTrends": "关键趋势",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "监管机构",
+    "regions": {
+      "northAmerica": {
+        "title": "北美",
+        "subtitle": "Leading the digital transformation in the region",
+        "keyTrends": [
+          { "type": "digitalTransformation", "color": "bg-blue-500" },
+          { "type": "cloudComputing", "color": "bg-purple-500" },
+          { "type": "cyberSecurity", "color": "bg-red-500" }
+        ],
+        "keyFeatures": ["strong regulatory framework", "advanced infrastructure", "innovative startups"],
+        "regulatoryBody": "North American regulatory bodies"
+      },
+      "europe": {
+        "title": "欧洲",
+        "subtitle": "Focusing on privacy and sustainability",
+        "keyTrends": [
+          { "type": "privacyFocus", "color": "bg-purple-500" },
+          { "type": "sustainability", "color": "bg-green-500" },
+          { "type": "regulatoryHarmonization", "color": "bg-blue-500" }
+        ],
+        "keyFeatures": ["strict data protection laws", "sustainable initiatives", "harmonized regulations"],
+        "regulatoryBody": "European regulatory bodies"
+      },
+      "asiaPacific": {
+        "title": "亚太地区",
+        "subtitle": "Emerging markets with rapid growth",
+        "keyTrends": [
+          { "type": "digitalInclusion", "color": "bg-green-500" },
+          { "type": "cloudAdoption", "color": "bg-purple-500" },
+          { "type": "regulatoryInnovation", "color": "bg-blue-500" }
+        ],
+        "keyFeatures": ["fast-growing markets", "regulatory flexibility", "digital innovation"],
+        "regulatoryBody": "Asian regulatory bodies"
+      }
+    },
+    "predictions": {
+      "title": "未来预测",
+      "aiAdvancement": {
+        "title": "AI技术进展",
+        "description": "人工智能将在博弈产业中发挥越来越重要的作用"
+      },
+      "blockchainExpansion": {
+        "title": "区块链扩展",
+        "description": "区块链技术将改变支付和验证方式"
+      },
+      "quantumComputing": {
+        "title": "量子计算",
+        "description": "量子计算将带来加密和安全的革命性突破"
+      }
+    }
+  },
+  "copyright": {
+    "pageTitle": "版权声明 - 菠菜天眼通",
+    "pageDescription": "菠菜天眼通的版权声明和使用条款",
+    "title": "版权声明",
+    "subtitle": "本网站的所有内容均受版权法保护，请仔细阅读以下声明",
+    "overview": {
+      "title": "版权概览",
+      "description": "菠菜天眼通网站及其所有内容均受中华人民共和国著作权法及国际著作权公约保护。",
+      "intellectual": {
+        "title": "知识产权",
+        "description": "包括文字、图片、图表、软件、音频、视频、设计、布局和整体外观"
+      },
+      "legal": {
+        "title": "法律保护",
+        "description": "受中华人民共和国著作权法及国际著作权公约保护"
+      }
+    },
+    "copyrightLaws": "版权法规",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "监管机构",
+    "regions": {
+      "us": {
+        "title": "美国",
+        "subtitle": "Strong protection for intellectual property",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "patent", "color": "bg-green-500" }
+        ],
+        "keyFeatures": ["Broad protection for original works", "Strong enforcement", "Extensive damages"],
+        "regulatoryBody": "United States Copyright Office"
+      },
+      "eu": {
+        "title": "欧盟",
+        "subtitle": "Broad and harmonized protection",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "design", "color": "bg-pink-500" }
+        ],
+        "keyFeatures": ["Harmonized protection across member states", "Broad scope of protection", "Strong enforcement"],
+        "regulatoryBody": "European Union"
+      },
+      "jp": {
+        "title": "日本",
+        "subtitle": "Traditional and modern protection",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "design", "color": "bg-pink-500" }
+        ],
+        "keyFeatures": ["Traditional copyright system", "Modern digital protection", "Strong enforcement"],
+        "regulatoryBody": "Japan"
+      }
+    },
+    "protection": {
+      "title": "版权保护",
+      "dmca": {
+        "title": "DMCA保护",
+        "description": "数字千禧年著作权法提供数字内容保护"
+      },
+      "copyright": {
+        "title": "著作权保护",
+        "description": "原创作品的完整著作权保护"
+      },
+      "trademark": {
+        "title": "商标保护",
+        "description": "品牌和标识的商标权保护"
+      },
+      "patent": {
+        "title": "专利保护",
+        "description": "技术创新的专利权保护"
+      },
+      "design": {
+        "title": "设计保护",
+        "description": "外观设计的知识产权保护"
+      }
     }
   }
 }

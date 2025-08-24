@@ -290,17 +290,20 @@
     }
   },
   "menu": {
-    "title": "Gambling Eye",
+    "title": "Gaming Trends Eye",
     "globalTrends": "Global Trends",
     "gamingTrends": "Gaming Trends", 
-    "techTrends": "Tech Trends",
-    "aiTrends": "AI Trends",
+    "techSpecs": "Tech Specs",
+    "regulations": "Regulations",
+    "paymentChannels": "Payment Channels",
+    "futureTrends": "Future Trends",
+    "copyright": "Copyright",
     "privacy": "Privacy Policy",
     "language": "Language"
   },
   "navbar": {
     "menu": "Menu",
-    "home": "Gambling Eye",
+    "home": "Home",
     "contact": "Contact"
   },
   "marketData": {
@@ -686,6 +689,310 @@
       "mobileShare": "65%",
       "mobileGambling": "Mobile Gambling Share",
       "mobileShareType": "2023 Data"
+    }
+  },
+  "regulations": {
+    "pageTitle": "Regulations - Gaming Trends Eye",
+    "pageDescription": "Understanding the regulatory environment and supervision trends of the global gaming industry",
+    "title": "Global Gaming Regulations",
+    "subtitle": "In-depth understanding of the regulatory environment, supervisory institutions and compliance requirements of the gaming industry in various regions",
+    "overview": {
+      "title": "Regulatory Environment Overview",
+      "description": "The global gaming industry faces a complex and diverse regulatory environment, from complete legalization to strict prohibition, with significant policy differences across regions affecting industry development.",
+      "legal": {
+        "title": "Legalized Regions",
+        "description": "Europe, some US states, Australia and other regions have established comprehensive gaming regulatory systems"
+      },
+      "restricted": {
+        "title": "Restricted Regions",
+        "description": "Most Asian regions implement strict controls or partial prohibitions on the gaming industry"
+      }
+    },
+    "legalStatus": "Legal Status",
+    "keyFeatures": "Key Features",
+    "regulatoryBody": "Regulatory Body",
+    "regions": {
+      "europe": {
+        "title": "Europe",
+        "subtitle": "Most mature market with comprehensive regulations",
+        "legalStatus": {
+          "online": "Online Gaming: Fully Legal",
+          "landbased": "Land-based Casinos: Fully Legal",
+          "sports": "Sports Betting: Fully Legal"
+        },
+        "keyFeatures": {
+          "licensing": "Unified Licensing System",
+          "responsible": "Responsible Gaming Requirements",
+          "taxation": "Transparent Tax Policy"
+        },
+        "regulatoryBody": "Each country has specialized gaming regulatory bodies, such as the UK Gambling Commission, Malta Gaming Authority, etc."
+      },
+      "usa": {
+        "title": "United States",
+        "subtitle": "State-level legislation based",
+        "legalStatus": {
+          "online": "Online Gaming: Partially Legal by State",
+          "landbased": "Land-based Casinos: Mostly Legal",
+          "sports": "Sports Betting: Mostly Legal"
+        },
+        "keyFeatures": {
+          "stateBased": "State-level Supervision",
+          "federal": "Federal Regulations",
+          "tribal": "Tribal Autonomy"
+        },
+        "regulatoryBody": "Each state has a gaming commission, with federal oversight by the Department of Justice"
+      },
+      "asia": {
+        "title": "Asia",
+        "subtitle": "Strict regulatory restrictions",
+        "legalStatus": {
+          "online": "Online Gaming: Mostly Prohibited",
+          "landbased": "Land-based Casinos: Limited Access",
+          "sports": "Sports Betting: Partially Allowed"
+        },
+        "keyFeatures": {
+          "strict": "Strict Control",
+          "limited": "Limited Access",
+          "underground": "Underground Market"
+        },
+        "regulatoryBody": "Each country has lottery or gaming regulatory bodies, but with limited authority"
+      }
+    },
+    "trends": {
+      "title": "Regulatory Trends",
+      "digitalization": {
+        "title": "Digital Supervision",
+        "description": "Using technology to improve regulatory efficiency and transparency"
+      },
+      "harmonization": {
+        "title": "International Coordination",
+        "description": "Promoting unified and coordinated cross-border gaming regulations"
+      },
+      "compliance": {
+        "title": "Compliance Requirements",
+        "description": "Strengthening anti-money laundering and responsible gaming compliance requirements"
+      }
+    }
+  },
+  "payment": {
+    "pageTitle": "Payment Channels - Gaming Trends Eye",
+    "pageDescription": "Understanding payment trends and methods in the gaming industry",
+    "title": "Gaming Industry Payment Channels",
+    "subtitle": "In-depth analysis of payment methods, payment trends and future development in the global gaming industry",
+    "overview": {
+      "title": "Payment Overview",
+      "description": "The gaming industry is one of the largest payment industries globally, with annual transaction volume exceeding $2.8 trillion, covering traditional banking, digital payments, cryptocurrencies and other payment methods.",
+      "legal": {
+        "title": "Legal Payments",
+        "description": "Compliant payment channels through formal banks, payment processors and regulatory bodies"
+      },
+      "underground": {
+        "title": "Underground Payments",
+        "description": "In regions with regulatory restrictions, through underground banks, cryptocurrencies and other informal channels"
+      }
+    },
+    "paymentMethods": "Payment Methods",
+    "keyFeatures": "Key Features",
+    "regulatoryBody": "Regulatory Body",
+    "regions": {
+      "northAmerica": {
+        "title": "North America",
+        "subtitle": "Credit card dominated mature market",
+        "paymentMethods": [
+          { "type": "creditCard", "color": "bg-blue-500" },
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "digitalWallet", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["strong banking system", "high credit card adoption", "regulated payment processors"],
+        "regulatoryBody": "US Treasury, Canadian Office of the Superintendent of Financial Institutions, etc."
+      },
+      "europe": {
+        "title": "Europe",
+        "subtitle": "Bank transfers and digital payments equally important",
+        "paymentMethods": [
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "creditCard", "color": "bg-blue-500" },
+          { "type": "digitalPayment", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["SEPA system", "strong regulation", "digital innovation"],
+        "regulatoryBody": "European Central Bank, national financial regulatory bodies, etc."
+      },
+      "asia": {
+        "title": "Asia",
+        "subtitle": "Mobile payments developing rapidly",
+        "paymentMethods": [
+          { "type": "mobilePayment", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
+        "regulatoryBody": "National central banks and financial regulatory bodies"
+      }
+    },
+    "trends": {
+      "title": "Payment Trends",
+      "blockchain": {
+        "title": "Blockchain Technology",
+        "description": "Decentralized payments and smart contracts will reshape the payment ecosystem"
+      },
+      "ai": {
+        "title": "AI Risk Control",
+        "description": "Artificial intelligence will greatly improve anti-money laundering and risk control capabilities"
+      },
+      "biometrics": {
+        "title": "Biometric Authentication",
+        "description": "Fingerprint, facial recognition and other technologies will become mainstream verification methods"
+      }
+    }
+  },
+  "future": {
+    "pageTitle": "Future Trends - Gaming Trends Eye",
+    "pageDescription": "Exploring future development trends and technology predictions in the gaming industry",
+    "title": "Gaming Industry Future Trends",
+    "subtitle": "Forward-looking analysis of technology development, market evolution and future opportunities in the gaming industry",
+    "overview": {
+      "title": "Trend Overview",
+      "description": "The gaming industry is at a critical period of technological innovation, with new technologies such as VR/AR, AI, and blockchain reshaping the entire industry ecosystem.",
+      "technology": {
+        "title": "Technology Driven",
+        "description": "New technologies will greatly improve user experience and operational efficiency"
+      },
+      "regulation": {
+        "title": "Regulatory Evolution",
+        "description": "Regulations will gradually adapt to new technologies and business models"
+      }
+    },
+    "keyTrends": "Key Trends",
+    "keyFeatures": "Key Features",
+    "regulatoryBody": "Regulatory Body",
+    "regions": {
+      "northAmerica": {
+        "title": "North America",
+        "subtitle": "Leading the digital transformation in the region",
+        "keyTrends": [
+          { "type": "digitalTransformation", "color": "bg-blue-500" },
+          { "type": "cloudComputing", "color": "bg-purple-500" },
+          { "type": "cyberSecurity", "color": "bg-red-500" }
+        ],
+        "keyFeatures": ["strong regulatory framework", "advanced infrastructure", "innovative startups"],
+        "regulatoryBody": "North American regulatory bodies"
+      },
+      "europe": {
+        "title": "Europe",
+        "subtitle": "Focusing on privacy and sustainability",
+        "keyTrends": [
+          { "type": "privacyFocus", "color": "bg-purple-500" },
+          { "type": "sustainability", "color": "bg-green-500" },
+          { "type": "regulatoryHarmonization", "color": "bg-blue-500" }
+        ],
+        "keyFeatures": ["strict data protection laws", "sustainable initiatives", "harmonized regulations"],
+        "regulatoryBody": "European regulatory bodies"
+      },
+      "asiaPacific": {
+        "title": "Asia Pacific",
+        "subtitle": "Emerging markets with rapid growth",
+        "keyTrends": [
+          { "type": "digitalInclusion", "color": "bg-green-500" },
+          { "type": "cloudAdoption", "color": "bg-purple-500" },
+          { "type": "regulatoryInnovation", "color": "bg-blue-500" }
+        ],
+        "keyFeatures": ["fast-growing markets", "regulatory flexibility", "digital innovation"],
+        "regulatoryBody": "Asian regulatory bodies"
+      }
+    },
+    "predictions": {
+      "title": "Future Predictions",
+      "aiAdvancement": {
+        "title": "AI Technology Advancement",
+        "description": "Artificial intelligence will play an increasingly important role in the gaming industry"
+      },
+      "blockchainExpansion": {
+        "title": "Blockchain Expansion",
+        "description": "Blockchain technology will change payment and verification methods"
+      },
+      "quantumComputing": {
+        "title": "Quantum Computing",
+        "description": "Quantum computing will bring revolutionary breakthroughs in encryption and security"
+      }
+    }
+  },
+  "copyright": {
+    "pageTitle": "Copyright Notice - Gaming Trends Eye",
+    "pageDescription": "Copyright notice and terms of use for Gaming Trends Eye",
+    "title": "Copyright Notice",
+    "subtitle": "All content on this website is protected by copyright law, please read the following notice carefully",
+    "overview": {
+      "title": "Copyright Overview",
+      "description": "All content of Gaming Trends Eye website is protected by the Copyright Act of the Republic of China and international copyright conventions.",
+      "intellectual": {
+        "title": "Intellectual Property",
+        "description": "Including text, images, charts, software, audio, video, design, layout and overall appearance"
+      },
+      "legal": {
+        "title": "Legal Protection",
+        "description": "Protected by the Copyright Act of the Republic of China and international copyright conventions"
+      }
+    },
+    "copyrightLaws": "Copyright Laws",
+    "keyFeatures": "Key Features",
+    "regulatoryBody": "Regulatory Body",
+    "regions": {
+      "us": {
+        "title": "United States",
+        "subtitle": "Strong protection for intellectual property",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "patent", "color": "bg-green-500" }
+        ],
+        "keyFeatures": ["Broad protection for original works", "Strong enforcement", "Extensive damages"],
+        "regulatoryBody": "United States Copyright Office"
+      },
+      "eu": {
+        "title": "European Union",
+        "subtitle": "Broad and harmonized protection",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "design", "color": "bg-pink-500" }
+        ],
+        "keyFeatures": ["Harmonized protection across member states", "Broad scope of protection", "Strong enforcement"],
+        "regulatoryBody": "European Union"
+      },
+      "jp": {
+        "title": "Japan",
+        "subtitle": "Traditional and modern protection",
+        "copyrightLaws": [
+          { "type": "copyright", "color": "bg-blue-500" },
+          { "type": "trademark", "color": "bg-purple-500" },
+          { "type": "design", "color": "bg-pink-500" }
+        ],
+        "keyFeatures": ["Traditional copyright system", "Modern digital protection", "Strong enforcement"],
+        "regulatoryBody": "Japan"
+      }
+    },
+    "protection": {
+      "title": "Copyright Protection",
+      "dmca": {
+        "title": "DMCA Protection",
+        "description": "Digital Millennium Copyright Act provides digital content protection"
+      },
+      "copyright": {
+        "title": "Copyright Protection",
+        "description": "Complete copyright protection for original works"
+      },
+      "trademark": {
+        "title": "Trademark Protection",
+        "description": "Trademark protection for brands and logos"
+      },
+      "patent": {
+        "title": "Patent Protection",
+        "description": "Patent protection for technological innovations"
+      },
+      "design": {
+        "title": "Design Protection",
+        "description": "Intellectual property protection for appearance designs"
+      }
     }
   }
 }

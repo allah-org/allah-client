@@ -298,15 +298,18 @@
     "title": "菠菜天眼通",
     "globalTrends": "全球趨勢",
     "gamingTrends": "遊戲趨勢", 
-    "techTrends": "技術趨勢",
-    "aiTrends": "AI趨勢",
+    "techSpecs": "技術規格",
+    "regulations": "法規規範",
+    "paymentChannels": "金流管道",
+    "futureTrends": "未來趨勢",
+    "copyright": "版權聲明",
     "privacy": "隱私權聲明",
     "language": "語言選擇"
   },
   "navbar": {
     "menu": "選單",
     "home": "天眼通",
-    "contact": "聯繫"
+    "contact": "聯繫我們"
   },
   "marketData": {
     "europe": {
@@ -357,6 +360,310 @@
       "marketSizeUnit": "億美元",
       "growth": "+15%",
       "features": "公益彩券與運彩為主，無合法賭場"
+    }
+  },
+  "regulations": {
+    "pageTitle": "法規規範 - 菠菜天眼通",
+    "pageDescription": "了解全球博弈產業的法規環境和監管趨勢",
+    "title": "全球博弈法規規範",
+    "subtitle": "深入了解各地區博弈產業的法規環境、監管機構和合規要求",
+    "overview": {
+      "title": "法規環境概覽",
+      "description": "全球博弈產業面臨著複雜多樣的法規環境，從完全合法化到嚴格禁止，各地區的政策差異顯著影響著產業發展。",
+      "legal": {
+        "title": "合法化地區",
+        "description": "歐洲、美國部分州、澳洲等地區已建立完善的博弈法規體系"
+      },
+      "restricted": {
+        "title": "限制性地區",
+        "description": "亞洲大部分地區對博弈產業實施嚴格管制或部分禁止"
+      }
+    },
+    "legalStatus": "法律地位",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "監管機構",
+    "regions": {
+      "europe": {
+        "title": "歐洲",
+        "subtitle": "法規最完善的成熟市場",
+        "legalStatus": {
+          "online": "線上博弈：完全合法",
+          "landbased": "實體賭場：完全合法",
+          "sports": "體育博彩：完全合法"
+        },
+        "keyFeatures": {
+          "licensing": "統一發牌制度",
+          "responsible": "負責任博弈要求",
+          "taxation": "透明稅收政策"
+        },
+        "regulatoryBody": "各國設有專門的博弈監管機構，如英國博弈委員會、馬爾他博弈管理局等"
+      },
+      "usa": {
+        "title": "美國",
+        "subtitle": "州級立法為主",
+        "legalStatus": {
+          "online": "線上博弈：部分州合法",
+          "landbased": "實體賭場：大部分州合法",
+          "sports": "體育博彩：大部分州合法"
+        },
+        "keyFeatures": {
+          "stateBased": "州級監管",
+          "federal": "聯邦法規",
+          "tribal": "部族自治"
+        },
+        "regulatoryBody": "各州設有博弈委員會，聯邦層面由司法部監管"
+      },
+      "asia": {
+        "title": "亞洲",
+        "subtitle": "法規嚴格限制",
+        "legalStatus": {
+          "online": "線上博弈：大部分禁止",
+          "landbased": "實體賭場：有限開放",
+          "sports": "體育博彩：部分允許"
+        },
+        "keyFeatures": {
+          "strict": "嚴格管制",
+          "limited": "有限開放",
+          "underground": "地下市場"
+        },
+        "regulatoryBody": "各國設有彩票或博弈監管機構，但權限有限"
+      }
+    },
+    "trends": {
+      "title": "法規趨勢",
+      "digitalization": {
+        "title": "數位化監管",
+        "description": "利用科技手段提升監管效率和透明度"
+      },
+      "harmonization": {
+        "title": "國際協調",
+        "description": "推動跨境博弈法規的統一和協調"
+      },
+      "compliance": {
+        "title": "合規要求",
+        "description": "加強反洗錢和負責任博弈的合規要求"
+      }
+    }
+  },
+  "payment": {
+    "pageTitle": "金流管道 - 菠菜天眼通",
+    "pageDescription": "了解博弈產業的金流趨勢和支付方式",
+    "title": "博弈產業金流管道",
+    "subtitle": "深入分析全球博弈產業的支付方式、金流趨勢和未來發展",
+    "overview": {
+      "title": "金流概覽",
+      "description": "博弈產業是全球最大的金流產業之一，年交易量超過2.8萬億美元，涵蓋傳統銀行、數位支付、加密貨幣等多種支付方式。",
+      "legal": {
+        "title": "合法金流",
+        "description": "通過正規銀行、支付處理商和監管機構的合規金流管道"
+      },
+      "underground": {
+        "title": "地下金流",
+        "description": "在法規限制地區，通過地下錢莊、加密貨幣等非正規管道"
+      }
+    },
+    "paymentMethods": "支付方式",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "監管機構",
+    "regions": {
+      "northAmerica": {
+        "title": "北美",
+        "subtitle": "信用卡主導的成熟市場",
+                   "paymentMethods": [
+             { "type": "creditCard", "color": "bg-blue-500" },
+             { "type": "bankTransfer", "color": "bg-green-500" },
+             { "type": "digitalWallet", "color": "bg-purple-500" }
+           ],
+           "keyFeatures": ["strong banking system", "high credit card adoption", "regulated payment processors"],
+        "regulatoryBody": "美國財政部、加拿大金融機構監管辦公室等"
+      },
+      "europe": {
+        "title": "歐洲",
+        "subtitle": "銀行轉帳和數位支付並重",
+                   "paymentMethods": [
+             { "type": "bankTransfer", "color": "bg-green-500" },
+             { "type": "creditCard", "color": "bg-blue-500" },
+             { "type": "digitalPayment", "color": "bg-purple-500" }
+           ],
+           "keyFeatures": ["SEPA system", "strong regulation", "digital innovation"],
+        "regulatoryBody": "歐洲央行、各國金融監管機構等"
+      },
+      "asia": {
+        "title": "亞洲",
+        "subtitle": "行動支付快速發展",
+                   "paymentMethods": [
+             { "type": "mobilePayment", "color": "bg-green-500" },
+             { "type": "bankTransfer", "color": "bg-blue-500" },
+             { "type": "cash", "color": "bg-yellow-500" }
+           ],
+           "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
+        "regulatoryBody": "各國央行和金融監管機構"
+      }
+    },
+    "trends": {
+      "title": "金流趨勢",
+      "blockchain": {
+        "title": "區塊鏈技術",
+        "description": "去中心化支付和智能合約將重塑金流生態"
+      },
+      "ai": {
+        "title": "AI風控",
+        "description": "人工智能將大幅提升反洗錢和風險控制能力"
+      },
+      "biometrics": {
+        "title": "生物識別",
+        "description": "指紋、臉部識別等技術將成為主流驗證方式"
+      }
+    }
+  },
+  "future": {
+    "pageTitle": "未來趨勢 - 菠菜天眼通",
+    "pageDescription": "探索博弈產業的未來發展趨勢和技術預測",
+    "title": "博弈產業未來趨勢",
+    "subtitle": "前瞻性分析博弈產業的技術發展、市場演變和未來機遇",
+    "overview": {
+      "title": "趨勢概覽",
+      "description": "博弈產業正處於技術革新的關鍵時期，VR/AR、AI、區塊鏈等新技術將重塑整個產業生態。",
+      "technology": {
+        "title": "技術驅動",
+        "description": "新技術將大幅提升用戶體驗和營運效率"
+      },
+      "regulation": {
+        "title": "法規演進",
+        "description": "法規將逐步適應新技術和商業模式"
+      }
+    },
+    "keyTrends": "關鍵趨勢",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "監管機構",
+    "regions": {
+      "northAmerica": {
+        "title": "北美",
+        "subtitle": "Leading the digital transformation in the region",
+                 "keyTrends": [
+           { "type": "digitalTransformation", "color": "bg-blue-500" },
+           { "type": "cloudComputing", "color": "bg-purple-500" },
+           { "type": "cyberSecurity", "color": "bg-red-500" }
+         ],
+         "keyFeatures": ["strong regulatory framework", "advanced infrastructure", "innovative startups"],
+        "regulatoryBody": "North American regulatory bodies"
+      },
+      "europe": {
+        "title": "歐洲",
+        "subtitle": "Focusing on privacy and sustainability",
+                 "keyTrends": [
+           { "type": "privacyFocus", "color": "bg-purple-500" },
+           { "type": "sustainability", "color": "bg-green-500" },
+           { "type": "regulatoryHarmonization", "color": "bg-blue-500" }
+         ],
+         "keyFeatures": ["strict data protection laws", "sustainable initiatives", "harmonized regulations"],
+        "regulatoryBody": "European regulatory bodies"
+      },
+      "asiaPacific": {
+        "title": "亞太地區",
+        "subtitle": "Emerging markets with rapid growth",
+                 "keyTrends": [
+           { "type": "digitalInclusion", "color": "bg-green-500" },
+           { "type": "cloudAdoption", "color": "bg-purple-500" },
+           { "type": "regulatoryInnovation", "color": "bg-blue-500" }
+         ],
+         "keyFeatures": ["fast-growing markets", "regulatory flexibility", "digital innovation"],
+        "regulatoryBody": "Asian regulatory bodies"
+      }
+    },
+    "predictions": {
+      "title": "未來預測",
+      "aiAdvancement": {
+        "title": "AI技術進展",
+        "description": "人工智能將在博弈產業中發揮越來越重要的作用"
+      },
+      "blockchainExpansion": {
+        "title": "區塊鏈擴展",
+        "description": "區塊鏈技術將改變支付和驗證方式"
+      },
+      "quantumComputing": {
+        "title": "量子計算",
+        "description": "量子計算將帶來加密和安全的革命性突破"
+      }
+    }
+  },
+  "copyright": {
+    "pageTitle": "版權聲明 - 菠菜天眼通",
+    "pageDescription": "菠菜天眼通的版權聲明和使用條款",
+    "title": "版權聲明",
+    "subtitle": "本網站的所有內容均受版權法保護，請仔細閱讀以下聲明",
+    "overview": {
+      "title": "版權概覽",
+      "description": "菠菜天眼通網站及其所有內容均受中華民國著作權法及國際著作權公約保護。",
+      "intellectual": {
+        "title": "智慧財產權",
+        "description": "包括文字、圖片、圖表、軟體、音頻、視頻、設計、佈局和整體外觀"
+      },
+      "legal": {
+        "title": "法律保護",
+        "description": "受中華民國著作權法及國際著作權公約保護"
+      }
+    },
+    "copyrightLaws": "版權法規",
+    "keyFeatures": "主要特色",
+    "regulatoryBody": "監管機構",
+    "regions": {
+      "us": {
+        "title": "美國",
+        "subtitle": "Strong protection for intellectual property",
+                 "copyrightLaws": [
+           { "type": "copyright", "color": "bg-blue-500" },
+           { "type": "trademark", "color": "bg-purple-500" },
+           { "type": "patent", "color": "bg-green-500" }
+         ],
+         "keyFeatures": ["Broad protection for original works", "Strong enforcement", "Extensive damages"],
+        "regulatoryBody": "United States Copyright Office"
+      },
+      "eu": {
+        "title": "歐盟",
+        "subtitle": "Broad and harmonized protection",
+                 "copyrightLaws": [
+           { "type": "copyright", "color": "bg-blue-500" },
+           { "type": "trademark", "color": "bg-purple-500" },
+           { "type": "design", "color": "bg-pink-500" }
+         ],
+         "keyFeatures": ["Harmonized protection across member states", "Broad scope of protection", "Strong enforcement"],
+        "regulatoryBody": "European Union"
+      },
+      "jp": {
+        "title": "日本",
+        "subtitle": "Traditional and modern protection",
+                 "copyrightLaws": [
+           { "type": "copyright", "color": "bg-blue-500" },
+           { "type": "trademark", "color": "bg-purple-500" },
+           { "type": "design", "color": "bg-pink-500" }
+         ],
+         "keyFeatures": ["Traditional copyright system", "Modern digital protection", "Strong enforcement"],
+        "regulatoryBody": "Japan"
+      }
+    },
+    "protection": {
+      "title": "版權保護",
+      "dmca": {
+        "title": "DMCA保護",
+        "description": "數位千禧年著作權法提供數位內容保護"
+      },
+      "copyright": {
+        "title": "著作權保護",
+        "description": "原創作品的完整著作權保護"
+      },
+      "trademark": {
+        "title": "商標保護",
+        "description": "品牌和標識的商標權保護"
+      },
+      "patent": {
+        "title": "專利保護",
+        "description": "技術創新的專利權保護"
+      },
+      "design": {
+        "title": "設計保護",
+        "description": "外觀設計的智慧財產權保護"
+      }
     }
   },
   "gaming": {
@@ -691,6 +998,310 @@
       "mobileShare": "65%",
       "mobileGambling": "移動端博彩比例",
       "mobileShareType": "2023年"
+    },
+    "regulations": {
+      "pageTitle": "法規規範 - 菠菜天眼通",
+      "pageDescription": "了解全球博弈產業的法規環境和監管趨勢",
+      "title": "全球博弈法規規範",
+      "subtitle": "深入了解各地區博弈產業的法規環境、監管機構和合規要求",
+      "overview": {
+        "title": "法規環境概覽",
+        "description": "全球博弈產業面臨著複雜多樣的法規環境，從完全合法化到嚴格禁止，各地區的政策差異顯著影響著產業發展。",
+        "legal": {
+          "title": "合法化地區",
+          "description": "歐洲、美國部分州、澳洲等地區已建立完善的博弈法規體系"
+        },
+        "restricted": {
+          "title": "限制性地區",
+          "description": "亞洲大部分地區對博弈產業實施嚴格管制或部分禁止"
+        }
+      },
+      "legalStatus": "法律地位",
+      "keyFeatures": "主要特色",
+      "regulatoryBody": "監管機構",
+      "regions": {
+        "europe": {
+          "title": "歐洲",
+          "subtitle": "法規最完善的成熟市場",
+          "legalStatus": {
+            "online": "線上博弈：完全合法",
+            "landbased": "實體賭場：完全合法",
+            "sports": "體育博彩：完全合法"
+          },
+          "keyFeatures": {
+            "licensing": "統一發牌制度",
+            "responsible": "負責任博弈要求",
+            "taxation": "透明稅收政策"
+          },
+          "regulatoryBody": "各國設有專門的博弈監管機構，如英國博弈委員會、馬爾他博弈管理局等"
+        },
+        "usa": {
+          "title": "美國",
+          "subtitle": "州級立法為主",
+          "legalStatus": {
+            "online": "線上博弈：部分州合法",
+            "landbased": "實體賭場：大部分州合法",
+            "sports": "體育博彩：大部分州合法"
+          },
+          "keyFeatures": {
+            "stateBased": "州級監管",
+            "federal": "聯邦法規",
+            "tribal": "部族自治"
+          },
+          "regulatoryBody": "各州設有博弈委員會，聯邦層面由司法部監管"
+        },
+        "asia": {
+          "title": "亞洲",
+          "subtitle": "法規嚴格限制",
+          "legalStatus": {
+            "online": "線上博弈：大部分禁止",
+            "landbased": "實體賭場：有限開放",
+            "sports": "體育博彩：部分允許"
+          },
+          "keyFeatures": {
+            "strict": "嚴格管制",
+            "limited": "有限開放",
+            "underground": "地下市場"
+          },
+          "regulatoryBody": "各國設有彩票或博弈監管機構，但權限有限"
+        }
+      },
+      "trends": {
+        "title": "法規趨勢",
+        "digitalization": {
+          "title": "數位化監管",
+          "description": "利用科技手段提升監管效率和透明度"
+        },
+        "harmonization": {
+          "title": "國際協調",
+          "description": "推動跨境博弈法規的統一和協調"
+        },
+        "compliance": {
+          "title": "合規要求",
+          "description": "加強反洗錢和負責任博弈的合規要求"
+        }
+      }
+    },
+    "payment": {
+      "pageTitle": "金流管道 - 菠菜天眼通",
+      "pageDescription": "了解博弈產業的金流趨勢和支付方式",
+      "title": "博弈產業金流管道",
+      "subtitle": "深入分析全球博弈產業的支付方式、金流趨勢和未來發展",
+      "overview": {
+        "title": "金流概覽",
+        "description": "博弈產業是全球最大的金流產業之一，年交易量超過2.8萬億美元，涵蓋傳統銀行、數位支付、加密貨幣等多種支付方式。",
+        "legal": {
+          "title": "合法金流",
+          "description": "通過正規銀行、支付處理商和監管機構的合規金流管道"
+        },
+        "underground": {
+          "title": "地下金流",
+          "description": "在法規限制地區，通過地下錢莊、加密貨幣等非正規管道"
+        }
+      },
+      "paymentMethods": "支付方式",
+      "keyFeatures": "主要特色",
+      "regulatoryBody": "監管機構",
+      "regions": {
+        "northAmerica": {
+          "title": "北美",
+          "subtitle": "信用卡主導的成熟市場",
+          "paymentMethods": [
+            { type: 'creditCard', color: 'bg-blue-500' },
+            { type: 'bankTransfer', color: 'bg-green-500' },
+            { type: 'digitalWallet', color: 'bg-purple-500' }
+          ],
+          "keyFeatures": ['strong banking system', 'high credit card adoption', 'regulated payment processors'],
+          "regulatoryBody": "美國財政部、加拿大金融機構監管辦公室等"
+        },
+        "europe": {
+          "title": "歐洲",
+          "subtitle": "銀行轉帳和數位支付並重",
+          "paymentMethods": [
+            { type: 'bankTransfer', color: 'bg-green-500' },
+            { type: 'creditCard', color: 'bg-blue-500' },
+            { type: 'digitalPayment', color: 'bg-purple-500' }
+          ],
+          "keyFeatures": ['SEPA system', 'strong regulation', 'digital innovation'],
+          "regulatoryBody": "歐洲央行、各國金融監管機構等"
+        },
+        "asia": {
+          "title": "亞洲",
+          "subtitle": "行動支付快速發展",
+          "paymentMethods": [
+            { type: "mobilePayment", color: 'bg-green-500' },
+            { type: 'bankTransfer', color: 'bg-blue-500' },
+            { type: 'cash', color: 'bg-yellow-500' }
+          ],
+          "keyFeatures": ['mobile-first approach', 'rapid digital adoption', 'diverse payment methods'],
+          "regulatoryBody": "各國央行和金融監管機構"
+        }
+      },
+      "trends": {
+        "title": "金流趨勢",
+        "blockchain": {
+          "title": "區塊鏈技術",
+          "description": "去中心化支付和智能合約將重塑金流生態"
+        },
+        "ai": {
+          "title": "AI風控",
+          "description": "人工智能將大幅提升反洗錢和風險控制能力"
+        },
+        "biometrics": {
+          "title": "生物識別",
+          "description": "指紋、臉部識別等技術將成為主流驗證方式"
+        }
+      }
+    },
+    "future": {
+      "pageTitle": "未來趨勢 - 菠菜天眼通",
+      "pageDescription": "探索博弈產業的未來發展趨勢和技術預測",
+      "title": "博弈產業未來趨勢",
+      "subtitle": "前瞻性分析博弈產業的技術發展、市場演變和未來機遇",
+      "overview": {
+        "title": "趨勢概覽",
+        "description": "博弈產業正處於技術革新的關鍵時期，VR/AR、AI、區塊鏈等新技術將重塑整個產業生態。",
+        "technology": {
+          "title": "技術驅動",
+          "description": "新技術將大幅提升用戶體驗和營運效率"
+        },
+        "regulation": {
+          "title": "法規演進",
+          "description": "法規將逐步適應新技術和商業模式"
+        }
+      },
+      "keyTrends": "關鍵趨勢",
+      "keyFeatures": "主要特色",
+      "regulatoryBody": "監管機構",
+      "regions": {
+        "northAmerica": {
+          "title": "北美",
+          "subtitle": "Leading the digital transformation in the region",
+          "keyTrends": [
+            { type: 'digitalTransformation', color: 'bg-blue-500' },
+            { type: 'cloudComputing', color: 'bg-purple-500' },
+            { type: 'cyberSecurity', color: 'bg-red-500' }
+          ],
+          "keyFeatures": ['strong regulatory framework', 'advanced infrastructure', 'innovative startups'],
+          "regulatoryBody": "North American regulatory bodies"
+        },
+        "europe": {
+          "title": "歐洲",
+          "subtitle": "Focusing on privacy and sustainability",
+          "keyTrends": [
+            { type: 'privacyFocus', color: 'bg-purple-500' },
+            { type: 'sustainability', color: 'bg-green-500' },
+            { type: 'regulatoryHarmonization', color: 'bg-blue-500' }
+          ],
+          "keyFeatures": ['strict data protection laws', 'sustainable initiatives', 'harmonized regulations'],
+          "regulatoryBody": "European regulatory bodies"
+        },
+        "asiaPacific": {
+          "title": "亞太地區",
+          "subtitle": "Emerging markets with rapid growth",
+          "keyTrends": [
+            { type: 'digitalInclusion', color: 'bg-green-500' },
+            { type: 'cloudAdoption', color: 'bg-purple-500' },
+            { type: 'regulatoryInnovation', color: 'bg-blue-500' }
+          ],
+          "keyFeatures": ['fast-growing markets', 'regulatory flexibility', 'digital innovation'],
+          "regulatoryBody": "Asian regulatory bodies"
+        }
+      },
+      "predictions": {
+        "title": "未來預測",
+        "aiAdvancement": {
+          "title": "AI技術進展",
+          "description": "人工智能將在博弈產業中發揮越來越重要的作用"
+        },
+        "blockchainExpansion": {
+          "title": "區塊鏈擴展",
+          "description": "區塊鏈技術將改變支付和驗證方式"
+        },
+        "quantumComputing": {
+          "title": "量子計算",
+          "description": "量子計算將帶來加密和安全的革命性突破"
+        }
+      }
+    },
+    "copyright": {
+      "pageTitle": "版權聲明 - 菠菜天眼通",
+      "pageDescription": "菠菜天眼通的版權聲明和使用條款",
+      "title": "版權聲明",
+      "subtitle": "本網站的所有內容均受版權法保護，請仔細閱讀以下聲明",
+      "overview": {
+        "title": "版權概覽",
+        "description": "菠菜天眼通網站及其所有內容均受中華民國著作權法及國際著作權公約保護。",
+        "intellectual": {
+          "title": "智慧財產權",
+          "description": "包括文字、圖片、圖表、軟體、音頻、視頻、設計、佈局和整體外觀"
+        },
+        "legal": {
+          "title": "法律保護",
+          "description": "受中華民國著作權法及國際著作權公約保護"
+        }
+      },
+      "copyrightLaws": "版權法規",
+      "keyFeatures": "主要特色",
+      "regulatoryBody": "監管機構",
+      "regions": {
+        "us": {
+          "title": "美國",
+          "subtitle": "Strong protection for intellectual property",
+          "copyrightLaws": [
+            { type: 'copyright', color: 'bg-blue-500' },
+            { type: 'trademark', color: 'bg-purple-500' },
+            { type: 'patent', color: 'bg-green-500' }
+          ],
+          "keyFeatures": ['Broad protection for original works', 'Strong enforcement', 'Extensive damages'],
+          "regulatoryBody": "United States Copyright Office"
+        },
+        "eu": {
+          "title": "歐盟",
+          "subtitle": "Broad and harmonized protection",
+          "copyrightLaws": [
+            { type: 'copyright', color: 'bg-blue-500' },
+            { type: 'trademark', color: 'bg-purple-500' },
+            { type: 'design', color: 'bg-pink-500' }
+          ],
+          "keyFeatures": ['Harmonized protection across member states', 'Broad scope of protection', 'Strong enforcement'],
+          "regulatoryBody": "European Union"
+        },
+        "jp": {
+          "title": "日本",
+          "subtitle": "Traditional and modern protection",
+          "copyrightLaws": [
+            { type: 'copyright', color: 'bg-blue-500' },
+            { type: 'trademark', color: 'bg-purple-500' },
+            { type: 'design', color: 'bg-pink-500' }
+          ],
+          "keyFeatures": ['Traditional copyright system', 'Modern digital protection', 'Strong enforcement'],
+          "regulatoryBody": "Japan"
+        }
+      },
+      "protection": {
+        "title": "版權保護",
+        "dmca": {
+          "title": "DMCA保護",
+          "description": "數位千禧年著作權法提供數位內容保護"
+        },
+        "copyright": {
+          "title": "著作權保護",
+          "description": "原創作品的完整著作權保護"
+        },
+        "trademark": {
+          "title": "商標保護",
+          "description": "品牌和標識的商標權保護"
+        },
+        "patent": {
+          "title": "專利保護",
+          "description": "技術創新的專利權保護"
+        },
+        "design": {
+          "title": "設計保護",
+          "description": "外觀設計的智慧財產權保護"
+        }
+      }
     }
   }
 }
