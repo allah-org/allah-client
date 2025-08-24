@@ -157,13 +157,13 @@ const gameTypeDetails = computed(() => [
     icon: '🎰',
     headerBg: 'bg-yellow-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.usRevenue'), value: '$355億', valueClass: 'text-yellow-400' },
-      { label: t('gaming.gameTypeIntro.stats.australiaMachines'), value: '20萬台', valueClass: 'text-orange-400' },
-      { label: t('gaming.gameTypeIntro.stats.globalPlayers'), value: '數千萬', valueClass: 'text-blue-400' }
+      { label: t('gaming.gameTypeIntro.stats.usRevenue'), value: t('gaming.gameTypeIntro.stats.usRevenueValue'), valueClass: 'text-yellow-400' },
+      { label: t('gaming.gameTypeIntro.stats.australiaMachines'), value: t('gaming.gameTypeIntro.stats.australiaMachinesValue'), valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.globalPlayers'), value: t('gaming.gameTypeIntro.stats.globalPlayersValue'), valueClass: 'text-blue-400' }
     ],
     platforms: [
-      { name: 'Aristocrat Leisure', region: '澳洲', desc: '全球最大老虎機製造商' },
-      { name: 'IGT', region: '美國', desc: '拉斯維加斯機台供應巨頭' }
+      { name: t('gaming.gameTypeIntro.platformsData.aristocrat.name'), region: t('gaming.gameTypeIntro.platformsData.aristocrat.region'), desc: t('gaming.gameTypeIntro.platformsData.aristocrat.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.igt.name'), region: t('gaming.gameTypeIntro.platformsData.igt.region'), desc: t('gaming.gameTypeIntro.platformsData.igt.desc') }
     ],
     sources: [
       { name: 'American Gaming Association 2023 Report', url: 'https://www.americangaming.org/research/commercial-gaming-revenue-tracker/' },
@@ -178,13 +178,13 @@ const gameTypeDetails = computed(() => [
     icon: '🃏',
     headerBg: 'bg-blue-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.pokerStarsUsers'), value: '1億+', valueClass: 'text-blue-400' },
-      { label: t('gaming.gameTypeIntro.stats.usParticipants'), value: '數千萬', valueClass: 'text-green-400' },
-      { label: t('gaming.gameTypeIntro.stats.globalTournaments'), value: 'WSOP等', valueClass: 'text-purple-400' }
+      { label: t('gaming.gameTypeIntro.stats.pokerStarsUsers'), value: t('gaming.gameTypeIntro.stats.pokerStarsUsersValue'), valueClass: 'text-blue-400' },
+      { label: t('gaming.gameTypeIntro.stats.usParticipants'), value: t('gaming.gameTypeIntro.stats.usParticipantsValue'), valueClass: 'text-green-400' },
+      { label: t('gaming.gameTypeIntro.stats.globalTournaments'), value: t('gaming.gameTypeIntro.stats.globalTournamentsValue'), valueClass: 'text-purple-400' }
     ],
     platforms: [
-      { name: 'PokerStars', region: '全球', desc: '全球最大線上撲克室' },
-      { name: 'World Poker Tour', region: '國際', desc: '頂級撲克賽事品牌' }
+      { name: t('gaming.gameTypeIntro.platformsData.pokerstars.name'), region: t('gaming.gameTypeIntro.platformsData.pokerstars.region'), desc: t('gaming.gameTypeIntro.platformsData.pokerstars.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.wpt.name'), region: t('gaming.gameTypeIntro.platformsData.wpt.region'), desc: t('gaming.gameTypeIntro.platformsData.wpt.desc') }
     ],
     sources: [
       { name: 'PokerStars Company Reports', url: 'https://www.pokerstars.com/poker/company-info/' },
@@ -199,13 +199,13 @@ const gameTypeDetails = computed(() => [
     icon: '🎲',
     headerBg: 'bg-red-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.evolutionMarket'), value: '45%', valueClass: 'text-red-400' },
-      { label: t('gaming.gameTypeIntro.stats.mainMarket'), value: '亞洲', valueClass: 'text-orange-400' },
-      { label: t('gaming.gameTypeIntro.stats.dailyUsers'), value: '數十萬', valueClass: 'text-yellow-400' }
+      { label: t('gaming.gameTypeIntro.stats.evolutionMarket'), value: t('gaming.gameTypeIntro.stats.evolutionMarketValue'), valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.mainMarket'), value: t('gaming.gameTypeIntro.stats.mainMarketValue'), valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.dailyUsers'), value: t('gaming.gameTypeIntro.stats.dailyUsersValue'), valueClass: 'text-yellow-400' }
     ],
     platforms: [
-      { name: 'Evolution Gaming', region: '瑞典', desc: '全球真人娛樂場龍頭，市佔45%' },
-      { name: 'Playtech', region: '英國', desc: '真人遊戲和系統技術領先' }
+      { name: t('gaming.gameTypeIntro.platformsData.evolution.name'), region: t('gaming.gameTypeIntro.platformsData.evolution.region'), desc: t('gaming.gameTypeIntro.platformsData.evolution.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.playtech.name'), region: t('gaming.gameTypeIntro.platformsData.playtech.region'), desc: t('gaming.gameTypeIntro.platformsData.playtech.desc') }
     ],
     sources: [
       { name: 'Evolution Gaming Annual Report 2023', url: 'https://www.evolution.com/investors/reports-and-presentations' },
@@ -220,13 +220,13 @@ const gameTypeDetails = computed(() => [
     icon: '⚽',
     headerBg: 'bg-green-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.usWagering'), value: '$1198億', valueClass: 'text-green-400' },
-      { label: t('gaming.gameTypeIntro.stats.usRevenueSports'), value: '$109億', valueClass: 'text-blue-400' },
-      { label: t('gaming.gameTypeIntro.stats.growthRate'), value: '+44.5%', valueClass: 'text-purple-400' }
+      { label: t('gaming.gameTypeIntro.stats.usWagering'), value: t('gaming.gameTypeIntro.stats.usWageringValue'), valueClass: 'text-green-400' },
+      { label: t('gaming.gameTypeIntro.stats.usRevenueSports'), value: t('gaming.gameTypeIntro.stats.usRevenueSportsValue'), valueClass: 'text-blue-400' },
+      { label: t('gaming.gameTypeIntro.stats.growthRate'), value: t('gaming.gameTypeIntro.stats.growthRateValue'), valueClass: 'text-purple-400' }
     ],
     platforms: [
-      { name: 'Bet365', region: '英國', desc: '全球最大的線上體育博彩公司之一' },
-      { name: 'DraftKings', region: '美國', desc: '新興體育及電競投注平台' }
+      { name: t('gaming.gameTypeIntro.platformsData.bet365.name'), region: t('gaming.gameTypeIntro.platformsData.bet365.region'), desc: t('gaming.gameTypeIntro.platformsData.bet365.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.draftkings.name'), region: t('gaming.gameTypeIntro.platformsData.draftkings.region'), desc: t('gaming.gameTypeIntro.platformsData.draftkings.desc') }
     ],
     sources: [
       { name: 'AGA Commercial Gaming Revenue Report 2023', url: 'https://www.americangaming.org/research/state-gaming-map/' },
@@ -241,13 +241,13 @@ const gameTypeDetails = computed(() => [
     icon: '🎫',
     headerBg: 'bg-purple-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.globalParticipants'), value: '42億人', valueClass: 'text-purple-400' },
-      { label: t('gaming.gameTypeIntro.stats.chinaSales'), value: '¥6235億', valueClass: 'text-red-400' },
-      { label: t('gaming.gameTypeIntro.stats.usStateRevenue'), value: '$244億', valueClass: 'text-green-400' }
+      { label: t('gaming.gameTypeIntro.stats.globalParticipants'), value: t('gaming.gameTypeIntro.stats.globalParticipantsValue'), valueClass: 'text-purple-400' },
+      { label: t('gaming.gameTypeIntro.stats.chinaSales'), value: t('gaming.gameTypeIntro.stats.chinaSalesValue'), valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.usStateRevenue'), value: t('gaming.gameTypeIntro.stats.usStateRevenueValue'), valueClass: 'text-green-400' }
     ],
     platforms: [
-      { name: 'Powerball', region: '美國', desc: '聯合彩券系統，常創上億美元頭獎' },
-      { name: 'China Sports Lottery', region: '中國', desc: '世界最大彩票發行系統之一' }
+      { name: t('gaming.gameTypeIntro.platformsData.powerball.name'), region: t('gaming.gameTypeIntro.platformsData.powerball.region'), desc: t('gaming.gameTypeIntro.platformsData.powerball.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.name'), region: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.region'), desc: t('gaming.gameTypeIntro.platformsData.chinaSportsLottery.desc') }
     ],
     sources: [
       { name: 'China Lottery Sales Report 2024', url: 'https://www.cwl.gov.cn/c/2024/12/03/532187.shtml' },
@@ -262,13 +262,13 @@ const gameTypeDetails = computed(() => [
     icon: '🏮',
     headerBg: 'bg-orange-600',
     stats: [
-      { label: t('gaming.gameTypeIntro.stats.pachinkoWagering'), value: '¥14.6兆', valueClass: 'text-orange-400' },
-      { label: t('gaming.gameTypeIntro.stats.pachinkoPlayers'), value: '780萬', valueClass: 'text-red-400' },
-      { label: t('gaming.gameTypeIntro.stats.taiwanMahjong'), value: '400萬+', valueClass: 'text-yellow-400' }
+      { label: t('gaming.gameTypeIntro.stats.pachinkoWagering'), value: t('gaming.gameTypeIntro.stats.pachinkoWageringValue'), valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.pachinkoPlayers'), value: t('gaming.gameTypeIntro.stats.pachinkoPlayersValue'), valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.taiwanMahjong'), value: t('gaming.gameTypeIntro.stats.taiwanMahjongValue'), valueClass: 'text-yellow-400' }
     ],
     platforms: [
-      { name: 'Maruhan', region: '日本', desc: '日本最大柏青哥廳連鎖' },
-      { name: 'Sega Sammy', region: '日本', desc: '日本柏青哥機台龍頭' }
+      { name: t('gaming.gameTypeIntro.platformsData.maruhan.name'), region: t('gaming.gameTypeIntro.platformsData.maruhan.region'), desc: t('gaming.gameTypeIntro.platformsData.maruhan.desc') },
+      { name: t('gaming.gameTypeIntro.platformsData.segaSammy.name'), region: t('gaming.gameTypeIntro.platformsData.segaSammy.region'), desc: t('gaming.gameTypeIntro.platformsData.segaSammy.desc') }
     ],
     sources: [
       { name: 'Japan Pachinko Association Report 2022', url: 'https://www.p-world.co.jp/news/2023/1/25/news4535.htm' },

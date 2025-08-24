@@ -206,17 +206,79 @@
       },
       "slotResources": {
         "title": "Slot Game Resource Packages",
-        "desc": "Complete slot machine assets and templates",
+        "desc": "Provides complete slot game development resources",
         "contact": "Resource Channel",
-        "feature1": "Complete slot machine asset packages",
-        "feature2": "Multi-theme UI/UX design templates",
-        "feature3": "Sound effects and animation resources",
-        "feature4": "Technical documentation and code examples"
+        "feature1": "Image cutting and material organization",
+        "feature2": "SPINE animation restoration technology",
+        "feature3": "Professional technical support",
+        "feature4": "Complete development resource pack"
       }
     },
     "gameTypeIntro": {
       "title": "Detailed Game Type Introduction",
       "platforms": "Major Platforms/Vendors",
+  "platformsData": {
+    "aristocrat": {
+      "name": "Aristocrat Leisure",
+      "region": "Australia",
+      "desc": "World's largest slot machine manufacturer"
+    },
+    "igt": {
+      "name": "IGT",
+      "region": "USA",
+      "desc": "Las Vegas gaming equipment supply giant"
+    },
+    "pokerstars": {
+      "name": "PokerStars",
+      "region": "Global",
+      "desc": "World's largest online poker room"
+    },
+    "wpt": {
+      "name": "World Poker Tour",
+      "region": "International",
+      "desc": "Premium poker tournament brand"
+    },
+    "evolution": {
+      "name": "Evolution Gaming",
+      "region": "Sweden",
+      "desc": "Global live casino leader with 45% market share"
+    },
+    "playtech": {
+      "name": "Playtech",
+      "region": "UK",
+      "desc": "Live gaming and system technology leader"
+    },
+    "bet365": {
+      "name": "Bet365",
+      "region": "UK",
+      "desc": "One of the world's largest online sports betting companies"
+    },
+    "draftkings": {
+      "name": "DraftKings",
+      "region": "USA",
+      "desc": "Emerging sports and esports betting platform"
+    },
+    "powerball": {
+      "name": "Powerball",
+      "region": "USA",
+      "desc": "Multi-state lottery system, often creating billion-dollar jackpots"
+    },
+    "chinaSportsLottery": {
+      "name": "China Sports Lottery",
+      "region": "China",
+      "desc": "One of the world's largest lottery distribution systems"
+    },
+    "maruhan": {
+      "name": "Maruhan",
+      "region": "Japan",
+      "desc": "Japan's largest pachinko parlor chain"
+    },
+    "segaSammy": {
+      "name": "Sega Sammy",
+      "region": "Japan",
+      "desc": "Japan's pachinko machine leader"
+    }
+  },
       "sources": "References",
       "slots": {
         "marketDominance": {
@@ -346,21 +408,39 @@
         "usRevenue": "US Annual Revenue",
         "australiaMachines": "Australia Machines",
         "globalPlayers": "Global Players",
+        "usRevenueValue": "$35.5B",
+        "australiaMachinesValue": "200K",
+        "globalPlayersValue": "Millions",
         "pokerStarsUsers": "PokerStars Users",
         "usParticipants": "US Participants",
         "globalTournaments": "Global Tournaments",
+        "pokerStarsUsersValue": "100M+",
+        "usParticipantsValue": "Millions",
+        "globalTournamentsValue": "WSOP etc.",
         "evolutionMarket": "Evolution Market Share",
         "mainMarket": "Main Market",
         "dailyUsers": "Daily Active Users",
+        "evolutionMarketValue": "45%",
+        "mainMarketValue": "Asia",
+        "dailyUsersValue": "Hundreds of K",
         "usWagering": "US Wagering Amount",
         "usRevenueSports": "US Annual Revenue",
         "growthRate": "Annual Growth Rate",
+        "usWageringValue": "$119.8B",
+        "usRevenueSportsValue": "$10.9B",
+        "growthRateValue": "+44.5%",
         "globalParticipants": "Global Participants",
         "chinaSales": "China Sales",
         "usStateRevenue": "US State Revenue",
+        "globalParticipantsValue": "4.2B",
+        "chinaSalesValue": "¥623.5B",
+        "usStateRevenueValue": "$24.4B",
         "pachinkoWagering": "Japan Pachinko Wagering",
         "pachinkoPlayers": "Pachinko Players",
-        "taiwanMahjong": "Taiwan Mahjong Players"
+        "taiwanMahjong": "Taiwan Mahjong Players",
+        "pachinkoWageringValue": "¥14.6T",
+        "pachinkoPlayersValue": "7.8M",
+        "taiwanMahjongValue": "4M+"
       }
     },
     "revenueStats": {

@@ -206,17 +206,79 @@
       },
       "slotResources": {
         "title": "老虎機遊戲資源包",
-        "desc": "完整的老虎機素材與模板",
+        "desc": "提供完整的老虎機遊戲開發資源",
         "contact": "資源頻道",
-        "feature1": "完整老虎機素材包",
-        "feature2": "多主題UI/UX設計模板",
-        "feature3": "音效與動畫資源",
-        "feature4": "技術文檔與代碼範例"
+        "feature1": "圖檔切圖與素材整理",
+        "feature2": "SPINE動畫還原技術",
+        "feature3": "專業技術支援",
+        "feature4": "完整開發資源包"
       }
     },
     "gameTypeIntro": {
       "title": "遊戲類型詳細介紹",
       "platforms": "主要平台/廠商",
+  "platformsData": {
+    "aristocrat": {
+      "name": "Aristocrat Leisure",
+      "region": "澳洲",
+      "desc": "全球最大老虎機製造商"
+    },
+    "igt": {
+      "name": "IGT",
+      "region": "美國",
+      "desc": "拉斯維加斯機台供應巨頭"
+    },
+    "pokerstars": {
+      "name": "PokerStars",
+      "region": "全球",
+      "desc": "全球最大線上撲克室"
+    },
+    "wpt": {
+      "name": "World Poker Tour",
+      "region": "國際",
+      "desc": "頂級撲克賽事品牌"
+    },
+    "evolution": {
+      "name": "Evolution Gaming",
+      "region": "瑞典",
+      "desc": "全球真人娛樂場龍頭，市佔45%"
+    },
+    "playtech": {
+      "name": "Playtech",
+      "region": "英國",
+      "desc": "真人遊戲和系統技術領先"
+    },
+    "bet365": {
+      "name": "Bet365",
+      "region": "英國",
+      "desc": "全球最大的線上體育博彩公司之一"
+    },
+    "draftkings": {
+      "name": "DraftKings",
+      "region": "美國",
+      "desc": "新興體育及電競投注平台"
+    },
+    "powerball": {
+      "name": "Powerball",
+      "region": "美國",
+      "desc": "聯合彩券系統，常創上億美元頭獎"
+    },
+    "chinaSportsLottery": {
+      "name": "China Sports Lottery",
+      "region": "中國",
+      "desc": "世界最大彩票發行系統之一"
+    },
+    "maruhan": {
+      "name": "Maruhan",
+      "region": "日本",
+      "desc": "日本最大柏青哥廳連鎖"
+    },
+    "segaSammy": {
+      "name": "Sega Sammy",
+      "region": "日本",
+      "desc": "日本柏青哥機台龍頭"
+    }
+  },
       "sources": "參考資料",
       "slots": {
         "marketDominance": {
@@ -346,21 +408,39 @@
         "usRevenue": "美國年收入",
         "australiaMachines": "澳洲機台數",
         "globalPlayers": "全球玩家數",
+        "usRevenueValue": "$355億",
+        "australiaMachinesValue": "20萬台",
+        "globalPlayersValue": "數千萬",
         "pokerStarsUsers": "PokerStars用戶",
         "usParticipants": "美國參與者",
         "globalTournaments": "全球錦標賽",
+        "pokerStarsUsersValue": "1億+",
+        "usParticipantsValue": "數千萬",
+        "globalTournamentsValue": "WSOP等",
         "evolutionMarket": "Evolution市佔率",
         "mainMarket": "主要市場",
         "dailyUsers": "日活用戶",
+        "evolutionMarketValue": "45%",
+        "mainMarketValue": "亞洲",
+        "dailyUsersValue": "數十萬",
         "usWagering": "美國投注額",
         "usRevenueSports": "美國年收益",
         "growthRate": "年增長率",
+        "usWageringValue": "$1198億",
+        "usRevenueSportsValue": "$109億",
+        "growthRateValue": "+44.5%",
         "globalParticipants": "全球參與者",
         "chinaSales": "中國銷售額",
         "usStateRevenue": "美國州政府收入",
+        "globalParticipantsValue": "42億人",
+        "chinaSalesValue": "¥6235億",
+        "usStateRevenueValue": "$244億",
         "pachinkoWagering": "日本柏青哥投注",
         "pachinkoPlayers": "柏青哥玩家數",
-        "taiwanMahjong": "台灣麻將玩家"
+        "taiwanMahjong": "台灣麻將玩家",
+        "pachinkoWageringValue": "¥14.6兆",
+        "pachinkoPlayersValue": "780萬",
+        "taiwanMahjongValue": "400萬+"
       }
     },
     "revenueStats": {
