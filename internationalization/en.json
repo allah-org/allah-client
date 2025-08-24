@@ -103,7 +103,8 @@
     "spreadsheet": "BTT Gambling Eye Spreadsheet",
     "spreadsheetDesc": "View industry reviews",
     "contact": "Contact Admin", 
-    "contactDesc": "Business cooperation"
+    "contactDesc": "Business cooperation",
+    "viewMore": "View More"
   },
   "globalStats": {
     "totalRevenue": "536B",

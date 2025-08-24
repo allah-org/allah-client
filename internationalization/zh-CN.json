@@ -103,7 +103,8 @@
     "spreadsheet": "菠菜天眼通试算表",
     "spreadsheetDesc": "查看业界评论",
     "contact": "联系站长", 
-    "contactDesc": "商务合作"
+    "contactDesc": "商务合作",
+    "viewMore": "查看更多"
   },
   "globalStats": {
     "totalRevenue": "5,360亿",
