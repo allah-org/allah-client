@@ -1,6 +1,6 @@
 {
   "page": {
-    "title": "全球趋势",
+    "title": "全球博弈趋势",
     "subtitle": "实时掌握全球市场动态与趋势分析"
   },
   "navigation": {
@@ -11,7 +11,8 @@
     "china": "中国大陆",
     "australia": "澳洲",
     "southeast": "东南亚",
-    "taiwan": "台湾"
+    "taiwan": "台湾",
+    "business": "商务合作"
   },
   "table": {
     "region": "地区",
@@ -98,7 +99,7 @@
   },
   "dataSources": "数据来源：",
   "quickLinks": {
-    "title": "更多信息",
+    "title": "商务合作",
     "spreadsheet": "菠菜天眼通试算表",
     "spreadsheetDesc": "查看业界评论",
     "contact": "联系站长", 

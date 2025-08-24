@@ -1,6 +1,6 @@
 {
   "page": {
-    "title": "Global Trends",
+    "title": "Global Gambling Trends",
     "subtitle": "Real-time insights into global market dynamics and trend analysis"
   },
   "navigation": {
@@ -11,7 +11,8 @@
     "china": "China",
     "australia": "Australia",
     "southeast": "Southeast Asia",
-    "taiwan": "Taiwan"
+    "taiwan": "Taiwan",
+    "business": "Business Cooperation"
   },
   "table": {
     "region": "Region",
@@ -98,7 +99,7 @@
   },
   "dataSources": "Data Sources:",
   "quickLinks": {
-    "title": "More Information",
+    "title": "Business Cooperation",
     "spreadsheet": "BTT Gambling Eye Spreadsheet",
     "spreadsheetDesc": "View industry reviews",
     "contact": "Contact Admin", 
@@ -288,7 +289,7 @@
     }
   },
   "menu": {
-    "title": "Gambling Industry Watchdog",
+    "title": "Gambling Eye",
     "globalTrends": "Global Trends",
     "gamingTrends": "Gaming Trends", 
     "techTrends": "Tech Trends",

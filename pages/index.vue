@@ -21,7 +21,8 @@ const regions = computed(() => [
   { code: 'china', name: t('navigation.china') },
   { code: 'australia', name: t('navigation.australia') },
   { code: 'korea', name: t('navigation.southeast') },
-  { code: 'taiwan', name: t('navigation.taiwan') }
+  { code: 'taiwan', name: t('navigation.taiwan') },
+  { code: 'business', name: t('navigation.business') }
 ])
 
 const selectedRegion = ref('global')
@@ -44,7 +45,8 @@ const scrollToRegion = (regionCode) => {
     'china': 'china-section',
     'australia': 'australia-section',
     'korea': 'southeast-asia-section',
-    'taiwan': 'taiwan-section'
+    'taiwan': 'taiwan-section',
+    'business': 'business-section'
   }
   
   const sectionId = regionToSectionMap[regionCode]
@@ -633,8 +635,8 @@ const detailedRegions = computed(() => [
         </div>
       </div>
 
-      <!-- 快速連結 -->
-      <div class="bg-gray-800 rounded-lg p-6 mt-8">
+      <!-- 商務合作 -->
+      <div id="business-section" class="bg-gray-800 rounded-lg p-6 mt-8">
         <h3 class="text-xl font-semibold text-white mb-4">{{ $t('quickLinks.title') }}</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <a
