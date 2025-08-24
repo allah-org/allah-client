@@ -147,5 +147,70 @@
       "name": "台湾",
       "features": "公益彩券与运彩为主，无合法赌场"
     }
+  },
+  "gaming": {
+    "title": "全球博弈游戏类型趋势",
+    "subtitle": "深入分析各类博弈游戏在全球各地区的热门度与市场表现",
+    "overview": "全球博弈游戏类型概况",
+    "description": "全球博弈产业涵盖老虎机、扑克类、真人娱乐场、体育博彩、彩票等多种类型，不同地区玩家偏好差异显著。",
+    "globalStats": {
+      "totalPlayers": "全球博弈玩家",
+      "lotteryPlayers": "彩票参与者", 
+      "slotsRevenue": "老虎机年收入"
+    },
+    "gameTypes": {
+      "slots": "老虎机",
+      "poker": "扑克类",
+      "live": "真人娱乐场",
+      "sports": "体育博彩", 
+      "lottery": "彩票",
+      "local": "地方特色",
+      "business": "商务建议"
+    },
+    "preferenceTable": {
+      "title": "各地区游戏类型偏好对比",
+      "high": "高",
+      "medium": "中", 
+      "low": "低",
+      "regions": {
+        "northAmerica": "北美",
+        "europe": "欧洲",
+        "japan": "日本",
+        "southeastAsia": "东南亚",
+        "australia": "澳洲", 
+        "china": "中国",
+        "hongkongMacao": "港澳",
+        "taiwan": "台湾"
+      }
+    },
+    "businessAdvice": {
+      "title": "商务应用建议",
+      "originalDev": {
+        "title": "原创老虎机开发团队",
+        "desc": "专注老虎机游戏创新开发",
+        "contact": "联系方式"
+      },
+      "reverseDev": {
+        "title": "逆向开发服务商", 
+        "desc": "快速复制热门游戏机制",
+        "contact": "服务平台"
+      },
+      "slotResources": {
+        "title": "老虎机游戏资源包",
+        "desc": "完整的老虎机素材与模板",
+        "contact": "资源频道"
+      }
+    },
+    "gameTypeIntro": {
+      "title": "游戏类型详细介绍"
+    },
+    "revenueStats": {
+      "slotsUS": "美国老虎机年收入",
+      "sportsUS": "美国体育博彩年收入", 
+      "liveMarket": "真人娱乐场市占率",
+      "pachinkoJP": "日本柏青哥投注额",
+      "lotteryPlayers": "全球彩票参与者",
+      "pokerPlayers": "线上扑克玩家"
+    }
   }
 }

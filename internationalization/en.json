@@ -147,5 +147,70 @@
       "name": "Taiwan",
       "features": "Public lottery and sports lottery focus, no legal casinos"
     }
+  },
+  "gaming": {
+    "title": "Global Gambling Game Type Trends",
+    "subtitle": "In-depth analysis of gambling game popularity and market performance across global regions",
+    "overview": "Global Gambling Game Type Overview",
+    "description": "The global gambling industry encompasses slots, poker, live casino, sports betting, lottery and other types, with significant regional player preference variations.",
+    "globalStats": {
+      "totalPlayers": "Global Gambling Players",
+      "lotteryPlayers": "Lottery Participants", 
+      "slotsRevenue": "Slots Annual Revenue"
+    },
+    "gameTypes": {
+      "slots": "Slots",
+      "poker": "Poker Games",
+      "live": "Live Casino",
+      "sports": "Sports Betting", 
+      "lottery": "Lottery",
+      "local": "Regional Specialties",
+      "business": "Business Solutions"
+    },
+    "preferenceTable": {
+      "title": "Regional Game Type Preference Comparison",
+      "high": "High",
+      "medium": "Medium", 
+      "low": "Low",
+      "regions": {
+        "northAmerica": "North America",
+        "europe": "Europe",
+        "japan": "Japan",
+        "southeastAsia": "Southeast Asia",
+        "australia": "Australia", 
+        "china": "China",
+        "hongkongMacao": "Hong Kong & Macau",
+        "taiwan": "Taiwan"
+      }
+    },
+    "businessAdvice": {
+      "title": "Business Application Recommendations",
+      "originalDev": {
+        "title": "Original Slot Game Development",
+        "desc": "Focus on innovative slot game development",
+        "contact": "Contact Info"
+      },
+      "reverseDev": {
+        "title": "Reverse Development Services", 
+        "desc": "Rapid replication of popular game mechanics",
+        "contact": "Service Platform"
+      },
+      "slotResources": {
+        "title": "Slot Game Resource Packages",
+        "desc": "Complete slot machine assets and templates",
+        "contact": "Resource Channel"
+      }
+    },
+    "gameTypeIntro": {
+      "title": "Detailed Game Type Introduction"
+    },
+    "revenueStats": {
+      "slotsUS": "US Slots Annual Revenue",
+      "sportsUS": "US Sports Betting Revenue", 
+      "liveMarket": "Live Casino Market Share",
+      "pachinkoJP": "Japan Pachinko Wagering",
+      "lotteryPlayers": "Global Lottery Players",
+      "pokerPlayers": "Online Poker Players"
+    }
   }
 }
