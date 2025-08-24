@@ -1,65 +1,121 @@
 {
-  "Popular Movies": "Popular Movies",
-  "Top Rated Movies": "Top Rated Movies",
-  "Upcoming Movies": "Upcoming Movies",
-  "Now Playing Movies": "Now Playing Movies",
-  "Popular TV Shows": "Popular TV Shows",
-  "Top Rated TV Shows": "Top Rated TV Shows",
-  "TV Shows Airing Today": "TV Shows Airing Today",
-
-  "Watch Trailer": "Watch Trailer",
-  "Explore more": "Explore more",
-
-  "Overview": "Overview",
-  "Videos": "Videos",
-  "Media Photos": "Photos",
-
-  "Cast": "Cast",
-  "More like this": "More like this",
-
-  "Storyline": "Storyline",
-  "Release Date": "Released",
-  "Runtime": "Runtime",
-  "Director": "Director",
-  "Budget": "Budget",
-  "Revenue": "Revenue",
-  "Genre": "Genre",
-  "Status": "Status",
-  "Language": "Language",
-  "Production": "Production",
-
-  "Backdrops": "Backdrops",
-  "Posters": "Posters",
-
-  "Known For": "Known For",
-  "Credits": "Credits",
-  "Person Photos": "Photos",
-  "(no biography)": "(no biography)",
-  "Known for": "Known for",
-  "Place of birth": "Place of birth",
-  "Birthday": "Birthday",
-
-  "Acting Credits": "Acting",
-  "Production Credits": "Production",
-
-  "Type to search...": "Type to search...",
-  "Type something to search...": "Type something to search...",
-
-  "{numberOfReviews} Reviews": "{numberOfReviews} Reviews",
-
-  "{numberOfImages} Images": "{numberOfImages} Images",
-  "{numberOfVideos} Videos": "{numberOfVideos} Videos",
-
-  "as {character}": "as {character}",
-
-  "{count} items": "{count} items",
-  "Search result for: {currentSearch}": "Search result for: {currentSearch}",
-
-  "Error occurred on fetching": "Error occurred on fetching",
-  "Retry": "Retry",
-
-  "Home": "Home",
-  "Movies": "Movies",
-  "TV Shows": "TV Shows",
-  "Search": "Search"
+  "page": {
+    "title": "Global Trends",
+    "subtitle": "Real-time insights into global market dynamics and trend analysis"
+  },
+  "navigation": {
+    "global": "Global",
+    "europe": "Europe", 
+    "usa": "USA",
+    "japan": "Japan",
+    "china": "China",
+    "australia": "Australia",
+    "southeast": "Southeast Asia",
+    "taiwan": "Taiwan"
+  },
+  "table": {
+    "region": "Region",
+    "marketSize": "Market Size", 
+    "growthRate": "Growth Rate",
+    "onlinePenetration": "Online Penetration",
+    "onlinePenetrationTooltip": "Percentage of online gaming revenue relative to total gaming market revenue, reflecting the region's digital gaming adoption level",
+    "features": "Key Features",
+    "comparison": "Regional Market Size Comparison (2023)"
+  },
+  "global": {
+    "overview": "Global Gaming Market Overview",
+    "description": "The global gaming market generated approximately $536 billion in gross revenue in 2023, representing a 13.1% growth compared to 2022. Online gaming accounted for approximately 24.6% with $132 billion, indicating significant digitalization progress.",
+    "totalRevenue": "2023 Global Total Revenue",
+    "onlineShare": "Online Gaming Share", 
+    "expectedRevenue": "2024 Expected Revenue",
+    "growthRate": "Growth Rate",
+    "dataSources": "Global Market Data Sources:"
+  },
+  "regions": {
+    "europe": {
+      "title": "Europe",
+      "subtitle": "Mature market with the highest online penetration globally",
+      "stats": {
+        "totalRevenue": "2024 Total Revenue",
+        "onlineShare": "Online Share",
+        "growthRate": "Growth Rate"
+      }
+    },
+    "usa": {
+      "title": "United States", 
+      "subtitle": "Mature market driven by sports betting legalization",
+      "stats": {
+        "commercialRevenue": "Commercial Gaming Revenue",
+        "totalRevenue": "Total Revenue (incl. Tribal)",
+        "onlinePenetration": "Online Penetration"
+      }
+    },
+    "japan": {
+      "title": "Japan",
+      "subtitle": "Unique market dominated by pachinko, online gaming prohibited",
+      "stats": {
+        "pachinkoRevenue": "Pachinko Wagering",
+        "marketTrend": "Market Trend",
+        "onlinePenetration": "Online Penetration"
+      }
+    },
+    "china": {
+      "title": "China",
+      "subtitle": "Strictly regulated lottery market with significant underground activity flowing offshore",
+      "stats": {
+        "lotteryRevenue": "Lottery Sales",
+        "growthRate": "Growth Rate", 
+        "onlinePenetration": "Online Penetration"
+      }
+    },
+    "australia": {
+      "title": "Australia",
+      "subtitle": "Highest per-capita gambling consumption globally, dominated by gaming machines",
+      "stats": {
+        "totalLoss": "Annual Total Loss",
+        "perCapitaLoss": "Per Capita Loss",
+        "pokiesShare": "Gaming Machine Share"
+      }
+    },
+    "southeast": {
+      "title": "Southeast Asia",
+      "subtitle": "Rapidly growing emerging market led by Philippines and Singapore",
+      "stats": {
+        "philippinesRevenue": "Philippines GGR",
+        "singaporeRevenue": "Singapore Casino Revenue",
+        "growthRate": "Growth Rate"
+      }
+    },
+    "taiwan": {
+      "title": "Taiwan",
+      "subtitle": "Limited-opening lottery market with rapid sports lottery growth", 
+      "stats": {
+        "sportsLottery": "Sports Lottery Sales",
+        "publicLottery": "Public Lottery",
+        "growthRate": "Growth Rate"
+      }
+    }
+  },
+  "dataSources": "Data Sources:",
+  "quickLinks": {
+    "title": "More Information",
+    "spreadsheet": "Gaming Industry Watchdog Spreadsheet",
+    "spreadsheetDesc": "View Industry Reviews",
+    "contact": "Contact Admin", 
+    "contactDesc": "Business Cooperation"
+  },
+  "menu": {
+    "title": "Gaming Industry Watchdog",
+    "globalTrends": "Global Trends",
+    "gamingTrends": "Gaming Trends", 
+    "techTrends": "Tech Trends",
+    "aiTrends": "AI Trends",
+    "privacy": "Privacy Policy",
+    "language": "Language"
+  },
+  "navbar": {
+    "menu": "Menu",
+    "home": "Watchdog",
+    "contact": "Contact"
+  }
 }

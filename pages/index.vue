@@ -11,22 +11,24 @@ useHead({
 })
 
 // 地區選單數據 - 按市場規模排序
-const regions = [
-  { code: 'global', name: '全球' },
-  { code: 'europe', name: '歐洲' },
-  { code: 'usa', name: '美國' },
-  { code: 'japan', name: '日本' },
-  { code: 'china', name: '中國大陸' },
-  { code: 'australia', name: '澳洲' },
-  { code: 'korea', name: '東南亞' },
-  { code: 'taiwan', name: '台灣' }
-]
+const { t } = useI18n()
+
+const regions = computed(() => [
+  { code: 'global', name: t('navigation.global') },
+  { code: 'europe', name: t('navigation.europe') },
+  { code: 'usa', name: t('navigation.usa') },
+  { code: 'japan', name: t('navigation.japan') },
+  { code: 'china', name: t('navigation.china') },
+  { code: 'australia', name: t('navigation.australia') },
+  { code: 'korea', name: t('navigation.southeast') },
+  { code: 'taiwan', name: t('navigation.taiwan') }
+])
 
 const selectedRegion = ref('global')
 
 const getCurrentRegionName = () => {
-  const region = regions.find(r => r.code === selectedRegion.value)
-  return region ? region.name : '全球'
+  const region = regions.value.find(r => r.code === selectedRegion.value)
+  return region ? region.name : t('navigation.global')
 }
 
 // 滾動到指定地區
@@ -154,11 +156,11 @@ const marketData = [
 ]
 
 // 詳細地區分析數據 - 按市場規模排序
-const detailedRegions = [
+const detailedRegions = computed(() => [
   {
     id: 'europe',
-    title: '歐洲',
-    subtitle: '全球線上滲透率最高的成熟市場',
+    title: t('regions.europe.title'),
+    subtitle: t('regions.europe.subtitle'),
     icon: '🇪🇺',
     headerBg: 'bg-purple-600',
     stats: [
@@ -194,8 +196,8 @@ const detailedRegions = [
   },
   {
     id: 'usa',
-    title: '美國',
-    subtitle: '體育博彩合法化推動的成熟市場',
+    title: t('regions.usa.title'),
+    subtitle: t('regions.usa.subtitle'),
     icon: '🇺🇸',
     headerBg: 'bg-blue-600',
     stats: [
@@ -231,8 +233,8 @@ const detailedRegions = [
   },
   {
     id: 'japan',
-    title: '日本',
-    subtitle: '柏青哥主導的特殊市場，線上博奕全禁',
+    title: t('regions.japan.title'),
+    subtitle: t('regions.japan.subtitle'),
     icon: '🇯🇵',
     headerBg: 'bg-red-600',
     stats: [
@@ -261,8 +263,8 @@ const detailedRegions = [
   },
   {
     id: 'china',
-    title: '中國大陸',
-    subtitle: '嚴格管制下的彩票市場，龐大地下賭博流向境外',
+    title: t('regions.china.title'),
+    subtitle: t('regions.china.subtitle'),
     icon: '🇨🇳',
     headerBg: 'bg-red-700',
     stats: [
@@ -291,8 +293,8 @@ const detailedRegions = [
   },
   {
     id: 'australia',
-    title: '澳洲',
-    subtitle: '全球人均最高博彩消費，博彩機主導市場',
+    title: t('regions.australia.title'),
+    subtitle: t('regions.australia.subtitle'),
     icon: '🇦🇺',
     headerBg: 'bg-orange-600',
     stats: [
@@ -322,8 +324,8 @@ const detailedRegions = [
   },
   {
     id: 'southeast-asia',
-    title: '東南亞',
-    subtitle: '快速成長的新興市場，菲律賓與新加坡領軍',
+    title: t('regions.southeast.title'),
+    subtitle: t('regions.southeast.subtitle'),
     icon: 'EA',
     headerBg: 'bg-yellow-600',
     stats: [
@@ -352,8 +354,8 @@ const detailedRegions = [
   },
   {
     id: 'taiwan',
-    title: '台灣',
-    subtitle: '有限開放的彩券市場，運彩快速成長',
+    title: t('regions.taiwan.title'),
+    subtitle: t('regions.taiwan.subtitle'),
     icon: '🇹🇼',
     headerBg: 'bg-blue-700',
     stats: [
@@ -380,7 +382,7 @@ const detailedRegions = [
       { name: 'Taiwan Sports Lottery Corporation - Gaming Revenue Reports', url: 'https://www.sportslottery.com.tw' }
     ]
   }
-]
+])
 </script>
 
 <template>
@@ -388,8 +390,8 @@ const detailedRegions = [
     <!-- 頁面標題 -->
     <div class="bg-gradient-to-r from-blue-600 to-purple-600 p-6">
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-3xl font-bold text-white mb-2">全球趨勢</h1>
-        <p class="text-blue-100">即時掌握全球市場動態與趨勢分析</p>
+        <h1 class="text-3xl font-bold text-white mb-2">{{ $t('page.title') }}</h1>
+        <p class="text-blue-100">{{ $t('page.subtitle') }}</p>
       </div>
     </div>
 
@@ -422,10 +424,9 @@ const detailedRegions = [
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
             </svg>
           </div>
-          <h3 class="text-2xl font-semibold text-white mb-4">全球博奕市場概況</h3>
+          <h3 class="text-2xl font-semibold text-white mb-4">{{ $t('global.overview') }}</h3>
           <p class="text-gray-300 max-w-4xl mx-auto">
-            2023年全球博奕市場總毛收入約達5,360億美元，相比2022年成長約13.1%。
-            線上博奕約佔24.6%，金額約1,320億美元，顯示數位化進程明顯加快。
+            {{ $t('global.description') }}
           </p>
         </div>
 
@@ -433,24 +434,24 @@ const detailedRegions = [
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div class="bg-gray-700 rounded-lg p-6 text-center">
             <div class="text-3xl font-bold text-green-400 mb-2">$5,360億</div>
-            <div class="text-white font-medium mb-1">2023年全球總收入</div>
+            <div class="text-white font-medium mb-1">{{ $t('global.totalRevenue') }}</div>
             <div class="text-gray-400 text-sm">↗ +13.1% YoY</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-6 text-center">
             <div class="text-3xl font-bold text-blue-400 mb-2">24.6%</div>
-            <div class="text-white font-medium mb-1">線上博奕佔比</div>
+            <div class="text-white font-medium mb-1">{{ $t('global.onlineShare') }}</div>
             <div class="text-gray-400 text-sm">$1,320億美元</div>
           </div>
           <div class="bg-gray-700 rounded-lg p-6 text-center">
             <div class="text-3xl font-bold text-purple-400 mb-2">$5,730億</div>
-            <div class="text-white font-medium mb-1">2024年預期收入</div>
-            <div class="text-gray-400 text-sm">↗ +7% 成長率</div>
+            <div class="text-white font-medium mb-1">{{ $t('global.expectedRevenue') }}</div>
+            <div class="text-gray-400 text-sm">↗ +7% {{ $t('global.growthRate') }}</div>
           </div>
         </div>
 
         <!-- 全球數據來源 -->
         <div class="mt-6 pt-4 border-t border-gray-600">
-          <h5 class="text-sm font-semibold text-gray-400 mb-2">全球市場數據來源：</h5>
+          <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ $t('global.dataSources') }}</h5>
           <ul class="text-xs text-gray-500 space-y-1">
             <li>• <a href="https://h2gc.com" target="_blank" class="text-blue-400 hover:text-blue-300 underline">H2 Gambling Capital - Global Gambling Industry Report 2023</a></li>
             <li>• <a href="https://www.americangaming.org" target="_blank" class="text-blue-400 hover:text-blue-300 underline">American Gaming Association (AGA) - Commercial Gaming Revenue Reports</a></li>
@@ -461,26 +462,26 @@ const detailedRegions = [
 
       <!-- 各地區市場對比表格 -->
       <div class="bg-gray-800 rounded-lg p-8 mb-8">
-        <h3 class="text-xl font-semibold text-white mb-6">各地區市場規模對比 (2023年)</h3>
+        <h3 class="text-xl font-semibold text-white mb-6">{{ $t('table.comparison') }}</h3>
         
         <!-- 桌面版表格 -->
         <div class="hidden lg:block overflow-x-auto">
           <table class="w-full text-sm">
             <thead>
               <tr class="border-b border-gray-600">
-                <th class="text-left p-4 text-gray-300 font-medium">地區</th>
-                <th class="text-left p-4 text-gray-300 font-medium">市場規模</th>
-                <th class="text-left p-4 text-gray-300 font-medium">年增長率</th>
+                <th class="text-left p-4 text-gray-300 font-medium">{{ $t('table.region') }}</th>
+                <th class="text-left p-4 text-gray-300 font-medium">{{ $t('table.marketSize') }}</th>
+                <th class="text-left p-4 text-gray-300 font-medium">{{ $t('table.growthRate') }}</th>
                 <th class="text-left p-4 text-gray-300 font-medium">
-                  線上滲透率
+                  {{ $t('table.onlinePenetration') }}
                   <span 
                     class="ml-1 text-xs text-blue-400 cursor-help" 
-                    title="線上博奕收入占整體博奕市場收入的百分比，反映該地區數位化博奕的普及程度"
+                    :title="$t('table.onlinePenetrationTooltip')"
                   >
                     ⓘ
                   </span>
                 </th>
-                <th class="text-left p-4 text-gray-300 font-medium">主要特色</th>
+                <th class="text-left p-4 text-gray-300 font-medium">{{ $t('table.features') }}</th>
               </tr>
             </thead>
             <tbody>
@@ -518,19 +519,19 @@ const detailedRegions = [
             </div>
             <div class="space-y-2 text-sm">
               <div class="flex justify-between">
-                <span class="text-gray-400">市場規模:</span>
+                <span class="text-gray-400">{{ $t('table.marketSize') }}:</span>
                 <span class="text-gray-300">{{ region.marketSize }}</span>
               </div>
               <div class="flex justify-between">
-                <span class="text-gray-400">年增長率:</span>
+                <span class="text-gray-400">{{ $t('table.growthRate') }}:</span>
                 <span :class="region.growthClass">{{ region.growth }}</span>
               </div>
               <div class="flex justify-between">
                 <span class="text-gray-400">
-                  線上滲透率
+                  {{ $t('table.onlinePenetration') }}
                   <span 
                     class="ml-1 text-xs text-blue-400 cursor-help" 
-                    title="線上博奕收入占整體博奕市場收入的百分比，反映該地區數位化博奕的普及程度"
+                    :title="$t('table.onlinePenetrationTooltip')"
                   >
                     ⓘ
                   </span>
@@ -539,7 +540,7 @@ const detailedRegions = [
                 <span class="text-gray-300">{{ region.penetration }}</span>
               </div>
               <div>
-                <span class="text-gray-400">特色:</span>
+                <span class="text-gray-400">{{ $t('table.features') }}:</span>
                 <span class="text-gray-300 text-xs block mt-1">{{ region.features }}</span>
               </div>
             </div>
@@ -592,7 +593,7 @@ const detailedRegions = [
 
             <!-- 數據來源 -->
             <div v-if="region.sources" class="mt-6 pt-4 border-t border-gray-600">
-              <h5 class="text-sm font-semibold text-gray-400 mb-2">數據來源：</h5>
+              <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ $t('dataSources') }}</h5>
               <ul class="text-xs text-gray-500 space-y-1">
                 <li v-for="source in region.sources" :key="source.name">
                   • 
@@ -614,7 +615,7 @@ const detailedRegions = [
 
       <!-- 快速連結 -->
       <div class="bg-gray-800 rounded-lg p-6 mt-8">
-        <h3 class="text-xl font-semibold text-white mb-4">更多資訊</h3>
+        <h3 class="text-xl font-semibold text-white mb-4">{{ $t('quickLinks.title') }}</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <a
             :href="SPREADSHEET_URL"
@@ -624,10 +625,10 @@ const detailedRegions = [
             <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
             </svg>
-            <div>
-              <div class="text-white font-medium">菠菜天眼通試算表</div>
-              <div class="text-gray-400 text-sm">查看業界評論</div>
-            </div>
+                          <div>
+                <div class="text-white font-medium">{{ $t('quickLinks.spreadsheet') }}</div>
+                <div class="text-gray-400 text-sm">{{ $t('quickLinks.spreadsheetDesc') }}</div>
+              </div>
           </a>
           
           <a
@@ -637,10 +638,10 @@ const detailedRegions = [
             <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
             </svg>
-            <div>
-              <div class="text-white font-medium">聯繫站長</div>
-              <div class="text-gray-400 text-sm">商務合作</div>
-            </div>
+                          <div>
+                <div class="text-white font-medium">{{ $t('quickLinks.contact') }}</div>
+                <div class="text-gray-400 text-sm">{{ $t('quickLinks.contactDesc') }}</div>
+              </div>
           </a>
         </div>
       </div>
