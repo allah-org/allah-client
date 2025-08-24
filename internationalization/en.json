@@ -169,6 +169,7 @@
     },
     "preferenceTable": {
       "title": "Regional Game Type Preference Comparison",
+      "region": "Region",
       "high": "High",
       "medium": "Medium", 
       "low": "Low",
@@ -222,7 +223,27 @@
       "liveSubtitle": "Evolution Gaming holds 45% market share, popular in Asia",
       "sportsSubtitle": "US $119.8B wagered in 2023, 44.5% annual growth",
       "lotterySubtitle": "4.2B global participants, China ¥623.5B sales in 2024",
-      "localSubtitle": "Japan pachinko ¥14.6T, Taiwan mahjong 4M+ players"
+      "localSubtitle": "Japan pachinko ¥14.6T, Taiwan mahjong 4M+ players",
+      "stats": {
+        "usRevenue": "US Annual Revenue",
+        "australiaMachines": "Australia Machines",
+        "globalPlayers": "Global Players",
+        "pokerStarsUsers": "PokerStars Users",
+        "usParticipants": "US Participants",
+        "globalTournaments": "Global Tournaments",
+        "evolutionMarket": "Evolution Market Share",
+        "mainMarket": "Main Market",
+        "dailyUsers": "Daily Active Users",
+        "usWagering": "US Wagering Amount",
+        "usRevenueSports": "US Annual Revenue",
+        "growthRate": "Annual Growth Rate",
+        "globalParticipants": "Global Participants",
+        "chinaSales": "China Sales",
+        "usStateRevenue": "US State Revenue",
+        "pachinkoWagering": "Japan Pachinko Wagering",
+        "pachinkoPlayers": "Pachinko Players",
+        "taiwanMahjong": "Taiwan Mahjong Players"
+      }
     },
     "revenueStats": {
       "slotsUS": "US Slots Annual Revenue",

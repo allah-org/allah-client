@@ -1,6 +1,6 @@
 <script setup>
 // 國際化
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
 useHead({
   title: 'BTT 菠菜天眼通 - 遊戲趨勢',
@@ -68,6 +68,7 @@ const scrollToType = (typeCode) => {
 const preferenceData = computed(() => [
   {
     region: t('gaming.preferenceTable.regions.northAmerica'),
+    regionKey: 'gaming.preferenceTable.regions.northAmerica',
     slots: 'high',
     poker: 'medium',
     live: 'medium', 
@@ -77,6 +78,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.europe'),
+    regionKey: 'gaming.preferenceTable.regions.europe',
     slots: 'medium',
     poker: 'medium',
     live: 'medium',
@@ -86,6 +88,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.japan'),
+    regionKey: 'gaming.preferenceTable.regions.japan',
     slots: 'low',
     poker: 'low',
     live: 'low',
@@ -95,6 +98,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.southeastAsia'),
+    regionKey: 'gaming.preferenceTable.regions.southeastAsia',
     slots: 'medium',
     poker: 'low',
     live: 'high',
@@ -104,6 +108,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.australia'),
+    regionKey: 'gaming.preferenceTable.regions.australia',
     slots: 'high',
     poker: 'medium',
     live: 'medium',
@@ -113,6 +118,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.china'),
+    regionKey: 'gaming.preferenceTable.regions.china',
     slots: 'low',
     poker: 'low',
     live: 'low',
@@ -122,6 +128,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.hongkongMacao'),
+    regionKey: 'gaming.preferenceTable.regions.hongkongMacao',
     slots: 'high',
     poker: 'high',
     live: 'medium',
@@ -131,6 +138,7 @@ const preferenceData = computed(() => [
   },
   {
     region: t('gaming.preferenceTable.regions.taiwan'),
+    regionKey: 'gaming.preferenceTable.regions.taiwan',
     slots: 'low',
     poker: 'low',
     live: 'low',
@@ -149,9 +157,9 @@ const gameTypeDetails = computed(() => [
     icon: '🎰',
     headerBg: 'bg-yellow-600',
     stats: [
-      { label: '美國年收入', value: '$355億', valueClass: 'text-yellow-400' },
-      { label: '澳洲機台數', value: '20萬台', valueClass: 'text-orange-400' },
-      { label: '全球玩家數', value: '數千萬', valueClass: 'text-blue-400' }
+      { label: t('gaming.gameTypeIntro.stats.usRevenue'), value: '$355億', valueClass: 'text-yellow-400' },
+      { label: t('gaming.gameTypeIntro.stats.australiaMachines'), value: '20萬台', valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.globalPlayers'), value: '數千萬', valueClass: 'text-blue-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">市場主導地位</h4>
@@ -184,9 +192,9 @@ const gameTypeDetails = computed(() => [
     icon: '🃏',
     headerBg: 'bg-blue-600',
     stats: [
-      { label: 'PokerStars用戶', value: '1億+', valueClass: 'text-blue-400' },
-      { label: '美國參與者', value: '數千萬', valueClass: 'text-green-400' },
-      { label: '全球錦標賽', value: 'WSOP等', valueClass: 'text-purple-400' }
+      { label: t('gaming.gameTypeIntro.stats.pokerStarsUsers'), value: '1億+', valueClass: 'text-blue-400' },
+      { label: t('gaming.gameTypeIntro.stats.usParticipants'), value: '數千萬', valueClass: 'text-green-400' },
+      { label: t('gaming.gameTypeIntro.stats.globalTournaments'), value: 'WSOP等', valueClass: 'text-purple-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">遊戲類型多樣</h4>
@@ -219,9 +227,9 @@ const gameTypeDetails = computed(() => [
     icon: '🎲',
     headerBg: 'bg-red-600',
     stats: [
-      { label: 'Evolution市佔率', value: '45%', valueClass: 'text-red-400' },
-      { label: '主要市場', value: '亞洲', valueClass: 'text-orange-400' },
-      { label: '日活用戶', value: '數十萬', valueClass: 'text-yellow-400' }
+      { label: t('gaming.gameTypeIntro.stats.evolutionMarket'), value: '45%', valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.mainMarket'), value: '亞洲', valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.dailyUsers'), value: '數十萬', valueClass: 'text-yellow-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">技術創新</h4>
@@ -254,9 +262,9 @@ const gameTypeDetails = computed(() => [
     icon: '⚽',
     headerBg: 'bg-green-600',
     stats: [
-      { label: '美國投注額', value: '$1198億', valueClass: 'text-green-400' },
-      { label: '美國年收益', value: '$109億', valueClass: 'text-blue-400' },
-      { label: '年增長率', value: '+44.5%', valueClass: 'text-purple-400' }
+      { label: t('gaming.gameTypeIntro.stats.usWagering'), value: '$1198億', valueClass: 'text-green-400' },
+      { label: t('gaming.gameTypeIntro.stats.usRevenueSports'), value: '$109億', valueClass: 'text-blue-400' },
+      { label: t('gaming.gameTypeIntro.stats.growthRate'), value: '+44.5%', valueClass: 'text-purple-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">爆發性成長</h4>
@@ -289,9 +297,9 @@ const gameTypeDetails = computed(() => [
     icon: '🎫',
     headerBg: 'bg-purple-600',
     stats: [
-      { label: '全球參與者', value: '42億人', valueClass: 'text-purple-400' },
-      { label: '中國銷售額', value: '¥6235億', valueClass: 'text-red-400' },
-      { label: '美國州政府收入', value: '$244億', valueClass: 'text-green-400' }
+      { label: t('gaming.gameTypeIntro.stats.globalParticipants'), value: '42億人', valueClass: 'text-purple-400' },
+      { label: t('gaming.gameTypeIntro.stats.chinaSales'), value: '¥6235億', valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.usStateRevenue'), value: '$244億', valueClass: 'text-green-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">最普及的博弈形式</h4>
@@ -325,9 +333,9 @@ const gameTypeDetails = computed(() => [
     icon: '🏮',
     headerBg: 'bg-orange-600',
     stats: [
-      { label: '日本柏青哥投注', value: '¥14.6兆', valueClass: 'text-orange-400' },
-      { label: '柏青哥玩家數', value: '780萬', valueClass: 'text-red-400' },
-      { label: '台灣麻將玩家', value: '400萬+', valueClass: 'text-yellow-400' }
+      { label: t('gaming.gameTypeIntro.stats.pachinkoWagering'), value: '¥14.6兆', valueClass: 'text-orange-400' },
+      { label: t('gaming.gameTypeIntro.stats.pachinkoPlayers'), value: '780萬', valueClass: 'text-red-400' },
+      { label: t('gaming.gameTypeIntro.stats.taiwanMahjong'), value: '400萬+', valueClass: 'text-yellow-400' }
     ],
     content: `
       <h4 class="text-lg font-semibold text-white mb-3">文化根基深厚</h4>
@@ -371,15 +379,32 @@ const getPreferenceClass = (level) => {
 }
 
 const getPreferenceText = (level) => {
-  switch (level) {
-    case 'high':
-      return t('gaming.preferenceTable.high')
-    case 'medium':
-      return t('gaming.preferenceTable.medium')
-    case 'low':
-      return t('gaming.preferenceTable.low')
-    default:
-      return '-'
+  const { locale } = useI18n()
+  
+  if (locale.value === 'en') {
+    // 英文版用縮寫
+    switch (level) {
+      case 'high':
+        return 'H'
+      case 'medium':
+        return 'M'
+      case 'low':
+        return 'L'
+      default:
+        return '-'
+    }
+  } else {
+    // 中文版用完整詞
+    switch (level) {
+      case 'high':
+        return t('gaming.preferenceTable.high')
+      case 'medium':
+        return t('gaming.preferenceTable.medium')
+      case 'low':
+        return t('gaming.preferenceTable.low')
+      default:
+        return '-'
+    }
   }
 }
 </script>
@@ -498,13 +523,13 @@ const getPreferenceText = (level) => {
           <table class="w-full text-sm">
             <thead>
               <tr class="border-b border-gray-600">
-                <th class="text-left p-4 text-gray-300 font-medium">地區</th>
-                <th class="text-center p-4 text-gray-300 font-medium">🎰 老虎機</th>
-                <th class="text-center p-4 text-gray-300 font-medium">🃏 撲克類</th>
-                <th class="text-center p-4 text-gray-300 font-medium">🎲 真人娛樂場</th>
-                <th class="text-center p-4 text-gray-300 font-medium">⚽ 體育博彩</th>
-                <th class="text-center p-4 text-gray-300 font-medium">🎫 彩票</th>
-                <th class="text-center p-4 text-gray-300 font-medium">🏮 地方特色</th>
+                <th class="text-left p-4 text-gray-300 font-medium">{{ $t('gaming.preferenceTable.region') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">🎰 {{ $t('gaming.gameTypes.slots') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">🃏 {{ $t('gaming.gameTypes.poker') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">🎲 {{ $t('gaming.gameTypes.live') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">⚽ {{ $t('gaming.gameTypes.sports') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">🎫 {{ $t('gaming.gameTypes.lottery') }}</th>
+                <th class="text-center p-4 text-gray-300 font-medium">🏮 {{ $t('gaming.gameTypes.local') }}</th>
               </tr>
             </thead>
             <tbody>
@@ -665,6 +690,7 @@ const getPreferenceText = (level) => {
       <!-- 商務應用建議 -->
       <div id="business-section" class="bg-gray-800 rounded-lg p-8 mt-8">
         <h3 class="text-xl font-semibold text-white mb-6">{{ $t('gaming.businessAdvice.title') }}</h3>
+        <ClientOnly>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="bg-gray-700 rounded-lg p-6">
             <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center mb-4">
@@ -732,6 +758,7 @@ const getPreferenceText = (level) => {
             </div>
           </div>
         </div>
+        </ClientOnly>
       </div>
     </div>
   </div>

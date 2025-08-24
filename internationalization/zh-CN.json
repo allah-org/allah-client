@@ -169,6 +169,7 @@
     },
     "preferenceTable": {
       "title": "各地区游戏类型偏好对比",
+      "region": "地区",
       "high": "高",
       "medium": "中", 
       "low": "低",
@@ -222,7 +223,27 @@
       "liveSubtitle": "Evolution Gaming市占45%，亚洲市场特别盛行",
       "sportsSubtitle": "美国2023年投注额1198亿美元，年增44.5%",
       "lotterySubtitle": "全球42亿人参与，中国2024年销售额达6235亿人民币",
-      "localSubtitle": "日本柏青哥14.6兆日圆，台湾麻将400万玩家"
+      "localSubtitle": "日本柏青哥14.6兆日圆，台湾麻将400万玩家",
+      "stats": {
+        "usRevenue": "美国年收入",
+        "australiaMachines": "澳大利亚机台数",
+        "globalPlayers": "全球玩家数",
+        "pokerStarsUsers": "PokerStars用户",
+        "usParticipants": "美国参与者",
+        "globalTournaments": "全球锦标赛",
+        "evolutionMarket": "Evolution市占率",
+        "mainMarket": "主要市场",
+        "dailyUsers": "日活用户",
+        "usWagering": "美国投注额",
+        "usRevenueSports": "美国年收益",
+        "growthRate": "年增长率",
+        "globalParticipants": "全球参与者",
+        "chinaSales": "中国销售额",
+        "usStateRevenue": "美国州政府收入",
+        "pachinkoWagering": "日本柏青哥投注",
+        "pachinkoPlayers": "柏青哥玩家数",
+        "taiwanMahjong": "台湾麻将玩家"
+      }
     },
     "revenueStats": {
       "slotsUS": "美国老虎机年收入",
