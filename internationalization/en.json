@@ -207,6 +207,11 @@
       "lotterySales": "579.7B",
       "growthRate": "+36.5%",
       "onlinePenetration": "0%",
+      "stats": {
+        "lotterySales": "Lottery Sales",
+        "growthRate": "Growth Rate",
+        "onlinePenetration": "Online Penetration"
+      },
       "content": {
         "officialMarket": "Official Market",
         "officialMarketDesc": "China's lottery sales reached ¥579.7 billion in 2023, setting a historical high, with sports lottery and welfare lottery equally divided.",
