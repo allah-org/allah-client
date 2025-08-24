@@ -218,6 +218,124 @@
       "title": "游戏类型详细介绍",
       "platforms": "主要平台/厂商",
       "sources": "参考资料",
+      "slots": {
+        "marketDominance": {
+          "title": "市场主导地位",
+          "content": "老虎机是西方赌场中最主要的收入来源，美国2023年赌场老虎机收入达355.1亿美元，占比显著高于桌面游戏。澳大利亚俗称'Pokies'，拥有全球约20%的投币机数量，人均老虎机损失为全球最高。"
+        },
+        "gameFeatures": {
+          "title": "游戏特点",
+          "simple": "简单易懂",
+          "simpleDesc": "以简单拉霸玩法和多样主题吸引大量休闲玩家",
+          "variety": "种类丰富",
+          "varietyDesc": "包含传统实体角子机和线上视频老虎机",
+          "themes": "主题多样",
+          "themesDesc": "从传统水果机到电影、动漫、历史等各种主题"
+        },
+        "majorVendors": {
+          "title": "主要厂商",
+          "content": "Aristocrat Leisure（澳大利亚）是全球最大的老虎机制造商之一，其产品行销世界各地。IGT（美国）也是拉斯维加斯机台供应的重要厂商。"
+        }
+      },
+      "poker": {
+        "gameTypes": {
+          "title": "游戏类型多样",
+          "content": "包含德州扑克、二十一点、百家乐等以纸牌为媒介的赌桌游戏。在实体赌场与线上平台均流行，线上扑克平台PokerStars在2016年注册玩家数已突破1亿。"
+        },
+        "competitive": {
+          "title": "竞技性特色",
+          "strategic": "策略性强",
+          "strategicDesc": "扑克具有竞技性并催生职业锦标赛（如WSOP）",
+          "skillBased": "技巧要求",
+          "skillBasedDesc": "不纯粹依靠运气，策略和心理战同样重要",
+          "social": "社交互动",
+          "socialDesc": "线上平台强化社交功能，吸引年轻玩家"
+        },
+        "regional": {
+          "title": "地区偏好差异",
+          "content": "此类游戏在西方市场受欢迎，亚洲市场则更偏好百家乐等简单牌游。世界扑克大赛等赛事举世闻名。"
+        }
+      },
+      "live": {
+        "innovation": {
+          "title": "技术创新",
+          "content": "通过直播技术，由真人莊家主持的线上赌场游戏，如真人轮盘、真人百家乐等。这类游戏在亚洲线上市场特别盛行，因为玩家能通过直播感受真实赌桌氛围，提升信任感。"
+        },
+        "marketLeader": {
+          "title": "市场领导",
+          "evolution": "Evolution Gaming",
+          "evolutionDesc": "主导此领域，据报道其2025年占全球真人娱乐场市场约45%份额",
+          "asiaPreference": "亚洲偏好",
+          "asiaPreferenceDesc": "各大线上博弈平台普遍提供真人娱乐场频道",
+          "techRequirement": "技术要求",
+          "techRequirementDesc": "需要高品质直播技术和专业荷官"
+        },
+        "userExperience": {
+          "title": "用户体验",
+          "content": "真人娱乐场游戏每日活跃玩家以数十万计，特别在亚洲。高清直播和多角度摄影大幅提升了线上博弈的真实感。"
+        }
+      },
+      "sports": {
+        "explosiveGrowth": {
+          "title": "爆发性增长",
+          "content": "对体育赛事或电子竞技比赛结果进行投注。美国在2023年合法体育投注量达1198.4亿美元，产生收益109.2亿美元，年增长高达44.5%。"
+        },
+        "globalMarket": {
+          "title": "全球市场",
+          "westernTradition": "欧美传统",
+          "westernTraditionDesc": "英国有深厚体育博彩文化（足球投注、赛马等）",
+          "asianTrend": "亚洲热潮",
+          "asianTrendDesc": "泰国约63%成年人参与某种形式赌博，其中非法足球博彩金额估计每年达2,704亿泰铢",
+          "esportsRising": "电竞新兴",
+          "esportsRisingDesc": "近年电子竞技博彩兴起，吸引年轻族群"
+        },
+        "techDevelopment": {
+          "title": "技术发展",
+          "content": "全世界约有数亿人曾进行体育投注，即时投注、直播整合、AI赔率计算等技术创新让体育博彩体验更加丰富。"
+        }
+      },
+      "lottery": {
+        "mostPopular": {
+          "title": "最普及的博弈形式",
+          "content": "由官方或民间机构发行的彩票、对奖券，以及类似宾果游戏。这是全球参与人数最多的博弈形式之一，每年约有42亿人至少玩一次彩票。"
+        },
+        "countryPerformance": {
+          "title": "各国表现",
+          "china": "中国",
+          "chinaDesc": "2024年彩票销售额高达人民币6235亿元（约858亿美元），创历史新高",
+          "usa": "美国",
+          "usaDesc": "45个州营运官方彩票，2021年各州从彩票中获得收入达244亿美元",
+          "thailand": "泰国",
+          "thailandDesc": "有高达2,750万人购买政府彩票",
+          "uk": "英国",
+          "ukDesc": "每月约有45%的成年人参与某种形式的博弈（多为彩票投注）"
+        },
+        "advantages": {
+          "title": "特点优势",
+          "content": "购买门槛低、合法且接受度高是彩票受欢迎的主要原因。数字化趋势让线上彩票平台兴起。"
+        }
+      },
+      "local": {
+        "culturalRoots": {
+          "title": "文化根基深厚",
+          "content": "各地区特殊的传统或流行博彩游戏，往往具有深厚的文化背景和固定玩家群。这些游戏反映了当地的历史传统和社会习俗。"
+        },
+        "majorTypes": {
+          "title": "主要类型",
+          "pachinko": "日本柏青哥",
+          "pachinkoDesc": "2022年游戏投入总额约达14.6兆日元，玩家约780万人，一度超越澳门、拉斯维加斯收益总和",
+          "mahjong": "台湾麻将",
+          "mahjongDesc": "推估约有4-5百万人经常参与，被视为技艺和运气兼备的博弈",
+          "cockfighting": "菲律宾斗鸡",
+          "cockfightingDesc": "传统斗鸡赌博（Sabong），观众与投注者达百万级",
+          "tuiTongZi": "中国推筒子",
+          "tuiTongZiDesc": "民间的扑克牌推筒子等，在当地具有文化根基"
+        },
+        "modernDevelopment": {
+          "title": "现代发展",
+          "content": "传统游戏逐渐数字化，如线上麻将、模拟柏青哥等，结合现代技术同时保持文化特色。"
+        }
+      },
       "slotsSubtitle": "全球赌场主要收入来源，澳洲人均损失最高",
       "pokerSubtitle": "技巧与运气并重，PokerStars用户突破1亿",
       "liveSubtitle": "Evolution Gaming市占45%，亚洲市场特别盛行",

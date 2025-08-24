@@ -161,20 +161,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.australiaMachines'), value: '20萬台', valueClass: 'text-orange-400' },
       { label: t('gaming.gameTypeIntro.stats.globalPlayers'), value: '數千萬', valueClass: 'text-blue-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">市場主導地位</h4>
-      <p class="mb-4">老虎機是西方賭場中最主要的收入來源，美國2023年賭場老虎機收入達355.1億美元，占比顯著高於桌面遊戲。澳洲俗稱"Pokies"，擁有全球約20%的投幣機數量，人均老虎機損失為全球最高。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">遊戲特點</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>簡單易懂：</strong>以簡單拉霸玩法和多樣主題吸引大量休閒玩家</li>
-        <li><strong>種類豐富：</strong>包含傳統實體角子機和線上視頻老虎機</li>
-        <li><strong>主題多樣：</strong>從傳統水果機到電影、動漫、歷史等各種主題</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要廠商</h4>
-      <p class="mb-4">Aristocrat Leisure（澳洲）是全球最大的老虎機製造商之一，其產品行銷世界各地。IGT（美國）也是拉斯維加斯機台供應的重要廠商。</p>
-    `,
     platforms: [
       { name: 'Aristocrat Leisure', region: '澳洲', desc: '全球最大老虎機製造商' },
       { name: 'IGT', region: '美國', desc: '拉斯維加斯機台供應巨頭' }
@@ -196,20 +182,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.usParticipants'), value: '數千萬', valueClass: 'text-green-400' },
       { label: t('gaming.gameTypeIntro.stats.globalTournaments'), value: 'WSOP等', valueClass: 'text-purple-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">遊戲類型多樣</h4>
-      <p class="mb-4">包含德州撲克、二十一點、百家樂等以紙牌為媒介的賭桌遊戲。在實體賭場與線上平台均流行，線上撲克平台PokerStars在2016年註冊玩家數已突破1億。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">競技性特色</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>策略性強：</strong>撲克具有競技性並催生職業錦標賽（如WSOP）</li>
-        <li><strong>技巧要求：</strong>不純粹依靠運氣，策略和心理戰同樣重要</li>
-        <li><strong>社交互動：</strong>線上平台強化社交功能，吸引年輕玩家</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">地區偏好差異</h4>
-      <p class="mb-4">此類遊戲在西方市場受歡迎，亞洲市場則更偏好百家樂等簡單牌戲。世界撲克大賽等賽事舉世聞名。</p>
-    `,
     platforms: [
       { name: 'PokerStars', region: '全球', desc: '全球最大線上撲克室' },
       { name: 'World Poker Tour', region: '國際', desc: '頂級撲克賽事品牌' }
@@ -231,20 +203,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.mainMarket'), value: '亞洲', valueClass: 'text-orange-400' },
       { label: t('gaming.gameTypeIntro.stats.dailyUsers'), value: '數十萬', valueClass: 'text-yellow-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">技術創新</h4>
-      <p class="mb-4">透過直播技術，由真人莊家主持的線上賭場遊戲，如真人輪盤、真人百家樂等。這類遊戲在亞洲線上市場特別盛行，因為玩家能透過直播感受真實賭桌氛圍，提升信任感。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">市場領導</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>Evolution Gaming：</strong>主導此領域，據報導其2025年占全球真人娛樂場市場約45%份額</li>
-        <li><strong>亞洲偏好：</strong>各大線上博弈平台普遍提供真人娛樂場頻道</li>
-        <li><strong>技術要求：</strong>需要高品質直播技術和專業荷官</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">用戶體驗</h4>
-      <p class="mb-4">真人娛樂場遊戲每日活躍玩家以數十萬計，特別在亞洲。高清直播和多角度攝影大幅提升了線上博弈的真實感。</p>
-    `,
     platforms: [
       { name: 'Evolution Gaming', region: '瑞典', desc: '全球真人娛樂場龍頭，市佔45%' },
       { name: 'Playtech', region: '英國', desc: '真人遊戲和系統技術領先' }
@@ -266,20 +224,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.usRevenueSports'), value: '$109億', valueClass: 'text-blue-400' },
       { label: t('gaming.gameTypeIntro.stats.growthRate'), value: '+44.5%', valueClass: 'text-purple-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">爆發性成長</h4>
-      <p class="mb-4">對體育賽事或電子競技比賽結果進行投注。美國在2023年合法體育投注量達1198.4億美元，產生收益109.2億美元，年增長高達44.5%。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">全球市場</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>歐美傳統：</strong>英國有深厚體育博彩文化（足球投注、賽馬等）</li>
-        <li><strong>亞洲熱潮：</strong>泰國約63%成年人參與某種形式賭博，其中非法足球博彩金額估計每年達2,704億泰銖</li>
-        <li><strong>電競新興：</strong>近年電子競技博彩興起，吸引年輕族群</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">技術發展</h4>
-      <p class="mb-4">全世界約有數億人曾進行體育投注，即時投注、直播整合、AI賠率計算等技術創新讓體育博彩體驗更加豐富。</p>
-    `,
     platforms: [
       { name: 'Bet365', region: '英國', desc: '全球最大的線上體育博彩公司之一' },
       { name: 'DraftKings', region: '美國', desc: '新興體育及電競投注平台' }
@@ -301,21 +245,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.chinaSales'), value: '¥6235億', valueClass: 'text-red-400' },
       { label: t('gaming.gameTypeIntro.stats.usStateRevenue'), value: '$244億', valueClass: 'text-green-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">最普及的博弈形式</h4>
-      <p class="mb-4">由官方或民間機構發行的彩票、對獎券，以及類似賓果遊戲。這是全球參與人數最多的博弈形式之一，每年約有42億人至少玩一次彩票。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">各國表現</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>中國：</strong>2024年彩票銷售額高達人民幣6235億元（約858億美元），創歷史新高</li>
-        <li><strong>美國：</strong>45個州營運官方彩票，2021年各州從彩票中獲得收入達244億美元</li>
-        <li><strong>泰國：</strong>有高達2,750萬人購買政府彩票</li>
-        <li><strong>英國：</strong>每月約有45%的成年人參與某種形式的博弈（多為彩票投注）</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">特點優勢</h4>
-      <p class="mb-4">購買門檻低、合法且接受度高是彩票受歡迎的主要原因。數位化趨勢讓線上彩票平台興起。</p>
-    `,
     platforms: [
       { name: 'Powerball', region: '美國', desc: '聯合彩券系統，常創上億美元頭獎' },
       { name: 'China Sports Lottery', region: '中國', desc: '世界最大彩票發行系統之一' }
@@ -337,21 +266,6 @@ const gameTypeDetails = computed(() => [
       { label: t('gaming.gameTypeIntro.stats.pachinkoPlayers'), value: '780萬', valueClass: 'text-red-400' },
       { label: t('gaming.gameTypeIntro.stats.taiwanMahjong'), value: '400萬+', valueClass: 'text-yellow-400' }
     ],
-    content: `
-      <h4 class="text-lg font-semibold text-white mb-3">文化根基深厚</h4>
-      <p class="mb-4">各地區特殊的傳統或流行博彩遊戲，往往具有深厚的文化背景和固定玩家群。這些遊戲反映了當地的歷史傳統和社會習俗。</p>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">主要類型</h4>
-      <ul class="list-disc list-inside mb-4 space-y-1">
-        <li><strong>日本柏青哥：</strong>2022年遊戲投入總額約達14.6兆日圓，玩家約780萬人，一度超越澳門、拉斯維加斯收益總和</li>
-        <li><strong>台灣麻將：</strong>推估約有4-5百萬人經常參與，被視為技藝和運氣兼備的博弈</li>
-        <li><strong>菲律賓鬥雞：</strong>傳統鬥雞賭博（Sabong），觀眾與投注者達百萬級</li>
-        <li><strong>中國推筒子：</strong>民間的撲克牌推筒子等，在當地具有文化根基</li>
-      </ul>
-      
-      <h4 class="text-lg font-semibold text-white mb-3 mt-4">現代發展</h4>
-      <p class="mb-4">傳統遊戲逐漸數位化，如線上麻將、模擬柏青哥等，結合現代技術同時保持文化特色。</p>
-    `,
     platforms: [
       { name: 'Maruhan', region: '日本', desc: '日本最大柏青哥廳連鎖' },
       { name: 'Sega Sammy', region: '日本', desc: '日本柏青哥機台龍頭' }
@@ -657,7 +571,103 @@ const getPreferenceText = (level) => {
 
             <!-- 詳細內容 -->
             <div class="prose prose-invert max-w-none mb-6">
-              <div v-html="type.content" class="text-gray-300 text-sm leading-relaxed"></div>
+              <!-- 老虎機內容 -->
+              <div v-if="type.id === 'slots'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.slots.marketDominance.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.slots.marketDominance.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.slots.gameFeatures.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.simple') }}：</strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.simpleDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.variety') }}：</strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.varietyDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.themes') }}：</strong>{{ $t('gaming.gameTypeIntro.slots.gameFeatures.themesDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.slots.majorVendors.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.slots.majorVendors.content') }}</p>
+              </div>
+
+              <!-- 撲克類內容 -->
+              <div v-if="type.id === 'poker'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.poker.gameTypes.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.poker.gameTypes.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.poker.competitive.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.poker.competitive.strategic') }}：</strong>{{ $t('gaming.gameTypeIntro.poker.competitive.strategicDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.poker.competitive.skillBased') }}：</strong>{{ $t('gaming.gameTypeIntro.poker.competitive.skillBasedDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.poker.competitive.social') }}：</strong>{{ $t('gaming.gameTypeIntro.poker.competitive.socialDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.poker.regional.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.poker.regional.content') }}</p>
+              </div>
+
+              <!-- 真人娛樂場內容 -->
+              <div v-if="type.id === 'live'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.live.innovation.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.live.innovation.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.live.marketLeader.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.evolution') }}：</strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.evolutionDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.asiaPreference') }}：</strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.asiaPreferenceDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.techRequirement') }}：</strong>{{ $t('gaming.gameTypeIntro.live.marketLeader.techRequirementDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.live.userExperience.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.live.userExperience.content') }}</p>
+              </div>
+
+              <!-- 體育博彩內容 -->
+              <div v-if="type.id === 'sports'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.sports.explosiveGrowth.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.sports.explosiveGrowth.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.sports.globalMarket.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.westernTradition') }}：</strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.westernTraditionDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.asianTrend') }}：</strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.asianTrendDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.esportsRising') }}：</strong>{{ $t('gaming.gameTypeIntro.sports.globalMarket.esportsRisingDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.sports.techDevelopment.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.sports.techDevelopment.content') }}</p>
+              </div>
+
+              <!-- 彩票內容 -->
+              <div v-if="type.id === 'lottery'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.lottery.mostPopular.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.lottery.mostPopular.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.china') }}：</strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.chinaDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.usa') }}：</strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.usaDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.thailand') }}：</strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.thailandDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.uk') }}：</strong>{{ $t('gaming.gameTypeIntro.lottery.countryPerformance.ukDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.lottery.advantages.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.lottery.advantages.content') }}</p>
+              </div>
+
+              <!-- 地方特色內容 -->
+              <div v-if="type.id === 'local'" class="text-gray-300 text-sm leading-relaxed">
+                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('gaming.gameTypeIntro.local.culturalRoots.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.local.culturalRoots.content') }}</p>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.local.majorTypes.title') }}</h4>
+                <ul class="list-disc list-inside mb-4 space-y-1">
+                  <li><strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.pachinko') }}：</strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.pachinkoDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.mahjong') }}：</strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.mahjongDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.cockfighting') }}：</strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.cockfightingDesc') }}</li>
+                  <li><strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.tuiTongZi') }}：</strong>{{ $t('gaming.gameTypeIntro.local.majorTypes.tuiTongZiDesc') }}</li>
+                </ul>
+                
+                <h4 class="text-lg font-semibold text-white mb-3 mt-4">{{ $t('gaming.gameTypeIntro.local.modernDevelopment.title') }}</h4>
+                <p class="mb-4">{{ $t('gaming.gameTypeIntro.local.modernDevelopment.content') }}</p>
+              </div>
             </div>
 
             <!-- 主要平台 -->

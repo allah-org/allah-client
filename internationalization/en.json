@@ -218,6 +218,124 @@
       "title": "Detailed Game Type Introduction",
       "platforms": "Major Platforms/Vendors",
       "sources": "References",
+      "slots": {
+        "marketDominance": {
+          "title": "Market Dominance",
+          "content": "Slot machines are the primary revenue source in Western casinos. In 2023, US casino slot revenue reached $35.51 billion, significantly higher than table games. Australia, where they're called 'Pokies', has about 20% of the world's slot machines, with the highest per capita slot losses globally."
+        },
+        "gameFeatures": {
+          "title": "Game Features",
+          "simple": "Easy to Play",
+          "simpleDesc": "Simple gameplay and diverse themes attract a large number of casual players",
+          "variety": "Rich Variety",
+          "varietyDesc": "Includes traditional physical slot machines and online video slots",
+          "themes": "Diverse Themes",
+          "themesDesc": "From traditional fruit machines to movies, anime, history and various themes"
+        },
+        "majorVendors": {
+          "title": "Major Vendors",
+          "content": "Aristocrat Leisure (Australia) is one of the world's largest slot machine manufacturers, with products marketed worldwide. IGT (USA) is also a major supplier of machines in Las Vegas."
+        }
+      },
+      "poker": {
+        "gameTypes": {
+          "title": "Diverse Game Types",
+          "content": "Includes card-based gambling games such as Texas Hold'em, Blackjack, and Baccarat. Popular in both physical casinos and online platforms, with PokerStars registering over 100 million players by 2016."
+        },
+        "competitive": {
+          "title": "Competitive Features",
+          "strategic": "Strategic",
+          "strategicDesc": "Poker has competitive nature and spawns professional tournaments (like WSOP)",
+          "skillBased": "Skill Required",
+          "skillBasedDesc": "Not purely luck-based, strategy and psychology are equally important",
+          "social": "Social Interaction",
+          "socialDesc": "Online platforms enhance social features, attracting younger players"
+        },
+        "regional": {
+          "title": "Regional Preferences",
+          "content": "These games are popular in Western markets, while Asian markets prefer simpler card games like Baccarat. World poker tournaments are internationally renowned."
+        }
+      },
+      "live": {
+        "innovation": {
+          "title": "Technical Innovation",
+          "content": "Through live streaming technology, online casino games hosted by real dealers, such as live roulette and live baccarat. These games are particularly popular in Asian online markets because players can feel the real casino atmosphere through live streaming, enhancing trust."
+        },
+        "marketLeader": {
+          "title": "Market Leadership",
+          "evolution": "Evolution Gaming",
+          "evolutionDesc": "Dominates this field, reportedly holding about 45% of the global live casino market by 2025",
+          "asiaPreference": "Asian Preference",
+          "asiaPreferenceDesc": "Major online gambling platforms universally provide live casino channels",
+          "techRequirement": "Technical Requirements",
+          "techRequirementDesc": "Requires high-quality live streaming technology and professional dealers"
+        },
+        "userExperience": {
+          "title": "User Experience",
+          "content": "Live casino games have hundreds of thousands of daily active players, especially in Asia. HD live streaming and multi-angle photography greatly enhance the realism of online gambling."
+        }
+      },
+      "sports": {
+        "explosiveGrowth": {
+          "title": "Explosive Growth",
+          "content": "Betting on sports events or esports competition results. In 2023, US legal sports betting volume reached $119.84 billion, generating revenue of $10.92 billion, with an annual growth rate of 44.5%."
+        },
+        "globalMarket": {
+          "title": "Global Market",
+          "westernTradition": "Western Tradition",
+          "westernTraditionDesc": "UK has deep sports betting culture (football betting, horse racing, etc.)",
+          "asianTrend": "Asian Trend",
+          "asianTrendDesc": "About 63% of Thai adults participate in some form of gambling, with illegal football betting estimated at 270.4 billion baht annually",
+          "esportsRising": "Esports Rising",
+          "esportsRisingDesc": "Esports betting has emerged in recent years, attracting younger demographics"
+        },
+        "techDevelopment": {
+          "title": "Technical Development",
+          "content": "Billions worldwide have engaged in sports betting. Technical innovations like live betting, streaming integration, and AI odds calculation make sports betting experiences richer."
+        }
+      },
+      "lottery": {
+        "mostPopular": {
+          "title": "Most Popular Gambling Form",
+          "content": "Lotteries and scratch cards issued by official or private institutions, as well as similar bingo games. This is one of the most participated gambling forms globally, with about 4.2 billion people playing lottery at least once a year."
+        },
+        "countryPerformance": {
+          "title": "Country Performance",
+          "china": "China",
+          "chinaDesc": "2024 lottery sales reached 623.5 billion yuan (about $85.8 billion), a historic high",
+          "usa": "USA",
+          "usaDesc": "45 states operate official lotteries, with states earning $24.4 billion from lotteries in 2021",
+          "thailand": "Thailand",
+          "thailandDesc": "Up to 27.5 million people buy government lottery tickets",
+          "uk": "UK",
+          "ukDesc": "About 45% of adults participate in some form of gambling monthly (mostly lottery betting)"
+        },
+        "advantages": {
+          "title": "Features and Advantages",
+          "content": "Low entry barrier, legality, and high acceptance are the main reasons for lottery popularity. Digitalization trends have led to the rise of online lottery platforms."
+        }
+      },
+      "local": {
+        "culturalRoots": {
+          "title": "Deep Cultural Roots",
+          "content": "Regional traditional or popular gambling games often have deep cultural backgrounds and fixed player groups. These games reflect local historical traditions and social customs."
+        },
+        "majorTypes": {
+          "title": "Major Types",
+          "pachinko": "Japanese Pachinko",
+          "pachinkoDesc": "2022 total gaming investment reached about 14.6 trillion yen, with about 7.8 million players, once exceeding the combined revenue of Macau and Las Vegas",
+          "mahjong": "Taiwan Mahjong",
+          "mahjongDesc": "Estimated 4-5 million people regularly participate, considered a gambling game combining skill and luck",
+          "cockfighting": "Philippine Cockfighting",
+          "cockfightingDesc": "Traditional cockfighting gambling (Sabong), with millions of spectators and bettors",
+          "tuiTongZi": "Chinese Tui Tong Zi",
+          "tuiTongZiDesc": "Folk poker games like Tui Tong Zi have cultural roots locally"
+        },
+        "modernDevelopment": {
+          "title": "Modern Development",
+          "content": "Traditional games are gradually digitizing, such as online mahjong and simulated pachinko, combining modern technology while maintaining cultural characteristics."
+        }
+      },
       "slotsSubtitle": "Global casino revenue leader, Australia has highest per capita losses",
       "pokerSubtitle": "Skill and luck combined, PokerStars exceeds 100M users",
       "liveSubtitle": "Evolution Gaming holds 45% market share, popular in Asia",
