@@ -880,6 +880,10 @@
       "biometrics": {
         "title": "Biometric Authentication",
         "description": "Fingerprint, facial recognition and other technologies will become mainstream verification methods"
+      },
+      "quantum": {
+        "title": "Quantum Computing",
+        "description": "Quantum computing will revolutionize payment security and encryption methods"
       }
     }
   },

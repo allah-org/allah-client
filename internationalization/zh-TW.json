@@ -546,6 +546,10 @@
       "biometrics": {
         "title": "生物識別",
         "description": "指紋、臉部識別等技術將成為主流驗證方式"
+      },
+      "quantum": {
+        "title": "量子計算",
+        "description": "量子計算將革命性地改變金流安全和加密方式"
       }
     }
   },
