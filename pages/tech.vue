@@ -86,7 +86,11 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.director.skills'),
     tools: t('tech.roles.director.tools'),
     challenges: t('tech.roles.director.challenges'),
-    description: t('tech.roles.director.description')
+    description: t('tech.roles.director.description'),
+    sources: [
+      { name: 'The Online Casino Game Business Model: In-Depth Exploration', url: 'https://sdlccorp.com/post/the-online-casino-game-business-model-an-in-depth-exploration/' },
+      { name: 'How iGaming Uses AI to Improve Online Casinos', url: 'https://www.smartico.ai/blog-post/igaming-uses-ai-improve-online-casinos' }
+    ]
   },
   {
     id: 'product',
@@ -102,7 +106,10 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.product.skills'),
     tools: t('tech.roles.product.tools'),
     challenges: t('tech.roles.product.challenges'),
-    description: t('tech.roles.product.description')
+    description: t('tech.roles.product.description'),
+    sources: [
+      { name: '老虎機的設計流程與專業術語解釋', url: 'https://ezslotdesign.com/slot-noun/' }
+    ]
   },
   {
     id: 'frontend',
@@ -118,7 +125,12 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.frontend.skills'),
     tools: t('tech.roles.frontend.tools'),
     challenges: t('tech.roles.frontend.challenges'),
-    description: t('tech.roles.frontend.description')
+    description: t('tech.roles.frontend.description'),
+    sources: [
+      { name: 'The Online Casino Game Business Model: In-Depth Exploration', url: 'https://sdlccorp.com/post/the-online-casino-game-business-model-an-in-depth-exploration/' },
+      { name: 'How iGaming Uses AI to Improve Online Casinos', url: 'https://www.smartico.ai/blog-post/igaming-uses-ai-improve-online-casinos' },
+      { name: '老虎機前端開發 Part 3', url: 'https://ezslotdesign.com/slot-frontend03/' }
+    ]
   },
   {
     id: 'backend',
@@ -134,7 +146,11 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.backend.skills'),
     tools: t('tech.roles.backend.tools'),
     challenges: t('tech.roles.backend.challenges'),
-    description: t('tech.roles.backend.description')
+    description: t('tech.roles.backend.description'),
+    sources: [
+      { name: 'The Online Casino Game Business Model: In-Depth Exploration', url: 'https://sdlccorp.com/post/the-online-casino-game-business-model-an-in-depth-exploration/' },
+      { name: 'How iGaming Uses AI to Improve Online Casinos', url: 'https://www.smartico.ai/blog-post/igaming-uses-ai-improve-online-casinos' }
+    ]
   },
   {
     id: 'mathematics',
@@ -150,7 +166,10 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.mathematics.skills'),
     tools: t('tech.roles.mathematics.tools'),
     challenges: t('tech.roles.mathematics.challenges'),
-    description: t('tech.roles.mathematics.description')
+    description: t('tech.roles.mathematics.description'),
+    sources: [
+      { name: '老虎機的設計流程與專業術語解釋', url: 'https://ezslotdesign.com/slot-noun/' }
+    ]
   },
   {
     id: 'art',
@@ -166,7 +185,10 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.art.skills'),
     tools: t('tech.roles.art.tools'),
     challenges: t('tech.roles.art.challenges'),
-    description: t('tech.roles.art.description')
+    description: t('tech.roles.art.description'),
+    sources: [
+      { name: 'How to use AI in Game Development for Immersive Worlds', url: 'https://ilogos.biz/the-role-of-ai-in-game-development/' }
+    ]
   },
   {
     id: 'audio',
@@ -182,7 +204,11 @@ const roleDetails = computed(() => [
     skills: t('tech.roles.audio.skills'),
     tools: t('tech.roles.audio.tools'),
     challenges: t('tech.roles.audio.challenges'),
-    description: t('tech.roles.audio.description')
+    description: t('tech.roles.audio.description'),
+    sources: [
+      { name: 'Building a Dynamic Soundtrack for Your Game Using AIVA.ai', url: 'https://medium.com/@atnoforgamedev/building-a-dynamic-soundtrack-for-your-game-using-aiva-ai-0f43b3021d9f' },
+      { name: 'GitHub - suno-ai/bark: Text-Prompted Generative Audio Model', url: 'https://github.com/suno-ai/bark' }
+    ]
   }
 ])
 
@@ -233,6 +259,22 @@ const developmentStages = computed(() => [
     description: t('tech.development.stages.5.description')
   }
 ])
+
+// 概觀區段參考資料
+const overviewSources = [
+  { name: 'The Online Casino Game Business Model: In-Depth Exploration', url: 'https://sdlccorp.com/post/the-online-casino-game-business-model-an-in-depth-exploration/' },
+  { name: '老虎機前端開發 Part 3', url: 'https://ezslotdesign.com/slot-frontend03/' }
+]
+
+// 技術瓶頸參考資料
+const bottlenecksSources = [
+  { name: 'The Online Casino Game Business Model: In-Depth Exploration', url: 'https://sdlccorp.com/post/the-online-casino-game-business-model-an-in-depth-exploration/' }
+]
+
+// 開發流程參考資料
+const developmentSources = [
+  { name: '老虎機前端開發 Part 3', url: 'https://ezslotdesign.com/slot-frontend03/' }
+]
 </script>
 
 <template>
@@ -283,12 +325,25 @@ const developmentStages = computed(() => [
         <div class="space-y-6">
           <div>
             <h3 class="text-xl font-semibold text-white mb-4">{{ t('tech.overview.architecture') }}</h3>
-            <p class="text-gray-300 leading-relaxed">現代博弈平台通常採用客戶端－伺服器架構，包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等核心模組。</p>
+            <p class="text-gray-300 leading-relaxed">{{ t('tech.overview.architectureDesc') }}</p>
           </div>
           
           <div>
             <h3 class="text-xl font-semibold text-white mb-4">{{ t('tech.overview.components') }}</h3>
-            <p class="text-gray-300 leading-relaxed">平台架構設計注重可擴展性、安全性和效能，確保在高併發環境下穩定運行，同時滿足各地區的法規要求。</p>
+            <p class="text-gray-300 leading-relaxed">{{ t('tech.overview.componentsDesc') }}</p>
+          </div>
+        </div>
+
+        <!-- 參考資料 -->
+        <div class="mt-6 pt-4 border-t border-gray-600">
+          <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ t('tech.labels.references') }}</h5>
+          <div class="text-xs text-gray-400 space-y-1">
+            <div v-for="(source, index) in overviewSources" :key="index">
+              <a :href="source.url" target="_blank" class="text-blue-400 hover:text-blue-300 underline">
+                {{ source.name }}
+              </a>
+              <span v-if="index < overviewSources.length - 1" class="mx-2">|</span>
+            </div>
           </div>
         </div>
       </div>
@@ -331,26 +386,39 @@ const developmentStages = computed(() => [
         <div v-if="expandedRoles.includes(role.id)" class="space-y-6">
           <!-- 主要技能 -->
           <div>
-            <h4 class="text-lg font-semibold text-white mb-3">主要技能</h4>
+            <h4 class="text-lg font-semibold text-white mb-3">{{ t('tech.labels.mainSkills') }}</h4>
             <p class="text-gray-300 leading-relaxed">{{ role.skills }}</p>
           </div>
 
           <!-- 常用工具 -->
           <div>
-            <h4 class="text-lg font-semibold text-white mb-3">常用工具</h4>
+            <h4 class="text-lg font-semibold text-white mb-3">{{ t('tech.labels.commonTools') }}</h4>
             <p class="text-gray-300 leading-relaxed">{{ role.tools }}</p>
           </div>
 
           <!-- 面臨挑戰 -->
           <div>
-            <h4 class="text-lg font-semibold text-white mb-3">面臨挑戰</h4>
+            <h4 class="text-lg font-semibold text-white mb-3">{{ t('tech.labels.challenges') }}</h4>
             <p class="text-gray-300 leading-relaxed">{{ role.challenges }}</p>
           </div>
 
           <!-- 職能說明 -->
           <div>
-            <h4 class="text-lg font-semibold text-white mb-3">職能說明</h4>
+            <h4 class="text-lg font-semibold text-white mb-3">{{ t('tech.labels.jobDescription') }}</h4>
             <p class="text-gray-300 leading-relaxed">{{ role.description }}</p>
+          </div>
+
+          <!-- 參考資料 -->
+          <div v-if="role.sources" class="mt-6 pt-4 border-t border-gray-600">
+            <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ t('tech.labels.references') }}</h5>
+            <div class="text-xs text-gray-400 space-y-1">
+              <div v-for="(source, index) in role.sources" :key="index">
+                <a :href="source.url" target="_blank" class="text-blue-400 hover:text-blue-300 underline">
+                  {{ source.name }}
+                </a>
+                <span v-if="index < role.sources.length - 1" class="mx-2">|</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -364,6 +432,19 @@ const developmentStages = computed(() => [
           <div v-for="bottleneck in bottlenecksData" :key="bottleneck.title" class="border-l-4 border-red-400 pl-4 py-2">
             <h3 class="text-lg font-semibold text-white mb-2">{{ bottleneck.title }}</h3>
             <p class="text-gray-300">{{ bottleneck.description }}</p>
+          </div>
+        </div>
+
+        <!-- 參考資料 -->
+        <div class="mt-6 pt-4 border-t border-gray-600">
+          <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ t('tech.labels.references') }}</h5>
+          <div class="text-xs text-gray-400 space-y-1">
+            <div v-for="(source, index) in bottlenecksSources" :key="index">
+              <a :href="source.url" target="_blank" class="text-blue-400 hover:text-blue-300 underline">
+                {{ source.name }}
+              </a>
+              <span v-if="index < bottlenecksSources.length - 1" class="mx-2">|</span>
+            </div>
           </div>
         </div>
       </div>
@@ -389,6 +470,19 @@ const developmentStages = computed(() => [
                 </div>
                 <p class="text-gray-300">{{ stage.description }}</p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 參考資料 -->
+        <div class="mt-6 pt-4 border-t border-gray-600">
+          <h5 class="text-sm font-semibold text-gray-400 mb-2">{{ t('tech.labels.references') }}</h5>
+          <div class="text-xs text-gray-400 space-y-1">
+            <div v-for="(source, index) in developmentSources" :key="index">
+              <a :href="source.url" target="_blank" class="text-blue-400 hover:text-blue-300 underline">
+                {{ source.name }}
+              </a>
+              <span v-if="index < developmentSources.length - 1" class="mx-2">|</span>
             </div>
           </div>
         </div>

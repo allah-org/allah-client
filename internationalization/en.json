@@ -1390,7 +1390,9 @@
       "title": "Technical Architecture & Development Process Overview",
       "description": "Modern iGaming platforms typically adopt a client-server architecture. Frontend clients communicate with backend servers to achieve real-time gaming experience and secure transactions. Game development engines play a core role in building rich game content and interfaces.",
       "architecture": "Typical Online Gaming Platform Technical Architecture",
-      "components": "Includes frontend UI, game engine, API integration, payment gateway, security layer, and database modules"
+      "components": "Includes frontend UI, game engine, API integration, payment gateway, security layer, and database modules",
+      "architectureDesc": "Modern gambling platforms typically adopt a client-server architecture, including frontend UI, game engines, API integration, payment gateways, security layers, and database core modules.",
+      "componentsDesc": "Platform architecture design focuses on scalability, security, and performance, ensuring stable operation in high-concurrency environments while meeting regulatory requirements in various regions."
     },
     "roles": {
       "director": {
@@ -1557,6 +1559,13 @@
       "bottlenecks": "Technical Bottlenecks",
       "development": "Development Process",
       "business": "Business Cooperation"
+    },
+    "labels": {
+      "mainSkills": "Main Skills",
+      "commonTools": "Common Tools",
+      "challenges": "Challenges Faced",
+      "jobDescription": "Job Description",
+      "references": "References:"
     }
   }
 }

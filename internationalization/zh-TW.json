@@ -1473,7 +1473,9 @@
       "title": "技術架構與開發流程概觀",
       "description": "現代博弈平台通常採用客戶端－伺服器架構。前端客戶端與後端伺服器通訊，以實現即時遊戲體驗與安全交易。遊戲開發引擎在架構中扮演核心角色，用於構建豐富的遊戲內容與介面。",
       "architecture": "典型線上博弈平台的技術架構",
-      "components": "包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等模組"
+      "components": "包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等模組",
+      "architectureDesc": "現代博弈平台通常採用客戶端－伺服器架構，包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等核心模組。",
+      "componentsDesc": "平台架構設計注重可擴展性、安全性和效能，確保在高併發環境下穩定運行，同時滿足各地區的法規要求。"
     },
     "roles": {
       "director": {
@@ -1640,6 +1642,13 @@
       "bottlenecks": "技術瓶頸",
       "development": "開發流程",
       "business": "商務合作"
+    },
+    "labels": {
+      "mainSkills": "主要技能",
+      "commonTools": "常用工具",
+      "challenges": "面臨挑戰",
+      "jobDescription": "職能說明",
+      "references": "參考資料："
     }
   }
 }
