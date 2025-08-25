@@ -982,7 +982,7 @@
         "ewalletVolume": "$380B",
         "ewalletSecurity": "High",
         "estimatedVolume": "Estimated Volume",
-        "undergroundVolume": "$1.2T",
+        "undergroundVolumeValue": "$1.2T",
         "riskLevel": "Risk Level",
         "undergroundRisk": "Very High",
         "undergroundRegulatory": "Unregulated"
@@ -1359,6 +1359,204 @@
         "title": "Design Protection",
         "description": "Intellectual property protection for appearance designs"
       }
+    }
+  },
+  "business": {
+    "title": "Business Cooperation",
+    "subtitle": "Professional iGaming solutions and partnership opportunities",
+    "description": "We provide comprehensive iGaming solutions including platform development, game integration, payment systems, and regulatory compliance. Partner with us to accelerate your market entry and achieve sustainable growth.",
+    "services": {
+      "title": "Our Services",
+      "platform": "Platform Development",
+      "platformDesc": "Custom iGaming platforms with advanced features and scalability",
+      "games": "Game Integration",
+      "gamesDesc": "Seamless integration of popular casino games and sports betting",
+      "payment": "Payment Solutions",
+      "paymentDesc": "Multi-currency payment gateways with global compliance",
+      "compliance": "Regulatory Compliance",
+      "complianceDesc": "Expert guidance on licensing and regulatory requirements"
+    },
+    "contact": {
+      "title": "Get in Touch",
+
+      "phone": "+1 (555) 123-4567",
+      "description": "Ready to discuss your project? Contact our business development team for a personalized consultation."
+    }
+  },
+  "tech": {
+    "title": "Technical Architecture & Job Requirements",
+    "subtitle": "Comprehensive analysis of iGaming industry technical roles and skill requirements",
+    "overview": {
+      "title": "Technical Architecture & Development Process Overview",
+      "description": "Modern iGaming platforms typically adopt a client-server architecture. Frontend clients communicate with backend servers to achieve real-time gaming experience and secure transactions. Game development engines play a core role in building rich game content and interfaces.",
+      "architecture": "Typical Online Gaming Platform Technical Architecture",
+      "components": "Includes frontend UI, game engine, API integration, payment gateway, security layer, and database modules"
+    },
+    "roles": {
+      "director": {
+        "title": "Director / Technical Manager",
+        "subtitle": "Project management and system architecture design",
+        "icon": "👨‍💼",
+        "headerBg": "bg-purple-600",
+        "stats": [
+          { "label": "Project Management", "value": "High", "valueClass": "text-purple-400" },
+          { "label": "Cross-team Coordination", "value": "Critical", "valueClass": "text-blue-400" },
+          { "label": "System Architecture", "value": "Expert", "valueClass": "text-green-400" }
+        ],
+        "skills": "Project management, cross-department coordination, system architecture design, high-level decision making",
+        "tools": "Project management software (JIRA, Trello), prototype and design documents, architecture diagram tools (Visio), version control systems",
+        "challenges": "Delivering high-quality products within strict timelines; managing high-concurrency platform architecture design, ensuring system security and scalability",
+        "description": "Directors or technical managers are leaders of R&D teams, responsible for formulating project roadmaps and supervising execution of all aspects. In online casino platforms, technical managers need to design scalable system architecture including frontend clients, game servers, databases, and third-party service integration."
+      },
+      "product": {
+        "title": "Product Manager / Game Designer",
+        "subtitle": "Game design theory and user experience planning",
+        "icon": "🎮",
+        "headerBg": "bg-blue-600",
+        "stats": [
+          { "label": "Game Design", "value": "Expert", "valueClass": "text-blue-400" },
+          { "label": "User Experience", "value": "High", "valueClass": "text-green-400" },
+          { "label": "Data Analysis", "value": "Medium", "valueClass": "text-yellow-400" }
+        ],
+        "skills": "Game design theory, user experience planning, data analysis foundation, understanding of gambling game mechanisms",
+        "tools": "Document writing and flowchart tools (Office suite, flowchart software), prototype making tools, presentation tools",
+        "challenges": "Innovative gameplay design and numerical balance are difficult, need to satisfy both player entertainment and company profitability",
+        "description": "Product managers (also called game designers) in gambling development are responsible for formulating core gameplay and functional requirements, similar to blueprint designers of projects. They first research game types and themes, then plan specific game mechanisms and numerical parameters."
+      },
+      "frontend": {
+        "title": "Frontend Engineer",
+        "subtitle": "Web frontend development and cross-platform development",
+        "icon": "💻",
+        "headerBg": "bg-green-600",
+        "stats": [
+          { "label": "Web Development", "value": "Expert", "valueClass": "text-green-400" },
+          { "label": "Cross-platform", "value": "High", "valueClass": "text-blue-400" },
+          { "label": "Animation Effects", "value": "Medium", "valueClass": "text-yellow-400" }
+        ],
+        "skills": "Web frontend development (HTML5/CSS3/JavaScript/TypeScript) or cross-platform development, responsive design and cross-device adaptation",
+        "tools": "Modern frontend frameworks (React, Vue.js), browser debugging tools, version control Git, performance analysis tools",
+        "challenges": "Must ensure games run smoothly on different platforms and devices with consistent interfaces",
+        "description": "Frontend engineers are responsible for building player-interactive interfaces and client-side logic. In gambling games, this includes game lobby list interfaces, betting interfaces, game animation effects, etc."
+      },
+      "backend": {
+        "title": "Backend Engineer",
+        "subtitle": "Server-side programming and high-concurrency systems",
+        "icon": "⚙️",
+        "headerBg": "bg-red-600",
+        "stats": [
+          { "label": "Server Development", "value": "Expert", "valueClass": "text-red-400" },
+          { "label": "Database Design", "value": "High", "valueClass": "text-blue-400" },
+          { "label": "High Concurrency", "value": "Critical", "valueClass": "text-purple-400" }
+        ],
+        "skills": "Server-side programming, database design and optimization, network protocols and high-concurrency system development experience",
+        "tools": "Server frameworks (Spring, ASP.NET Core, Express), relational databases (MySQL, PostgreSQL) or NoSQL (Redis, MongoDB)",
+        "challenges": "High concurrency and low latency: simultaneously handle large numbers of player requests and return results in real-time",
+        "description": "Backend engineers are crucial in gambling technical teams, undertaking the entire game platform's logic and data processing. Their responsibilities include designing and implementing game server logic, establishing and maintaining player account systems and wallet systems."
+      },
+      "mathematics": {
+        "title": "Mathematical Designer / Numerical Planner",
+        "subtitle": "Probability statistics and mathematical models",
+        "icon": "📊",
+        "headerBg": "bg-yellow-600",
+        "stats": [
+          { "label": "Probability Theory", "value": "Expert", "valueClass": "text-yellow-400" },
+          { "label": "Mathematical Models", "value": "High", "valueClass": "text-green-400" },
+          { "label": "Statistical Analysis", "value": "Critical", "valueClass": "text-blue-400" }
+        ],
+        "skills": "Solid probability and statistics knowledge, proficient in mathematical models of gambling games",
+        "tools": "Excel spreadsheets, professional mathematical software or self-made simulators, random number generation libraries",
+        "challenges": "Balancing entertainment and profitability: designing numerical models that give players sufficient winning pleasure while ensuring long-term house advantage",
+        "description": "Mathematical designers (sometimes called numerical planners) focus on the mathematical core behind games. In gambling games, almost every game implies a mathematical probability model."
+      },
+      "art": {
+        "title": "Art Designer",
+        "subtitle": "Visual design and UI/UX",
+        "icon": "🎨",
+        "headerBg": "bg-pink-600",
+        "stats": [
+          { "label": "Visual Design", "value": "Expert", "valueClass": "text-pink-400" },
+          { "label": "UI/UX Design", "value": "High", "valueClass": "text-blue-400" },
+          { "label": "Animation", "value": "Medium", "valueClass": "text-green-400" }
+        ],
+        "skills": "Solid art foundation (sketching, color, composition), proficient in digital drawing and 3D software",
+        "tools": "2D drawing software, 3D modeling and rendering tools, animation production software, version control for art resources",
+        "challenges": "High productivity requirements: gambling platforms frequently launch new games, requiring artists to produce large amounts of high-quality materials in short time",
+        "description": "Art designers provide visual soul for gambling products. Online casino games are often highly competitive, with gorgeous and exquisite graphics being one of the important factors in attracting players."
+      },
+      "audio": {
+        "title": "Audio Designer",
+        "subtitle": "Audio production and sound effects",
+        "icon": "🎵",
+        "headerBg": "bg-indigo-600",
+        "stats": [
+          { "label": "Music Composition", "value": "Expert", "valueClass": "text-indigo-400" },
+          { "label": "Sound Effects", "value": "High", "valueClass": "text-blue-400" },
+          { "label": "Audio Editing", "value": "Medium", "valueClass": "text-green-400" }
+        ],
+        "skills": "Composition and arrangement abilities, familiar with various music styles, proficient in audio editing software",
+        "tools": "Digital audio workstations (DAW), audio processors, synthesizer VST plugins, sample libraries and recording equipment",
+        "challenges": "Diverse styles and copyright issues: gambling games have varied themes, each game needs unique background music and sound effects",
+        "description": "Audio designers are responsible for creating auditory experiences for games. In gambling games, sound serves to enhance entertainment and provide interface feedback."
+      }
+    },
+    "bottlenecks": {
+      "title": "Current Technical Bottlenecks",
+      "description": "Traditional iGaming industry faces several technical challenges without AI assistance",
+      "items": [
+        {
+          "title": "High Concurrency Server Stability",
+          "description": "Ensuring payment systems remain fast and reliable during high traffic periods"
+        },
+        {
+          "title": "Financial Transaction Security",
+          "description": "Establishing anti-cheat systems and random fairness verification through third-party institutions"
+        },
+        {
+          "title": "Regulatory Compliance",
+          "description": "Different regional regulatory requirements pose compliance challenges for technical architecture"
+        },
+        {
+          "title": "Content Innovation Timeliness",
+          "description": "Frequent new game launches and activity updates require high productivity from all teams"
+        }
+      ]
+    },
+    "development": {
+      "title": "Development Process",
+      "description": "Typical iterative development process adopted by iGaming teams",
+      "stages": [
+        {
+          "title": "Product Planning",
+          "description": "Product managers formulate game specifications and functional requirements"
+        },
+        {
+          "title": "Game Design",
+          "description": "Game designers define game rules, probabilities, and reward structures"
+        },
+        {
+          "title": "Frontend Development",
+          "description": "Frontend engineers build user interfaces and client-side logic"
+        },
+        {
+          "title": "Backend Development",
+          "description": "Backend engineers set up server architecture, databases, and game server logic"
+        },
+        {
+          "title": "Art & Audio",
+          "description": "Artists and audio designers produce game assets and integrate them into the engine"
+        },
+        {
+          "title": "Testing & Deployment",
+          "description": "Multiple rounds of testing and adjustments before final deployment"
+        }
+      ]
+    },
+    "sections": {
+      "overview": "Overview",
+      "roles": "Technical Roles",
+      "bottlenecks": "Technical Bottlenecks",
+      "development": "Development Process",
+      "business": "Business Cooperation"
     }
   }
 }

@@ -82,14 +82,23 @@ export const useBusinessCooperation = () => {
     
     // 聯繫我們
     {
-      type: 'link',
+      type: 'business-advice',
       icon: 'green',
       iconBg: 'bg-green-600',
       iconColor: 'text-green-400',
       title: t('quickLinks.contact'),
       description: t('quickLinks.contactDesc'),
-      url: 'mailto:allah2truth@gmail.com',
-      external: false
+      features: [
+        '商務合作諮詢',
+        '技術支援服務',
+        '平台合作機會'
+      ],
+      contact: {
+        label: '聯繫郵箱',
+        value: 'business@btt.com',
+        type: 'email',
+        url: 'mailto:business@btt.com'
+      }
     }
   ])
   

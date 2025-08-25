@@ -982,7 +982,7 @@
         "ewalletVolume": "$380B",
         "ewalletSecurity": "高",
         "estimatedVolume": "预估交易量",
-        "undergroundVolume": "$1.2T",
+        "undergroundVolumeValue": "$1.2T",
         "riskLevel": "风险等级",
         "undergroundRisk": "极高",
         "undergroundRegulatory": "不受监管"
@@ -1359,6 +1359,204 @@
         "title": "设计保护",
         "description": "外观设计的知识产权保护"
       }
+    }
+  },
+  "business": {
+    "title": "商务合作",
+    "subtitle": "专业博弈解决方案与合作机会",
+    "description": "我们提供全面的博弈解决方案，包括平台开发、游戏整合、支付系统和监管合规。与我们合作，加速您的市场进入并实现可持续增长。",
+    "services": {
+      "title": "我们的服务",
+      "platform": "平台开发",
+      "platformDesc": "具有先进功能和可扩展性的客制化博弈平台",
+      "games": "游戏整合",
+      "gamesDesc": "热门赌场游戏和体育博彩的无缝整合",
+      "payment": "支付解决方案",
+      "paymentDesc": "具有全球合规性的多币种支付网关",
+      "compliance": "监管合规",
+      "complianceDesc": "许可证和监管要求的专家指导"
+    },
+    "contact": {
+      "title": "联系我们",
+
+      "phone": "+1 (555) 123-4567",
+      "description": "准备讨论您的项目？联系我们的业务发展团队进行个性化咨询。"
+    }
+  },
+  "tech": {
+    "title": "技术架构与职能需求",
+    "subtitle": "博弈产业技术角色与技能需求的全面分析",
+    "overview": {
+      "title": "技术架构与开发流程概观",
+      "description": "现代博弈平台通常采用客户端－服务器架构。前端客户端与后端服务器通讯，以实现即时游戏体验与安全交易。游戏开发引擎在架构中扮演核心角色，用于构建丰富的游戏内容与界面。",
+      "architecture": "典型在线博弈平台的技术架构",
+      "components": "包括前端UI、游戏引擎、API整合、支付网关、安全层与数据库等模块"
+    },
+    "roles": {
+      "director": {
+        "title": "总监／技术主管",
+        "subtitle": "项目管理与系统架构设计",
+        "icon": "👨‍💼",
+        "headerBg": "bg-purple-600",
+        "stats": [
+          { "label": "项目管理", "value": "高", "valueClass": "text-purple-400" },
+          { "label": "跨团队协调", "value": "关键", "valueClass": "text-blue-400" },
+          { "label": "系统架构", "value": "专家", "valueClass": "text-green-400" }
+        ],
+        "skills": "项目管理、跨部门协调、系统架构设计、高阶决策能力",
+        "tools": "项目管理软件（如JIRA、Trello）、原型与设计文件、架构图工具（如Visio）、版本控制系统",
+        "challenges": "在严格时程内交付高品质产品；需管理高并发平台架构的设计，确保系统安全性与可扩展性",
+        "description": "总监或技术主管是研发团队的领导者，负责制定项目路线图并监督各环节执行。以在线赌场平台为例，技术主管需设计一套可扩充的系统架构，包括前端客户端、游戏服务器、数据库和第三方服务整合。"
+      },
+      "product": {
+        "title": "产品企划/游戏策划",
+        "subtitle": "游戏设计理论与用户体验规划",
+        "icon": "🎮",
+        "headerBg": "bg-blue-600",
+        "stats": [
+          { "label": "游戏设计", "value": "专家", "valueClass": "text-blue-400" },
+          { "label": "用户体验", "value": "高", "valueClass": "text-green-400" },
+          { "label": "数据分析", "value": "中等", "valueClass": "text-yellow-400" }
+        ],
+        "skills": "游戏设计理论、用户体验规划、数据分析基础、熟悉博弈类游戏机制",
+        "tools": "文档撰写与流程图工具（Office套件、流程图软件）、原型制作工具、简报工具",
+        "challenges": "创新玩法设计与数值平衡难度大，需要同时满足玩家娱乐性与公司收益",
+        "description": "产品企划（又称游戏策划）在博弈开发中负责制定游戏的核心玩法和功能需求，类似项目的蓝图绘制者。他们首先研拟游戏类型和题材，接着企划会规划具体的游戏机制和数值参数。"
+      },
+      "frontend": {
+        "title": "前端工程师",
+        "subtitle": "Web前端开发与跨平台开发",
+        "icon": "💻",
+        "headerBg": "bg-green-600",
+        "stats": [
+          { "label": "Web开发", "value": "专家", "valueClass": "text-green-400" },
+          { "label": "跨平台", "value": "高", "valueClass": "text-blue-400" },
+          { "label": "动画特效", "value": "中等", "valueClass": "text-yellow-400" }
+        ],
+        "skills": "Web前端开发（HTML5/CSS3/JavaScript/TypeScript）或跨平台开发，精通响应式设计与跨装置适配",
+        "tools": "现代前端框架（React、Vue.js等）或游戏引擎编辑器，浏览器调试工具，版本管控Git",
+        "challenges": "必须确保游戏在不同平台与装置上都运行流畅且界面一致",
+        "description": "前端工程师负责构建玩家直接交互的界面与客户端逻辑。在博弈游戏中，这包括游戏大厅的列表界面、押注界面、游戏动画效果等。"
+      },
+      "backend": {
+        "title": "后端工程师",
+        "subtitle": "服务器端程序开发与高并发系统",
+        "icon": "⚙️",
+        "headerBg": "bg-red-600",
+        "stats": [
+          { "label": "服务器开发", "value": "专家", "valueClass": "text-red-400" },
+          { "label": "数据库设计", "value": "高", "valueClass": "text-blue-400" },
+          { "label": "高并发", "value": "关键", "valueClass": "text-purple-400" }
+        ],
+        "skills": "服务器端程序开发、数据库设计与优化、网络协议和高并发系统开发经验",
+        "tools": "服务器框架（如Spring、ASP.NET Core、Express等）、关联式数据库（MySQL、PostgreSQL）或NoSQL（Redis、MongoDB）",
+        "challenges": "高并发与低延迟：同时处理大量玩家请求并即时返回结果",
+        "description": "后端工程师在博弈技术团队中至关重要，承担整个游戏平台的逻辑与数据处理。他们的职责包括设计实作游戏服务器逻辑、建立并维护玩家账户系统和钱包系统。"
+      },
+      "mathematics": {
+        "title": "数值策划/数学设计",
+        "subtitle": "概率统计与数学模型",
+        "icon": "📊",
+        "headerBg": "bg-yellow-600",
+        "stats": [
+          { "label": "概率理论", "value": "专家", "valueClass": "text-yellow-400" },
+          { "label": "数学模型", "value": "高", "valueClass": "text-green-400" },
+          { "label": "统计分析", "value": "关键", "valueClass": "text-blue-400" }
+        ],
+        "skills": "概率统计知识扎实，精通博弈游戏的数学模型",
+        "tools": "Excel电子数据表、专业数学软件或自制模拟器、随机数生成库",
+        "challenges": "平衡娱乐性与盈利：设计出让玩家有足够中奖快感又能确保长期庄家优势的数字模型",
+        "description": "数值策划（有时称为数学设计）专注于游戏背后的数学核心。在博彩游戏中，几乎每个游戏都隐含一套数学概率模型。"
+      },
+      "art": {
+        "title": "美术设计",
+        "subtitle": "视觉设计与UI/UX",
+        "icon": "🎨",
+        "headerBg": "bg-pink-600",
+        "stats": [
+          { "label": "视觉设计", "value": "专家", "valueClass": "text-pink-400" },
+          { "label": "UI/UX设计", "value": "高", "valueClass": "text-blue-400" },
+          { "label": "动画", "value": "中等", "valueClass": "text-green-400" }
+        ],
+        "skills": "美术基础扎实（素描、色彩、构图），熟练使用数字绘图与3D软件",
+        "tools": "2D绘图软件、3D建模与渲染工具、动画制作软件、版本控制美术资源的系统",
+        "challenges": "高产能需求：博弈平台经常上架新游戏，要求美术短时间内产出大量高品质素材",
+        "description": "美术设计师为博弈产品提供视觉灵魂。在线赌场游戏往往竞争激烈，华丽精致的画面是吸引玩家的重要因素之一。"
+      },
+      "audio": {
+        "title": "音乐音效设计",
+        "subtitle": "音频制作与音效设计",
+        "icon": "🎵",
+        "headerBg": "bg-indigo-600",
+        "stats": [
+          { "label": "音乐作曲", "value": "专家", "valueClass": "text-indigo-400" },
+          { "label": "音效设计", "value": "高", "valueClass": "text-blue-400" },
+          { "label": "音频编辑", "value": "中等", "valueClass": "text-green-400" }
+        ],
+        "skills": "作曲与编曲能力，熟悉各类音乐风格，精通音频编辑软件和数字音效合成",
+        "tools": "数字音乐工作站（DAW）、音频处理器、合成器VST插件、取样库和录音设备",
+        "challenges": "多样风格与版权问题：博弈游戏题材多变，每款游戏都需要独特的背景音乐与音效",
+        "description": "音乐音效设计师负责为游戏打造听觉体验。在博弈游戏中，声音的作用一方面是提升娱乐性，另一方面也作为界面反馈。"
+      }
+    },
+    "bottlenecks": {
+      "title": "产业现状技术瓶颈",
+      "description": "博弈产业在无AI参与时主要技术挑战",
+      "items": [
+        {
+          "title": "高并发用户的服务器稳定性",
+          "description": "需确保支付系统在高流量时依然迅速可靠"
+        },
+        {
+          "title": "金融交易的安全性与速度",
+          "description": "后端必须建立反作弊和随机公平性验证（通过第三方机构对随机数产生器进行公平性认证）"
+        },
+        {
+          "title": "不同地区法规要求差异",
+          "description": "也对技术架构提出合规挑战（如RTP需在法定范围内）"
+        },
+        {
+          "title": "游戏内容创新的时效性",
+          "description": "频繁的新游戏和活动更新，要求美术团队容易工作量爆炸"
+        }
+      ]
+    },
+    "development": {
+      "title": "开发流程",
+      "description": "典型博弈开发流程与技术架构",
+      "stages": [
+        {
+          "title": "产品企划",
+          "description": "产品企划先制定游戏规格与功能需求"
+        },
+        {
+          "title": "游戏设计",
+          "description": "游戏设计/数值策划会定义游戏规则、概率和奖励结构"
+        },
+        {
+          "title": "前端开发",
+          "description": "前端工程师利用设计资源开始构建使用者界面和客户端逻辑"
+        },
+        {
+          "title": "后端开发",
+          "description": "同步后端工程师搭建服务器架构、数据库和游戏伺服逻辑"
+        },
+        {
+          "title": "美术音效",
+          "description": "美术设计与音效设计人员持续产出游戏所需的图像素材和声音素材并整合进引擎"
+        },
+        {
+          "title": "测试部署",
+          "description": "整个团队通常采用迭代式开发，经过多轮测试与调整后，最终部署上线"
+        }
+      ]
+    },
+    "sections": {
+      "overview": "概观",
+      "roles": "技术职能",
+      "bottlenecks": "技术瓶颈",
+      "development": "开发流程",
+      "business": "商务合作"
     }
   }
 }
