@@ -697,29 +697,33 @@
     }
   },
   "regulations": {
-    "pageTitle": "Regulations - Gaming Trends Eye",
-    "pageDescription": "Understanding the regulatory environment and supervision trends of the global gaming industry",
-    "title": "Global Gaming Regulations",
-    "subtitle": "In-depth understanding of the regulatory environment, supervisory institutions and compliance requirements of the gaming industry in various regions",
+    "pageTitle": "Global Gaming Industry Regulations and Compliance Analysis - Gaming Trends Eye",
+    "pageDescription": "In-depth understanding of regulatory environment changes, supervision trends and compliance requirements in the global gaming industry over the past three years",
+    "title": "Global Gaming Industry Regulations and Compliance Analysis",
+    "subtitle": "Over the past three years, the regulatory environment for the global gaming industry has changed dramatically, with significant differences in how various regions regulate online gaming, land-based casinos and sports betting. Operators must closely monitor regulations in various countries to ensure compliance with requirements, protect player rights and avoid legal risks.",
     "overview": {
       "title": "Regulatory Environment Overview",
-      "description": "The global gaming industry faces a complex and diverse regulatory environment, from complete legalization to strict prohibition, with significant policy differences across regions affecting industry development.",
+      "description": "The global gaming industry faces a complex and diverse regulatory environment, from complete legalization to strict prohibition, with significant policy differences across regions affecting industry development. Governments also balance economic benefits with social responsibility through adjusting gaming tax rates, restricting advertising and strengthening player protection measures.",
       "legal": {
         "title": "Legalized Regions",
-        "description": "Europe, some US states, Australia and other regions have established comprehensive gaming regulatory systems"
+        "description": "Europe, some US states, Australia and other regions have established comprehensive gaming regulatory systems, including licensing systems, regulatory bodies and player protection mechanisms"
       },
       "restricted": {
         "title": "Restricted Regions",
-        "description": "Most Asian regions implement strict controls or partial prohibitions on the gaming industry"
+        "description": "Most Asian regions implement strict controls or partial prohibitions on the gaming industry, but some countries are gradually opening up and establishing regulatory frameworks"
       }
     },
     "legalStatus": "Legal Status",
     "keyFeatures": "Key Features",
     "regulatoryBody": "Regulatory Body",
+    "navigation": {
+      "regions": "Regional Regulations",
+      "asiaDetails": "Asia Details"
+    },
     "regions": {
       "europe": {
         "title": "Europe",
-        "subtitle": "Most mature market with comprehensive regulations",
+        "subtitle": "Diverse regulatory models and increasingly strict compliance requirements",
         "legalStatus": {
           "online": "Online Gaming: Fully Legal",
           "landbased": "Land-based Casinos: Fully Legal",
@@ -730,11 +734,11 @@
           "responsible": "Responsible Gaming Requirements",
           "taxation": "Transparent Tax Policy"
         },
-        "regulatoryBody": "Each country has specialized gaming regulatory bodies, such as the UK Gambling Commission, Malta Gaming Authority, etc."
+        "regulatoryBody": "Each country has specialized gaming regulatory bodies, such as the UK Gambling Commission, Malta Gaming Authority, etc. There is no unified gambling law in Europe, with each country having its own gaming regulatory system."
       },
       "usa": {
         "title": "United States",
-        "subtitle": "State-level legislation based",
+        "subtitle": "Interstate decentralized regulation and rapid market expansion",
         "legalStatus": {
           "online": "Online Gaming: Partially Legal by State",
           "landbased": "Land-based Casinos: Mostly Legal",
@@ -745,11 +749,11 @@
           "federal": "Federal Regulations",
           "tribal": "Tribal Autonomy"
         },
-        "regulatoryBody": "Each state has a gaming commission, with federal oversight by the Department of Justice"
+        "regulatoryBody": "Each state has dedicated agencies, such as the New Jersey Division of Gaming Enforcement and Nevada Gaming Control Board, responsible for licensing, reviewing operator backgrounds, supervising casino operations and enforcement."
       },
       "asia": {
         "title": "Asia",
-        "subtitle": "Strict regulatory restrictions",
+        "subtitle": "Diverse gaming policies and recent changes",
         "legalStatus": {
           "online": "Online Gaming: Mostly Prohibited",
           "landbased": "Land-based Casinos: Limited Access",
@@ -760,23 +764,175 @@
           "limited": "Limited Access",
           "underground": "Underground Market"
         },
-        "regulatoryBody": "Each country has lottery or gaming regulatory bodies, but with limited authority"
+        "regulatoryBody": "Each country has lottery or gaming regulatory bodies, but with limited authority. Including Japan, Southeast Asia, mainland China, Taiwan, Macau, Australia and other regions, each with different regulatory models."
       }
     },
     "trends": {
       "title": "Regulatory Trends",
       "digitalization": {
         "title": "Digital Supervision",
-        "description": "Using technology to improve regulatory efficiency and transparency"
+        "description": "Using technology to improve regulatory efficiency and transparency, including AI regulatory tools and digital monitoring systems"
       },
       "harmonization": {
         "title": "International Coordination",
-        "description": "Promoting unified and coordinated cross-border gaming regulations"
+        "description": "Promoting unified and coordinated cross-border gaming regulations, establishing international cooperation mechanisms"
       },
       "compliance": {
         "title": "Compliance Requirements",
-        "description": "Strengthening anti-money laundering and responsible gaming compliance requirements"
+        "description": "Strengthening anti-money laundering and responsible gaming compliance requirements, establishing stricter regulatory standards"
       }
+    },
+    "japan": {
+      "title": "Japan: Limited Casino Opening with Strict Online Gaming Control",
+      "subtitle": "Japan adopts a highly cautious approach to opening the gaming industry",
+      "description": "For a long time, Japan only allowed a few public lotteries and sports betting on specially legislated competitions. It wasn't until 2016 that Japan passed the 'Integrated Resort Promotion Act' and in 2018 the 'IR Implementation Act', officially allowing casinos within integrated resorts (IR), but limited to only three locations.",
+      "keyFeatures": {
+        "irSystem": "IR Integrated Resort System",
+        "strictControl": "Strict Control Measures",
+        "localRestrictions": "Local Resident Restrictions"
+      },
+      "regulatoryBody": "Japan established the Casino Regulatory Commission to be responsible for licensing and supervising IR casinos. The commission is independent of the National Police Agency, with members appointed by the cabinet, ensuring strict control over casino operations."
+    },
+    "singapore": {
+      "title": "Singapore: Highly Regulated Dual Casino Model with Comprehensive Supervision",
+      "subtitle": "Singapore implements one of the world's strictest gaming regulations",
+      "description": "In 2010, the government opened two integrated resort casinos (Marina Bay Sands and Resorts World Sentosa) to promote tourism while strictly controlling scale. Local residents must pay high entry taxes to enter casinos.",
+      "keyFeatures": {
+        "dualCasino": "Dual Casino Model",
+        "entryTax": "High Entry Tax",
+        "comprehensiveRegulation": "Comprehensive Regulation"
+      },
+      "regulatoryBody": "Singapore underwent major reforms to its gaming regulatory framework in 2022. On August 1st, the newly established Gambling Regulatory Authority (GRA) officially began operations, replacing the Casino Regulatory Authority (CRA), with expanded authority to supervise all forms of gambling."
+    },
+    "malaysia": {
+      "title": "Malaysia: Monopoly Casino with Strict Crackdown on Illegal Online Gambling",
+      "subtitle": "Malaysia follows a special gaming policy",
+      "description": "On one hand, it allows a few legal gaming activities, while on the other hand, it severely cracks down on unauthorized activities. The country's only legal casino is Genting Highlands Casino, operated under government franchise, maintaining monopoly status to date.",
+      "keyFeatures": {
+        "monopoly": "Monopoly Operation",
+        "strictEnforcement": "Strict Enforcement",
+        "lawReform": "Legal Reform"
+      },
+      "regulatoryBody": "Malaysia's legal gaming industry is supervised by agencies authorized by the Ministry of Finance, such as the lottery industry being licensed and supervised by the Ministry of Finance, while casino franchises require high-level approval."
+    },
+    "thailand": {
+      "title": "Thailand: Casino Legalization Discussion Under Comprehensive Gambling Ban",
+      "subtitle": "Thailand currently almost completely prohibits gambling",
+      "description": "According to the 1935 Gambling Act, except for official state lotteries and a few permitted horse racing bets, all other gambling is illegal. Over the past few years, Thailand has begun seriously discussing the possibility of casino legalization.",
+      "keyFeatures": {
+        "comprehensiveBan": "Comprehensive Ban",
+        "legalizationDiscussion": "Legalization Discussion",
+        "undergroundMarket": "Underground Market"
+      },
+      "regulatoryBody": "Thailand currently has no specialized gaming regulatory body, with lotteries managed by the Ministry of Finance and other gambling activities handled by police under criminal law."
+    },
+    "vietnam": {
+      "title": "Vietnam: Pilot Program Allowing Locals to Gamble and Gaming Industry Expansion",
+      "subtitle": "Vietnam has strictly controlled gambling in the past",
+      "description": "Local citizens have long been prohibited from entering casinos. Dozens of casinos nationwide only allow foreign passport holders or overseas Vietnamese to enter, with locals excluded.",
+      "keyFeatures": {
+        "pilotProgram": "Pilot Program",
+        "foreignOnly": "Foreigners Only",
+        "gradualExpansion": "Gradual Expansion"
+      },
+      "regulatoryBody": "Vietnam's gaming industry is under dual supervision by the Ministry of Finance and Ministry of Public Security. Casino licenses are limited and mostly tied to large tourism development projects, requiring investment thresholds of hundreds of millions of dollars."
+    },
+    "philippines": {
+      "title": "Philippines: Diversified Gaming Market with Recent Policy Shifts",
+      "subtitle": "Philippines is one of the few Asian countries with extremely diverse and open gaming formats",
+      "description": "Philippine Amusement and Gaming Corporation (PAGCOR) as a government agency, simultaneously serves as both regulator and operator: on one hand, it directly operates dozens of state-owned casinos, while on the other hand, it's responsible for licensing and supervising private operators.",
+      "keyFeatures": {
+        "diversifiedMarket": "Diversified Market",
+        "dualRole": "Dual Role",
+        "policyShift": "Policy Shift"
+      },
+      "regulatoryBody": "PAGCOR Chairman Tengco stated in 2023 plans to reposition PAGCOR: privatize government-operated casinos and transform PAGCOR into a pure regulatory body."
+    },
+    "china": {
+      "title": "Mainland China: Zero-Tolerance Policy with Cross-Border Crackdown",
+      "subtitle": "Mainland China adopts a zero-tolerance policy towards gambling",
+      "description": "The Criminal Law of the People's Republic of China clearly defines operating gambling establishments and organizing gambling as crimes, with individual participation also violating public security administration punishment law. Except for state-issued lotteries, all gambling activities are illegal in mainland China.",
+      "keyFeatures": {
+        "zeroTolerance": "Zero-Tolerance Policy",
+        "crossBorderCrackdown": "Cross-Border Crackdown",
+        "lotteryOnly": "Lottery Only"
+      },
+      "regulatoryBody": "Mainland China has no specialized gaming regulatory body, with lotteries managed by the Ministry of Finance and other gambling activities handled by public security organs under criminal law."
+    },
+    "macau": {
+      "title": "Macau: Gaming Rights Restructuring and New Regulations Under Diversified Transformation",
+      "subtitle": "Macau is a Special Administrative Region of China and one of the world's largest gambling centers",
+      "description": "Macau's gaming industry adopts a franchise system, with six licensed casino companies since opening gaming rights competition in 2002. These six companies' old licenses expired in 2022, with Macau government re-tendering and promulgating new Gaming Law that year.",
+      "keyFeatures": {
+        "concessionSystem": "Franchise System",
+        "newGamingLaw": "New Gaming Law",
+        "diversification": "Diversified Transformation"
+      },
+      "regulatoryBody": "Macau Gaming Inspection and Coordination Bureau (DICJ) is the main casino regulator, with expanded authority after the new law implementation in 2022, including the ability to station government representatives in casino enterprises for supervision."
+    },
+    "taiwan": {
+      "title": "Taiwan: Lottery Dominance and Stagnant Gaming Policy",
+      "subtitle": "Taiwan currently has no legal casinos",
+      "subtitle": "Taiwan currently has no legal casinos",
+      "description": "It is one of the few East Asian regions that has not yet opened gambling. Current Criminal Law and Gambling Crime Regulations prohibit gaming business activities, but government-operated lotteries are exempt.",
+      "keyFeatures": {
+        "lotteryOnly": "Lottery Only",
+        "noCasinos": "No Legal Casinos",
+        "policyStagnation": "Policy Stagnation"
+      },
+      "regulatoryBody": "Taiwan's lotteries are supervised by the Ministry of Finance Lottery Management Committee for issuance and sales, with regulations prohibiting minors from purchasing. Sports lottery also operates under licenses issued by the Ministry of Finance Financial Supervisory Commission."
+    },
+    "australia": {
+      "title": "Australia: Gaming Market Under Strict Regulation",
+      "subtitle": "Australia implements strict regulation on the gaming industry",
+      "description": "Each state and territory has its own gaming regulations, but all follow federal basic principles. Australia emphasizes responsible gaming and player protection, with strict restrictions on advertising and marketing.",
+      "keyFeatures": {
+        "stateRegulation": "State-level Regulation",
+        "responsibleGaming": "Responsible Gaming",
+        "strictAdvertising": "Strict Advertising Restrictions"
+      },
+      "regulatoryBody": "Each state has gaming regulatory bodies, such as the New South Wales Gaming Authority and Victoria Gaming and Liquor Control Commission."
+    },
+    "asia": {
+      "title": "Asia Region",
+      "subtitle": "Diverse Gaming Policies and Recent Changes",
+      "legalStatus": {
+        "online": "Online Gaming: Mostly Prohibited",
+        "landbased": "Land-based Casinos: Limited Access",
+        "sports": "Sports Betting: Partially Allowed"
+      },
+      "keyFeatures": {
+        "strict": "Strict Control",
+        "limited": "Limited Access",
+        "underground": "Underground Market"
+      },
+      "regulatoryBody": "Countries have lottery or gaming regulatory agencies with limited authority. Including Japan, Southeast Asia, Mainland China, Taiwan, Macau, Australia and other regions, each with different regulatory models."
+    },
+    "testingLabs": {
+      "title": "International Gaming Testing and Certification Organizations",
+      "subtitle": "The Role and Reputation of BMM Testlabs and GLI",
+      "description": "In the global gaming compliance ecosystem, independent game testing laboratories play a crucial role. Among them, BMM Testlabs and GLI (Gaming Laboratories International) are the two most well-known organizations.",
+      "bmm": {
+        "title": "BMM Testlabs",
+        "description": "Founded in 1981, it is one of the world's oldest private gaming testing laboratories, originally from Australia, now headquartered in Las Vegas, with operations across all continents."
+      },
+      "gli": {
+        "title": "GLI (Gaming Laboratories International)",
+        "description": "Founded in 1989, starting in New Jersey, USA, it has now become one of the largest gaming testing and certification companies. As of 2024, GLI claims to have provided equipment testing or consulting services in over 480 jurisdictions worldwide."
+      },
+      "functions": {
+        "title": "Functions and Roles",
+        "description": "BMM and GLI's core function is to inspect various gaming products for regulatory agencies and operators to ensure they meet technical standards and regulatory requirements. This includes slot machines, electronic gaming tables, random number generators (RNG) used in land-based casinos, as well as gaming software and betting systems for online gambling platforms."
+      },
+      "reputation": {
+        "title": "Reputation and Comparison",
+        "description": "BMM and GLI have long competed while jointly dominating the market, with both enjoying high credibility. Regulatory bodies in various countries typically include both in their list of recognized laboratories. For example, gaming centers in Nevada and New Jersey in the US, and Singapore, Macau, Philippines in Asia, all accept gaming certification reports issued by BMM or GLI."
+      }
+    },
+    "conclusion": {
+      "title": "Conclusion",
+      "description": "Looking globally, regulatory environment changes in the gaming industry over the past three years highlight an overall trend of strengthening supervision and advocating compliance. European countries have tightened advertising and tax policies, focusing on reducing gambling's negative social impact; the US has gradually improved protection mechanisms while rapidly expanding the sports betting market; Asian regions have opened new casinos with strict controls, while others have intensified crackdowns on illegal gambling, showing diverse approaches.",
+      "future": "It can be foreseen that global gaming supervision will continue to evolve. For example, the EU may discuss more coordination guidelines, more US states will implement online gaming bills, and Asia may see new markets open. But regardless of market expansion, rigorous regulations and compliance requirements will be the foundation for long-term industry development."
     }
   },
   "payment": {

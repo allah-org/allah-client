@@ -697,20 +697,20 @@
     }
   },
   "regulations": {
-    "pageTitle": "法规规范 - 菠菜天眼通",
-    "pageDescription": "了解全球博弈产业的法规环境和监管趋势",
-    "title": "全球博弈法规规范",
-    "subtitle": "深入了解各地区博弈产业的法规环境、监管机构和合规要求",
+    "pageTitle": "全球博弈产业近三年法规与合规分析 - 菠菜天眼通",
+    "pageDescription": "深入了解全球博弈产业近三年来的法规环境变化、监管趋势和合规要求",
+    "title": "全球博弈产业近三年法规与合规分析",
+    "subtitle": "近三年来，全球博弈产业的法规环境变化剧烈，各地对于线上博弈、实体赌场和体育博彩的监管方式差异甚大。营运商必须密切注意各国法规，确保遵循合规要求，以保障玩家权益并避免法律风险。",
     "overview": {
       "title": "法规环境概览",
-      "description": "全球博弈产业面临着复杂多样的法规环境，从完全合法化到严格禁止，各地区的政策差异显著影响着产业发展。",
+      "description": "全球博弈产业面临着复杂多样的法规环境，从完全合法化到严格禁止，各地区的政策差异显著影响着产业发展。各国政府也通过调整博弈税率、限制广告宣传以及加强玩家保护措施，来平衡经济收益与社会责任。",
       "legal": {
         "title": "合法化地区",
-        "description": "欧洲、美国部分州、澳洲等地区已建立完善的博弈法规体系"
+        "description": "欧洲、美国部分州、澳洲等地区已建立完善的博弈法规体系，包括发照制度、监管机构和玩家保护机制"
       },
       "restricted": {
         "title": "限制性地区",
-        "description": "亚洲大部分地区对博弈产业实施严格管制或部分禁止"
+        "description": "亚洲大部分地区对博弈产业实施严格管制或部分禁止，但部分国家正逐步开放并建立监管框架"
       }
     },
     "legalStatus": "法律地位",
@@ -718,8 +718,8 @@
     "regulatoryBody": "监管机构",
     "regions": {
       "europe": {
-        "title": "欧洲",
-        "subtitle": "法规最完善的成熟市场",
+        "title": "欧洲地区",
+        "subtitle": "多元监管模式与趋严的合规要求",
         "legalStatus": {
           "online": "线上博弈：完全合法",
           "landbased": "实体赌场：完全合法",
@@ -730,11 +730,11 @@
           "responsible": "负责任博弈要求",
           "taxation": "透明税收政策"
         },
-        "regulatoryBody": "各国设有专门的博弈监管机构，如英国博弈委员会、马耳他博弈管理局等"
+        "regulatoryBody": "各国设有专门的博弈监管机构，如英国博弈委员会、马耳他博弈管理局等。欧洲并无统一的博彩法，每个国家有各自的博弈监管制度。"
       },
       "usa": {
-        "title": "美国",
-        "subtitle": "州级立法为主",
+        "title": "美国地区",
+        "subtitle": "州际分权监管与市场迅速扩张",
         "legalStatus": {
           "online": "线上博弈：部分州合法",
           "landbased": "实体赌场：大部分州合法",
@@ -745,11 +745,11 @@
           "federal": "联邦法规",
           "tribal": "部族自治"
         },
-        "regulatoryBody": "各州设有博弈委员会，联邦层面由司法部监管"
+        "regulatoryBody": "各州均设有专责机构，例如新泽西州博彩执法局、内华达州赌博管制委员会等，负责发照、审核营运者背景、监督赌场运作及执法。"
       },
       "asia": {
-        "title": "亚洲",
-        "subtitle": "法规严格限制",
+        "title": "亚洲地区",
+        "subtitle": "多样的博弈政策与近期变革",
         "legalStatus": {
           "online": "线上博弈：大部分禁止",
           "landbased": "实体赌场：有限开放",
@@ -760,23 +760,174 @@
           "limited": "有限开放",
           "underground": "地下市场"
         },
-        "regulatoryBody": "各国设有彩票或博弈监管机构，但权限有限"
+        "regulatoryBody": "各国设有彩票或博弈监管机构，但权限有限。包括日本、东南亚、中国大陆、台湾、澳门、澳洲等地区各有不同的监管模式。"
       }
     },
     "trends": {
       "title": "法规趋势",
       "digitalization": {
         "title": "数字化监管",
-        "description": "利用科技手段提升监管效率和透明度"
+        "description": "利用科技手段提升监管效率和透明度，包括AI监管工具和数字化监控系统"
       },
       "harmonization": {
         "title": "国际协调",
-        "description": "推动跨境博弈法规的统一和协调"
+        "description": "推动跨境博弈法规的统一和协调，建立国际合作机制"
       },
       "compliance": {
         "title": "合规要求",
-        "description": "加强反洗钱和负责任博弈的合规要求"
+        "description": "加强反洗钱和负责任博弈的合规要求，建立更严格的监管标准"
       }
+    },
+    "japan": {
+      "title": "日本：有限度开放赌场与严格管控线上博彩",
+      "subtitle": "日本对博弈产业采取高度审慎的开放态度",
+      "description": "长期以来，日本仅允许少数公益彩票和经特殊立法的体育竞赛投注等公营赌博。直到2016年日本才通过《统合度假区促进法》，2018年通过《IR整备法》，正式允许综合度假村（IR）内设立赌场，但上限仅三处。",
+      "keyFeatures": {
+        "irSystem": "IR综合度假村制度",
+        "strictControl": "严格管控措施",
+        "localRestrictions": "本国居民限制"
+      },
+      "regulatoryBody": "日本设立了赌场管理委员会（Casino Regulatory Commission）负责IR赌场的发照和监督。该委员会独立于警察厅，成员由内阁任命，确保对赌场营运有严格管控权。"
+    },
+    "singapore": {
+      "title": "新加坡：高度管制的双赌场模式与全方位监管",
+      "subtitle": "新加坡实行全球最严格的博弈监管之一",
+      "description": "政府在2010年开放两座综合度假胜地赌场（滨海湾金沙和圣淘沙名胜世界），以推动观光但严控规模。本地居民进入赌场须支付高额入场税。",
+      "keyFeatures": {
+        "dualCasino": "双赌场模式",
+        "entryTax": "高额入场税",
+        "comprehensiveRegulation": "全方位监管"
+      },
+      "regulatoryBody": "新加坡在2022年进行博彩监管架构重大改革。8月1日，新成立的新加坡博弈监管局（GRA）正式运作，取代原赌场监管局（CRA），职权扩大到监督所有形式赌博。"
+    },
+    "malaysia": {
+      "title": "马来西亚：垄断式赌场与严打非法网赌",
+      "subtitle": "马来西亚奉行特殊的博彩政策",
+      "description": "一方面允许少数合法博弈存在，另一方面对未经许可活动予以严厉打击。全国唯一合法赌场为云顶高原赌场，由政府特许经营，迄今保持垄断地位。",
+      "keyFeatures": {
+        "monopoly": "垄断经营",
+        "strictEnforcement": "严厉执法",
+        "lawReform": "法律改革"
+      },
+      "regulatoryBody": "马来西亚的合法博彩业由财政部授权机构监管，例如彩票业由财政部发牌和监督，赌场特许经营则须高层批准。"
+    },
+    "thailand": {
+      "title": "泰国：全面禁赌下的合法化讨论",
+      "subtitle": "泰国目前对赌博几乎全面禁止",
+      "description": "根据1935年《赌博法》，除官方国营彩票和少数允许的赛马投注外，其他赌博皆属违法。过去几年，泰国开始认真探讨赌场合法化的可能性。",
+      "keyFeatures": {
+        "comprehensiveBan": "全面禁止",
+        "legalizationDiscussion": "合法化讨论",
+        "undergroundMarket": "地下市场"
+      },
+      "regulatoryBody": "泰国目前没有专门的博弈监管机构，彩票由财政部管理，其他赌博活动由警方依刑事法处理。"
+    },
+    "vietnam": {
+      "title": "越南：有限度允许本国人赌博的试点与博彩业扩张",
+      "subtitle": "越南过去对赌博严格管制",
+      "description": "本国公民长期以来不得进入赌场。全国数十家赌场只允许外国护照持有人或海外越侨进入，本地人被拒于门外。",
+      "keyFeatures": {
+        "pilotProgram": "试点计划",
+        "foreignOnly": "仅限外国人",
+        "gradualExpansion": "逐步扩张"
+      },
+      "regulatoryBody": "越南博彩业归财政部和公安部双重监督。赌场执照发放有限且多与大型旅游开发项目挂钩，投资额须达到数亿美元门槛。"
+    },
+    "philippines": {
+      "title": "菲律宾：多元化赌博市场与近年政策转向",
+      "subtitle": "菲律宾是亚洲少数博彩业态极为多元且开放的国家",
+      "description": "菲律宾娱乐博彩公司（PAGCOR）作为政府机构，同时身兼监管者与业者：一方面它自己直接经营几十家公营赌场，另一方面也负责向民营业者发照监管。",
+      "keyFeatures": {
+        "diversifiedMarket": "多元化市场",
+        "dualRole": "双重角色",
+        "policyShift": "政策转向"
+      },
+      "regulatoryBody": "PAGCOR主席邓科2023年表示计划重新定位PAGCOR：将政府自营赌场私有化，把PAGCOR转型为纯监管机构。"
+    },
+    "china": {
+      "title": "中国大陆：严刑峻法全面禁赌与跨境打击",
+      "subtitle": "中国大陆对赌博采取零容忍政策",
+      "description": "《中华人民共和国刑法》明定开设赌场、聚众赌博属犯罪，个人参赌也违反治安管理处罚法。除国家发行彩票外，所有赌博活动在中国内地均非法。",
+      "keyFeatures": {
+        "zeroTolerance": "零容忍政策",
+        "crossBorderCrackdown": "跨境打击",
+        "lotteryOnly": "仅限彩票"
+      },
+      "regulatoryBody": "中国大陆没有专门的博弈监管机构，彩票由财政部管理，其他赌博活动由公安机关依刑事法处理。"
+    },
+    "macau": {
+      "title": "澳门：赌权重整与多元转型下的新规范",
+      "subtitle": "澳门是中国特别行政区，也是全球最大的赌博中心之一",
+      "description": "澳门博彩业采特许经营制度，自2002年开放赌权竞争以来共有6家持牌赌场公司。这6家博企的旧牌照在2022年到期，澳门政府于当年重新招标并颁布新《博彩法》。",
+      "keyFeatures": {
+        "concessionSystem": "特许经营制度",
+        "newGamingLaw": "新博彩法",
+        "diversification": "多元化转型"
+      },
+      "regulatoryBody": "澳门博彩监察协调局（DICJ）是赌场监管主力，2022年新法实施后，其权限进一步扩大，包括可派驻政府代表进驻赌场企业监督。"
+    },
+    "taiwan": {
+      "title": "台湾：彩票独大与博弈政策停滞",
+      "subtitle": "台湾目前没有合法赌场",
+      "description": "是东亚少数至今未开放赌博的地区之一。现行《刑法》与《赌博罪条例》禁止博彩营业行为，但政府经营的彩票不在此限。",
+      "keyFeatures": {
+        "lotteryOnly": "仅限彩票",
+        "noCasinos": "无合法赌场",
+        "policyStagnation": "政策停滞"
+      },
+      "regulatoryBody": "台湾彩票由财政部彩票管理委员会监督发行和销售，并规定未成年人不得购买。运动彩票亦在财政部金管会核发执照下运行。"
+    },
+    "australia": {
+      "title": "澳洲：严格监管下的博弈市场",
+      "subtitle": "澳洲对博弈产业实施严格监管",
+      "description": "各州和领地都有自己的博弈法规，但都遵循联邦的基本原则。澳洲强调负责任博弈和玩家保护，对广告和营销有严格限制。",
+      "keyFeatures": {
+        "stateRegulation": "州级监管",
+        "responsibleGaming": "负责任博弈",
+        "strictAdvertising": "严格广告限制"
+      },
+      "regulatoryBody": "各州设有博弈监管机构，如新南威尔士州博弈管理局、维多利亚州博弈与酒类管制委员会等。"
+    },
+    "asia": {
+      "title": "亚洲地区",
+      "subtitle": "多样的博弈政策与近期变革",
+      "legalStatus": {
+        "online": "线上博弈：大部分禁止",
+        "landbased": "实体赌场：有限开放",
+        "sports": "体育博彩：部分允许"
+      },
+      "keyFeatures": {
+        "strict": "严格管制",
+        "limited": "有限开放",
+        "underground": "地下市场"
+      },
+      "regulatoryBody": "各国设有彩票或博弈监管机构，但权限有限。包括日本、东南亚、中国大陆、台湾、澳门、澳洲等地区各有不同的监管模式。"
+    },
+    "testingLabs": {
+      "title": "国际博弈测试与认证机构",
+      "subtitle": "BMM Testlabs 与 GLI 的角色与信誉",
+      "description": "在全球博彩合规生态中，独立的游戏测试实验室扮演举足轻重的角色。其中，以 BMM Testlabs 和 GLI（Gaming Laboratories International） 这两大机构最为知名。",
+      "bmm": {
+        "title": "BMM Testlabs",
+        "description": "成立于1981年，是全球历史最悠久的私人博弈测试实验室之一，最初源自澳大利亚，如今总部设于拉斯维加斯，业务遍及各大洲。"
+      },
+      "gli": {
+        "title": "GLI (Gaming Laboratories International)",
+        "description": "成立于1989年，起家于美国新泽西，现已成为规模最大的博弈测试认证公司之一。截至2024年，GLI宣称已在全球超过480个法域提供过设备检测或咨询服务。"
+      },
+      "functions": {
+        "title": "职能与作用",
+        "description": "BMM、GLI 的核心职能是替监管机构和营运商检验各类博彩产品是否符合技术标准和法规要求。这包含实体赌场使用的老虎机、电子赌桌、乱数产生器（RNG）设备，以及线上赌博平台的游戏软件、投注系统等。"
+      },
+      "reputation": {
+        "title": "信誉与比较",
+        "description": "BMM和GLI长期竞争又共同主导市场，双方信誉皆备受肯定。各国监管单位通常会将两者都列入认可实验室名单。例如美国赌场集中地内华达、新泽西，及亚洲的新加坡、澳门、菲律宾等地，都接受由BMM或GLI出具的游戏认证报告。"
+      }
+    },
+    "conclusion": {
+      "title": "结论",
+      "description": "纵观全球，过去三年博彩法规环境的变革凸显出强化监管、倡导合规的总体趋势。欧洲各国纷纷收紧广告与税务政策，着眼于降低赌博对社会的负面影响；美国在快速扩张体育博彩市场的同时，也逐步完善保护机制；亚洲地区有的开放新赌场但搭配严厉管控，有的则加大打击非法赌博力度，呈现出多元路径。",
+      "future": "可以预见，全球博彩监管将持续演进。例如欧盟可能研议更多协调指引，美国更多州将上马线上博弈法案，亚洲或有新市场开启。但无论市场如何扩张，严谨的法规与合规要求都将是产业长远发展的基石。"
     }
   },
   "payment": {
