@@ -832,6 +832,39 @@
         ],
         "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
         "regulatoryBody": "National central banks and financial regulatory bodies"
+      },
+      "latinAmerica": {
+        "title": "Latin America",
+        "subtitle": "Emerging digital payment market with diverse adoption",
+        "paymentMethods": [
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "mobilePayment", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["growing digital adoption", "mobile-first markets", "regulatory evolution"],
+        "regulatoryBody": "Central Bank of Brazil, Banco de México, and other regional central banks"
+      },
+      "africa": {
+        "title": "Africa",
+        "subtitle": "Mobile money leading the digital revolution",
+        "paymentMethods": [
+          { "type": "mobileMoney", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["mobile money dominance", "rapid fintech growth", "financial inclusion focus"],
+        "regulatoryBody": "African Union financial institutions and national central banks"
+      },
+      "oceania": {
+        "title": "Oceania",
+        "subtitle": "Advanced digital payment infrastructure",
+        "paymentMethods": [
+          { "type": "digitalWallet", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "creditCard", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["high digital adoption", "strong banking system", "innovative fintech"],
+        "regulatoryBody": "Reserve Bank of Australia, Reserve Bank of New Zealand, and Pacific central banks"
       }
     },
     "trends": {

@@ -832,6 +832,39 @@
         ],
         "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
         "regulatoryBody": "各国央行和金融监管机构"
+      },
+      "latinAmerica": {
+        "title": "拉丁美洲",
+        "subtitle": "新兴数字支付市场，采用程度多样化",
+        "paymentMethods": [
+          { "type": "bankTransfer", "color": "bg-green-500" },
+          { "type": "mobilePayment", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["growing digital adoption", "mobile-first markets", "regulatory evolution"],
+        "regulatoryBody": "巴西中央银行、墨西哥银行和其他地区央行"
+      },
+      "africa": {
+        "title": "非洲",
+        "subtitle": "移动货币引领数字革命",
+        "paymentMethods": [
+          { "type": "mobileMoney", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "cash", "color": "bg-yellow-500" }
+        ],
+        "keyFeatures": ["mobile money dominance", "rapid fintech growth", "financial inclusion focus"],
+        "regulatoryBody": "非洲联盟金融机构和各国央行"
+      },
+      "oceania": {
+        "title": "大洋洲",
+        "subtitle": "先进的数字支付基础设施",
+        "paymentMethods": [
+          { "type": "digitalWallet", "color": "bg-green-500" },
+          { "type": "bankTransfer", "color": "bg-blue-500" },
+          { "type": "creditCard", "color": "bg-purple-500" }
+        ],
+        "keyFeatures": ["high digital adoption", "strong banking system", "innovative fintech"],
+        "regulatoryBody": "澳大利亚储备银行、新西兰储备银行和太平洋地区央行"
       }
     },
     "trends": {
