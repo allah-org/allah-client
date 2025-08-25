@@ -26,7 +26,7 @@ const techRoles = computed(() => [
 ])
 
 const selectedRole = ref('overview')
-const expandedRoles = ref(['overview']) // 默認展開概觀
+const expandedRoles = ref(['overview', 'director', 'product', 'frontend', 'backend', 'mathematics', 'art', 'audio']) // 默認展開所有職位
 
 // 展開/折疊技術職能
 const toggleRole = (roleId) => {
@@ -274,10 +274,10 @@ const developmentStages = computed(() => t('tech.development.stages'))
           </div>
 
           <!-- 技能統計 -->
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div v-for="stat in role.stats" :key="stat.label" class="bg-white/10 rounded-lg p-4 text-center">
-              <div :class="`text-2xl font-bold ${stat.valueClass} mb-1`">{{ stat.value }}</div>
-              <div class="text-white/80 text-sm">{{ stat.label }}</div>
+          <div class="flex flex-wrap gap-3">
+            <div v-for="stat in role.stats" :key="stat.label" class="inline-flex items-center space-x-2 px-3 py-1 bg-white/10 rounded-full">
+              <span :class="`text-sm font-medium ${stat.valueClass}`">{{ stat.value }}</span>
+              <span class="text-white/60 text-xs">{{ stat.label }}</span>
             </div>
           </div>
         </div>
@@ -315,9 +315,9 @@ const developmentStages = computed(() => t('tech.development.stages'))
         <h2 class="text-2xl font-bold text-white mb-6">{{ t('tech.bottlenecks.title') }}</h2>
         <p class="text-gray-300 mb-8 text-lg">{{ t('tech.bottlenecks.description') }}</p>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div v-for="bottleneck in bottlenecksData" :key="bottleneck.title" class="bg-gray-700 rounded-lg p-6 border-l-4 border-red-400">
-            <h3 class="text-lg font-semibold text-white mb-3">{{ bottleneck.title }}</h3>
+        <div class="space-y-4">
+          <div v-for="bottleneck in bottlenecksData" :key="bottleneck.title" class="border-l-4 border-red-400 pl-4 py-2">
+            <h3 class="text-lg font-semibold text-white mb-2">{{ bottleneck.title }}</h3>
             <p class="text-gray-300">{{ bottleneck.description }}</p>
           </div>
         </div>
@@ -332,14 +332,14 @@ const developmentStages = computed(() => t('tech.development.stages'))
           <!-- 流程線 -->
           <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-600"></div>
           
-          <div class="space-y-8">
+          <div class="space-y-6">
             <div v-for="(stage, index) in developmentStages" :key="stage.title" class="relative flex items-start">
               <!-- 流程點 -->
-              <div class="absolute left-6 w-4 h-4 bg-purple-500 rounded-full border-4 border-gray-800 z-10"></div>
+              <div class="absolute left-6 w-3 h-3 bg-purple-500 rounded-full border-2 border-gray-800 z-10"></div>
               
-              <div class="ml-16 bg-gray-700 rounded-lg p-6 flex-1">
-                <div class="flex items-center mb-3">
-                  <span class="text-2xl font-bold text-purple-400 mr-3">{{ index + 1 }}</span>
+              <div class="ml-12 flex-1">
+                <div class="flex items-center mb-2">
+                  <span class="text-lg font-bold text-purple-400 mr-3">{{ index + 1 }}</span>
                   <h3 class="text-lg font-semibold text-white">{{ stage.title }}</h3>
                 </div>
                 <p class="text-gray-300">{{ stage.description }}</p>

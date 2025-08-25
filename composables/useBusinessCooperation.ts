@@ -95,9 +95,9 @@ export const useBusinessCooperation = () => {
       ],
       contact: {
         label: '聯繫郵箱',
-        value: 'business@btt.com',
+        value: 'allah2truth@gmail.com',
         type: 'email',
-        url: 'mailto:business@btt.com'
+        url: 'mailto:allah2truth@gmail.com'
       }
     }
   ])
