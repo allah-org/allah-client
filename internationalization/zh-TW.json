@@ -446,112 +446,436 @@
     }
   },
   "payment": {
-    "pageTitle": "金流管道 - 菠菜天眼通",
-    "pageDescription": "了解博弈產業的金流趨勢和支付方式",
-    "title": "博弈產業金流管道",
-    "subtitle": "深入分析全球博弈產業的支付方式、金流趨勢和未來發展",
+    "title": "金流管道",
+    "subtitle": "全球博弈產業金流與支付系統分析報告",
+    "pageTitle": "BTT 菠菜天眼通 - 金流管道",
+    "pageDescription": "全球博弈產業金流與支付系統分析報告",
     "overview": {
-      "title": "金流概覽",
-      "description": "博弈產業是全球最大的金流產業之一，年交易量超過2.8萬億美元，涵蓋傳統銀行、數位支付、加密貨幣等多種支付方式。",
+      "title": "支付系統概覽",
+      "description": "全球博弈產業支付系統分為兩大類：合法監管的支付管道和地下支付網路。各自具有不同的特點和市場定位。",
       "legal": {
-        "title": "合法金流",
-        "description": "通過正規銀行、支付處理商和監管機構的合規金流管道"
+        "title": "合法支付管道",
+        "description": "銀行轉帳、信用卡、行動支付等受監管的支付方式，具有透明度和合規性特點。"
       },
       "underground": {
-        "title": "地下金流",
-        "description": "在法規限制地區，通過地下錢莊、加密貨幣等非正規管道"
+        "title": "地下支付網路",
+        "description": "現金交易、加密貨幣、哈瓦拉等不受監管的支付方式，具有匿名性和靈活性特點。"
       }
     },
-    "paymentMethods": "支付方式",
-    "keyFeatures": "主要特色",
-    "regulatoryBody": "監管機構",
+    "methods": {
+      "bankTransfer": "銀行轉帳",
+      "creditCard": "信用卡",
+      "cash": "現金",
+      "mobilePayment": "行動支付",
+      "cryptocurrency": "加密貨幣",
+      "ewallet": "電子錢包",
+      "underground": "地下支付",
+      "business": "商務合作"
+    },
+    "revenueStats": {
+      "bankTransferRevenue": "2.8T",
+      "bankTransferGlobal": "全球銀行轉帳",
+      "bankTransferType": "傳統銀行",
+      "creditCardRevenue": "1.2T",
+      "creditCardGlobal": "全球信用卡",
+      "creditCardType": "卡片支付",
+      "mobilePaymentRevenue": "850B",
+      "mobilePaymentGlobal": "全球行動支付",
+      "mobilePaymentType": "數位錢包",
+      "cashRevenue": "680B",
+      "cashUnderground": "地下現金",
+      "cashType": "實體貨幣",
+      "cryptoRevenue": "420B",
+      "cryptoGlobal": "全球加密貨幣",
+      "cryptoType": "數位資產",
+      "ewalletRevenue": "380B",
+      "ewalletGlobal": "全球電子錢包",
+      "ewalletType": "數位儲存",
+      "globalMarket": "6.5T",
+      "totalMarketSize": "總市場規模",
+      "globalMarketType": "所有支付方式",
+      "digitalPenetration": "65%",
+      "digitalPayment": "數位支付",
+      "digitalPenetrationType": "市場滲透率",
+      "mobileShare": "45%",
+      "mobilePayment": "行動支付",
+      "mobileShareType": "交易佔比",
+      "year2023": "2023年",
+      "year2024": "2024年"
+    },
     "regions": {
+      "title": "地區金流分析",
+      "region": "地區",
+      "adoptionRate": "採用率",
+      "volume": "交易量",
+      "paymentMethods": "支付方式",
+      "keyFeatures": "主要特點",
+      "regulatoryBody": "監管機構",
       "northAmerica": {
-        "title": "北美",
-        "subtitle": "信用卡主導的成熟市場",
-                   "paymentMethods": [
-             { "type": "creditCard", "color": "bg-blue-500" },
-             { "type": "bankTransfer", "color": "bg-green-500" },
-             { "type": "digitalWallet", "color": "bg-purple-500" }
-           ],
-           "keyFeatures": ["strong banking system", "high credit card adoption", "regulated payment processors"],
-        "regulatoryBody": "美國財政部、加拿大金融機構監管辦公室等"
+        "title": "北美洲",
+        "subtitle": "高數位支付採用率，強監管框架",
+        "paymentMethods": {
+          "bankTransfer": "銀行轉帳",
+          "creditCard": "信用卡",
+          "mobilePayment": "行動支付"
+        },
+        "keyFeatures": {
+          "digitalFirst": "數位優先策略",
+          "strongRegulation": "強監管監督",
+          "highSecurity": "高安全標準"
+        },
+        "regulatoryBody": "聯邦儲備銀行、OCC、FDIC"
       },
       "europe": {
         "title": "歐洲",
-        "subtitle": "銀行轉帳和數位支付並重",
-                   "paymentMethods": [
-             { "type": "bankTransfer", "color": "bg-green-500" },
-             { "type": "creditCard", "color": "bg-blue-500" },
-             { "type": "digitalPayment", "color": "bg-purple-500" }
-           ],
-           "keyFeatures": ["SEPA system", "strong regulation", "digital innovation"],
-        "regulatoryBody": "歐洲央行、各國金融監管機構等"
+        "subtitle": "統一支付標準，高合規要求",
+        "paymentMethods": {
+          "bankTransfer": "SEPA轉帳",
+          "creditCard": "信用卡",
+          "ewallet": "電子錢包"
+        },
+        "keyFeatures": {
+          "unifiedStandards": "統一支付標準",
+          "gdprCompliance": "GDPR合規",
+          "crossBorder": "跨境整合"
+        },
+        "regulatoryBody": "歐洲央行、EBA、各國央行"
       },
-            "asia": {
+      "asia": {
         "title": "亞洲",
-        "subtitle": "行動支付快速發展",
-        "paymentMethods": [
-          { "type": "mobilePayment", "color": "bg-green-500" },
-          { "type": "bankTransfer", "color": "bg-blue-500" },
-          { "type": "cash", "color": "bg-yellow-500" }
-        ],
-        "keyFeatures": ["mobile-first approach", "rapid digital adoption", "diverse payment methods"],
-        "regulatoryBody": "各國央行和金融監管機構"
+        "subtitle": "行動支付主導，快速數位轉型",
+        "paymentMethods": {
+          "mobilePayment": "行動支付",
+          "bankTransfer": "銀行轉帳",
+          "ewallet": "電子錢包"
+        },
+        "keyFeatures": {
+          "mobileFirst": "行動優先策略",
+          "rapidGrowth": "快速數位成長",
+          "localInnovation": "本地創新重點"
+        },
+        "regulatoryBody": "各國央行、金融監管機構"
       },
       "latinAmerica": {
         "title": "拉丁美洲",
-        "subtitle": "新興數位支付市場，採用程度多樣化",
-        "paymentMethods": [
-          { "type": "bankTransfer", "color": "bg-green-500" },
-          { "type": "mobilePayment", "color": "bg-blue-500" },
-          { "type": "cash", "color": "bg-yellow-500" }
-        ],
-        "keyFeatures": ["growing digital adoption", "mobile-first markets", "regulatory evolution"],
-        "regulatoryBody": "巴西中央銀行、墨西哥銀行和其他地區央行"
+        "subtitle": "數位採用成長，監管發展中",
+        "paymentMethods": {
+          "bankTransfer": "銀行轉帳",
+          "mobilePayment": "行動支付",
+          "cash": "現金"
+        },
+        "keyFeatures": {
+          "growingDigital": "數位採用成長",
+          "regulatoryDevelopment": "監管發展中",
+          "financialInclusion": "金融包容重點"
+        },
+        "regulatoryBody": "各國央行、金融監管機構"
       },
       "africa": {
         "title": "非洲",
-        "subtitle": "行動貨幣引領數位革命",
-        "paymentMethods": [
-          { "type": "mobileMoney", "color": "bg-green-500" },
-          { "type": "bankTransfer", "color": "bg-blue-500" },
-          { "type": "cash", "color": "bg-yellow-500" }
-        ],
-        "keyFeatures": ["mobile money dominance", "rapid fintech growth", "financial inclusion focus"],
-        "regulatoryBody": "非洲聯盟金融機構和各國央行"
+        "subtitle": "行動貨幣創新，金融包容重點",
+        "paymentMethods": {
+          "mobilePayment": "行動貨幣",
+          "bankTransfer": "銀行轉帳",
+          "cash": "現金"
+        },
+        "keyFeatures": {
+          "mobileMoney": "行動貨幣創新",
+          "financialInclusion": "金融包容重點",
+          "leapfrogging": "技術跳躍發展"
+        },
+        "regulatoryBody": "各國央行、金融監管機構"
       },
       "oceania": {
         "title": "大洋洲",
-        "subtitle": "先進的數位支付基礎設施",
-        "paymentMethods": [
-          { "type": "digitalWallet", "color": "bg-green-500" },
-          { "type": "bankTransfer", "color": "bg-blue-500" },
-          { "type": "creditCard", "color": "bg-purple-500" }
-        ],
-        "keyFeatures": ["high digital adoption", "strong banking system", "innovative fintech"],
-        "regulatoryBody": "澳洲儲備銀行、紐西蘭儲備銀行和太平洋地區央行"
+        "subtitle": "先進數位基礎設施，強監管",
+        "paymentMethods": {
+          "bankTransfer": "銀行轉帳",
+          "creditCard": "信用卡",
+          "mobilePayment": "行動支付"
+        },
+        "keyFeatures": {
+          "advancedInfrastructure": "先進數位基礎設施",
+          "strongRegulation": "強監管框架",
+          "highAdoption": "高數位採用率"
+        },
+        "regulatoryBody": "澳洲儲備銀行、紐西蘭儲備銀行"
+      }
+    },
+    "methodIntro": {
+      "title": "支付方式分析",
+      "platforms": "主要平台",
+      "sources": "參考資料",
+      "bankTransferSubtitle": "傳統銀行轉帳系統",
+      "creditCardSubtitle": "全球信用卡支付網路",
+      "cashSubtitle": "實體貨幣交易",
+      "mobilePaymentSubtitle": "行動支付解決方案",
+      "cryptocurrencySubtitle": "數位資產支付系統",
+      "ewalletSubtitle": "數位錢包支付平台",
+      "undergroundSubtitle": "不受監管的支付網路",
+      "stats": {
+        "globalVolume": "全球交易量",
+        "bankTransferVolume": "$2.8T",
+        "adoptionRate": "採用率",
+        "bankTransferRate": "78%",
+        "security": "安全等級",
+        "bankTransferSecurity": "高",
+        "usRevenue": "美國收入",
+        "creditCardRevenue": "$450B",
+        "globalUsage": "全球使用",
+        "creditCardUsage": "25億用戶",
+        "convenience": "便利性",
+        "creditCardConvenience": "高",
+        "undergroundVolume": "地下交易量",
+        "cashVolume": "$680B",
+        "anonymity": "匿名性",
+        "cashAnonymity": "完全",
+        "regulatory": "監管狀態",
+        "cashRegulatory": "不受監管",
+        "asiaAdoption": "亞洲採用率",
+        "mobilePaymentAdoption": "85%",
+        "growthRate": "成長率",
+        "mobilePaymentGrowth": "年增45%",
+        "mobilePaymentConvenience": "極高",
+        "marketCap": "市值",
+        "cryptoMarketCap": "$1.2T",
+        "cryptoAnonymity": "高",
+        "volatility": "波動性",
+        "cryptoVolatility": "高",
+        "globalUsers": "全球用戶",
+        "ewalletUsers": "32億",
+        "transactionVolume": "交易量",
+        "ewalletVolume": "$380B",
+        "ewalletSecurity": "高",
+        "estimatedVolume": "預估交易量",
+        "undergroundVolume": "$1.2T",
+        "riskLevel": "風險等級",
+        "undergroundRisk": "極高",
+        "undergroundRegulatory": "不受監管"
+      },
+      "platformsData": {
+        "swift": {
+          "name": "SWIFT",
+          "region": "全球",
+          "desc": "國際銀行網路"
+        },
+        "sepa": {
+          "name": "SEPA",
+          "region": "歐洲",
+          "desc": "歐洲支付系統"
+        },
+        "visa": {
+          "name": "Visa",
+          "region": "全球",
+          "desc": "全球信用卡網路"
+        },
+        "mastercard": {
+          "name": "Mastercard",
+          "region": "全球",
+          "desc": "國際支付網路"
+        },
+        "local": {
+          "name": "本地銀行",
+          "region": "地區性",
+          "desc": "本地銀行機構"
+        },
+        "underground": {
+          "name": "地下網路",
+          "region": "全球",
+          "desc": "不受監管的支付系統"
+        },
+        "alipay": {
+          "name": "支付寶",
+          "region": "中國",
+          "desc": "數位支付平台"
+        },
+        "wechat": {
+          "name": "微信支付",
+          "region": "中國",
+          "desc": "社交支付解決方案"
+        },
+        "bitcoin": {
+          "name": "比特幣",
+          "region": "全球",
+          "desc": "去中心化加密貨幣"
+        },
+        "ethereum": {
+          "name": "以太坊",
+          "region": "全球",
+          "desc": "智能合約平台"
+        },
+        "paypal": {
+          "name": "PayPal",
+          "region": "全球",
+          "desc": "數位支付服務"
+        },
+        "skrill": {
+          "name": "Skrill",
+          "region": "全球",
+          "desc": "數位錢包平台"
+        },
+        "hawala": {
+          "name": "哈瓦拉",
+          "region": "全球",
+          "desc": "傳統匯款系統"
+        }
+      },
+      "bankTransfer": {
+        "overview": {
+          "title": "銀行轉帳概覽",
+          "content": "銀行轉帳是全球博弈產業最傳統且廣泛使用的支付方式，通過受監管的金融機構提供安全且可追蹤的交易。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "通過受監管金融機構提供高安全性",
+          "convenience": "便利性",
+          "convenienceDesc": "廣泛接受且易於使用",
+          "global": "全球覆蓋",
+          "globalDesc": "國際轉帳能力"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "銀行轉帳可能較慢，國際交易費用高，且需要銀行帳戶，可能並非所有用戶都能使用。"
+        }
+      },
+      "creditCard": {
+        "overview": {
+          "title": "信用卡概覽",
+          "content": "信用卡提供即時支付能力，內建信用額度，使其在線上博弈交易中受歡迎，並提供消費者保護。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "詐騙保護和退款權利",
+          "convenience": "便利性",
+          "convenienceDesc": "即時交易和信用額度",
+          "global": "全球覆蓋",
+          "globalDesc": "廣泛國際接受"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "信用卡可能費用高、利率高，且可能因監管考量被銀行拒絕博弈交易。"
+        }
+      },
+      "cash": {
+        "overview": {
+          "title": "現金概覽",
+          "content": "現金在地下博弈市場中仍然是重要的支付方式，提供完全匿名性並避免數位追蹤。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "完全匿名性和隱私",
+          "convenience": "便利性",
+          "convenienceDesc": "無技術要求或帳戶",
+          "global": "全球覆蓋",
+          "globalDesc": "全球普遍接受"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "現金交易缺乏安全性，難以追蹤，且存在盜竊和遺失風險。"
+        }
+      },
+      "mobilePayment": {
+        "overview": {
+          "title": "行動支付概覽",
+          "content": "行動支付已革命化亞洲博弈產業，通過智慧手機提供便利、快速且安全的交易。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "生物識別認證和加密",
+          "convenience": "便利性",
+          "convenienceDesc": "通過行動設備隨時可用",
+          "global": "全球覆蓋",
+          "globalDesc": "國際採用成長中"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "行動支付需要智慧手機，可能有地區限制和不同的安全標準。"
+        }
+      },
+      "cryptocurrency": {
+        "overview": {
+          "title": "加密貨幣概覽",
+          "content": "加密貨幣提供去中心化、無國界的支付解決方案，具有高匿名性，吸引尋求隱私和全球存取權的用戶。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "基於區塊鏈的安全性和透明度",
+          "convenience": "便利性",
+          "convenienceDesc": "24/7全球存取和快速交易",
+          "global": "全球覆蓋",
+          "globalDesc": "無國界且去中心化"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "加密貨幣波動性極高，面臨監管不確定性，且商家接受度可能有限。"
+        }
+      },
+      "ewallet": {
+        "overview": {
+          "title": "電子錢包概覽",
+          "content": "電子錢包為多種支付方式提供數位儲存，為線上博弈交易提供便利性和安全性。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "加密儲存和詐騙保護",
+          "convenience": "便利性",
+          "convenienceDesc": "多種支付方式集中管理",
+          "global": "全球覆蓋",
+          "globalDesc": "廣泛國際接受"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "電子錢包可能有帳戶限制，需要網路連線，且面臨各地區不同的監管要求。"
+        }
+      },
+      "underground": {
+        "overview": {
+          "title": "地下支付概覽",
+          "content": "地下支付網路在傳統金融監管之外運作，為無法或不願使用受監管管道的用戶提供服務。"
+        },
+        "advantages": {
+          "title": "主要優勢",
+          "security": "安全性",
+          "securityDesc": "完全匿名性和隱私",
+          "convenience": "便利性",
+          "convenienceDesc": "無監管限制或KYC要求",
+          "global": "全球覆蓋",
+          "globalDesc": "在受限制地區可存取"
+        },
+        "challenges": {
+          "title": "挑戰與限制",
+          "content": "地下網路存在高詐騙風險，缺乏消費者保護，且可能面臨法律後果。"
+        }
       }
     },
     "trends": {
-      "title": "金流趨勢",
+      "title": "未來支付趨勢",
       "blockchain": {
         "title": "區塊鏈技術",
-        "description": "去中心化支付和智能合約將重塑金流生態"
+        "description": "區塊鏈將革命化支付安全性和透明度，實現更快更安全的交易"
       },
       "ai": {
-        "title": "AI風控",
-        "description": "人工智能將大幅提升反洗錢和風險控制能力"
+        "title": "AI驅動安全",
+        "description": "人工智慧將增強詐騙檢測並提供個人化支付體驗"
       },
       "biometrics": {
-        "title": "生物識別",
+        "title": "生物識別認證",
         "description": "指紋、臉部識別等技術將成為主流驗證方式"
       },
       "quantum": {
         "title": "量子計算",
-        "description": "量子計算將革命性地改變金流安全和加密方式"
+        "description": "量子計算將革命化支付安全性和加密方法"
       }
-    }
+    },
+    "paymentMethods": "支付方式",
+    "keyFeatures": "主要特點",
+    "regulatoryBody": "監管機構"
   },
   "future": {
     "pageTitle": "未來趨勢 - 菠菜天眼通",
