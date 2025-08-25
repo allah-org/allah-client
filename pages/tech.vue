@@ -78,7 +78,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.director.subtitle'),
     icon: t('tech.roles.director.icon'),
     headerBg: t('tech.roles.director.headerBg'),
-    stats: t('tech.roles.director.stats'),
+    stats: [
+      { label: t('tech.roles.director.stats.0.label'), value: t('tech.roles.director.stats.0.value'), valueClass: t('tech.roles.director.stats.0.valueClass') },
+      { label: t('tech.roles.director.stats.1.label'), value: t('tech.roles.director.stats.1.value'), valueClass: t('tech.roles.director.stats.1.valueClass') },
+      { label: t('tech.roles.director.stats.2.label'), value: t('tech.roles.director.stats.2.value'), valueClass: t('tech.roles.director.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.director.skills'),
     tools: t('tech.roles.director.tools'),
     challenges: t('tech.roles.director.challenges'),
@@ -90,7 +94,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.product.subtitle'),
     icon: t('tech.roles.product.icon'),
     headerBg: t('tech.roles.product.headerBg'),
-    stats: t('tech.roles.product.stats'),
+    stats: [
+      { label: t('tech.roles.product.stats.0.label'), value: t('tech.roles.product.stats.0.value'), valueClass: t('tech.roles.product.stats.0.valueClass') },
+      { label: t('tech.roles.product.stats.1.label'), value: t('tech.roles.product.stats.1.value'), valueClass: t('tech.roles.product.stats.1.valueClass') },
+      { label: t('tech.roles.product.stats.2.label'), value: t('tech.roles.product.stats.2.value'), valueClass: t('tech.roles.product.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.product.skills'),
     tools: t('tech.roles.product.tools'),
     challenges: t('tech.roles.product.challenges'),
@@ -102,7 +110,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.frontend.subtitle'),
     icon: t('tech.roles.frontend.icon'),
     headerBg: t('tech.roles.frontend.headerBg'),
-    stats: t('tech.roles.frontend.stats'),
+    stats: [
+      { label: t('tech.roles.frontend.stats.0.label'), value: t('tech.roles.frontend.stats.0.value'), valueClass: t('tech.roles.frontend.stats.0.valueClass') },
+      { label: t('tech.roles.frontend.stats.1.label'), value: t('tech.roles.frontend.stats.1.value'), valueClass: t('tech.roles.frontend.stats.1.valueClass') },
+      { label: t('tech.roles.frontend.stats.2.label'), value: t('tech.roles.frontend.stats.2.value'), valueClass: t('tech.roles.frontend.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.frontend.skills'),
     tools: t('tech.roles.frontend.tools'),
     challenges: t('tech.roles.frontend.challenges'),
@@ -114,7 +126,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.backend.subtitle'),
     icon: t('tech.roles.backend.icon'),
     headerBg: t('tech.roles.backend.headerBg'),
-    stats: t('tech.roles.backend.stats'),
+    stats: [
+      { label: t('tech.roles.backend.stats.0.label'), value: t('tech.roles.backend.stats.0.value'), valueClass: t('tech.roles.backend.stats.0.valueClass') },
+      { label: t('tech.roles.backend.stats.1.label'), value: t('tech.roles.backend.stats.1.value'), valueClass: t('tech.roles.backend.stats.1.valueClass') },
+      { label: t('tech.roles.backend.stats.2.label'), value: t('tech.roles.backend.stats.2.value'), valueClass: t('tech.roles.backend.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.backend.skills'),
     tools: t('tech.roles.backend.tools'),
     challenges: t('tech.roles.backend.challenges'),
@@ -126,7 +142,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.mathematics.subtitle'),
     icon: t('tech.roles.mathematics.icon'),
     headerBg: t('tech.roles.mathematics.headerBg'),
-    stats: t('tech.roles.mathematics.stats'),
+    stats: [
+      { label: t('tech.roles.mathematics.stats.0.label'), value: t('tech.roles.mathematics.stats.0.value'), valueClass: t('tech.roles.mathematics.stats.0.valueClass') },
+      { label: t('tech.roles.mathematics.stats.1.label'), value: t('tech.roles.mathematics.stats.1.value'), valueClass: t('tech.roles.mathematics.stats.1.valueClass') },
+      { label: t('tech.roles.mathematics.stats.2.label'), value: t('tech.roles.mathematics.stats.2.value'), valueClass: t('tech.roles.mathematics.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.mathematics.skills'),
     tools: t('tech.roles.mathematics.tools'),
     challenges: t('tech.roles.mathematics.challenges'),
@@ -138,7 +158,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.art.subtitle'),
     icon: t('tech.roles.art.icon'),
     headerBg: t('tech.roles.art.headerBg'),
-    stats: t('tech.roles.art.stats'),
+    stats: [
+      { label: t('tech.roles.art.stats.0.label'), value: t('tech.roles.art.stats.0.value'), valueClass: t('tech.roles.art.stats.0.valueClass') },
+      { label: t('tech.roles.art.stats.1.label'), value: t('tech.roles.art.stats.1.value'), valueClass: t('tech.roles.art.stats.1.valueClass') },
+      { label: t('tech.roles.art.stats.2.label'), value: t('tech.roles.art.stats.2.value'), valueClass: t('tech.roles.art.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.art.skills'),
     tools: t('tech.roles.art.tools'),
     challenges: t('tech.roles.art.challenges'),
@@ -150,7 +174,11 @@ const roleDetails = computed(() => [
     subtitle: t('tech.roles.audio.subtitle'),
     icon: t('tech.roles.audio.icon'),
     headerBg: t('tech.roles.audio.headerBg'),
-    stats: t('tech.roles.audio.stats'),
+    stats: [
+      { label: t('tech.roles.audio.stats.0.label'), value: t('tech.roles.audio.stats.0.value'), valueClass: t('tech.roles.audio.stats.0.valueClass') },
+      { label: t('tech.roles.audio.stats.1.label'), value: t('tech.roles.audio.stats.1.value'), valueClass: t('tech.roles.audio.stats.1.valueClass') },
+      { label: t('tech.roles.audio.stats.2.label'), value: t('tech.roles.audio.stats.2.value'), valueClass: t('tech.roles.audio.stats.2.valueClass') }
+    ],
     skills: t('tech.roles.audio.skills'),
     tools: t('tech.roles.audio.tools'),
     challenges: t('tech.roles.audio.challenges'),
@@ -159,10 +187,52 @@ const roleDetails = computed(() => [
 ])
 
 // 技術瓶頸數據
-const bottlenecksData = computed(() => t('tech.bottlenecks.items'))
+const bottlenecksData = computed(() => [
+  {
+    title: t('tech.bottlenecks.items.0.title'),
+    description: t('tech.bottlenecks.items.0.description')
+  },
+  {
+    title: t('tech.bottlenecks.items.1.title'),
+    description: t('tech.bottlenecks.items.1.description')
+  },
+  {
+    title: t('tech.bottlenecks.items.2.title'),
+    description: t('tech.bottlenecks.items.2.description')
+  },
+  {
+    title: t('tech.bottlenecks.items.3.title'),
+    description: t('tech.bottlenecks.items.3.description')
+  }
+])
 
 // 開發流程數據
-const developmentStages = computed(() => t('tech.development.stages'))
+const developmentStages = computed(() => [
+  {
+    title: t('tech.development.stages.0.title'),
+    description: t('tech.development.stages.0.description')
+  },
+  {
+    title: t('tech.development.stages.1.title'),
+    description: t('tech.development.stages.1.description')
+  },
+  {
+    title: t('tech.development.stages.2.title'),
+    description: t('tech.development.stages.2.description')
+  },
+  {
+    title: t('tech.development.stages.3.title'),
+    description: t('tech.development.stages.3.description')
+  },
+  {
+    title: t('tech.development.stages.4.title'),
+    description: t('tech.development.stages.4.description')
+  },
+  {
+    title: t('tech.development.stages.5.title'),
+    description: t('tech.development.stages.5.description')
+  }
+])
 </script>
 
 <template>
@@ -209,41 +279,16 @@ const developmentStages = computed(() => t('tech.development.stages'))
           <p class="text-gray-300 text-lg max-w-4xl mx-auto leading-relaxed">{{ t('tech.overview.description') }}</p>
         </div>
 
-        <!-- 技術架構圖表 -->
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div class="bg-gray-700 rounded-lg p-6">
+        <!-- 技術架構說明 -->
+        <div class="space-y-6">
+          <div>
             <h3 class="text-xl font-semibold text-white mb-4">{{ t('tech.overview.architecture') }}</h3>
-            <div class="space-y-3">
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-blue-400 rounded-full"></div>
-                <span class="text-gray-300">Frontend UI</span>
-              </div>
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-green-400 rounded-full"></div>
-                <span class="text-gray-300">Game Engine</span>
-              </div>
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                <span class="text-gray-300">API Integration</span>
-              </div>
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-red-400 rounded-full"></div>
-                <span class="text-gray-300">Payment Gateway</span>
-              </div>
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-purple-400 rounded-full"></div>
-                <span class="text-gray-300">Security Layer</span>
-              </div>
-              <div class="flex items-center space-x-3">
-                <div class="w-3 h-3 bg-indigo-400 rounded-full"></div>
-                <span class="text-gray-300">Database</span>
-              </div>
-            </div>
+            <p class="text-gray-300 leading-relaxed">現代博弈平台通常採用客戶端－伺服器架構，包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等核心模組。</p>
           </div>
-
-          <div class="bg-gray-700 rounded-lg p-6">
+          
+          <div>
             <h3 class="text-xl font-semibold text-white mb-4">{{ t('tech.overview.components') }}</h3>
-            <p class="text-gray-300 leading-relaxed">{{ t('tech.overview.components') }}</p>
+            <p class="text-gray-300 leading-relaxed">平台架構設計注重可擴展性、安全性和效能，確保在高併發環境下穩定運行，同時滿足各地區的法規要求。</p>
           </div>
         </div>
       </div>
