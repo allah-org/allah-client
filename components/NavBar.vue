@@ -12,6 +12,7 @@ const toggleSideMenu = () => {
     <div class="flex justify-between items-center max-w-md mx-auto">
       <!-- 左邊：選單 -->
       <button 
+        type="button"
         @click="toggleSideMenu"
         class="flex flex-col items-center space-y-1 p-2 rounded-lg hover:bg-gray-700 transition-colors"
       >

@@ -1,6 +1,5 @@
 <script setup>
 import '@unocss/reset/tailwind.css'
-import { SPREADSHEET_URL, CONTACT_EMAIL } from '~/constants/config'
 
 useHead({
   htmlAttrs: {
@@ -9,16 +8,16 @@ useHead({
   charset: 'utf-8',
   title: 'BTT 菠菜天眼通 - 天眼通',
   meta: [
-    { name: 'description', content: 'BTT 菠菜天眼通提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。' },
-    { name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,BTT,菠菜天眼通' },
-    { name: 'author', content: 'BTT Team' },
-    { name: 'robots', content: 'index, follow' },
-    { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' },
-    { property: 'og:title', content: '天眼通 - BTT 菠菜天眼通' },
-    { property: 'og:description', content: '提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:url', content: 'https://btt.zeusoftech.com' },
-    { property: 'og:site_name', content: 'BTT 菠菜天眼通' },
+    {name: 'description', content: 'BTT 菠菜天眼通提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。'},
+    {name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,BTT,菠菜天眼通'},
+    {name: 'author', content: 'BTT Team'},
+    {name: 'robots', content: 'index, follow'},
+    {name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no'},
+    {property: 'og:title', content: '天眼通 - BTT 菠菜天眼通'},
+    {property: 'og:description', content: '提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。'},
+    {property: 'og:type', content: 'website'},
+    {property: 'og:url', content: 'https://btt.zeusoftech.com'},
+    {property: 'og:site_name', content: 'BTT 菠菜天眼通'},
   ],
   link: [
     {
@@ -57,22 +56,21 @@ useHead({
 </script>
 
 <template>
-  <NuxtLoadingIndicator />
+  <NuxtLoadingIndicator/>
   <!-- 現代化版型 -->
   <div class="min-h-screen bg-gray-900 text-white font-sans">
     <!-- 主要內容區域 -->
     <div class="pb-20">
-      <NuxtPage />
+      <NuxtPage/>
     </div>
 
     <!-- 底部導航 - 固定在底部 -->
-    <NavBar />
+    <NavBar/>
 
     <!-- 側邊選單 -->
-    <SideMenu />
+    <SideMenu/>
 
-    <IframeModal />
-    <PhotoModal />
+    <IframeModal/>
   </div>
 </template>
 

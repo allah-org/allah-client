@@ -52,7 +52,9 @@ const closeMenu = () => {
     <div class="flex items-center justify-between p-6 border-b border-gray-700 flex-shrink-0">
       <h2 class="text-xl font-bold text-white">{{ $t('menu.title') }}</h2>
       <button 
+        type="button"
         @click="closeMenu"
+        aria-label="關閉選單"
         class="p-2 rounded-lg hover:bg-gray-700 transition-colors"
       >
         <svg class="w-6 h-6 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,7 +65,9 @@ const closeMenu = () => {
 
     <!-- 多語言選擇區域 -->
     <div class="p-4 border-b border-gray-700 flex-shrink-0">
+      <label for="language-select" class="block text-sm font-medium text-gray-300 mb-2">語言選擇</label>
       <select 
+        id="language-select"
         :value="locale"
         @change="switchLanguage($event.target.value)"
         class="w-full px-4 py-3 bg-gray-700/50 border-0 rounded-xl text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:bg-gray-700 transition-all duration-200 shadow-lg backdrop-blur-sm hover:bg-gray-700/70"
