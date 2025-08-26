@@ -120,7 +120,7 @@
         <h2 class="text-3xl font-bold text-white text-center mb-8">{{ $t('regulations.regions.asia.title') }}</h2>
         
         <!-- 日本 -->
-        <div class="bg-gray-800 rounded-lg overflow-hidden">
+        <div id="japan" class="bg-gray-800 rounded-lg overflow-hidden">
           <div class="bg-gradient-to-r from-red-600 to-pink-600 px-6 py-4">
             <h3 class="text-xl font-semibold text-white">{{ $t('regulations.japan.title') }}</h3>
             <p class="text-red-100 mt-1">{{ $t('regulations.japan.subtitle') }}</p>
@@ -130,7 +130,7 @@
             <div class="grid md:grid-cols-3 gap-4 mb-6">
               <div v-for="feature in japanFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.japan.keyFeatures.${feature.key}`) }}</h4>
-                <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                <p class="text-gray-400 text-sm">{{ $t(`regulations.japan.keyFeatures.${feature.key}.description`) }}</p>
               </div>
             </div>
             <div class="p-4 bg-gray-700 rounded-lg">
@@ -154,7 +154,7 @@
         </div>
 
                  <!-- 新加坡 -->
-         <div class="bg-gray-800 rounded-lg overflow-hidden">
+         <div id="singapore" class="bg-gray-800 rounded-lg overflow-hidden">
            <div class="bg-gradient-to-r from-yellow-600 to-orange-600 px-6 py-4">
              <h3 class="text-xl font-semibold text-white">{{ $t('regulations.singapore.title') }}</h3>
              <p class="text-yellow-100 mt-1">{{ $t('regulations.singapore.subtitle') }}</p>
@@ -164,7 +164,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in singaporeFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.singapore.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.singapore.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -198,7 +198,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in malaysiaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.malaysia.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.malaysia.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -232,7 +232,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in thailandFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.thailand.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.thailand.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -266,7 +266,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in vietnamFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.vietnam.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.vietnam.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -300,7 +300,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in philippinesFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.philippines.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.philippines.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -334,7 +334,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in chinaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.china.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.china.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -365,12 +365,12 @@
            </div>
            <div class="p-6">
              <p class="text-gray-300 mb-6">{{ $t('regulations.macau.description') }}</p>
-             <div class="grid md:grid-cols-3 gap-4 mb-6">
-               <div v-for="feature in macauFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.macau.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                            <div class="grid md:grid-cols-3 gap-4 mb-6">
+                 <div v-for="feature in macauFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
+                   <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.macau.keyFeatures.${feature.key}`) }}</h4>
+                   <p class="text-gray-400 text-sm">{{ $t(`regulations.macau.keyFeatures.${feature.key}.description`) }}</p>
+                 </div>
                </div>
-             </div>
              <div class="p-4 bg-gray-700 rounded-lg">
                <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regulations.regulatoryBody') }}</h4>
                <p class="text-gray-300">{{ $t('regulations.macau.regulatoryBody') }}</p>
@@ -402,7 +402,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in taiwanFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.taiwan.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.taiwan.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -436,7 +436,7 @@
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in australiaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.australia.keyFeatures.${feature.key}`) }}</h4>
-                 <p class="text-gray-400 text-sm">{{ feature.description }}</p>
+                 <p class="text-gray-400 text-sm">{{ $t(`regulations.australia.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
              <div class="p-4 bg-gray-700 rounded-lg">
@@ -460,32 +460,32 @@
          </div>
        </div>
 
-       <!-- 國際博弈測試與驗證機構 -->
-       <div id="testing-labs" class="space-y-8 mt-12">
-         <h2 class="text-3xl font-bold text-white text-center mb-8">國際博弈測試與驗證機構</h2>
+               <!-- 國際博弈測試與驗證機構 -->
+        <div id="testing-labs" class="space-y-8 mt-12">
+          <h2 class="text-3xl font-bold text-white text-center mb-8">{{ $t('regulations.testingLabs.title') }}</h2>
          
-         <!-- GLI -->
-         <div class="bg-gray-800 rounded-lg overflow-hidden">
-           <div class="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4">
-             <h3 class="text-xl font-semibold text-white">GLI (Gaming Laboratories International)</h3>
-             <p class="text-purple-100 mt-1">全球領先的博弈測試與認證機構</p>
-           </div>
-           <div class="p-6">
-             <p class="text-gray-300 mb-6">GLI 是全球最大的博弈測試實驗室，為全球超過 480 個司法管轄區提供測試、認證和監管服務。GLI 的認證被全球大多數博弈監管機構認可。</p>
-             <div class="grid md:grid-cols-3 gap-4 mb-6">
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">測試範圍</h4>
-                 <p class="text-gray-400 text-sm">老虎機、桌面遊戲、線上遊戲、體育博彩、彩票等</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">認證服務</h4>
-                 <p class="text-gray-400 text-sm">RNG 認證、遊戲規則驗證、技術標準合規性測試</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">全球影響力</h4>
-                 <p class="text-gray-400 text-sm">服務超過 480 個司法管轄區，認證標準被廣泛採用</p>
-               </div>
-             </div>
+                   <!-- GLI -->
+          <div class="bg-gray-800 rounded-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-4">
+              <h3 class="text-xl font-semibold text-white">{{ $t('regulations.testingLabs.gli.title') }}</h3>
+              <p class="text-purple-100 mt-1">{{ $t('regulations.testingLabs.gli.subtitle') }}</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-300 mb-6">{{ $t('regulations.testingLabs.gli.description') }}</p>
+              <div class="grid md:grid-cols-3 gap-4 mb-6">
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.gli.features.testingScope') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.gli.features.testingScopeDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.gli.features.certificationServices') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.gli.features.certificationServicesDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.gli.features.globalInfluence') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.gli.features.globalInfluenceDesc') }}</p>
+                </div>
+              </div>
 
              <!-- 參考資料 -->
              <div class="mt-6 pt-4 border-t border-gray-600">
@@ -502,28 +502,28 @@
            </div>
          </div>
 
-         <!-- eCOGRA -->
-         <div class="bg-gray-800 rounded-lg overflow-hidden">
-           <div class="bg-gradient-to-r from-green-600 to-blue-600 px-6 py-4">
-             <h3 class="text-xl font-semibold text-white">eCOGRA (eCommerce and Online Gaming Regulation and Assurance)</h3>
-             <p class="text-green-100 mt-1">線上博弈公平性與負責任博弈認證機構</p>
-           </div>
-           <div class="p-6">
-             <p class="text-gray-300 mb-6">eCOGRA 專注於線上博弈的公平性測試和負責任博弈認證，為玩家提供安全、公平的博弈環境保障。其認證涵蓋 RNG 測試、遊戲規則驗證和負責任博弈措施。</p>
-             <div class="grid md:grid-cols-3 gap-4 mb-6">
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">專注領域</h4>
-                 <p class="text-gray-400 text-sm">線上博弈、RNG 測試、負責任博弈認證</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">認證標準</h4>
-                 <p class="text-gray-400 text-sm">公平性測試、遊戲規則驗證、玩家保護措施</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">服務特色</h4>
-                 <p class="text-gray-400 text-sm">專注線上博弈、負責任博弈、玩家權益保護</p>
-               </div>
-             </div>
+                   <!-- eCOGRA -->
+          <div class="bg-gray-800 rounded-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-green-600 to-blue-600 px-6 py-4">
+              <h3 class="text-xl font-semibold text-white">{{ $t('regulations.testingLabs.ecogra.title') }}</h3>
+              <p class="text-green-100 mt-1">{{ $t('regulations.testingLabs.ecogra.subtitle') }}</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-300 mb-6">{{ $t('regulations.testingLabs.ecogra.description') }}</p>
+              <div class="grid md:grid-cols-3 gap-4 mb-6">
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.ecogra.features.focusArea') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.ecogra.features.focusAreaDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.ecogra.features.certificationStandards') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.ecogra.features.certificationStandardsDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.ecogra.features.serviceFeatures') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.ecogra.features.serviceFeaturesDesc') }}</p>
+                </div>
+              </div>
 
              <!-- 參考資料 -->
              <div class="mt-6 pt-4 border-t border-gray-600">
@@ -540,28 +540,28 @@
            </div>
          </div>
 
-         <!-- BMM Testlabs -->
-         <div class="bg-gray-800 rounded-lg overflow-hidden">
-           <div class="bg-gradient-to-r from-orange-600 to-red-600 px-6 py-4">
-             <h3 class="text-xl font-semibold text-white">BMM Testlabs</h3>
-             <p class="text-orange-100 mt-1">亞太地區領先的博弈測試實驗室</p>
-           </div>
-           <div class="p-6">
-             <p class="text-gray-300 mb-6">BMM Testlabs 是亞太地區最大的博弈測試實驗室，為亞洲、澳大利亞和美洲的博弈運營商提供全面的測試和認證服務。在亞洲市場具有重要影響力。</p>
-             <div class="grid md:grid-cols-3 gap-4 mb-6">
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">地理優勢</h4>
-                 <p class="text-gray-400 text-sm">亞太地區、澳大利亞、美洲市場覆蓋</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">測試服務</h4>
-                 <p class="text-gray-400 text-sm">遊戲測試、RNG 認證、技術合規性驗證</p>
-               </div>
-               <div class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">市場影響力</h4>
-                 <p class="text-gray-400 text-sm">亞洲市場重要地位、本地化服務優勢</p>
-               </div>
-             </div>
+                   <!-- BMM Testlabs -->
+          <div class="bg-gray-800 rounded-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-orange-600 to-red-600 px-6 py-4">
+              <h3 class="text-xl font-semibold text-white">{{ $t('regulations.testingLabs.bmm.title') }}</h3>
+              <p class="text-orange-100 mt-1">{{ $t('regulations.testingLabs.bmm.subtitle') }}</p>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-300 mb-6">{{ $t('regulations.testingLabs.bmm.description') }}</p>
+              <div class="grid md:grid-cols-3 gap-4 mb-6">
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.bmm.features.geographicAdvantage') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.bmm.features.geographicAdvantageDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.bmm.features.testingServices') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.bmm.features.testingServicesDesc') }}</p>
+                </div>
+                <div class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t('regulations.testingLabs.bmm.features.marketInfluence') }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t('regulations.testingLabs.bmm.features.marketInfluenceDesc') }}</p>
+                </div>
+              </div>
 
              <!-- 參考資料 -->
              <div class="mt-6 pt-4 border-t border-gray-600">
@@ -590,6 +590,23 @@
 <script setup>
 const { t } = useI18n()
 
+// 獲取國家代碼的輔助函數
+const getCountryCode = (sectionId) => {
+  const countryMap = {
+    'japan': 'japan',
+    'singapore': 'singapore', 
+    'malaysia': 'malaysia',
+    'thailand': 'thailand',
+    'vietnam': 'vietnam',
+    'philippines': 'philippines',
+    'china': 'china',
+    'macau': 'macau',
+    'taiwan': 'taiwan',
+    'australia': 'australia'
+  }
+  return countryMap[sectionId] || sectionId
+}
+
 // 頁面標題
 useHead({
   title: t('regulations.pageTitle'),
@@ -610,8 +627,8 @@ const navigationSections = computed(() => [
   { id: 'overview', name: t('regulations.overview.title'), icon: '📋' },
   { id: 'regions', name: t('regulations.navigation.regions'), icon: '🌍' },
   { id: 'asia-details', name: t('regulations.navigation.asiaDetails'), icon: '🌏' },
-  { id: 'testing-labs', name: '國際博弈測試與驗證機構', icon: '🔬' },
-  { id: 'business-cooperation', name: '商務合作', icon: '💼' }
+  { id: 'testing-labs', name: t('regulations.navigation.testingLabs'), icon: '🔬' },
+  { id: 'business-cooperation', name: t('regulations.navigation.businessCooperation'), icon: '💼' }
 ])
 
 const selectedSection = ref('overview')

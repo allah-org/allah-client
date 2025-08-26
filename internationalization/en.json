@@ -104,7 +104,11 @@
     "spreadsheetDesc": "View industry reviews",
     "contact": "Contact Admin", 
     "contactDesc": "Business cooperation",
-    "viewMore": "View More"
+    "viewMore": "View More",
+    "businessConsultation": "Business Consultation",
+    "technicalSupport": "Technical Support Services",
+    "platformCooperation": "Platform Cooperation Opportunities",
+    "contactEmail": "Contact Email"
   },
   "globalStats": {
     "totalRevenue": "536B",
@@ -718,7 +722,9 @@
     "regulatoryBody": "Regulatory Body",
     "navigation": {
       "regions": "Regional Regulations",
-      "asiaDetails": "Asia Details"
+      "asiaDetails": "Asia Details",
+      "testingLabs": "International Gaming Testing and Certification Agencies",
+      "businessCooperation": "Business Cooperation"
     },
     "regions": {
       "europe": {
@@ -909,24 +915,45 @@
       "regulatoryBody": "Countries have lottery or gaming regulatory agencies with limited authority. Including Japan, Southeast Asia, Mainland China, Taiwan, Macau, Australia and other regions, each with different regulatory models."
     },
     "testingLabs": {
-      "title": "International Gaming Testing and Certification Organizations",
-      "subtitle": "The Role and Reputation of BMM Testlabs and GLI",
-      "description": "In the global gaming compliance ecosystem, independent game testing laboratories play a crucial role. Among them, BMM Testlabs and GLI (Gaming Laboratories International) are the two most well-known organizations.",
-      "bmm": {
-        "title": "BMM Testlabs",
-        "description": "Founded in 1981, it is one of the world's oldest private gaming testing laboratories, originally from Australia, now headquartered in Las Vegas, with operations across all continents."
-      },
+      "title": "International Gaming Testing and Certification Agencies",
       "gli": {
         "title": "GLI (Gaming Laboratories International)",
-        "description": "Founded in 1989, starting in New Jersey, USA, it has now become one of the largest gaming testing and certification companies. As of 2024, GLI claims to have provided equipment testing or consulting services in over 480 jurisdictions worldwide."
+        "subtitle": "Global Leader in Gaming Testing and Certification",
+        "description": "Founded in 1989, GLI has become one of the largest gaming testing and certification companies globally. As of 2024, GLI has provided equipment testing or consulting services in over 480 jurisdictions worldwide.",
+        "features": {
+          "testingScope": "Testing Scope",
+          "testingScopeDesc": "Slot machines, electronic gaming tables, RNG systems, online gaming software",
+          "certificationServices": "Certification Services",
+          "certificationServicesDesc": "Technical compliance verification, regulatory standards testing, operator certification",
+          "globalInfluence": "Global Influence",
+          "globalInfluenceDesc": "Recognized in over 480 jurisdictions, industry standard for compliance"
+        }
       },
-      "functions": {
-        "title": "Functions and Roles",
-        "description": "BMM and GLI's core function is to inspect various gaming products for regulatory agencies and operators to ensure they meet technical standards and regulatory requirements. This includes slot machines, electronic gaming tables, random number generators (RNG) used in land-based casinos, as well as gaming software and betting systems for online gambling platforms."
+      "ecogra": {
+        "title": "eCOGRA",
+        "subtitle": "Fair Gaming and Responsible Gambling",
+        "description": "eCOGRA is a leading independent testing agency specializing in online gaming fairness and responsible gambling practices. They provide comprehensive testing and certification services for online gaming platforms.",
+        "features": {
+          "focusArea": "Focus Area",
+          "focusAreaDesc": "Online gaming fairness, RNG verification, player protection measures",
+          "certificationStandards": "Certification Standards",
+          "certificationStandardsDesc": "Fairness testing, game rules verification, player protection measures",
+          "serviceFeatures": "Service Features",
+          "serviceFeaturesDesc": "Online gaming focus, responsible gambling, player rights protection"
+        }
       },
-      "reputation": {
-        "title": "Reputation and Comparison",
-        "description": "BMM and GLI have long competed while jointly dominating the market, with both enjoying high credibility. Regulatory bodies in various countries typically include both in their list of recognized laboratories. For example, gaming centers in Nevada and New Jersey in the US, and Singapore, Macau, Philippines in Asia, all accept gaming certification reports issued by BMM or GLI."
+      "bmm": {
+        "title": "BMM Testlabs",
+        "subtitle": "Asia Pacific's Leading Gaming Testing Laboratory",
+        "description": "BMM Testlabs is the largest gaming testing laboratory in the Asia Pacific region, providing comprehensive testing and certification services for gaming operators in Asia, Australia, and the Americas. It has significant influence in Asian markets.",
+        "features": {
+          "geographicAdvantage": "Geographic Advantage",
+          "geographicAdvantageDesc": "Asia Pacific, Australia, Americas market coverage",
+          "testingServices": "Testing Services",
+          "testingServicesDesc": "Game testing, RNG certification, technical compliance verification",
+          "marketInfluence": "Market Influence",
+          "marketInfluenceDesc": "Important position in Asian markets, localized service advantages"
+        }
       }
     },
     "conclusion": {

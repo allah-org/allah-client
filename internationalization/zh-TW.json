@@ -104,7 +104,11 @@
     "spreadsheetDesc": "查看業界評論",
     "contact": "聯繫站長",
     "contactDesc": "商務合作",
-    "viewMore": "查看更多"
+    "viewMore": "查看更多",
+    "businessConsultation": "商務合作諮詢",
+    "technicalSupport": "技術支援服務",
+    "platformCooperation": "平台合作機會",
+    "contactEmail": "聯繫郵箱"
   },
   "globalStats": {
     "totalRevenue": "5,360億",
@@ -718,7 +722,9 @@
     "regulatoryBody": "監管機構",
     "navigation": {
       "regions": "各地區法規",
-      "asiaDetails": "亞洲詳情"
+      "asiaDetails": "亞洲詳情",
+      "testingLabs": "國際博弈測試與驗證機構",
+      "businessCooperation": "商務合作"
     },
     "regions": {
       "europe": {
@@ -896,21 +902,44 @@
       "title": "國際博弈測試與認證機構",
       "subtitle": "BMM Testlabs 與 GLI 的角色與信譽",
       "description": "在全球博彩合規生態中，獨立的遊戲測試實驗室扮演舉足輕重的角色。其中，以 BMM Testlabs 和 GLI（Gaming Laboratories International） 這兩大機構最為知名。",
-      "bmm": {
-        "title": "BMM Testlabs",
-        "description": "成立於1981年，是全球歷史最悠久的私人博弈測試實驗室之一，最初源自澳大利亞，如今總部設於拉斯維加斯，業務遍及各大洲。"
-      },
       "gli": {
         "title": "GLI (Gaming Laboratories International)",
-        "description": "成立於1989年，起家於美國新澤西，現已成為規模最大的博弈測試認證公司之一。截至2024年，GLI宣稱已在全球超過480個法域提供過設備檢測或諮詢服務。"
+        "subtitle": "全球領先的博弈測試與認證機構",
+        "description": "GLI 是全球最大的博弈測試實驗室，為全球超過 480 個司法管轄區提供測試、認證和監管服務。GLI 的認證被全球大多數博弈監管機構認可。",
+        "features": {
+          "testingScope": "測試範圍",
+          "testingScopeDesc": "老虎機、桌面遊戲、線上遊戲、體育博彩、彩票等",
+          "certificationServices": "認證服務",
+          "certificationServicesDesc": "RNG 認證、遊戲規則驗證、技術標準合規性測試",
+          "globalInfluence": "全球影響力",
+          "globalInfluenceDesc": "服務超過 480 個司法管轄區，認證標準被廣泛採用"
+        }
       },
-      "functions": {
-        "title": "職能與作用",
-        "description": "BMM、GLI 的核心職能是替監管機構和營運商檢驗各類博彩產品是否符合技術標準和法規要求。這包含實體賭場使用的老虎機、電子賭桌、亂數產生器（RNG）設備，以及線上賭博平台的遊戲軟體、投注系統等。"
+      "ecogra": {
+        "title": "eCOGRA (eCommerce and Online Gaming Regulation and Assurance)",
+        "subtitle": "線上博弈公平性與負責任博弈認證機構",
+        "description": "eCOGRA 專注於線上博弈的公平性測試和負責任博弈認證，為玩家提供安全、公平的博弈環境保障。其認證涵蓋 RNG 測試、遊戲規則驗證和負責任博弈措施。",
+        "features": {
+          "focusArea": "專注領域",
+          "focusAreaDesc": "線上博弈、RNG 測試、負責任博弈認證",
+          "certificationStandards": "認證標準",
+          "certificationStandardsDesc": "公平性測試、遊戲規則驗證、玩家保護措施",
+          "serviceFeatures": "服務特色",
+          "serviceFeaturesDesc": "專注線上博弈、負責任博弈、玩家權益保護"
+        }
       },
-      "reputation": {
-        "title": "信譽與比較",
-        "description": "BMM和GLI長期競爭又共同主導市場，雙方信譽皆備受肯定。各國監管單位通常會將兩者都列入認可實驗室名單。例如美國賭場集中地內華達、新澤西，及亞洲的新加坡、澳門、菲律賓等地，都接受由BMM或GLI出具的遊戲認證報告。"
+      "bmm": {
+        "title": "BMM Testlabs",
+        "subtitle": "亞太地區領先的博弈測試實驗室",
+        "description": "BMM Testlabs 是亞太地區最大的博弈測試實驗室，為亞洲、澳大利亞和美洲的博弈運營商提供全面的測試和認證服務。在亞洲市場具有重要影響力。",
+        "features": {
+          "geographicAdvantage": "地理優勢",
+          "geographicAdvantageDesc": "亞太地區、澳大利亞、美洲市場覆蓋",
+          "testingServices": "測試服務",
+          "testingServicesDesc": "遊戲測試、RNG 認證、技術合規性驗證",
+          "marketInfluence": "市場影響力",
+          "marketInfluenceDesc": "亞洲市場重要地位、本地化服務優勢"
+        }
       }
     },
     "conclusion": {

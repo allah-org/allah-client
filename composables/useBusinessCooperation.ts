@@ -89,12 +89,12 @@ export const useBusinessCooperation = () => {
       title: t('quickLinks.contact'),
       description: t('quickLinks.contactDesc'),
       features: [
-        '商務合作諮詢',
-        '技術支援服務',
-        '平台合作機會'
+        t('quickLinks.businessConsultation'),
+        t('quickLinks.technicalSupport'),
+        t('quickLinks.platformCooperation')
       ],
       contact: {
-        label: '聯繫郵箱',
+        label: t('quickLinks.contactEmail'),
         value: 'allah2truth@gmail.com',
         type: 'email',
         url: 'mailto:allah2truth@gmail.com'

@@ -905,23 +905,44 @@
     },
     "testingLabs": {
       "title": "国际博弈测试与认证机构",
-      "subtitle": "BMM Testlabs 与 GLI 的角色与信誉",
-      "description": "在全球博彩合规生态中，独立的游戏测试实验室扮演举足轻重的角色。其中，以 BMM Testlabs 和 GLI（Gaming Laboratories International） 这两大机构最为知名。",
-      "bmm": {
-        "title": "BMM Testlabs",
-        "description": "成立于1981年，是全球历史最悠久的私人博弈测试实验室之一，最初源自澳大利亚，如今总部设于拉斯维加斯，业务遍及各大洲。"
-      },
       "gli": {
         "title": "GLI (Gaming Laboratories International)",
-        "description": "成立于1989年，起家于美国新泽西，现已成为规模最大的博弈测试认证公司之一。截至2024年，GLI宣称已在全球超过480个法域提供过设备检测或咨询服务。"
+        "subtitle": "全球领先的博弈测试与认证机构",
+        "description": "成立于1989年，GLI已成为全球最大的博弈测试与认证公司之一。截至2024年，GLI已在全球超过480个司法管辖区提供设备测试或咨询服务。",
+        "features": {
+          "testingScope": "测试范围",
+          "testingScopeDesc": "老虎机、电子游戏桌、RNG系统、在线游戏软件",
+          "certificationServices": "认证服务",
+          "certificationServicesDesc": "技术合规性验证、监管标准测试、运营商认证",
+          "globalInfluence": "全球影响力",
+          "globalInfluenceDesc": "在超过480个司法管辖区获得认可，合规性行业标准"
+        }
       },
-      "functions": {
-        "title": "职能与作用",
-        "description": "BMM、GLI 的核心职能是替监管机构和营运商检验各类博彩产品是否符合技术标准和法规要求。这包含实体赌场使用的老虎机、电子赌桌、乱数产生器（RNG）设备，以及线上赌博平台的游戏软件、投注系统等。"
+      "ecogra": {
+        "title": "eCOGRA",
+        "subtitle": "公平博弈与负责任博彩",
+        "description": "eCOGRA是领先的独立测试机构，专门从事在线游戏公平性和负责任博彩实践。他们为在线游戏平台提供全面的测试和认证服务。",
+        "features": {
+          "focusArea": "专注领域",
+          "focusAreaDesc": "在线游戏公平性、RNG验证、玩家保护措施",
+          "certificationStandards": "认证标准",
+          "certificationStandardsDesc": "公平性测试、游戏规则验证、玩家保护措施",
+          "serviceFeatures": "服务特色",
+          "serviceFeaturesDesc": "专注在线游戏、负责任博彩、玩家权益保护"
+        }
       },
-      "reputation": {
-        "title": "信誉与比较",
-        "description": "BMM和GLI长期竞争又共同主导市场，双方信誉皆备受肯定。各国监管单位通常会将两者都列入认可实验室名单。例如美国赌场集中地内华达、新泽西，及亚洲的新加坡、澳门、菲律宾等地，都接受由BMM或GLI出具的游戏认证报告。"
+      "bmm": {
+        "title": "BMM Testlabs",
+        "subtitle": "亚太地区领先的博弈测试实验室",
+        "description": "BMM Testlabs是亚太地区最大的博弈测试实验室，为亚洲、澳大利亚和美洲的博弈运营商提供全面的测试和认证服务。在亚洲市场具有重要影响力。",
+        "features": {
+          "geographicAdvantage": "地理优势",
+          "geographicAdvantageDesc": "亚太地区、澳大利亚、美洲市场覆盖",
+          "testingServices": "测试服务",
+          "testingServicesDesc": "游戏测试、RNG认证、技术合规性验证",
+          "marketInfluence": "市场影响力",
+          "marketInfluenceDesc": "亚洲市场重要地位、本地化服务优势"
+        }
       }
     },
     "conclusion": {
