@@ -1,6 +1,6 @@
 <template>
   <div id="business-section" class="bg-gray-800 rounded-lg p-8 mt-8">
-    <h3 class="text-xl font-semibold text-white mb-6">{{ $t('quickLinks.title') }}</h3>
+    <h3 class="text-xl font-semibold text-white mb-6">{{ t('quickLinks.title') }}</h3>
     <ClientOnly>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div 
@@ -52,7 +52,7 @@
               :target="card.external ? '_blank' : '_self'"
               class="inline-flex items-center space-x-2 text-blue-400 hover:text-blue-300 text-sm"
             >
-              <span>{{ $t('quickLinks.viewMore') }}</span>
+              <span>{{ t('quickLinks.viewMore') }}</span>
               <svg v-if="card.external" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
               </svg>
