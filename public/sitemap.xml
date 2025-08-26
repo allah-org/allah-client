@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- 首頁 - 全球趨勢 -->
     <url>
         <loc>https://btt.zeusoftech.com/</loc>
-        <lastmod>2025-08-06</lastmod>
+        <lastmod>2025-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://btt.zeusoftech.com/business</loc>
-        <lastmod>2025-08-06</lastmod>
+        <loc>https://btt.zeusoftech.com/gaming</loc>
+        <lastmod>2025-08-26</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://btt.zeusoftech.com/hr</loc>
-        <lastmod>2025-08-06</lastmod>
+        <loc>https://btt.zeusoftech.com/tech</loc>
+        <lastmod>2025-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://btt.zeusoftech.com/regulations</loc>
+        <lastmod>2025-08-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://btt.zeusoftech.com/payment</loc>
+        <lastmod>2025-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://btt.zeusoftech.com/contact</loc>
-        <lastmod>2025-08-06</lastmod>
+        <lastmod>2025-08-26</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
