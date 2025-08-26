@@ -793,9 +793,18 @@
       "subtitle": "日本對博弈產業採取高度審慎的開放態度",
       "description": "長期以來，日本僅允許少數公益彩券和經特殊立法的體育競賽投注等公營賭博。直到2016年日本才通過《統合度假區促進法》，2018年通過《IR整備法》，正式允許綜合度假村（IR）內設立賭場，但上限僅三處。",
       "keyFeatures": {
-        "irSystem": "IR綜合度假村制度",
-        "strictControl": "嚴格管控措施",
-        "localRestrictions": "本國居民限制"
+        "irSystem": {
+          "value": "IR綜合度假村制度",
+          "description": "日本通過《統合度假區促進法》建立IR制度，允許在指定區域內設立賭場，但嚴格限制數量與規模。"
+        },
+        "strictControl": {
+          "value": "嚴格管控措施",
+          "description": "政府對賭場營運實施全方位監管，包括入場限制、賭注上限、營業時間等嚴格規定。"
+        },
+        "localRestrictions": {
+          "value": "本國居民限制",
+          "description": "日本公民進入賭場需繳納高額入場稅，並有每月入場次數限制，防止過度沉迷。"
+        }
       },
       "regulatoryBody": "日本設立了賭場管理委員會（Casino Regulatory Commission）負責IR賭場的發照和監督。該委員會獨立於警察廳，成員由內閣任命，確保對賭場營運有嚴格管控權。"
     },
@@ -804,9 +813,18 @@
       "subtitle": "新加坡實行全球最嚴格的博弈監管之一",
       "description": "政府在2010年開放兩座綜合度假勝地賭場（濱海灣金沙和聖淘沙名勝世界），以推動觀光但嚴控規模。本地居民進入賭場須支付高額入場稅。",
       "keyFeatures": {
-        "dualCasino": "雙賭場模式",
-        "entryTax": "高額入場稅",
-        "comprehensiveRegulation": "全方位監管"
+        "dualCasino": {
+          "value": "雙賭場模式",
+          "description": "新加坡僅允許兩座綜合度假勝地賭場營運，分別為濱海灣金沙和聖淘沙名勝世界，嚴格控制賭場數量。"
+        },
+        "entryTax": {
+          "value": "高額入場稅",
+          "description": "本地居民進入賭場需繳納100新幣入場稅，外國遊客免費，有效控制本地居民賭博行為。"
+        },
+        "comprehensiveRegulation": {
+          "value": "全方位監管",
+          "description": "從賭場發照、營運監管到玩家保護，新加坡實施全球最嚴格的博弈監管體系。"
+        }
       },
       "regulatoryBody": "新加坡在2022年進行博彩監管架構重大改革。8月1日，新成立的新加坡博弈監管局（GRA）正式運作，取代原賭場監管局（CRA），職權擴大到監督所有形式賭博。"
     },
@@ -815,20 +833,38 @@
       "subtitle": "馬來西亞奉行特殊的博彩政策",
       "description": "一方面允許少數合法博弈存在，另一方面對未經許可活動予以嚴厲打擊。全國唯一合法賭場為雲頂高原賭場，由政府特許經營，迄今保持壟斷地位。",
       "keyFeatures": {
-        "monopoly": "壟斷經營",
-        "strictEnforcement": "嚴厲執法",
-        "lawReform": "法律改革"
-      },
-      "regulatoryBody": "馬來西亞的合法博彩業由財政部授權機構監管，例如彩票業由財政部發牌和監督，賭場特許經營則須高層批准。"
+        "monopoly": {
+          "value": "壟斷經營",
+          "description": "全國唯一合法賭場為雲頂高原賭場，由政府特許經營，迄今保持壟斷地位，不允許其他競爭者進入。"
+        },
+        "strictEnforcement": {
+          "value": "嚴厲執法",
+          "description": "政府對非法賭博活動採取零容忍政策，包括線上賭博、地下賭場等，執法力度持續加強。"
+        },
+        "lawReform": {
+          "value": "法律改革",
+          "description": "近年來馬來西亞持續完善博彩法規，加強對非法賭博的打擊力度，同時規範合法賭場營運。"
+        },
+        "regulatoryBody": "馬來西亞的合法博彩業由財政部授權機構監管，例如彩票業由財政部發牌和監督，賭場特許經營則須高層批准。"
+      }
     },
     "thailand": {
       "title": "泰國：全面禁賭下的合法化討論",
       "subtitle": "泰國目前對賭博幾乎全面禁止",
       "description": "根據1935年《賭博法》，除官方國營彩票和少數允許的賽馬投注外，其他賭博皆屬違法。過去幾年，泰國開始認真探討賭場合法化的可能性。",
       "keyFeatures": {
-        "comprehensiveBan": "全面禁止",
-        "legalizationDiscussion": "合法化討論",
-        "undergroundMarket": "地下市場"
+        "comprehensiveBan": {
+          "value": "全面禁止",
+          "description": "根據1935年《賭博法》，除官方國營彩票和少數允許的賽馬投注外，其他賭博皆屬違法，執法嚴格。"
+        },
+        "legalizationDiscussion": {
+          "value": "合法化討論",
+          "description": "過去幾年，泰國開始認真探討賭場合法化的可能性，主要目的是促進旅遊業發展和增加稅收。"
+        },
+        "undergroundMarket": {
+          "value": "地下市場",
+          "description": "由於全面禁賭政策，泰國存在龐大的地下賭博市場，包括非法賭場、線上賭博等活動。"
+        }
       },
       "regulatoryBody": "泰國目前沒有專門的博弈監管機構，彩票由財政部管理，其他賭博活動由警方依刑事法處理。"
     },
@@ -837,9 +873,18 @@
       "subtitle": "越南過去對賭博嚴格管制",
       "description": "本國公民長期以來不得進入賭場。全國數十家賭場只允許外國護照持有人或海外越僑進入，本地人被拒於門外。",
       "keyFeatures": {
-        "pilotProgram": "試點計畫",
-        "foreignOnly": "僅限外國人",
-        "gradualExpansion": "逐步擴張"
+        "pilotProgram": {
+          "value": "試點計畫",
+          "description": "越南開始試點允許本國公民進入賭場，但僅限於特定試點區域，並有嚴格限制條件。"
+        },
+        "foreignOnly": {
+          "value": "僅限外國人",
+          "description": "全國數十家賭場長期以來只允許外國護照持有人或海外越僑進入，本地人被拒於門外。"
+        },
+        "gradualExpansion": {
+          "value": "逐步擴張",
+          "description": "越南博彩業逐步擴張，但投資門檻高，多與大型旅遊開發項目掛鉤，投資額須達到數億美元。"
+        }
       },
       "regulatoryBody": "越南博彩業歸財政部和公安部雙重監督。賭場執照發放有限且多與大型旅遊開發項目掛鉤，投資額須達到數億美元門檻。"
     },
@@ -848,9 +893,18 @@
       "subtitle": "菲律賓是亞洲少數博彩業態極為多元且開放的國家",
       "description": "菲律賓娛樂博彩公司（PAGCOR）作為政府機構，同時身兼監管者與業者：一方面它自己直接經營幾十家公營賭場，另一方面也負責向民營業者發照監管。",
       "keyFeatures": {
-        "diversifiedMarket": "多元化市場",
-        "dualRole": "雙重角色",
-        "policyShift": "政策轉向"
+        "diversifiedMarket": {
+          "value": "多元化市場",
+          "description": "菲律賓博彩業態極為多元，包括賭場、線上博彩、體育博彩、彩票等多種形式，市場開放度高。"
+        },
+        "dualRole": {
+          "value": "雙重角色",
+          "description": "PAGCOR同時身兼監管者與業者，既直接經營公營賭場，也負責向民營業者發照監管。"
+        },
+        "policyShift": {
+          "value": "政策轉向",
+          "description": "2023年PAGCOR主席鄧科表示計畫重新定位，將政府自營賭場私有化，轉型為純監管機構。"
+        }
       },
       "regulatoryBody": "PAGCOR主席鄧科2023年表示計畫重新定位PAGCOR：將政府自營賭場私有化，把PAGCOR轉型為純監管機構。"
     },
@@ -859,9 +913,18 @@
       "subtitle": "中國大陸對賭博採取零容忍政策",
       "description": "《中華人民共和國刑法》明定開設賭場、聚眾賭博屬犯罪，個人參賭也違反治安管理處罰法。除國家發行彩票外，所有賭博活動在中國內地均非法。",
       "keyFeatures": {
-        "zeroTolerance": "零容忍政策",
-        "crossBorderCrackdown": "跨境打擊",
-        "lotteryOnly": "僅限彩票"
+        "zeroTolerance": {
+          "value": "零容忍政策",
+          "description": "中國大陸對賭博採取零容忍政策，除國家發行彩票外，所有賭博活動均屬違法，執法力度極強。"
+        },
+        "crossBorderCrackdown": {
+          "value": "跨境打擊",
+          "description": "政府加強跨境打擊非法賭博，包括線上賭博、跨境賭博等，與周邊國家合作執法。"
+        },
+        "lotteryOnly": {
+          "value": "僅限彩票",
+          "description": "中國大陸僅允許國家發行的彩票合法營運，由財政部統一管理，其他所有賭博形式均被禁止。"
+        }
       },
       "regulatoryBody": "中國大陸沒有專門的博弈監管機構，彩票由財政部管理，其他賭博活動由公安機關依刑事法處理。"
     },
@@ -870,9 +933,18 @@
       "subtitle": "澳門是中國特別行政區，也是全球最大的賭博中心之一",
       "description": "澳門博彩業採特許經營制度，自2002年開放賭權競爭以來共有6家持牌賭場公司。這6家博企的舊牌照在2022年到期，澳門政府於當年重新招標並頒布新《博彩法》。",
       "keyFeatures": {
-        "concessionSystem": "特許經營制度",
-        "newGamingLaw": "新博彩法",
-        "diversification": "多元化轉型"
+        "concessionSystem": {
+          "value": "特許經營制度",
+          "description": "澳門博彩業採特許經營制度，自2002年開放賭權競爭以來共有6家持牌賭場公司，嚴格控制牌照數量。"
+        },
+        "newGamingLaw": {
+          "value": "新博彩法",
+          "description": "2022年澳門政府重新招標並頒布新《博彩法》，加強對博彩企業的監管，要求多元化發展。"
+        },
+        "diversification": {
+          "value": "多元化轉型",
+          "description": "新法要求博彩企業必須發展非博彩業務，推動澳門從純博彩城市向綜合旅遊目的地轉型。"
+        }
       },
       "regulatoryBody": "澳門博彩監察協調局（DICJ）是賭場監管主力，2022年新法實施後，其權限進一步擴大，包括可派駐政府代表進駐賭場企業監督。"
     },
@@ -881,9 +953,18 @@
       "subtitle": "台灣目前沒有合法賭場",
       "description": "是東亞少數至今未開放賭博的地區之一。現行《刑法》與《賭博罪條例》禁止博彩營業行為，但政府經營的彩票不在此限。",
       "keyFeatures": {
-        "lotteryOnly": "僅限彩票",
-        "noCasinos": "無合法賭場",
-        "policyStagnation": "政策停滯"
+        "lotteryOnly": {
+          "value": "僅限彩票",
+          "description": "台灣目前僅允許政府經營的彩票合法營運，包括公益彩券和運動彩券，由財政部統一管理。"
+        },
+        "noCasinos": {
+          "value": "無合法賭場",
+          "description": "台灣現行《刑法》與《賭博罪條例》禁止博彩營業行為，至今未開放任何形式的賭場營運。"
+        },
+        "policyStagnation": {
+          "value": "政策停滯",
+          "description": "博弈政策長期停滯不前，政府對開放賭場持保守態度，主要考量社會風氣和道德因素。"
+        }
       },
       "regulatoryBody": "台灣彩票由財政部彩票管理委員會監督發行和銷售，並規定未成年人不得購買。運動彩券亦在財政部金管會核發執照下運行。"
     },
@@ -892,9 +973,18 @@
       "subtitle": "澳洲對博弈產業實施嚴格監管",
       "description": "各州和領地都有自己的博弈法規，但都遵循聯邦的基本原則。澳洲強調負責任博弈和玩家保護，對廣告和營銷有嚴格限制。",
       "keyFeatures": {
-        "stateRegulation": "州級監管",
-        "responsibleGaming": "負責任博弈",
-        "strictAdvertising": "嚴格廣告限制"
+        "stateRegulation": {
+          "value": "州級監管",
+          "description": "澳洲各州和領地都有自己的博弈法規，但都遵循聯邦的基本原則，監管體系完善且嚴格。"
+        },
+        "responsibleGaming": {
+          "value": "負責任博弈",
+          "description": "澳洲強調負責任博弈和玩家保護，要求博彩企業實施多項保護措施，防止問題賭博。"
+        },
+        "strictAdvertising": {
+          "value": "嚴格廣告限制",
+          "description": "澳洲對博彩廣告和營銷有嚴格限制，包括時段限制、內容限制等，保護弱勢群體。"
+        }
       },
       "regulatoryBody": "各州設有博弈監管機構，如新南威爾士州博弈管理局、維多利亞州博弈與酒類管制委員會等。"
     },

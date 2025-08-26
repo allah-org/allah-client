@@ -783,9 +783,18 @@
       "subtitle": "日本对博弈产业采取高度审慎的开放态度",
       "description": "长期以来，日本仅允许少数公益彩票和经特殊立法的体育竞赛投注等公营赌博。直到2016年日本才通过《统合度假区促进法》，2018年通过《IR整备法》，正式允许综合度假村（IR）内设立赌场，但上限仅三处。",
       "keyFeatures": {
-        "irSystem": "IR综合度假村制度",
-        "strictControl": "严格管控措施",
-        "localRestrictions": "本国居民限制"
+        "irSystem": {
+          "value": "IR综合度假村制度",
+          "description": "日本通过《统合度假区促进法》建立IR制度，允许在指定区域内设立赌场，但严格限制数量与规模。"
+        },
+        "strictControl": {
+          "value": "严格管控措施",
+          "description": "政府对赌场营运实施全方位监管，包括入场限制、赌注上限、营业时间等严格规定。"
+        },
+        "localRestrictions": {
+          "value": "本国居民限制",
+          "description": "日本公民进入赌场需缴纳高额入场税，并有每月入场次数限制，防止过度沉迷。"
+        }
       },
       "regulatoryBody": "日本设立了赌场管理委员会（Casino Regulatory Commission）负责IR赌场的发照和监督。该委员会独立于警察厅，成员由内阁任命，确保对赌场营运有严格管控权。"
     },
@@ -794,9 +803,18 @@
       "subtitle": "新加坡实行全球最严格的博弈监管之一",
       "description": "政府在2010年开放两座综合度假胜地赌场（滨海湾金沙和圣淘沙名胜世界），以推动观光但严控规模。本地居民进入赌场须支付高额入场税。",
       "keyFeatures": {
-        "dualCasino": "双赌场模式",
-        "entryTax": "高额入场税",
-        "comprehensiveRegulation": "全方位监管"
+        "dualCasino": {
+          "value": "双赌场模式",
+          "description": "新加坡仅允许两座综合度假胜地赌场营运，分别为滨海湾金沙和圣淘沙名胜世界，严格控制赌场数量。"
+        },
+        "entryTax": {
+          "value": "高额入场税",
+          "description": "本地居民进入赌场需缴纳100新币入场税，外国游客免费，有效控制本地居民赌博行为。"
+        },
+        "comprehensiveRegulation": {
+          "value": "全方位监管",
+          "description": "从赌场发照、营运监管到玩家保护，新加坡实施全球最严格的博弈监管体系。"
+        }
       },
       "regulatoryBody": "新加坡在2022年进行博彩监管架构重大改革。8月1日，新成立的新加坡博弈监管局（GRA）正式运作，取代原赌场监管局（CRA），职权扩大到监督所有形式赌博。"
     },
@@ -805,9 +823,18 @@
       "subtitle": "马来西亚奉行特殊的博彩政策",
       "description": "一方面允许少数合法博弈存在，另一方面对未经许可活动予以严厉打击。全国唯一合法赌场为云顶高原赌场，由政府特许经营，迄今保持垄断地位。",
       "keyFeatures": {
-        "monopoly": "垄断经营",
-        "strictEnforcement": "严厉执法",
-        "lawReform": "法律改革"
+        "monopoly": {
+          "value": "垄断经营",
+          "description": "全国唯一合法赌场为云顶高原赌场，由政府特许经营，迄今保持垄断地位，不允许其他竞争者进入。"
+        },
+        "strictEnforcement": {
+          "value": "严厉执法",
+          "description": "政府对非法赌博活动采取零容忍政策，包括线上赌博、地下赌场等，执法力度持续加强。"
+        },
+        "lawReform": {
+          "value": "法律改革",
+          "description": "近年来马来西亚持续完善博彩法规，加强对非法赌博的打击力度，同时规范合法赌场营运。"
+        }
       },
       "regulatoryBody": "马来西亚的合法博彩业由财政部授权机构监管，例如彩票业由财政部发牌和监督，赌场特许经营则须高层批准。"
     },
@@ -816,9 +843,18 @@
       "subtitle": "泰国目前对赌博几乎全面禁止",
       "description": "根据1935年《赌博法》，除官方国营彩票和少数允许的赛马投注外，其他赌博皆属违法。过去几年，泰国开始认真探讨赌场合法化的可能性。",
       "keyFeatures": {
-        "comprehensiveBan": "全面禁止",
-        "legalizationDiscussion": "合法化讨论",
-        "undergroundMarket": "地下市场"
+        "comprehensiveBan": {
+          "value": "全面禁止",
+          "description": "根据1935年《赌博法》，除官方国营彩票和少数允许的赛马投注外，其他赌博皆属违法，执法严格。"
+        },
+        "legalizationDiscussion": {
+          "value": "合法化讨论",
+          "description": "过去几年，泰国开始认真探讨赌场合法化的可能性，主要目的是促进旅游业发展和增加税收。"
+        },
+        "undergroundMarket": {
+          "value": "地下市场",
+          "description": "由于全面禁赌政策，泰国存在庞大的地下赌博市场，包括非法赌场、线上赌博等活动。"
+        }
       },
       "regulatoryBody": "泰国目前没有专门的博弈监管机构，彩票由财政部管理，其他赌博活动由警方依刑事法处理。"
     },
@@ -827,9 +863,18 @@
       "subtitle": "越南过去对赌博严格管制",
       "description": "本国公民长期以来不得进入赌场。全国数十家赌场只允许外国护照持有人或海外越侨进入，本地人被拒于门外。",
       "keyFeatures": {
-        "pilotProgram": "试点计划",
-        "foreignOnly": "仅限外国人",
-        "gradualExpansion": "逐步扩张"
+        "pilotProgram": {
+          "value": "试点计划",
+          "description": "越南开始试点允许本国公民进入赌场，但仅限于特定试点区域，并有严格限制条件。"
+        },
+        "foreignOnly": {
+          "value": "仅限外国人",
+          "description": "全国数十家赌场长期以来只允许外国护照持有人或海外越侨进入，本地人被拒于门外。"
+        },
+        "gradualExpansion": {
+          "value": "逐步扩张",
+          "description": "越南博彩业逐步扩张，但投资门槛高，多与大型旅游开发项目挂钩，投资额须达到数亿美元。"
+        }
       },
       "regulatoryBody": "越南博彩业归财政部和公安部双重监督。赌场执照发放有限且多与大型旅游开发项目挂钩，投资额须达到数亿美元门槛。"
     },
@@ -838,9 +883,18 @@
       "subtitle": "菲律宾是亚洲少数博彩业态极为多元且开放的国家",
       "description": "菲律宾娱乐博彩公司（PAGCOR）作为政府机构，同时身兼监管者与业者：一方面它自己直接经营几十家公营赌场，另一方面也负责向民营业者发照监管。",
       "keyFeatures": {
-        "diversifiedMarket": "多元化市场",
-        "dualRole": "双重角色",
-        "policyShift": "政策转向"
+        "diversifiedMarket": {
+          "value": "多元化市场",
+          "description": "菲律宾博彩业态极为多元，包括赌场、线上博彩、体育博彩、彩票等多种形式，市场开放度高。"
+        },
+        "dualRole": {
+          "value": "双重角色",
+          "description": "PAGCOR同时身兼监管者与业者，既直接经营公营赌场，也负责向民营业者发照监管。"
+        },
+        "policyShift": {
+          "value": "政策转向",
+          "description": "2023年PAGCOR主席邓科表示计划重新定位，将政府自营赌场私有化，转型为纯监管机构。"
+        }
       },
       "regulatoryBody": "PAGCOR主席邓科2023年表示计划重新定位PAGCOR：将政府自营赌场私有化，把PAGCOR转型为纯监管机构。"
     },
@@ -849,9 +903,18 @@
       "subtitle": "中国大陆对赌博采取零容忍政策",
       "description": "《中华人民共和国刑法》明定开设赌场、聚众赌博属犯罪，个人参赌也违反治安管理处罚法。除国家发行彩票外，所有赌博活动在中国内地均非法。",
       "keyFeatures": {
-        "zeroTolerance": "零容忍政策",
-        "crossBorderCrackdown": "跨境打击",
-        "lotteryOnly": "仅限彩票"
+        "zeroTolerance": {
+          "value": "零容忍政策",
+          "description": "中国大陆对赌博采取零容忍政策，除国家发行彩票外，所有赌博活动均属违法，执法力度极强。"
+        },
+        "crossBorderCrackdown": {
+          "value": "跨境打击",
+          "description": "政府加强跨境打击非法赌博，包括线上赌博、跨境赌博等，与周边国家合作执法。"
+        },
+        "lotteryOnly": {
+          "value": "仅限彩票",
+          "description": "中国大陆仅允许国家发行的彩票合法营运，由财政部统一管理，其他所有赌博形式均被禁止。"
+        }
       },
       "regulatoryBody": "中国大陆没有专门的博弈监管机构，彩票由财政部管理，其他赌博活动由公安机关依刑事法处理。"
     },
@@ -860,9 +923,18 @@
       "subtitle": "澳门是中国特别行政区，也是全球最大的赌博中心之一",
       "description": "澳门博彩业采特许经营制度，自2002年开放赌权竞争以来共有6家持牌赌场公司。这6家博企的旧牌照在2022年到期，澳门政府于当年重新招标并颁布新《博彩法》。",
       "keyFeatures": {
-        "concessionSystem": "特许经营制度",
-        "newGamingLaw": "新博彩法",
-        "diversification": "多元化转型"
+        "concessionSystem": {
+          "value": "特许经营制度",
+          "description": "澳门博彩业采特许经营制度，自2002年开放赌权竞争以来共有6家持牌赌场公司，严格控制牌照数量。"
+        },
+        "newGamingLaw": {
+          "value": "新博彩法",
+          "description": "2022年澳门政府重新招标并颁布新《博彩法》，加强对博彩企业的监管，要求多元化发展。"
+        },
+        "diversification": {
+          "value": "多元化转型",
+          "description": "新法要求博彩企业必须发展非博彩业务，推动澳门从纯博彩城市向综合旅游目的地转型。"
+        }
       },
       "regulatoryBody": "澳门博彩监察协调局（DICJ）是赌场监管主力，2022年新法实施后，其权限进一步扩大，包括可派驻政府代表进驻赌场企业监督。"
     },
@@ -871,9 +943,18 @@
       "subtitle": "台湾目前没有合法赌场",
       "description": "是东亚少数至今未开放赌博的地区之一。现行《刑法》与《赌博罪条例》禁止博彩营业行为，但政府经营的彩票不在此限。",
       "keyFeatures": {
-        "lotteryOnly": "仅限彩票",
-        "noCasinos": "无合法赌场",
-        "policyStagnation": "政策停滞"
+        "lotteryOnly": {
+          "value": "仅限彩票",
+          "description": "台湾目前仅允许政府经营的彩票合法营运，包括公益彩券和运动彩券，由财政部统一管理。"
+        },
+        "noCasinos": {
+          "value": "无合法赌场",
+          "description": "台湾现行《刑法》与《赌博罪条例》禁止博彩营业行为，至今未开放任何形式的赌场营运。"
+        },
+        "policyStagnation": {
+          "value": "政策停滞",
+          "description": "博弈政策长期停滞不前，政府对开放赌场持保守态度，主要考量社会风气和道德因素。"
+        }
       },
       "regulatoryBody": "台湾彩票由财政部彩票管理委员会监督发行和销售，并规定未成年人不得购买。运动彩票亦在财政部金管会核发执照下运行。"
     },
@@ -882,9 +963,18 @@
       "subtitle": "澳洲对博弈产业实施严格监管",
       "description": "各州和领地都有自己的博弈法规，但都遵循联邦的基本原则。澳洲强调负责任博弈和玩家保护，对广告和营销有严格限制。",
       "keyFeatures": {
-        "stateRegulation": "州级监管",
-        "responsibleGaming": "负责任博弈",
-        "strictAdvertising": "严格广告限制"
+        "stateRegulation": {
+          "value": "州级监管",
+          "description": "澳洲各州和领地都有自己的博弈法规，但都遵循联邦的基本原则，监管体系完善且严格。"
+        },
+        "responsibleGaming": {
+          "value": "负责任博弈",
+          "description": "澳洲强调负责任博弈和玩家保护，要求博彩企业实施多项保护措施，防止问题赌博。"
+        },
+        "strictAdvertising": {
+          "value": "严格广告限制",
+          "description": "澳洲对博彩广告和营销有严格限制，包括时段限制、内容限制等，保护弱势群体。"
+        }
       },
       "regulatoryBody": "各州设有博弈监管机构，如新南威尔士州博弈管理局、维多利亚州博弈与酒类管制委员会等。"
     },

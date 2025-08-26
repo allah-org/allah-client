@@ -128,10 +128,10 @@
           <div class="p-6">
             <p class="text-gray-300 mb-6">{{ $t('regulations.japan.description') }}</p>
             <div class="grid md:grid-cols-3 gap-4 mb-6">
-              <div v-for="feature in japanFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.japan.keyFeatures.${feature.key}`) }}</h4>
-                <p class="text-gray-400 text-sm">{{ $t(`regulations.japan.keyFeatures.${feature.key}.description`) }}</p>
-              </div>
+                              <div v-for="feature in japanFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
+                  <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.japan.keyFeatures.${feature.key}.value`) }}</h4>
+                  <p class="text-gray-400 text-sm">{{ $t(`regulations.japan.keyFeatures.${feature.key}.description`) }}</p>
+                </div>
             </div>
             <div class="p-4 bg-gray-700 rounded-lg">
               <h4 class="text-lg font-semibold text-white mb-3">{{ $t('regulations.regulatoryBody') }}</h4>
@@ -163,7 +163,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.singapore.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in singaporeFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.singapore.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.singapore.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.singapore.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -197,7 +197,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.malaysia.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in malaysiaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.malaysia.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.malaysia.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.malaysia.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -231,7 +231,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.thailand.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in thailandFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.thailand.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.thailand.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.thailand.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -265,7 +265,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.vietnam.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in vietnamFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.vietnam.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.vietnam.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.vietnam.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -299,7 +299,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.philippines.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in philippinesFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.philippines.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.philippines.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.philippines.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -333,7 +333,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.china.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in chinaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.china.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.china.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.china.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -367,7 +367,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.macau.description') }}</p>
                             <div class="grid md:grid-cols-3 gap-4 mb-6">
                  <div v-for="feature in macauFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                   <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.macau.keyFeatures.${feature.key}`) }}</h4>
+                   <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.macau.keyFeatures.${feature.key}.value`) }}</h4>
                    <p class="text-gray-400 text-sm">{{ $t(`regulations.macau.keyFeatures.${feature.key}.description`) }}</p>
                  </div>
                </div>
@@ -401,7 +401,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.taiwan.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in taiwanFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.taiwan.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.taiwan.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.taiwan.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>
@@ -435,7 +435,7 @@
              <p class="text-gray-300 mb-6">{{ $t('regulations.australia.description') }}</p>
              <div class="grid md:grid-cols-3 gap-4 mb-6">
                <div v-for="feature in australiaFeatures" :key="feature.key" class="bg-gray-700 p-4 rounded-lg">
-                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.australia.keyFeatures.${feature.key}`) }}</h4>
+                 <h4 class="text-lg font-semibold text-white mb-2">{{ $t(`regulations.australia.keyFeatures.${feature.key}.value`) }}</h4>
                  <p class="text-gray-400 text-sm">{{ $t(`regulations.australia.keyFeatures.${feature.key}.description`) }}</p>
                </div>
              </div>

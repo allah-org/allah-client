@@ -792,11 +792,20 @@
       "title": "Japan: Limited Casino Opening with Strict Online Gaming Control",
       "subtitle": "Japan adopts a highly cautious approach to opening the gaming industry",
       "description": "For a long time, Japan only allowed a few public lotteries and sports betting on specially legislated competitions. It wasn't until 2016 that Japan passed the 'Integrated Resort Promotion Act' and in 2018 the 'IR Implementation Act', officially allowing casinos within integrated resorts (IR), but limited to only three locations.",
-      "keyFeatures": {
-        "irSystem": "IR Integrated Resort System",
-        "strictControl": "Strict Control Measures",
-        "localRestrictions": "Local Resident Restrictions"
-      },
+              "keyFeatures": {
+          "irSystem": {
+            "value": "IR Integrated Resort System",
+            "description": "Japan established the IR system through the 'Integrated Resort Promotion Act', allowing casinos in designated areas with strict limits on number and scale."
+          },
+          "strictControl": {
+            "value": "Strict Control Measures",
+            "description": "The government implements comprehensive supervision over casino operations, including strict regulations on entry restrictions, betting limits, and operating hours."
+          },
+          "localRestrictions": {
+            "value": "Local Resident Restrictions",
+            "description": "Japanese citizens must pay high entry taxes to enter casinos and face monthly entry restrictions to prevent excessive gambling."
+          }
+        },
       "regulatoryBody": "Japan established the Casino Regulatory Commission to be responsible for licensing and supervising IR casinos. The commission is independent of the National Police Agency, with members appointed by the cabinet, ensuring strict control over casino operations."
     },
     "singapore": {
@@ -804,9 +813,18 @@
       "subtitle": "Singapore implements one of the world's strictest gaming regulations",
       "description": "In 2010, the government opened two integrated resort casinos (Marina Bay Sands and Resorts World Sentosa) to promote tourism while strictly controlling scale. Local residents must pay high entry taxes to enter casinos.",
       "keyFeatures": {
-        "dualCasino": "Dual Casino Model",
-        "entryTax": "High Entry Tax",
-        "comprehensiveRegulation": "Comprehensive Regulation"
+        "dualCasino": {
+          "value": "Dual Casino Model",
+          "description": "Singapore only allows two integrated resort casinos to operate: Marina Bay Sands and Resorts World Sentosa, strictly controlling the number of casinos."
+        },
+        "entryTax": {
+          "value": "High Entry Tax",
+          "description": "Local residents must pay a 100 SGD entry tax to enter casinos, while foreign tourists enter free, effectively controlling local residents' gambling behavior."
+        },
+        "comprehensiveRegulation": {
+          "value": "Comprehensive Regulation",
+          "description": "From casino licensing to operational supervision and player protection, Singapore implements the world's strictest gaming regulatory system."
+        }
       },
       "regulatoryBody": "Singapore underwent major reforms to its gaming regulatory framework in 2022. On August 1st, the newly established Gambling Regulatory Authority (GRA) officially began operations, replacing the Casino Regulatory Authority (CRA), with expanded authority to supervise all forms of gambling."
     },
@@ -815,9 +833,18 @@
       "subtitle": "Malaysia follows a special gaming policy",
       "description": "On one hand, it allows a few legal gaming activities, while on the other hand, it severely cracks down on unauthorized activities. The country's only legal casino is Genting Highlands Casino, operated under government franchise, maintaining monopoly status to date.",
       "keyFeatures": {
-        "monopoly": "Monopoly Operation",
-        "strictEnforcement": "Strict Enforcement",
-        "lawReform": "Legal Reform"
+        "monopoly": {
+          "value": "Monopoly Operation",
+          "description": "The country's only legal casino is Genting Highlands Casino, operated under government franchise, maintaining monopoly status to date with no other competitors allowed."
+        },
+        "strictEnforcement": {
+          "value": "Strict Enforcement",
+          "description": "The government adopts a zero-tolerance policy towards illegal gambling activities, including online gambling and underground casinos, with continuously strengthened enforcement."
+        },
+        "lawReform": {
+          "value": "Legal Reform",
+          "description": "In recent years, Malaysia has continuously improved gaming regulations, strengthening crackdowns on illegal gambling while standardizing legal casino operations."
+        }
       },
       "regulatoryBody": "Malaysia's legal gaming industry is supervised by agencies authorized by the Ministry of Finance, such as the lottery industry being licensed and supervised by the Ministry of Finance, while casino franchises require high-level approval."
     },
@@ -826,9 +853,18 @@
       "subtitle": "Thailand currently almost completely prohibits gambling",
       "description": "According to the 1935 Gambling Act, except for official state lotteries and a few permitted horse racing bets, all other gambling is illegal. Over the past few years, Thailand has begun seriously discussing the possibility of casino legalization.",
       "keyFeatures": {
-        "comprehensiveBan": "Comprehensive Ban",
-        "legalizationDiscussion": "Legalization Discussion",
-        "undergroundMarket": "Underground Market"
+        "comprehensiveBan": {
+          "value": "Comprehensive Ban",
+          "description": "According to the 1935 Gambling Act, except for official state lotteries and a few permitted horse racing bets, all other gambling is illegal with strict enforcement."
+        },
+        "legalizationDiscussion": {
+          "value": "Legalization Discussion",
+          "description": "Over the past few years, Thailand has begun seriously discussing the possibility of casino legalization, mainly to promote tourism development and increase tax revenue."
+        },
+        "undergroundMarket": {
+          "value": "Underground Market",
+          "description": "Due to the comprehensive gambling ban policy, Thailand has a huge underground gambling market, including illegal casinos and online gambling activities."
+        }
       },
       "regulatoryBody": "Thailand currently has no specialized gaming regulatory body, with lotteries managed by the Ministry of Finance and other gambling activities handled by police under criminal law."
     },
@@ -837,9 +873,18 @@
       "subtitle": "Vietnam has strictly controlled gambling in the past",
       "description": "Local citizens have long been prohibited from entering casinos. Dozens of casinos nationwide only allow foreign passport holders or overseas Vietnamese to enter, with locals excluded.",
       "keyFeatures": {
-        "pilotProgram": "Pilot Program",
-        "foreignOnly": "Foreigners Only",
-        "gradualExpansion": "Gradual Expansion"
+        "pilotProgram": {
+          "value": "Pilot Program",
+          "description": "Vietnam has begun pilot programs allowing local citizens to enter casinos, but limited to specific pilot areas with strict conditions."
+        },
+        "foreignOnly": {
+          "value": "Foreigners Only",
+          "description": "Dozens of casinos nationwide have long only allowed foreign passport holders or overseas Vietnamese to enter, with locals excluded."
+        },
+        "gradualExpansion": {
+          "value": "Gradual Expansion",
+          "description": "Vietnam's gaming industry is gradually expanding, but with high investment thresholds, mostly tied to large tourism development projects requiring hundreds of millions of dollars in investment."
+        }
       },
       "regulatoryBody": "Vietnam's gaming industry is under dual supervision by the Ministry of Finance and Ministry of Public Security. Casino licenses are limited and mostly tied to large tourism development projects, requiring investment thresholds of hundreds of millions of dollars."
     },
@@ -848,9 +893,18 @@
       "subtitle": "Philippines is one of the few Asian countries with extremely diverse and open gaming formats",
       "description": "Philippine Amusement and Gaming Corporation (PAGCOR) as a government agency, simultaneously serves as both regulator and operator: on one hand, it directly operates dozens of state-owned casinos, while on the other hand, it's responsible for licensing and supervising private operators.",
       "keyFeatures": {
-        "diversifiedMarket": "Diversified Market",
-        "dualRole": "Dual Role",
-        "policyShift": "Policy Shift"
+        "diversifiedMarket": {
+          "value": "Diversified Market",
+          "description": "Philippines has extremely diverse gaming formats, including casinos, online gaming, sports betting, lotteries, and more, with high market openness."
+        },
+        "dualRole": {
+          "value": "Dual Role",
+          "description": "PAGCOR simultaneously serves as both regulator and operator, directly operating state-owned casinos while also responsible for licensing and supervising private operators."
+        },
+        "policyShift": {
+          "value": "Policy Shift",
+          "description": "In 2023, PAGCOR Chairman Tengco stated plans to reposition PAGCOR: privatize government-operated casinos and transform PAGCOR into a pure regulatory body."
+        }
       },
       "regulatoryBody": "PAGCOR Chairman Tengco stated in 2023 plans to reposition PAGCOR: privatize government-operated casinos and transform PAGCOR into a pure regulatory body."
     },
@@ -859,9 +913,18 @@
       "subtitle": "Mainland China adopts a zero-tolerance policy towards gambling",
       "description": "The Criminal Law of the People's Republic of China clearly defines operating gambling establishments and organizing gambling as crimes, with individual participation also violating public security administration punishment law. Except for state-issued lotteries, all gambling activities are illegal in mainland China.",
       "keyFeatures": {
-        "zeroTolerance": "Zero-Tolerance Policy",
-        "crossBorderCrackdown": "Cross-Border Crackdown",
-        "lotteryOnly": "Lottery Only"
+        "zeroTolerance": {
+          "value": "Zero-Tolerance Policy",
+          "description": "Mainland China adopts a zero-tolerance policy towards gambling, with all gambling activities illegal except state-issued lotteries, with extremely strong enforcement."
+        },
+        "crossBorderCrackdown": {
+          "value": "Cross-Border Crackdown",
+          "description": "The government strengthens cross-border crackdowns on illegal gambling, including online gambling and cross-border gambling, cooperating with neighboring countries on law enforcement."
+        },
+        "lotteryOnly": {
+          "value": "Lottery Only",
+          "description": "Mainland China only allows state-issued lotteries to operate legally, managed by the Ministry of Finance, with all other gambling forms prohibited."
+        }
       },
       "regulatoryBody": "Mainland China has no specialized gaming regulatory body, with lotteries managed by the Ministry of Finance and other gambling activities handled by public security organs under criminal law."
     },
@@ -870,9 +933,18 @@
       "subtitle": "Macau is a Special Administrative Region of China and one of the world's largest gambling centers",
       "description": "Macau's gaming industry adopts a franchise system, with six licensed casino companies since opening gaming rights competition in 2002. These six companies' old licenses expired in 2022, with Macau government re-tendering and promulgating new Gaming Law that year.",
       "keyFeatures": {
-        "concessionSystem": "Franchise System",
-        "newGamingLaw": "New Gaming Law",
-        "diversification": "Diversified Transformation"
+        "concessionSystem": {
+          "value": "Franchise System",
+          "description": "Macau's gaming industry adopts a franchise system, with six licensed casino companies since opening gaming rights competition in 2002, strictly controlling license numbers."
+        },
+        "newGamingLaw": {
+          "value": "New Gaming Law",
+          "description": "In 2022, Macau government re-tendered and promulgated new Gaming Law, strengthening supervision of gaming enterprises and requiring diversified development."
+        },
+        "diversification": {
+          "value": "Diversified Transformation",
+          "description": "The new law requires gaming enterprises to develop non-gaming businesses, promoting Macau's transformation from a pure gaming city to a comprehensive tourism destination."
+        }
       },
       "regulatoryBody": "Macau Gaming Inspection and Coordination Bureau (DICJ) is the main casino regulator, with expanded authority after the new law implementation in 2022, including the ability to station government representatives in casino enterprises for supervision."
     },
@@ -882,9 +954,18 @@
       "subtitle": "Taiwan currently has no legal casinos",
       "description": "It is one of the few East Asian regions that has not yet opened gambling. Current Criminal Law and Gambling Crime Regulations prohibit gaming business activities, but government-operated lotteries are exempt.",
       "keyFeatures": {
-        "lotteryOnly": "Lottery Only",
-        "noCasinos": "No Legal Casinos",
-        "policyStagnation": "Policy Stagnation"
+        "lotteryOnly": {
+          "value": "Lottery Only",
+          "description": "Taiwan currently only allows government-operated lotteries to operate legally, including public welfare lotteries and sports lotteries, managed by the Ministry of Finance."
+        },
+        "noCasinos": {
+          "value": "No Legal Casinos",
+          "description": "Taiwan's current Criminal Law and Gambling Crime Regulations prohibit gaming business activities, with no casino operations opened to date."
+        },
+        "policyStagnation": {
+          "value": "Policy Stagnation",
+          "description": "Gaming policy has long been stagnant, with the government taking a conservative stance on opening casinos, mainly considering social customs and moral factors."
+        }
       },
       "regulatoryBody": "Taiwan's lotteries are supervised by the Ministry of Finance Lottery Management Committee for issuance and sales, with regulations prohibiting minors from purchasing. Sports lottery also operates under licenses issued by the Ministry of Finance Financial Supervisory Commission."
     },
@@ -893,9 +974,18 @@
       "subtitle": "Australia implements strict regulation on the gaming industry",
       "description": "Each state and territory has its own gaming regulations, but all follow federal basic principles. Australia emphasizes responsible gaming and player protection, with strict restrictions on advertising and marketing.",
       "keyFeatures": {
-        "stateRegulation": "State-level Regulation",
-        "responsibleGaming": "Responsible Gaming",
-        "strictAdvertising": "Strict Advertising Restrictions"
+        "stateRegulation": {
+          "value": "State-level Regulation",
+          "description": "Each Australian state and territory has its own gaming regulations, but all follow federal basic principles, with a comprehensive and strict regulatory system."
+        },
+        "responsibleGaming": {
+          "value": "Responsible Gaming",
+          "description": "Australia emphasizes responsible gaming and player protection, requiring gaming enterprises to implement multiple protection measures to prevent problem gambling."
+        },
+        "strictAdvertising": {
+          "value": "Strict Advertising Restrictions",
+          "description": "Australia has strict restrictions on gaming advertising and marketing, including time restrictions and content restrictions, protecting vulnerable groups."
+        }
       },
       "regulatoryBody": "Each state has gaming regulatory bodies, such as the New South Wales Gaming Authority and Victoria Gaming and Liquor Control Commission."
     },
