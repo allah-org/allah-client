@@ -298,22 +298,69 @@
       }
     }
   },
-  "menu": {
+    "menu": {
     "title": "Gaming Trends Eye",
     "globalTrends": "Global Trends",
-    "gamingTrends": "Gaming Trends", 
+    "gamingTrends": "Gaming Trends",
     "techSpecs": "Tech Specs",
     "regulations": "Regulations",
     "paymentChannels": "Payment Channels",
-    "futureTrends": "Future Trends",
-    "copyright": "Copyright",
-    "privacy": "Privacy Policy",
     "language": "Language"
   },
   "navbar": {
     "menu": "Menu",
     "home": "Home",
     "contact": "Contact"
+  },
+  "contact": {
+    "pageTitle": "BTT Gaming Trends Eye - Contact Us",
+    "pageDescription": "BTT Gaming Trends Eye customer service support, professional service consultation.",
+    "title": "Contact Us",
+    "subtitle": "Professional service team provides comprehensive support",
+    "mainContact": {
+      "title": "Main Contact",
+      "companyName": "BTT Gaming Trends Eye",
+      "platformDescription": "Professional Information Integration Platform",
+      "disclaimer": "The information provided on this website is for reference only. Users should verify the authenticity and accuracy of relevant information themselves. If investment decisions are made based on this information, this website does not assume any investment risks or responsibilities.",
+      "sendEmail": "Send Email"
+    },
+    "services": {
+      "title": "Services",
+      "businessListing": {
+        "title": "Business Listing",
+        "description": "Enterprise information publishing and promotion"
+      },
+      "recruitmentListing": {
+        "title": "Recruitment Listing",
+        "description": "Talent recruitment and job posting"
+      },
+      "freePeriod": "Free listing period: Until December 31, 2025",
+      "serviceInquiry": "Service Inquiry"
+    },
+    "dataLinks": {
+      "title": "Data Links",
+      "spreadsheetName": "Gaming Trends Eye Spreadsheet",
+      "spreadsheetDescription": "Complete database and analysis tools",
+      "features": [
+        "Regional page information",
+        "Free comment area",
+        "AI summary analysis",
+        "Real-time data updates"
+      ],
+      "viewSpreadsheet": "View Spreadsheet"
+    },
+    "privacyGuidelines": {
+      "title": "Privacy Guidelines",
+      "guidelines": [
+        "Strict protection of personal privacy",
+        "Comments involving privacy violations will be appropriately moderated",
+        "Information is for reference only, please judge risks yourself",
+        "Follow relevant regulations and best practices"
+      ],
+      "privacyIssues": "Privacy Issues",
+      "contentCorrection": "Content Correction",
+      "privacyStatement": "Privacy Statement"
+    }
   },
   "marketData": {
     "europe": {
