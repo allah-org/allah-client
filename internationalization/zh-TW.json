@@ -362,6 +362,340 @@
       "features": "公益彩券與運彩為主，無合法賭場"
     }
   },
+  "gaming": {
+    "title": "全球博弈遊戲類型趨勢",
+    "subtitle": "深入分析各類博弈遊戲在全球各地區的熱門度與市場表現",
+    "overview": "全球博弈遊戲類型概況",
+    "description": "全球博弈產業涵蓋老虎機、撲克類、真人娛樂場、體育博彩、彩票等多種類型，不同地區玩家偏好差異顯著。",
+    "globalStats": {
+      "totalPlayers": "全球博弈玩家",
+      "lotteryPlayers": "彩票參與者",
+      "slotsRevenue": "老虎機年收入"
+    },
+    "gameTypes": {
+      "slots": "老虎機",
+      "poker": "撲克類",
+      "live": "真人娛樂場",
+      "sports": "體育博彩",
+      "lottery": "彩票",
+      "local": "地方特色",
+      "business": "商務建議"
+    },
+    "preferenceTable": {
+      "title": "各地區遊戲類型偏好對比",
+      "region": "地區",
+      "high": "高",
+      "medium": "中",
+      "low": "低",
+      "regions": {
+        "northAmerica": "北美",
+        "europe": "歐洲",
+        "japan": "日本",
+        "southeastAsia": "東南亞",
+        "australia": "澳洲",
+        "china": "中國",
+        "hongkongMacao": "港澳",
+        "taiwan": "台灣"
+      }
+    },
+    "businessAdvice": {
+      "title": "商務應用建議",
+      "originalDev": {
+        "title": "原創老虎機開發團隊",
+        "desc": "專注老虎機遊戲創新開發",
+        "contact": "聯繫方式",
+        "feature1": "專注老虎機遊戲創新開發",
+        "feature2": "多主題視覺設計能力",
+        "feature3": "數學模型與RTP優化",
+        "feature4": "跨平台技術支援"
+      },
+      "reverseDev": {
+        "title": "老虎機逆向開發服務商",
+        "desc": "快速複製熱門遊戲機制",
+        "contact": "服務平台",
+        "feature1": "快速複製熱門遊戲機制",
+        "feature2": "專業逆向工程技術",
+        "feature3": "高效開發交付週期",
+        "feature4": "客製化修改服務"
+      },
+      "slotResources": {
+        "title": "老虎機遊戲資源包",
+        "desc": "提供完整的老虎機遊戲開發資源",
+        "contact": "資源頻道",
+        "feature1": "圖檔切圖與素材整理",
+        "feature2": "SPINE動畫還原技術",
+        "feature3": "專業技術支援",
+        "feature4": "完整開發資源包"
+      }
+    },
+    "gameTypeIntro": {
+      "title": "遊戲類型詳細介紹",
+      "platforms": "主要平台/廠商",
+      "platformsData": {
+        "aristocrat": {
+          "name": "Aristocrat Leisure",
+          "region": "澳洲",
+          "desc": "全球最大老虎機製造商"
+        },
+        "igt": {
+          "name": "IGT",
+          "region": "美國",
+          "desc": "拉斯維加斯機台供應巨頭"
+        },
+        "pokerstars": {
+          "name": "PokerStars",
+          "region": "全球",
+          "desc": "全球最大線上撲克室"
+        },
+        "wpt": {
+          "name": "World Poker Tour",
+          "region": "國際",
+          "desc": "頂級撲克賽事品牌"
+        },
+        "evolution": {
+          "name": "Evolution Gaming",
+          "region": "瑞典",
+          "desc": "全球真人娛樂場龍頭，市佔45%"
+        },
+        "playtech": {
+          "name": "Playtech",
+          "region": "英國",
+          "desc": "真人遊戲和系統技術領先"
+        },
+        "bet365": {
+          "name": "Bet365",
+          "region": "英國",
+          "desc": "全球最大的線上體育博彩公司之一"
+        },
+        "draftkings": {
+          "name": "DraftKings",
+          "region": "美國",
+          "desc": "新興體育及電競投注平台"
+        },
+        "powerball": {
+          "name": "Powerball",
+          "region": "美國",
+          "desc": "聯合彩券系統，常創上億美元頭獎"
+        },
+        "chinaSportsLottery": {
+          "name": "China Sports Lottery",
+          "region": "中國",
+          "desc": "世界最大彩票發行系統之一"
+        },
+        "maruhan": {
+          "name": "Maruhan",
+          "region": "日本",
+          "desc": "日本最大柏青哥廳連鎖"
+        },
+        "segaSammy": {
+          "name": "Sega Sammy",
+          "region": "日本",
+          "desc": "日本柏青哥機台龍頭"
+        }
+      },
+      "sources": "參考資料",
+      "slots": {
+        "marketDominance": {
+          "title": "市場主導地位",
+          "content": "老虎機是西方賭場中最主要的收入來源，美國2023年賭場老虎機收入達355.1億美元，占比顯著高於桌面遊戲。澳洲俗稱'Pokies'，擁有全球約20%的投幣機數量，人均老虎機損失為全球最高。"
+        },
+        "gameFeatures": {
+          "title": "遊戲特點",
+          "simple": "簡單易懂",
+          "simpleDesc": "以簡單拉霸玩法和多樣主題吸引大量休閒玩家",
+          "variety": "種類豐富",
+          "varietyDesc": "包含傳統實體角子機和線上視頻老虎機",
+          "themes": "主題多樣",
+          "themesDesc": "從傳統水果機到電影、動漫、歷史等各種主題"
+        },
+        "majorVendors": {
+          "title": "主要廠商",
+          "content": "Aristocrat Leisure（澳洲）是全球最大的老虎機製造商之一，其產品行銷世界各地。IGT（美國）也是拉斯維加斯機台供應的重要廠商。"
+        }
+      },
+      "poker": {
+        "gameTypes": {
+          "title": "遊戲類型多樣",
+          "content": "包含德州撲克、二十一點、百家樂等以紙牌為媒介的賭桌遊戲。在實體賭場與線上平台均流行，線上撲克平台PokerStars在2016年註冊玩家數已突破1億。"
+        },
+        "competitive": {
+          "title": "競技性特色",
+          "strategic": "策略性強",
+          "strategicDesc": "撲克具有競技性並催生職業錦標賽（如WSOP）",
+          "skillBased": "技巧要求",
+          "skillBasedDesc": "不純粹依靠運氣，策略和心理戰同樣重要",
+          "social": "社交互動",
+          "socialDesc": "線上平台強化社交功能，吸引年輕玩家"
+        },
+        "regional": {
+          "title": "地區偏好差異",
+          "content": "此類遊戲在西方市場受歡迎，亞洲市場則更偏好百家樂等簡單牌戲。世界撲克大賽等賽事舉世聞名。"
+        }
+      },
+      "live": {
+        "innovation": {
+          "title": "技術創新",
+          "content": "透過直播技術，由真人莊家主持的線上賭場遊戲，如真人輪盤、真人百家樂等。這類遊戲在亞洲線上市場特別盛行，因為玩家能透過直播感受真實賭桌氛圍，提升信任感。"
+        },
+        "marketLeader": {
+          "title": "市場領導",
+          "evolution": "Evolution Gaming",
+          "evolutionDesc": "主導此領域，據報導其2025年占全球真人娛樂場市場約45%份額",
+          "asiaPreference": "亞洲偏好",
+          "asiaPreferenceDesc": "各大線上博弈平台普遍提供真人娛樂場頻道",
+          "techRequirement": "技術要求",
+          "techRequirementDesc": "需要高品質直播技術和專業荷官"
+        },
+        "userExperience": {
+          "title": "用戶體驗",
+          "content": "真人娛樂場遊戲每日活躍玩家以數十萬計，特別在亞洲。高清直播和多角度攝影大幅提升了線上博弈的真實感。"
+        }
+      },
+      "sports": {
+        "explosiveGrowth": {
+          "title": "爆發性成長",
+          "content": "對體育賽事或電子競技比賽結果進行投注。美國在2023年合法體育投注量達1198.4億美元，產生收益109.2億美元，年增長高達44.5%。"
+        },
+        "globalMarket": {
+          "title": "全球市場",
+          "westernTradition": "歐美傳統",
+          "westernTraditionDesc": "英國有深厚體育博彩文化（足球投注、賽馬等）",
+          "asianTrend": "亞洲熱潮",
+          "asianTrendDesc": "泰國約63%成年人參與某種形式賭博，其中非法足球博彩金額估計每年達2,704億泰銖",
+          "esportsRising": "電競新興",
+          "esportsRisingDesc": "近年電子競技博彩興起，吸引年輕族群"
+        },
+        "techDevelopment": {
+          "title": "技術發展",
+          "content": "全世界約有數億人曾進行體育投注，即時投注、直播整合、AI賠率計算等技術創新讓體育博彩體驗更加豐富。"
+        }
+      },
+      "lottery": {
+        "mostPopular": {
+          "title": "最普及的博弈形式",
+          "content": "由官方或民間機構發行的彩票、對獎券，以及類似賓果遊戲。這是全球參與人數最多的博弈形式之一，每年約有42億人至少玩一次彩票。"
+        },
+        "countryPerformance": {
+          "title": "各國表現",
+          "china": "中國",
+          "chinaDesc": "2024年彩票銷售額高達人民幣6235億元（約858億美元），創歷史新高",
+          "usa": "美國",
+          "usaDesc": "45個州營運官方彩票，2021年各州從彩票中獲得收入達244億美元",
+          "thailand": "泰國",
+          "thailandDesc": "有高達2,750萬人購買政府彩票",
+          "uk": "英國",
+          "ukDesc": "每月約有45%的成年人參與某種形式的博弈（多為彩票投注）"
+        },
+        "advantages": {
+          "title": "特點優勢",
+          "content": "購買門檻低、合法且接受度高是彩票受歡迎的主要原因。數位化趨勢讓線上彩票平台興起。"
+        }
+      },
+      "local": {
+        "culturalRoots": {
+          "title": "文化根基深厚",
+          "content": "各地區特殊的傳統或流行博彩遊戲，往往具有深厚的文化背景和固定玩家群。這些遊戲反映了當地的歷史傳統和社會習俗。"
+        },
+        "majorTypes": {
+          "title": "主要類型",
+          "pachinko": "日本柏青哥",
+          "pachinkoDesc": "2022年遊戲投入總額約達14.6兆日圓，玩家約780萬人，一度超越澳門、拉斯維加斯收益總和",
+          "mahjong": "台灣麻將",
+          "mahjongDesc": "推估約有4-5百萬人經常參與，被視為技藝和運氣兼備的博弈",
+          "cockfighting": "菲律賓鬥雞",
+          "cockfightingDesc": "傳統鬥雞賭博（Sabong），觀眾與投注者達百萬級",
+          "tuiTongZi": "中國推筒子",
+          "tuiTongZiDesc": "民間的撲克牌推筒子等，在當地具有文化根基"
+        },
+        "modernDevelopment": {
+          "title": "現代發展",
+          "content": "傳統遊戲逐漸數位化，如線上麻將、模擬柏青哥等，結合現代技術同時保持文化特色。"
+        }
+      },
+      "slotsSubtitle": "全球賭場主要收入來源，澳洲人均損失最高",
+      "pokerSubtitle": "技巧與運氣並重，PokerStars用戶突破1億",
+      "liveSubtitle": "Evolution Gaming市佔45%，亞洲市場特別盛行",
+      "sportsSubtitle": "美國2023年投注額1198億美元，年增44.5%",
+      "lotterySubtitle": "全球42億人參與，中國2024年銷售額達6235億人民幣",
+      "localSubtitle": "日本柏青哥14.6兆日圓，台灣麻將400萬玩家",
+      "stats": {
+        "usRevenue": "美國年收入",
+        "australiaMachines": "澳洲機台數",
+        "globalPlayers": "全球玩家數",
+        "usRevenueValue": "$355億",
+        "australiaMachinesValue": "20萬台",
+        "globalPlayersValue": "數千萬",
+        "pokerStarsUsers": "PokerStars用戶",
+        "usParticipants": "美國參與者",
+        "globalTournaments": "全球錦標賽",
+        "pokerStarsUsersValue": "1億+",
+        "usParticipantsValue": "數千萬",
+        "globalTournamentsValue": "WSOP等",
+        "evolutionMarket": "Evolution市佔率",
+        "mainMarket": "主要市場",
+        "dailyUsers": "日活用戶",
+        "evolutionMarketValue": "45%",
+        "mainMarketValue": "亞洲",
+        "dailyUsersValue": "數十萬",
+        "usWagering": "美國投注額",
+        "usRevenueSports": "美國年收益",
+        "growthRate": "年增長率",
+        "usWageringValue": "$1198億",
+        "usRevenueSportsValue": "$109億",
+        "growthRateValue": "+44.5%",
+        "globalParticipants": "全球參與者",
+        "chinaSales": "中國銷售額",
+        "usStateRevenue": "美國州政府收入",
+        "globalParticipantsValue": "42億人",
+        "chinaSalesValue": "¥6235億",
+        "usStateRevenueValue": "$244億",
+        "pachinkoWagering": "日本柏青哥投注",
+        "pachinkoPlayers": "柏青哥玩家數",
+        "taiwanMahjong": "台灣麻將玩家",
+        "pachinkoWageringValue": "¥14.6兆",
+        "pachinkoPlayersValue": "780萬",
+        "taiwanMahjongValue": "400萬+"
+      }
+    },
+    "revenueStats": {
+      "slotsUS": "美國老虎機年收入",
+      "sportsUS": "美國體育博彩年收入",
+      "liveMarket": "真人娛樂場市佔率",
+      "pachinkoJP": "日本柏青哥年收入",
+      "lotteryChina": "中國彩票年收入",
+      "lotteryPlayers": "全球彩票參與者",
+      "pokerPlayers": "線上撲克玩家",
+      "slotsRevenue": "355億",
+      "slotsType": "淨收入",
+      "sportsRevenue": "109億",
+      "sportsType": "淨收入",
+      "lotteryRevenue": "858億",
+      "lotteryType": "銷售額",
+      "pachinkoRevenue": "1460億",
+      "pachinkoType": "投注總額",
+      "liveMarketShare": "45%",
+      "liveType": "市佔率",
+      "pokerUsers": "1億+",
+      "pokerRevenue": "103億",
+      "pokerType": "淨收入",
+      "pokerGlobal": "全球撲克年收入",
+      "year2023": "2023年數據",
+      "year2024": "2024年數據",
+      "year2022": "2022年數據",
+      "growth44": "年增44.5%",
+      "liveRevenue": "45億",
+      "liveGlobal": "全球真人娛樂場年收入",
+      "globalMarket": "1100億",
+      "totalMarketSize": "全球博彩市場規模",
+      "globalMarketType": "淨收入",
+      "onlinePenetration": "26%",
+      "onlineGambling": "線上博彩滲透率",
+      "onlinePenetrationType": "全球平均",
+      "mobileShare": "65%",
+      "mobileGambling": "移動端博彩比例",
+      "mobileShareType": "2023年"
+    }
+  },
   "regulations": {
     "pageTitle": "全球博弈法規規範 - 菠菜天眼通",
     "pageDescription": "深入了解各地區博弈產業的法規環境、監管機構和合規要求",
@@ -1245,628 +1579,294 @@
       }
     }
   },
-  "gaming": {
-    "title": "全球博弈遊戲類型趨勢",
-    "subtitle": "深入分析各類博弈遊戲在全球各地區的熱門度與市場表現",
-    "overview": "全球博弈遊戲類型概況",
-    "description": "全球博弈產業涵蓋老虎機、撲克類、真人娛樂場、體育博彩、彩票等多種類型，不同地區玩家偏好差異顯著。",
-    "globalStats": {
-      "totalPlayers": "全球博弈玩家",
-      "lotteryPlayers": "彩票參與者",
-      "slotsRevenue": "老虎機年收入"
+  "business": {
+    "title": "商務合作",
+    "subtitle": "專業博弈解決方案與合作機會",
+    "description": "我們提供全面的博弈解決方案，包括平台開發、遊戲整合、支付系統和監管合規。與我們合作，加速您的市場進入並實現可持續增長。",
+    "services": {
+      "title": "我們的服務",
+      "platform": "平台開發",
+      "platformDesc": "具有先進功能和可擴展性的客製化博弈平台",
+      "games": "遊戲整合",
+      "gamesDesc": "熱門賭場遊戲和體育博彩的無縫整合",
+      "payment": "支付解決方案",
+      "paymentDesc": "具有全球合規性的多幣種支付網關",
+      "compliance": "監管合規",
+      "complianceDesc": "許可證和監管要求的專家指導"
     },
-    "gameTypes": {
-      "slots": "老虎機",
-      "poker": "撲克類",
-      "live": "真人娛樂場",
-      "sports": "體育博彩",
-      "lottery": "彩票",
-      "local": "地方特色",
-      "business": "商務建議"
+    "contact": {
+      "title": "聯繫我們",
+      "phone": "+1 (555) 123-4567",
+      "description": "準備討論您的專案？聯繫我們的業務發展團隊進行個性化諮詢。"
+    }
+  },
+  "tech": {
+    "title": "技術架構與職能需求",
+    "subtitle": "博弈產業技術角色與技能需求的全面分析",
+    "overview": {
+      "title": "技術架構與開發流程概觀",
+      "description": "現代博弈平台通常採用客戶端－伺服器架構。前端客戶端與後端伺服器通訊，以實現即時遊戲體驗與安全交易。遊戲開發引擎在架構中扮演核心角色，用於構建豐富的遊戲內容與介面。",
+      "architecture": "典型線上博弈平台的技術架構",
+      "components": "包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等模組",
+      "architectureDesc": "現代博弈平台通常採用客戶端－伺服器架構，包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等核心模組。",
+      "componentsDesc": "平台架構設計注重可擴展性、安全性和效能，確保在高併發環境下穩定運行，同時滿足各地區的法規要求。"
     },
-    "preferenceTable": {
-      "title": "各地區遊戲類型偏好對比",
-      "region": "地區",
-      "high": "高",
-      "medium": "中",
-      "low": "低",
-      "regions": {
-        "northAmerica": "北美",
-        "europe": "歐洲",
-        "japan": "日本",
-        "southeastAsia": "東南亞",
-        "australia": "澳洲",
-        "china": "中國",
-        "hongkongMacao": "港澳",
-        "taiwan": "台灣"
-      }
-    },
-    "businessAdvice": {
-      "title": "商務應用建議",
-      "originalDev": {
-        "title": "原創老虎機開發團隊",
-        "desc": "專注老虎機遊戲創新開發",
-        "contact": "聯繫方式",
-        "feature1": "專注老虎機遊戲創新開發",
-        "feature2": "多主題視覺設計能力",
-        "feature3": "數學模型與RTP優化",
-        "feature4": "跨平台技術支援"
-      },
-      "reverseDev": {
-        "title": "老虎機逆向開發服務商",
-        "desc": "快速複製熱門遊戲機制",
-        "contact": "服務平台",
-        "feature1": "快速複製熱門遊戲機制",
-        "feature2": "專業逆向工程技術",
-        "feature3": "高效開發交付週期",
-        "feature4": "客製化修改服務"
-      },
-      "slotResources": {
-        "title": "老虎機遊戲資源包",
-        "desc": "提供完整的老虎機遊戲開發資源",
-        "contact": "資源頻道",
-        "feature1": "圖檔切圖與素材整理",
-        "feature2": "SPINE動畫還原技術",
-        "feature3": "專業技術支援",
-        "feature4": "完整開發資源包"
-      }
-    },
-    "gameTypeIntro": {
-      "title": "遊戲類型詳細介紹",
-      "platforms": "主要平台/廠商",
-      "platformsData": {
-        "aristocrat": {
-          "name": "Aristocrat Leisure",
-          "region": "澳洲",
-          "desc": "全球最大老虎機製造商"
-        },
-        "igt": {
-          "name": "IGT",
-          "region": "美國",
-          "desc": "拉斯維加斯機台供應巨頭"
-        },
-        "pokerstars": {
-          "name": "PokerStars",
-          "region": "全球",
-          "desc": "全球最大線上撲克室"
-        },
-        "wpt": {
-          "name": "World Poker Tour",
-          "region": "國際",
-          "desc": "頂級撲克賽事品牌"
-        },
-        "evolution": {
-          "name": "Evolution Gaming",
-          "region": "瑞典",
-          "desc": "全球真人娛樂場龍頭，市佔45%"
-        },
-        "playtech": {
-          "name": "Playtech",
-          "region": "英國",
-          "desc": "真人遊戲和系統技術領先"
-        },
-        "bet365": {
-          "name": "Bet365",
-          "region": "英國",
-          "desc": "全球最大的線上體育博彩公司之一"
-        },
-        "draftkings": {
-          "name": "DraftKings",
-          "region": "美國",
-          "desc": "新興體育及電競投注平台"
-        },
-        "powerball": {
-          "name": "Powerball",
-          "region": "美國",
-          "desc": "聯合彩券系統，常創上億美元頭獎"
-        },
-        "chinaSportsLottery": {
-          "name": "China Sports Lottery",
-          "region": "中國",
-          "desc": "世界最大彩票發行系統之一"
-        },
-        "maruhan": {
-          "name": "Maruhan",
-          "region": "日本",
-          "desc": "日本最大柏青哥廳連鎖"
-        },
-        "segaSammy": {
-          "name": "Sega Sammy",
-          "region": "日本",
-          "desc": "日本柏青哥機台龍頭"
-        }
-      },
-      "sources": "參考資料",
-      "slots": {
-        "marketDominance": {
-          "title": "市場主導地位",
-          "content": "老虎機是西方賭場中最主要的收入來源，美國2023年賭場老虎機收入達355.1億美元，占比顯著高於桌面遊戲。澳洲俗稱'Pokies'，擁有全球約20%的投幣機數量，人均老虎機損失為全球最高。"
-        },
-        "gameFeatures": {
-          "title": "遊戲特點",
-          "simple": "簡單易懂",
-          "simpleDesc": "以簡單拉霸玩法和多樣主題吸引大量休閒玩家",
-          "variety": "種類豐富",
-          "varietyDesc": "包含傳統實體角子機和線上視頻老虎機",
-          "themes": "主題多樣",
-          "themesDesc": "從傳統水果機到電影、動漫、歷史等各種主題"
-        },
-        "majorVendors": {
-          "title": "主要廠商",
-          "content": "Aristocrat Leisure（澳洲）是全球最大的老虎機製造商之一，其產品行銷世界各地。IGT（美國）也是拉斯維加斯機台供應的重要廠商。"
-        }
-      },
-      "poker": {
-        "gameTypes": {
-          "title": "遊戲類型多樣",
-          "content": "包含德州撲克、二十一點、百家樂等以紙牌為媒介的賭桌遊戲。在實體賭場與線上平台均流行，線上撲克平台PokerStars在2016年註冊玩家數已突破1億。"
-        },
-        "competitive": {
-          "title": "競技性特色",
-          "strategic": "策略性強",
-          "strategicDesc": "撲克具有競技性並催生職業錦標賽（如WSOP）",
-          "skillBased": "技巧要求",
-          "skillBasedDesc": "不純粹依靠運氣，策略和心理戰同樣重要",
-          "social": "社交互動",
-          "socialDesc": "線上平台強化社交功能，吸引年輕玩家"
-        },
-        "regional": {
-          "title": "地區偏好差異",
-          "content": "此類遊戲在西方市場受歡迎，亞洲市場則更偏好百家樂等簡單牌戲。世界撲克大賽等賽事舉世聞名。"
-        }
-      },
-      "live": {
-        "innovation": {
-          "title": "技術創新",
-          "content": "透過直播技術，由真人莊家主持的線上賭場遊戲，如真人輪盤、真人百家樂等。這類遊戲在亞洲線上市場特別盛行，因為玩家能透過直播感受真實賭桌氛圍，提升信任感。"
-        },
-        "marketLeader": {
-          "title": "市場領導",
-          "evolution": "Evolution Gaming",
-          "evolutionDesc": "主導此領域，據報導其2025年占全球真人娛樂場市場約45%份額",
-          "asiaPreference": "亞洲偏好",
-          "asiaPreferenceDesc": "各大線上博弈平台普遍提供真人娛樂場頻道",
-          "techRequirement": "技術要求",
-          "techRequirementDesc": "需要高品質直播技術和專業荷官"
-        },
-        "userExperience": {
-          "title": "用戶體驗",
-          "content": "真人娛樂場遊戲每日活躍玩家以數十萬計，特別在亞洲。高清直播和多角度攝影大幅提升了線上博弈的真實感。"
-        }
-      },
-      "sports": {
-        "explosiveGrowth": {
-          "title": "爆發性成長",
-          "content": "對體育賽事或電子競技比賽結果進行投注。美國在2023年合法體育投注量達1198.4億美元，產生收益109.2億美元，年增長高達44.5%。"
-        },
-        "globalMarket": {
-          "title": "全球市場",
-          "westernTradition": "歐美傳統",
-          "westernTraditionDesc": "英國有深厚體育博彩文化（足球投注、賽馬等）",
-          "asianTrend": "亞洲熱潮",
-          "asianTrendDesc": "泰國約63%成年人參與某種形式賭博，其中非法足球博彩金額估計每年達2,704億泰銖",
-          "esportsRising": "電競新興",
-          "esportsRisingDesc": "近年電子競技博彩興起，吸引年輕族群"
-        },
-        "techDevelopment": {
-          "title": "技術發展",
-          "content": "全世界約有數億人曾進行體育投注，即時投注、直播整合、AI賠率計算等技術創新讓體育博彩體驗更加豐富。"
-        }
-      },
-      "lottery": {
-        "mostPopular": {
-          "title": "最普及的博弈形式",
-          "content": "由官方或民間機構發行的彩票、對獎券，以及類似賓果遊戲。這是全球參與人數最多的博弈形式之一，每年約有42億人至少玩一次彩票。"
-        },
-        "countryPerformance": {
-          "title": "各國表現",
-          "china": "中國",
-          "chinaDesc": "2024年彩票銷售額高達人民幣6235億元（約858億美元），創歷史新高",
-          "usa": "美國",
-          "usaDesc": "45個州營運官方彩票，2021年各州從彩票中獲得收入達244億美元",
-          "thailand": "泰國",
-          "thailandDesc": "有高達2,750萬人購買政府彩票",
-          "uk": "英國",
-          "ukDesc": "每月約有45%的成年人參與某種形式的博弈（多為彩票投注）"
-        },
-        "advantages": {
-          "title": "特點優勢",
-          "content": "購買門檻低、合法且接受度高是彩票受歡迎的主要原因。數位化趨勢讓線上彩票平台興起。"
-        }
-      },
-      "local": {
-        "culturalRoots": {
-          "title": "文化根基深厚",
-          "content": "各地區特殊的傳統或流行博彩遊戲，往往具有深厚的文化背景和固定玩家群。這些遊戲反映了當地的歷史傳統和社會習俗。"
-        },
-        "majorTypes": {
-          "title": "主要類型",
-          "pachinko": "日本柏青哥",
-          "pachinkoDesc": "2022年遊戲投入總額約達14.6兆日圓，玩家約780萬人，一度超越澳門、拉斯維加斯收益總和",
-          "mahjong": "台灣麻將",
-          "mahjongDesc": "推估約有4-5百萬人經常參與，被視為技藝和運氣兼備的博弈",
-          "cockfighting": "菲律賓鬥雞",
-          "cockfightingDesc": "傳統鬥雞賭博（Sabong），觀眾與投注者達百萬級",
-          "tuiTongZi": "中國推筒子",
-          "tuiTongZiDesc": "民間的撲克牌推筒子等，在當地具有文化根基"
-        },
-        "modernDevelopment": {
-          "title": "現代發展",
-          "content": "傳統遊戲逐漸數位化，如線上麻將、模擬柏青哥等，結合現代技術同時保持文化特色。"
-        }
-      },
-      "slotsSubtitle": "全球賭場主要收入來源，澳洲人均損失最高",
-      "pokerSubtitle": "技巧與運氣並重，PokerStars用戶突破1億",
-      "liveSubtitle": "Evolution Gaming市佔45%，亞洲市場特別盛行",
-      "sportsSubtitle": "美國2023年投注額1198億美元，年增44.5%",
-      "lotterySubtitle": "全球42億人參與，中國2024年銷售額達6235億人民幣",
-      "localSubtitle": "日本柏青哥14.6兆日圓，台灣麻將400萬玩家",
-      "stats": {
-        "usRevenue": "美國年收入",
-        "australiaMachines": "澳洲機台數",
-        "globalPlayers": "全球玩家數",
-        "usRevenueValue": "$355億",
-        "australiaMachinesValue": "20萬台",
-        "globalPlayersValue": "數千萬",
-        "pokerStarsUsers": "PokerStars用戶",
-        "usParticipants": "美國參與者",
-        "globalTournaments": "全球錦標賽",
-        "pokerStarsUsersValue": "1億+",
-        "usParticipantsValue": "數千萬",
-        "globalTournamentsValue": "WSOP等",
-        "evolutionMarket": "Evolution市佔率",
-        "mainMarket": "主要市場",
-        "dailyUsers": "日活用戶",
-        "evolutionMarketValue": "45%",
-        "mainMarketValue": "亞洲",
-        "dailyUsersValue": "數十萬",
-        "usWagering": "美國投注額",
-        "usRevenueSports": "美國年收益",
-        "growthRate": "年增長率",
-        "usWageringValue": "$1198億",
-        "usRevenueSportsValue": "$109億",
-        "growthRateValue": "+44.5%",
-        "globalParticipants": "全球參與者",
-        "chinaSales": "中國銷售額",
-        "usStateRevenue": "美國州政府收入",
-        "globalParticipantsValue": "42億人",
-        "chinaSalesValue": "¥6235億",
-        "usStateRevenueValue": "$244億",
-        "pachinkoWagering": "日本柏青哥投注",
-        "pachinkoPlayers": "柏青哥玩家數",
-        "taiwanMahjong": "台灣麻將玩家",
-        "pachinkoWageringValue": "¥14.6兆",
-        "pachinkoPlayersValue": "780萬",
-        "taiwanMahjongValue": "400萬+"
-      }
-    },
-    "revenueStats": {
-      "slotsUS": "美國老虎機年收入",
-      "sportsUS": "美國體育博彩年收入",
-      "liveMarket": "真人娛樂場市佔率",
-      "pachinkoJP": "日本柏青哥年收入",
-      "lotteryChina": "中國彩票年收入",
-      "lotteryPlayers": "全球彩票參與者",
-      "pokerPlayers": "線上撲克玩家",
-      "slotsRevenue": "355億",
-      "slotsType": "淨收入",
-      "sportsRevenue": "109億",
-      "sportsType": "淨收入",
-      "lotteryRevenue": "858億",
-      "lotteryType": "銷售額",
-      "pachinkoRevenue": "1460億",
-      "pachinkoType": "投注總額",
-      "liveMarketShare": "45%",
-      "liveType": "市佔率",
-      "pokerUsers": "1億+",
-      "pokerRevenue": "103億",
-      "pokerType": "淨收入",
-      "pokerGlobal": "全球撲克年收入",
-      "year2023": "2023年數據",
-      "year2024": "2024年數據",
-      "year2022": "2022年數據",
-      "growth44": "年增44.5%",
-      "liveRevenue": "45億",
-      "liveGlobal": "全球真人娛樂場年收入",
-      "globalMarket": "1100億",
-      "totalMarketSize": "全球博彩市場規模",
-      "globalMarketType": "淨收入",
-      "onlinePenetration": "26%",
-      "onlineGambling": "線上博彩滲透率",
-      "onlinePenetrationType": "全球平均",
-      "mobileShare": "65%",
-      "mobileGambling": "移動端博彩比例",
-      "mobileShareType": "2023年"
-    },
-    "business": {
-      "title": "商務合作",
-      "subtitle": "專業博弈解決方案與合作機會",
-      "description": "我們提供全面的博弈解決方案，包括平台開發、遊戲整合、支付系統和監管合規。與我們合作，加速您的市場進入並實現可持續增長。",
-      "services": {
-        "title": "我們的服務",
-        "platform": "平台開發",
-        "platformDesc": "具有先進功能和可擴展性的客製化博弈平台",
-        "games": "遊戲整合",
-        "gamesDesc": "熱門賭場遊戲和體育博彩的無縫整合",
-        "payment": "支付解決方案",
-        "paymentDesc": "具有全球合規性的多幣種支付網關",
-        "compliance": "監管合規",
-        "complianceDesc": "許可證和監管要求的專家指導"
-      },
-      "contact": {
-        "title": "聯繫我們",
-        "phone": "+1 (555) 123-4567",
-        "description": "準備討論您的專案？聯繫我們的業務發展團隊進行個性化諮詢。"
-      }
-    },
-    "tech": {
-      "title": "技術架構與職能需求",
-      "subtitle": "博弈產業技術角色與技能需求的全面分析",
-      "overview": {
-        "title": "技術架構與開發流程概觀",
-        "description": "現代博弈平台通常採用客戶端－伺服器架構。前端客戶端與後端伺服器通訊，以實現即時遊戲體驗與安全交易。遊戲開發引擎在架構中扮演核心角色，用於構建豐富的遊戲內容與介面。",
-        "architecture": "典型線上博弈平台的技術架構",
-        "components": "包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等模組",
-        "architectureDesc": "現代博弈平台通常採用客戶端－伺服器架構，包括前端UI、遊戲引擎、API整合、支付網關、安全層與資料庫等核心模組。",
-        "componentsDesc": "平台架構設計注重可擴展性、安全性和效能，確保在高併發環境下穩定運行，同時滿足各地區的法規要求。"
-      },
-      "roles": {
-        "director": {
-          "title": "總監／技術主管",
-          "subtitle": "專案管理與系統架構設計",
-          "icon": "👨‍💼",
-          "headerBg": "bg-purple-600",
-          "stats": [
-            {
-              "label": "專案管理",
-              "value": "高",
-              "valueClass": "text-purple-400"
-            },
-            {
-              "label": "跨團隊協調",
-              "value": "關鍵",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "系統架構",
-              "value": "專家",
-              "valueClass": "text-green-400"
-            }
-          ],
-          "skills": "專案管理、跨部門協調、系統架構設計、高階決策能力",
-          "tools": "專案管理軟體（如JIRA、Trello）、原型與設計文件、架構圖工具（如Visio）、版本控制系統",
-          "challenges": "在嚴格時程內交付高品質產品；需管理高併發平台架構的設計，確保系統安全性與可擴展性",
-          "description": "總監或技術主管是研發團隊的領導者，負責制定項目路線圖並監督各環節執行。以線上賭場平台為例，技術主管需設計一套可擴充的系統架構，包括前端客戶端、遊戲伺服器、資料庫和第三方服務整合。"
-        },
-        "product": {
-          "title": "產品企劃/遊戲策劃",
-          "subtitle": "遊戲設計理論與用戶體驗規劃",
-          "icon": "🎮",
-          "headerBg": "bg-blue-600",
-          "stats": [
-            {
-              "label": "遊戲設計",
-              "value": "專家",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "用戶體驗",
-              "value": "高",
-              "valueClass": "text-green-400"
-            },
-            {
-              "label": "數據分析",
-              "value": "中等",
-              "valueClass": "text-yellow-400"
-            }
-          ],
-          "skills": "遊戲設計理論、用戶體驗規劃、數據分析基礎、熟悉博弈類遊戲機制",
-          "tools": "文檔撰寫與流程圖工具（Office套件、流程圖軟體）、原型製作工具、簡報工具",
-          "challenges": "創新玩法設計與數值平衡難度大，需要同時滿足玩家娛樂性與公司收益",
-          "description": "產品企劃（又稱遊戲策劃）在博弈開發中負責制定遊戲的核心玩法和功能需求，類似專案的藍圖繪製者。他們首先研擬遊戲類型和題材，接著企劃會規劃具體的遊戲機制和數值參數。"
-        },
-        "frontend": {
-          "title": "前端工程師",
-          "subtitle": "Web前端開發與跨平台開發",
-          "icon": "💻",
-          "headerBg": "bg-green-600",
-          "stats": [
-            {
-              "label": "Web開發",
-              "value": "專家",
-              "valueClass": "text-green-400"
-            },
-            {
-              "label": "跨平台",
-              "value": "高",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "動畫特效",
-              "value": "中等",
-              "valueClass": "text-yellow-400"
-            }
-          ],
-          "skills": "Web前端開發（HTML5/CSS3/JavaScript/TypeScript）或跨平台開發，精通響應式設計與跨裝置適配",
-          "tools": "現代前端框架（React、Vue.js等）或遊戲引擎編輯器，瀏覽器調試工具，版本控管Git",
-          "challenges": "必須確保遊戲在不同平台與裝置上都運行流暢且介面一致",
-          "description": "前端工程師負責構建玩家直接互動的界面與客戶端邏輯。在博弈遊戲中，這包括遊戲大廳的列表介面、押注介面、遊戲動畫效果等。"
-        },
-        "backend": {
-          "title": "後端工程師",
-          "subtitle": "伺服器端程式開發與高併發系統",
-          "icon": "⚙️",
-          "headerBg": "bg-red-600",
-          "stats": [
-            {
-              "label": "伺服器開發",
-              "value": "專家",
-              "valueClass": "text-red-400"
-            },
-            {
-              "label": "資料庫設計",
-              "value": "高",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "高併發",
-              "value": "關鍵",
-              "valueClass": "text-purple-400"
-            }
-          ],
-          "skills": "伺服器端程式開發、資料庫設計與優化、網路協議和高併發系統開發經驗",
-          "tools": "伺服器框架（如Spring、ASP.NET Core、Express等）、關聯式資料庫（MySQL、PostgreSQL）或NoSQL（Redis、MongoDB）",
-          "challenges": "高併發與低延遲：同時處理大量玩家請求並即時返回結果",
-          "description": "後端工程師在博弈技術團隊中至關重要，承擔整個遊戲平臺的邏輯與數據處理。他們的職責包括設計實作遊戲伺服器邏輯、建立並維護玩家帳戶系統和錢包系統。"
-        },
-        "mathematics": {
-          "title": "數值策劃/數學設計",
-          "subtitle": "概率統計與數學模型",
-          "icon": "📊",
-          "headerBg": "bg-yellow-600",
-          "stats": [
-            {
-              "label": "概率理論",
-              "value": "專家",
-              "valueClass": "text-yellow-400"
-            },
-            {
-              "label": "數學模型",
-              "value": "高",
-              "valueClass": "text-green-400"
-            },
-            {
-              "label": "統計分析",
-              "value": "關鍵",
-              "valueClass": "text-blue-400"
-            }
-          ],
-          "skills": "概率統計知識紮實，精通博弈遊戲的數學模型",
-          "tools": "Excel電子資料表、專業數學軟體或自製模擬器、隨機數生成庫",
-          "challenges": "平衡娛樂性與盈利：設計出讓玩家有足夠中獎快感又能確保長期莊家優勢的數字模型",
-          "description": "數值策劃（有時稱為數學設計）專注於遊戲背後的數學核心。在博彩遊戲中，幾乎每個遊戲都隱含一套數學機率模型。"
-        },
-        "art": {
-          "title": "美術設計",
-          "subtitle": "視覺設計與UI/UX",
-          "icon": "🎨",
-          "headerBg": "bg-pink-600",
-          "stats": [
-            {
-              "label": "視覺設計",
-              "value": "專家",
-              "valueClass": "text-pink-400"
-            },
-            {
-              "label": "UI/UX設計",
-              "value": "高",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "動畫",
-              "value": "中等",
-              "valueClass": "text-green-400"
-            }
-          ],
-          "skills": "美術基礎紮實（素描、色彩、構圖），熟練使用數位繪圖與3D軟體",
-          "tools": "2D繪圖軟體、3D建模與渲染工具、動畫製作軟體、版本控制美術資源的系統",
-          "challenges": "高產能需求：博弈平台經常上架新遊戲，要求美術短時間內產出大量高品質素材",
-          "description": "美術設計師為博弈產品提供視覺靈魂。線上賭場遊戲往往競爭激烈，華麗精緻的畫面是吸引玩家的重要因素之一。"
-        },
-        "audio": {
-          "title": "音樂音效設計",
-          "subtitle": "音頻製作與音效設計",
-          "icon": "🎵",
-          "headerBg": "bg-indigo-600",
-          "stats": [
-            {
-              "label": "音樂作曲",
-              "value": "專家",
-              "valueClass": "text-indigo-400"
-            },
-            {
-              "label": "音效設計",
-              "value": "高",
-              "valueClass": "text-blue-400"
-            },
-            {
-              "label": "音頻編輯",
-              "value": "中等",
-              "valueClass": "text-green-400"
-            }
-          ],
-          "skills": "作曲與編曲能力，熟悉各類音樂風格，精通音頻編輯軟體和數位音效合成",
-          "tools": "數位音樂工作站（DAW）、音頻處理器、合成器VST插件、取樣庫和錄音設備",
-          "challenges": "多樣風格與版權問題：博弈遊戲題材多變，每款遊戲都需要獨特的背景音樂與音效",
-          "description": "音樂音效設計師負責為遊戲打造聽覺體驗。在博弈遊戲中，聲音的作用一方面是提升娛樂性，另一方面也作為介面反饋。"
-        }
-      },
-      "bottlenecks": {
-        "title": "產業現狀技術瓶頸",
-        "description": "博弈產業在無AI參與時主要技術挑戰",
-        "items": [
+    "roles": {
+      "director": {
+        "title": "總監／技術主管",
+        "subtitle": "專案管理與系統架構設計",
+        "icon": "👨‍💼",
+        "headerBg": "bg-purple-600",
+        "stats": [
           {
-            "title": "高併發用戶的伺服器穩定性",
-            "description": "需確保支付系統在高流量時依然迅速可靠"
+            "label": "專案管理",
+            "value": "高",
+            "valueClass": "text-purple-400"
           },
           {
-            "title": "金融交易的安全性與速度",
-            "description": "後端必須建立反作弊和隨機公平性驗證（透過第三方機構對隨機數產生器進行公平性認證）"
+            "label": "跨團隊協調",
+            "value": "關鍵",
+            "valueClass": "text-blue-400"
           },
           {
-            "title": "不同地區法規要求差異",
-            "description": "也對技術架構提出合規挑戰（如RTP需在法定範圍內）"
-          },
-          {
-            "title": "遊戲內容創新的時效性",
-            "description": "頻繁的新遊戲和活動更新，要求美術團隊容易工作量爆炸"
+            "label": "系統架構",
+            "value": "專家",
+            "valueClass": "text-green-400"
           }
-        ]
+        ],
+        "skills": "專案管理、跨部門協調、系統架構設計、高階決策能力",
+        "tools": "專案管理軟體（如JIRA、Trello）、原型與設計文件、架構圖工具（如Visio）、版本控制系統",
+        "challenges": "在嚴格時程內交付高品質產品；需管理高併發平台架構的設計，確保系統安全性與可擴展性",
+        "description": "總監或技術主管是研發團隊的領導者，負責制定項目路線圖並監督各環節執行。以線上賭場平台為例，技術主管需設計一套可擴充的系統架構，包括前端客戶端、遊戲伺服器、資料庫和第三方服務整合。"
       },
-      "development": {
-        "title": "開發流程",
-        "description": "典型博弈開發流程與技術架構",
-        "stages": [
+      "product": {
+        "title": "產品企劃/遊戲策劃",
+        "subtitle": "遊戲設計理論與用戶體驗規劃",
+        "icon": "🎮",
+        "headerBg": "bg-blue-600",
+        "stats": [
           {
-            "title": "產品企劃",
-            "description": "產品企劃先制定遊戲規格與功能需求"
+            "label": "遊戲設計",
+            "value": "專家",
+            "valueClass": "text-blue-400"
           },
           {
-            "title": "遊戲設計",
-            "description": "遊戲設計/數值策劃會定義遊戲規則、機率和獎勵結構"
+            "label": "用戶體驗",
+            "value": "高",
+            "valueClass": "text-green-400"
           },
           {
-            "title": "前端開發",
-            "description": "前端工程師利用設計資源開始構建使用者介面和客戶端邏輯"
-          },
-          {
-            "title": "後端開發",
-            "description": "同步後端工程師搭建伺服器架構、資料庫和遊戲伺服邏輯"
-          },
-          {
-            "title": "美術音效",
-            "description": "美術設計與音效設計人員持續產出遊戲所需的圖像素材和聲音素材並整合進引擎"
-          },
-          {
-            "title": "測試部署",
-            "description": "整個團隊通常採用迭代式開發，經過多輪測試與調整後，最終部署上線"
+            "label": "數據分析",
+            "value": "中等",
+            "valueClass": "text-yellow-400"
           }
-        ]
+        ],
+        "skills": "遊戲設計理論、用戶體驗規劃、數據分析基礎、熟悉博弈類遊戲機制",
+        "tools": "文檔撰寫與流程圖工具（Office套件、流程圖軟體）、原型製作工具、簡報工具",
+        "challenges": "創新玩法設計與數值平衡難度大，需要同時滿足玩家娛樂性與公司收益",
+        "description": "產品企劃（又稱遊戲策劃）在博弈開發中負責制定遊戲的核心玩法和功能需求，類似專案的藍圖繪製者。他們首先研擬遊戲類型和題材，接著企劃會規劃具體的遊戲機制和數值參數。"
       },
-      "sections": {
-        "overview": "概觀",
-        "roles": "技術職能",
-        "bottlenecks": "技術瓶頸",
-        "development": "開發流程",
-        "business": "商務合作"
+      "frontend": {
+        "title": "前端工程師",
+        "subtitle": "Web前端開發與跨平台開發",
+        "icon": "💻",
+        "headerBg": "bg-green-600",
+        "stats": [
+          {
+            "label": "Web開發",
+            "value": "專家",
+            "valueClass": "text-green-400"
+          },
+          {
+            "label": "跨平台",
+            "value": "高",
+            "valueClass": "text-blue-400"
+          },
+          {
+            "label": "動畫特效",
+            "value": "中等",
+            "valueClass": "text-yellow-400"
+          }
+        ],
+        "skills": "Web前端開發（HTML5/CSS3/JavaScript/TypeScript）或跨平台開發，精通響應式設計與跨裝置適配",
+        "tools": "現代前端框架（React、Vue.js等）或遊戲引擎編輯器，瀏覽器調試工具，版本控管Git",
+        "challenges": "必須確保遊戲在不同平台與裝置上都運行流暢且介面一致",
+        "description": "前端工程師負責構建玩家直接互動的界面與客戶端邏輯。在博弈遊戲中，這包括遊戲大廳的列表介面、押注介面、遊戲動畫效果等。"
       },
-      "labels": {
-        "mainSkills": "主要技能",
-        "commonTools": "常用工具",
-        "challenges": "面臨挑戰",
-        "jobDescription": "職能說明",
-        "references": "參考資料："
+      "backend": {
+        "title": "後端工程師",
+        "subtitle": "伺服器端程式開發與高併發系統",
+        "icon": "⚙️",
+        "headerBg": "bg-red-600",
+        "stats": [
+          {
+            "label": "伺服器開發",
+            "value": "專家",
+            "valueClass": "text-red-400"
+          },
+          {
+            "label": "資料庫設計",
+            "value": "高",
+            "valueClass": "text-blue-400"
+          },
+          {
+            "label": "高併發",
+            "value": "關鍵",
+            "valueClass": "text-purple-400"
+          }
+        ],
+        "skills": "伺服器端程式開發、資料庫設計與優化、網路協議和高併發系統開發經驗",
+        "tools": "伺服器框架（如Spring、ASP.NET Core、Express等）、關聯式資料庫（MySQL、PostgreSQL）或NoSQL（Redis、MongoDB）",
+        "challenges": "高併發與低延遲：同時處理大量玩家請求並即時返回結果",
+        "description": "後端工程師在博弈技術團隊中至關重要，承擔整個遊戲平臺的邏輯與數據處理。他們的職責包括設計實作遊戲伺服器邏輯、建立並維護玩家帳戶系統和錢包系統。"
+      },
+      "mathematics": {
+        "title": "數值策劃/數學設計",
+        "subtitle": "概率統計與數學模型",
+        "icon": "📊",
+        "headerBg": "bg-yellow-600",
+        "stats": [
+          {
+            "label": "概率理論",
+            "value": "專家",
+            "valueClass": "text-yellow-400"
+          },
+          {
+            "label": "數學模型",
+            "value": "高",
+            "valueClass": "text-green-400"
+          },
+          {
+            "label": "統計分析",
+            "value": "關鍵",
+            "valueClass": "text-blue-400"
+          }
+        ],
+        "skills": "概率統計知識紮實，精通博弈遊戲的數學模型",
+        "tools": "Excel電子資料表、專業數學軟體或自製模擬器、隨機數生成庫",
+        "challenges": "平衡娛樂性與盈利：設計出讓玩家有足夠中獎快感又能確保長期莊家優勢的數字模型",
+        "description": "數值策劃（有時稱為數學設計）專注於遊戲背後的數學核心。在博彩遊戲中，幾乎每個遊戲都隱含一套數學機率模型。"
+      },
+      "art": {
+        "title": "美術設計",
+        "subtitle": "視覺設計與UI/UX",
+        "icon": "🎨",
+        "headerBg": "bg-pink-600",
+        "stats": [
+          {
+            "label": "視覺設計",
+            "value": "專家",
+            "valueClass": "text-pink-400"
+          },
+          {
+            "label": "UI/UX設計",
+            "value": "高",
+            "valueClass": "text-blue-400"
+          },
+          {
+            "label": "動畫",
+            "value": "中等",
+            "valueClass": "text-green-400"
+          }
+        ],
+        "skills": "美術基礎紮實（素描、色彩、構圖），熟練使用數位繪圖與3D軟體",
+        "tools": "2D繪圖軟體、3D建模與渲染工具、動畫製作軟體、版本控制美術資源的系統",
+        "challenges": "高產能需求：博弈平台經常上架新遊戲，要求美術短時間內產出大量高品質素材",
+        "description": "美術設計師為博弈產品提供視覺靈魂。線上賭場遊戲往往競爭激烈，華麗精緻的畫面是吸引玩家的重要因素之一。"
+      },
+      "audio": {
+        "title": "音樂音效設計",
+        "subtitle": "音頻製作與音效設計",
+        "icon": "🎵",
+        "headerBg": "bg-indigo-600",
+        "stats": [
+          {
+            "label": "音樂作曲",
+            "value": "專家",
+            "valueClass": "text-indigo-400"
+          },
+          {
+            "label": "音效設計",
+            "value": "高",
+            "valueClass": "text-blue-400"
+          },
+          {
+            "label": "音頻編輯",
+            "value": "中等",
+            "valueClass": "text-green-400"
+          }
+        ],
+        "skills": "作曲與編曲能力，熟悉各類音樂風格，精通音頻編輯軟體和數位音效合成",
+        "tools": "數位音樂工作站（DAW）、音頻處理器、合成器VST插件、取樣庫和錄音設備",
+        "challenges": "多樣風格與版權問題：博弈遊戲題材多變，每款遊戲都需要獨特的背景音樂與音效",
+        "description": "音樂音效設計師負責為遊戲打造聽覺體驗。在博弈遊戲中，聲音的作用一方面是提升娛樂性，另一方面也作為介面反饋。"
       }
+    },
+    "bottlenecks": {
+      "title": "產業現狀技術瓶頸",
+      "description": "博弈產業在無AI參與時主要技術挑戰",
+      "items": [
+        {
+          "title": "高併發用戶的伺服器穩定性",
+          "description": "需確保支付系統在高流量時依然迅速可靠"
+        },
+        {
+          "title": "金融交易的安全性與速度",
+          "description": "後端必須建立反作弊和隨機公平性驗證（透過第三方機構對隨機數產生器進行公平性認證）"
+        },
+        {
+          "title": "不同地區法規要求差異",
+          "description": "也對技術架構提出合規挑戰（如RTP需在法定範圍內）"
+        },
+        {
+          "title": "遊戲內容創新的時效性",
+          "description": "頻繁的新遊戲和活動更新，要求美術團隊容易工作量爆炸"
+        }
+      ]
+    },
+    "development": {
+      "title": "開發流程",
+      "description": "典型博弈開發流程與技術架構",
+      "stages": [
+        {
+          "title": "產品企劃",
+          "description": "產品企劃先制定遊戲規格與功能需求"
+        },
+        {
+          "title": "遊戲設計",
+          "description": "遊戲設計/數值策劃會定義遊戲規則、機率和獎勵結構"
+        },
+        {
+          "title": "前端開發",
+          "description": "前端工程師利用設計資源開始構建使用者介面和客戶端邏輯"
+        },
+        {
+          "title": "後端開發",
+          "description": "同步後端工程師搭建伺服器架構、資料庫和遊戲伺服邏輯"
+        },
+        {
+          "title": "美術音效",
+          "description": "美術設計與音效設計人員持續產出遊戲所需的圖像素材和聲音素材並整合進引擎"
+        },
+        {
+          "title": "測試部署",
+          "description": "整個團隊通常採用迭代式開發，經過多輪測試與調整後，最終部署上線"
+        }
+      ]
+    },
+    "sections": {
+      "overview": "概觀",
+      "roles": "技術職能",
+      "bottlenecks": "技術瓶頸",
+      "development": "開發流程",
+      "business": "商務合作"
+    },
+    "labels": {
+      "mainSkills": "主要技能",
+      "commonTools": "常用工具",
+      "challenges": "面臨挑戰",
+      "jobDescription": "職能說明",
+      "references": "參考資料："
     }
   }
 }
