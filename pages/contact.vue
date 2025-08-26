@@ -7,7 +7,7 @@ const { t } = useI18n()
 useHead({
   title: t('contact.pageTitle'),
   meta: [
-    { name: 'description', content: t('contact.pageDescription') },
+    { name: 'description', content: t('contact.pageTitle') },
     { property: 'og:title', content: t('contact.pageTitle') },
   ]
 })
@@ -199,6 +199,15 @@ useHead({
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- 商務合作 -->
+      <div class="mt-12">
+        <div class="text-center mb-8">
+          <h2 class="text-2xl font-bold text-white mb-2">{{ t('contact.businessCooperation.title') }}</h2>
+          <p class="text-gray-300">{{ t('contact.businessCooperation.subtitle') }}</p>
+        </div>
+        <BusinessCooperation />
       </div>
     </div>
   </div>
