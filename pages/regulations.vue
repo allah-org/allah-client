@@ -742,9 +742,9 @@ const thailandSources = [
 
 // 越南特色和參考資料
 const vietnamFeatures = [
-  { key: 'strictBan', description: '嚴格禁止，除官方彩票外所有賭博活動均屬違法' },
-  { key: 'onlineCrackdown', description: '嚴厲打擊線上賭博，加強網路監控和執法' },
-  { key: 'borderGambling', description: '邊境地區存在地下賭場，執法難度較大' }
+  { key: 'pilotProgram', description: '試點計畫' },
+  { key: 'foreignOnly', description: '僅限外國人' },
+  { key: 'gradualExpansion', description: '逐步擴張' }
 ]
 
 const vietnamSources = [
@@ -755,9 +755,9 @@ const vietnamSources = [
 
 // 菲律賓特色和參考資料
 const philippinesFeatures = [
-  { key: 'regulatedMarket', description: '監管市場，PAGCOR 管理所有合法賭博活動' },
-  { key: 'onlineGaming', description: '線上博弈合法化，吸引國際運營商進駐' },
-  { key: 'economicContribution', description: '賭博業對經濟貢獻顯著，創造就業和稅收' }
+  { key: 'diversifiedMarket', description: '多元化市場' },
+  { key: 'dualRole', description: '雙重角色' },
+  { key: 'policyShift', description: '政策轉向' }
 ]
 
 const philippinesSources = [
@@ -787,9 +787,9 @@ const bmmSources = [
 
 // 中國特色和參考資料
 const chinaFeatures = [
-  { key: 'strictProhibition', description: '嚴格禁止，除官方彩票外所有賭博活動均屬違法' },
-  { key: 'onlineCrackdown', description: '嚴厲打擊線上賭博，加強網路監控和執法力度' },
-  { key: 'crossBorderEnforcement', description: '跨境執法合作，打擊境外賭博網站' }
+  { key: 'zeroTolerance', description: '零容忍政策' },
+  { key: 'crossBorderCrackdown', description: '跨境打擊' },
+  { key: 'lotteryOnly', description: '僅限彩票' }
 ]
 
 const chinaSources = [
@@ -800,9 +800,9 @@ const chinaSources = [
 
 // 澳門特色和參考資料
 const macauFeatures = [
-  { key: 'gamingCapital', description: '亞洲博弈之都，世界最大博弈中心之一' },
-  { key: 'regulatedIndustry', description: '高度監管產業，DICJ 嚴格管理所有博弈活動' },
-  { key: 'economicPillar', description: '經濟支柱產業，貢獻大量稅收和就業機會' }
+  { key: 'concessionSystem', description: '特許經營制度' },
+  { key: 'newGamingLaw', description: '新博彩法' },
+  { key: 'diversification', description: '多元化轉型' }
 ]
 
 const macauSources = [
@@ -813,9 +813,9 @@ const macauSources = [
 
 // 台灣特色和參考資料
 const taiwanFeatures = [
-  { key: 'limitedLegalization', description: '有限合法化，僅允許官方彩票和公益彩券' },
-  { key: 'strictEnforcement', description: '嚴格執法，打擊非法賭博和地下賭場' },
-  { key: 'onlineRestrictions', description: '線上賭博限制，加強網路監控和執法' }
+  { key: 'lotteryOnly', description: '僅限彩票' },
+  { key: 'noCasinos', description: '無合法賭場' },
+  { key: 'policyStagnation', description: '政策停滯' }
 ]
 
 const taiwanSources = [
@@ -826,9 +826,9 @@ const taiwanSources = [
 
 // 澳洲特色和參考資料
 const australiaFeatures = [
-  { key: 'regulatedMarket', description: '監管市場，各州獨立管理博弈活動' },
-  { key: 'responsibleGaming', description: '負責任博弈，強調玩家保護和問題賭博預防' },
-  { key: 'onlineRegulation', description: '線上博弈監管，Interactive Gambling Act 2001' }
+  { key: 'stateRegulation', description: '州級監管' },
+  { key: 'responsibleGaming', description: '負責任博弈' },
+  { key: 'strictAdvertising', description: '嚴格廣告限制' }
 ]
 
 const australiaSources = [
