@@ -109,12 +109,6 @@ useHead({
                 </div>
               </div>
               
-              <div class="bg-red-900/20 border border-red-700 rounded-lg p-3">
-                <p class="text-red-300 text-sm">
-                  <strong>{{ t('contact.services.freePeriod') }}</strong>
-                </p>
-              </div>
-              
               <a
                 :href="`mailto:${CONTACT_EMAIL}?subject=${t('contact.services.serviceInquiry')}`"
                 class="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors"
