@@ -269,7 +269,7 @@ const detailedRegions = computed(() => [
     id: 'taiwan',
     title: t('regions.taiwan.title'),
     subtitle: t('regions.taiwan.subtitle'),
-    icon: '🇹🇼',
+    icon: 'TW',
     headerBg: 'bg-blue-700',
     stats: [
       { label: t('regionStats.taiwan.stats.sportsLottery'), value: 'NT$' + t('regionStats.taiwan.sportsLottery'), valueClass: 'text-blue-400' },

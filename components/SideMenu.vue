@@ -20,9 +20,9 @@ const menuItems = computed(() => [
 ])
 
 const languages = [
-  { code: 'zh-TW', name: '繁體中文', flag: '🇹🇼' },
-  { code: 'zh-CN', name: '简体中文', flag: '🇨🇳' },
-  { code: 'en', name: 'English', flag: '🇺🇸' }
+  { code: 'zh-TW', name: '繁體中文', flag: 'TW' },
+  { code: 'zh-CN', name: '简体中文', flag: 'CN' },
+  { code: 'en', name: 'English', flag: 'US' }
 ]
 
 const switchLanguage = async (langCode) => {
