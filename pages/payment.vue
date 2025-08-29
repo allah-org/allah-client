@@ -299,10 +299,10 @@
 const { t, locale } = useI18n()
 
 useHead({
-  title: 'BTT 菠菜天眼通 - 金流管道',
+  title: 'EYE 菠菜天眼通 - 金流管道',
   meta: [
     { name: 'description', content: '全球博弈產業金流與支付系統分析報告' },
-    { property: 'og:title', content: 'BTT 菠菜天眼通 - 金流管道' },
+    { property: 'og:title', content: 'EYE 菠菜天眼通 - 金流管道' },
   ]
 })
 

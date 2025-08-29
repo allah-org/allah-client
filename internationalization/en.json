@@ -100,7 +100,7 @@
   "dataSources": "Data Sources:",
   "quickLinks": {
     "title": "Business Cooperation",
-    "spreadsheet": "BTT Gambling Eye Spreadsheet",
+    "spreadsheet": "Eye Gambling Spreadsheet",
     "spreadsheetDesc": "View industry reviews",
     "contact": "Contact Admin", 
     "contactDesc": "Business cooperation",
@@ -313,13 +313,13 @@
     "contact": "Contact"
   },
   "contact": {
-    "pageTitle": "BTT Gaming Trends Eye - Contact Us",
-    "pageDescription": "BTT Gaming Trends Eye customer service support, professional service consultation.",
+    "pageTitle": "Eye Gaming Trends - Contact Us",
+    "pageDescription": "Eye Gaming Trends customer service support, professional service consultation.",
     "title": "Contact Us",
     "subtitle": "Professional service team provides comprehensive support",
     "mainContact": {
       "title": "Main Contact",
-      "companyName": "BTT Gaming Trends Eye",
+      "companyName": "Eye Gaming Trends",
       "platformDescription": "Professional Information Integration Platform",
       "disclaimer": "The information provided on this website is for reference only. Users should verify the authenticity and accuracy of relevant information themselves. If investment decisions are made based on this information, this website does not assume any investment risks or responsibilities.",
       "sendEmail": "Send Email"
@@ -1106,7 +1106,7 @@
   "payment": {
     "title": "Payment Channels",
     "subtitle": "Global Gaming Industry Payment and Payment System Analysis Report",
-    "pageTitle": "BTT Gaming Eye - Payment Channels",
+    "pageTitle": "Eye Gaming - Payment Channels",
     "pageDescription": "Global gaming industry payment and payment system analysis report",
     "overview": {
       "title": "Payment System Overview",

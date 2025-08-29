@@ -3,10 +3,10 @@
 const { t, locale } = useI18n()
 
 useHead({
-  title: 'BTT 菠菜天眼通 - 技術規格',
+  title: 'EYE 菠菜天眼通 - 技術規格',
   meta: [
     { name: 'description', content: '博弈產業技術架構與職能需求分析' },
-    { property: 'og:title', content: 'BTT 菠菜天眼通 - 技術規格' },
+    { property: 'og:title', content: 'EYE 菠菜天眼通 - 技術規格' },
   ]
 })
 

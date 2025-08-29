@@ -309,13 +309,13 @@
     "contact": "联系我们"
   },
   "contact": {
-    "pageTitle": "BTT 菠菜天眼通 - 联系我们",
-    "pageDescription": "BTT 菠菜天眼通客服支持，专业服务咨询。",
+    "pageTitle": "EYE 菠菜天眼通 - 联系我们",
+    "pageDescription": "EYE 菠菜天眼通客服支持，专业服务咨询。",
     "title": "联系我们",
     "subtitle": "专业服务团队为您提供全方位支持",
     "mainContact": {
       "title": "主要联系",
-      "companyName": "BTT 菠菜天眼通",
+      "companyName": "EYE 菠菜天眼通",
       "platformDescription": "专业信息整合平台",
       "disclaimer": "本网站提供的信息仅供参考，使用者应自行查证相关信息真实性与准确性。若依此信息进行投资决策，本网站不承担任何投资风险与责任。",
       "sendEmail": "发送邮件"
@@ -1095,7 +1095,7 @@
   "payment": {
     "title": "金流管道",
     "subtitle": "全球博弈产业金流与支付系统分析报告",
-    "pageTitle": "BTT 菠菜天眼通 - 金流管道",
+    "pageTitle": "EYE 菠菜天眼通 - 金流管道",
     "pageDescription": "全球博弈产业金流与支付系统分析报告",
     "overview": {
       "title": "支付系统概览",

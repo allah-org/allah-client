@@ -3,10 +3,10 @@
 const { t, locale } = useI18n()
 
 useHead({
-  title: 'BTT 菠菜天眼通 - 遊戲趨勢',
+  title: 'EYE 菠菜天眼通 - 遊戲趨勢',
   meta: [
     { name: 'description', content: '全球博弈遊戲類型趨勢分析與市場動態' },
-    { property: 'og:title', content: 'BTT 菠菜天眼通 - 遊戲趨勢' },
+    { property: 'og:title', content: 'EYE 菠菜天眼通 - 遊戲趨勢' },
   ]
 })
 

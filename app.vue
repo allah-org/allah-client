@@ -6,18 +6,18 @@ useHead({
     lang: 'zh-TW',
   },
   charset: 'utf-8',
-  title: 'BTT 菠菜天眼通 - 天眼通',
+  title: 'EYE 菠菜天眼通 - 天眼通',
   meta: [
-    {name: 'description', content: 'BTT 菠菜天眼通提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。'},
-    {name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,BTT,菠菜天眼通'},
-    {name: 'author', content: 'BTT Team'},
+    {name: 'description', content: 'EYE 菠菜天眼通提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。'},
+    {name: 'keywords', content: '菠菜,天眼通,商務刊登,人才招募,資訊整合,EYE,菠菜天眼通'},
+    {name: 'author', content: 'EYE Team'},
     {name: 'robots', content: 'index, follow'},
     {name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no'},
-    {property: 'og:title', content: '天眼通 - BTT 菠菜天眼通'},
+    {property: 'og:title', content: '天眼通 - EYE 菠菜天眼通'},
     {property: 'og:description', content: '提供專業的菠菜資訊整合服務，包含商務刊登、人才招募、資料整合等功能。'},
     {property: 'og:type', content: 'website'},
-    {property: 'og:url', content: 'https://btt.zeusoftech.com'},
-    {property: 'og:site_name', content: 'BTT 菠菜天眼通'},
+    {property: 'og:url', content: 'https://eye.zeusoftech.com'},
+    {property: 'og:site_name', content: 'EYE 菠菜天眼通'},
   ],
   link: [
     {
@@ -32,7 +32,7 @@ useHead({
     },
     {
       rel: 'canonical',
-      href: 'https://btt.zeusoftech.com',
+      href: 'https://eye.zeusoftech.com',
     },
   ],
   script: [
@@ -41,9 +41,9 @@ useHead({
       children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "BTT 菠菜天眼通",
+        "name": "EYE 菠菜天眼通",
         "description": "專業的菠菜資訊整合平台",
-        "url": "https://btt.zeusoftech.com",
+        "url": "https://eye.zeusoftech.com",
         "contactPoint": {
           "@type": "ContactPoint",
           "email": "allah2truth@gmail.com",

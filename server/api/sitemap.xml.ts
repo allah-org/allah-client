@@ -1,7 +1,7 @@
 export default defineEventHandler(async (event) => {
   setHeader(event, 'Content-Type', 'application/xml')
   
-  const baseUrl = 'https://btt.zeusoftech.com'
+  const baseUrl = 'https://eye.zeusoftech.com'
   const currentDate = new Date().toISOString()
   
   // 可以從數據庫或文件系統動態獲取頁面

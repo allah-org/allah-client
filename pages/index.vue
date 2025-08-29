@@ -3,10 +3,10 @@
 
 
 useHead({
-  title: 'BTT 菠菜天眼通 - 天眼通',
+  title: 'EYE 菠菜天眼通 - 天眼通',
   meta: [
-    { name: 'description', content: 'BTT 菠菜天眼通首頁，提供完整的使用說明與功能導覽。' },
-    { property: 'og:title', content: 'BTT 菠菜天眼通 - 天眼通' },
+    { name: 'description', content: 'EYE 菠菜天眼通首頁，提供完整的使用說明與功能導覽。' },
+    { property: 'og:title', content: 'EYE 菠菜天眼通 - 天眼通' },
   ]
 })
 
